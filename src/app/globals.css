@@ -8,8 +8,9 @@
   --color-ink: #013220;            /* dark green (#013220) */
   --color-ink-muted: #3e5949;
   --color-ink-subtle: #8a978f;
-  --color-line: #e6e2d8;
-  --color-line-strong: #c9c2b1;
+  /* 枠線もダークグリーン基調に統一 (透過度で軽さを保つ) */
+  --color-line: rgba(1, 50, 32, 0.18);
+  --color-line-strong: rgba(1, 50, 32, 0.42);
   /* ブランドカラー: ダークグリーン (変数名は互換のため navy のまま) */
   --color-navy: #013220;
   --color-navy-2: #1a4d36;
