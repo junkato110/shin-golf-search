@@ -163,10 +163,10 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       <aside className="bg-white border border-[var(--color-line)] p-6 h-fit lg:sticky lg:top-20">
         <div className="flex items-baseline justify-between mb-6 pb-4 border-b border-[var(--color-line)]">
           <div className="flex items-baseline gap-2">
-            <h2 className="font-serif text-lg font-semibold text-[var(--color-navy)] tracking-wide">
+            <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
               こだわり検索
             </h2>
-            <span className="font-display text-[10px] text-[var(--color-accent)] tracking-[0.25em] uppercase">
+            <span className="font-display text-[10px] text-[var(--color-accent)] uppercase">
               Refine
             </span>
           </div>
@@ -345,11 +345,11 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       <section>
         <div className="flex items-baseline justify-between mb-6 pb-3 border-b border-[var(--color-line)]">
           <div className="flex items-baseline gap-3">
-            <p className="font-display text-2xl text-[var(--color-navy)] tracking-wide">
+            <p className="font-display text-3xl text-[var(--color-navy)]" style={{ fontWeight: 200 }}>
               {String(sorted.length).padStart(2, "0")}
             </p>
             <p className="text-xs text-[var(--color-ink-muted)] tracking-wider">
-              <span className="font-display text-[var(--color-accent)] uppercase tracking-[0.25em] mr-2">
+              <span className="font-display text-[var(--color-accent)] uppercase mr-2">
                 Results
               </span>
               全 {courses.length} コース
@@ -407,7 +407,7 @@ function CourseCard({
       <div className="p-5 sm:p-6">
         <div className="flex items-start justify-between gap-4">
           <div>
-            <h3 className="font-serif text-xl font-semibold text-[var(--color-navy)] leading-snug">
+            <h3 className="font-serif text-lg text-[var(--color-navy)] leading-snug" style={{ fontWeight: 500, letterSpacing: "0.04em" }}>
               {course.name}
             </h3>
             <p className="text-xs text-[var(--color-ink-muted)] mt-2 tracking-wide">

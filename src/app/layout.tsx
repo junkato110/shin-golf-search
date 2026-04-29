@@ -1,28 +1,23 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Noto_Serif_JP, Cormorant_Garamond, Montserrat } from "next/font/google";
+import { Geist_Mono, Barlow_Condensed, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
-// Proxima Nova の代替として Montserrat を採用
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  weight: ["300", "400", "500", "600", "700"],
+// テラスハウス風: Proxima Nova Condensed Thin の代替として Barlow Condensed
+const barlowCondensed = Barlow_Condensed({
+  variable: "--font-barlow",
+  weight: ["100", "200", "300", "400", "500"],
+  subsets: ["latin"],
+});
+
+// 小塚ゴシックの代替として Noto Sans JP (Light weight)
+const notoSansJP = Noto_Sans_JP({
+  variable: "--font-noto-sans-jp",
+  weight: ["300", "400", "500", "700"],
   subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const notoSerifJP = Noto_Serif_JP({
-  variable: "--font-noto-serif-jp",
-  weight: ["400", "600", "700"],
-  subsets: ["latin"],
-});
-
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
-  weight: ["300", "400", "500", "600"],
   subsets: ["latin"],
 });
 
@@ -40,7 +35,7 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`${montserrat.variable} ${geistMono.variable} ${notoSerifJP.variable} ${cormorant.variable} h-full antialiased`}
+      className={`${barlowCondensed.variable} ${notoSansJP.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

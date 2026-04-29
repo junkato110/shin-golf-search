@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  /* megapx_tmpl_003 を参考にした 白基調×濃紺×明朝 のパレット */
+  /* テラスハウス風: 白基調・抜け感・濃ネイビー */
   --color-bg: #ffffff;
-  --color-bg-soft: #f6f7f8;        /* 微妙な区切り背景 */
+  --color-bg-soft: #f6f7f8;
   --color-card: #ffffff;
-  --color-ink: #0a1d36;            /* 主要テキスト: deep navy */
+  --color-ink: #0a1d36;            /* deep navy text */
   --color-ink-muted: #495667;
   --color-ink-subtle: #8a93a3;
-  --color-line: #e6e2d8;           /* warm beige rule */
+  --color-line: #e6e2d8;
   --color-line-strong: #c9c2b1;
-  --color-navy: #0a1d36;           /* ブランド: deep navy */
+  --color-navy: #0a1d36;
   --color-navy-2: #173458;
-  --color-accent: #b48b3c;         /* champagne gold */
+  --color-accent: #b48b3c;
 }
 
 @theme inline {
@@ -28,31 +28,43 @@
   --color-navy: var(--color-navy);
   --color-navy-2: var(--color-navy-2);
   --color-accent: var(--color-accent);
-  /* Tailwind デフォルトの --font-sans を上書きして Montserrat を本文に使う */
-  --font-sans: var(--font-montserrat), "Yu Gothic", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
-  --font-serif: var(--font-noto-serif-jp);
-  --font-display: var(--font-cormorant);
+
+  /* 本文: 日本語サンセリフ (Light)、英数字も自然に Noto Sans JP の欧文に乗る */
+  --font-sans:
+    var(--font-noto-sans-jp),
+    "Kozuka Gothic Pr6N", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  /* display: 細い長体英字 (テラスハウス風) */
+  --font-display:
+    var(--font-barlow),
+    "Kozuka Gothic Pr6N", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  /* legacy: .font-serif も同じく細身サンセリフを参照 (見出しの和文用) */
+  --font-serif:
+    var(--font-noto-sans-jp),
+    "Kozuka Gothic Pr6N", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
 body {
   background: var(--color-bg);
   color: var(--color-ink);
-  font-family:
-    var(--font-sans),
-    "Yu Gothic", "游ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Meiryo", sans-serif;
+  font-family: var(--font-sans);
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.01em;
 }
 
+/* 「見出しっぽい」和文には font-serif クラス。テラスハウス風に細めで広トラッキング */
 .font-serif {
-  font-family:
-    var(--font-serif),
-    "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", "Yu Mincho", "游明朝", serif;
+  font-family: var(--font-serif);
+  font-weight: 300;
+  letter-spacing: 0.08em;
 }
 
+/* 英字装飾: 細身の長体 */
 .font-display {
-  font-family: var(--font-display), "Cormorant Garamond", "Hiragino Mincho ProN", serif;
-  letter-spacing: 0.06em;
+  font-family: var(--font-display);
+  font-weight: 200;
+  letter-spacing: 0.18em;
 }
 
 input[type="checkbox"],
@@ -61,7 +73,6 @@ input[type="range"] {
   accent-color: var(--color-navy);
 }
 
-/* セクションヘッディング (日本語 + 英語) のユーティリティ */
 .section-title {
   display: flex;
   align-items: baseline;
@@ -71,19 +82,17 @@ input[type="range"] {
   margin-bottom: 1.75rem;
 }
 .section-title .ja {
-  font-family:
-    var(--font-serif),
-    "Hiragino Mincho ProN", "Yu Mincho", serif;
-  font-size: 1.375rem;
-  font-weight: 600;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 400;
   color: var(--color-navy);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 .section-title .en {
-  font-family: var(--font-display), serif;
-  font-size: 0.875rem;
-  font-weight: 400;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 200;
   color: var(--color-accent);
-  letter-spacing: 0.18em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
 }

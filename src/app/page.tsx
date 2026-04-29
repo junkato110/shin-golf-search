@@ -14,10 +14,10 @@ export default function Home() {
       <header className="border-b border-[var(--color-line)] bg-white sticky top-0 z-30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-baseline gap-3">
-            <span className="font-serif text-lg font-semibold text-[var(--color-navy)] tracking-wide">
+            <span className="font-serif text-lg text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
               シン・ゴルフサーチ
             </span>
-            <span className="font-display text-xs text-[var(--color-accent)] tracking-[0.3em] uppercase">
+            <span className="font-display text-xs text-[var(--color-accent)] uppercase">
               Shin Golf Search
             </span>
           </Link>
@@ -49,7 +49,7 @@ export default function Home() {
           <p className="font-display text-xs sm:text-sm text-[var(--color-accent)] tracking-[0.4em] uppercase mb-4">
             Tokyo · within 3 hours by car
           </p>
-          <h1 className="font-serif text-2xl sm:text-3xl font-semibold leading-snug tracking-wide max-w-3xl">
+          <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-3xl" style={{ fontWeight: 300, letterSpacing: "0.1em" }}>
             都心から3時間以内特化。
             <br />
             <span className="text-[var(--color-accent)]">「かゆいところに手が届く」</span>
@@ -77,9 +77,9 @@ export default function Home() {
       <footer className="border-t border-[var(--color-line)] bg-white">
         <div className="max-w-6xl mx-auto px-6 py-10 grid sm:grid-cols-2 gap-6 text-xs text-[var(--color-ink-muted)]">
           <div>
-            <p className="font-serif text-base text-[var(--color-navy)] mb-2">
+            <p className="font-serif text-base text-[var(--color-navy)] mb-2" style={{ fontWeight: 400 }}>
               シン・ゴルフサーチ
-              <span className="font-display text-xs text-[var(--color-accent)] ml-2 tracking-[0.2em]">
+              <span className="font-display text-xs text-[var(--color-accent)] ml-2">
                 Shin Golf Search
               </span>
             </p>
