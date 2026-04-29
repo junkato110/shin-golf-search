@@ -90,3 +90,15 @@ export type CoursesData = {
   /** コースのリスト */
   courses: Course[];
 };
+
+export type Municipality = {
+  prefecture: string;
+  name: string;
+  lat: number;
+  lng: number;
+};
+
+export type MunicipalitiesData = {
+  note?: string;
+  municipalities: Municipality[];
+};

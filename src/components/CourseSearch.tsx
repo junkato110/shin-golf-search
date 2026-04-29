@@ -1,7 +1,14 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Course, CourseScores } from "@/types";
+import type {
+  Course,
+  CourseScores,
+  Municipality,
+  MunicipalitiesData,
+} from "@/types";
+import municipalitiesData from "@/data/municipalities.json";
+import { estimateDriveMinutes } from "@/lib/distance";
 
 const TRAVEL_OPTIONS = [
   { label: "30分以内", value: 30 },
@@ -36,7 +43,46 @@ const FEATURE_FILTERS: ScoreFilter[] = [
   { key: "seniorFriendly", label: "シニアに優しい", minScore: 2 },
 ];
 
+const ALL_MUNICIPALITIES = (municipalitiesData as MunicipalitiesData)
+  .municipalities;
+const PREFECTURES = Array.from(
+  new Set(ALL_MUNICIPALITIES.map((m) => m.prefecture))
+);
+
 export default function CourseSearch({ courses }: { courses: Course[] }) {
+  // 自宅選択
+  const [prefecture, setPrefecture] = useState<string>("");
+  const [municipalityName, setMunicipalityName] = useState<string>("");
+
+  const homeCandidates = useMemo<Municipality[]>(
+    () =>
+      prefecture
+        ? ALL_MUNICIPALITIES.filter((m) => m.prefecture === prefecture)
+        : [],
+    [prefecture]
+  );
+
+  const home = useMemo<Municipality | null>(() => {
+    if (!prefecture || !municipalityName) return null;
+    return (
+      ALL_MUNICIPALITIES.find(
+        (m) => m.prefecture === prefecture && m.name === municipalityName
+      ) ?? null
+    );
+  }, [prefecture, municipalityName]);
+
+  // 各コースに自宅からの所要時間を付与
+  const coursesWithTravel = useMemo(() => {
+    return courses.map((c) => {
+      if (home && c.lat != null && c.lng != null) {
+        const minutes = estimateDriveMinutes(home, { lat: c.lat, lng: c.lng });
+        return { ...c, travelMinutesFromHome: minutes };
+      }
+      return { ...c, travelMinutesFromHome: undefined };
+    });
+  }, [courses, home]);
+
+  // フィルタ条件
   const [travelMax, setTravelMax] = useState<number | null>(null);
   const [difficulty, setDifficulty] = useState<number>(0);
   const [mannerLevel, setMannerLevel] = useState<number | null>(null);
@@ -44,10 +90,10 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
   const [keyword, setKeyword] = useState<string>("");
 
   const filtered = useMemo(() => {
-    return courses.filter((c) => {
+    return coursesWithTravel.filter((c) => {
       if (travelMax !== null) {
-        if (c.travelMinutesFromTokyo == null) return false;
-        if (c.travelMinutesFromTokyo > travelMax) return false;
+        if (c.travelMinutesFromHome == null) return false;
+        if (c.travelMinutesFromHome > travelMax) return false;
       }
       if (difficulty > 0) {
         const d = c.scores?.difficulty ?? 0;
@@ -77,7 +123,17 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       }
       return true;
     });
-  }, [courses, travelMax, difficulty, mannerLevel, featureKeys, keyword]);
+  }, [coursesWithTravel, travelMax, difficulty, mannerLevel, featureKeys, keyword]);
+
+  // 距離フィルタが有効なら、近い順にソート
+  const sorted = useMemo(() => {
+    if (!home) return filtered;
+    return [...filtered].sort((a, b) => {
+      const at = a.travelMinutesFromHome ?? Infinity;
+      const bt = b.travelMinutesFromHome ?? Infinity;
+      return at - bt;
+    });
+  }, [filtered, home]);
 
   function toggleFeature(key: string) {
     setFeatureKeys((prev) => {
@@ -109,6 +165,47 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
           </button>
         </div>
 
+        <fieldset className="mb-5 pb-5 border-b border-neutral-200 dark:border-neutral-800">
+          <legend className="text-sm font-medium mb-2">
+            🏠 自宅エリア
+          </legend>
+          <div className="space-y-2">
+            <select
+              value={prefecture}
+              onChange={(e) => {
+                setPrefecture(e.target.value);
+                setMunicipalityName("");
+              }}
+              className="w-full rounded-lg border border-neutral-300 dark:border-neutral-700 bg-transparent px-3 py-2 text-sm outline-none focus:border-emerald-500"
+            >
+              <option value="">都道府県を選択</option>
+              {PREFECTURES.map((p) => (
+                <option key={p} value={p}>
+                  {p}
+                </option>
+              ))}
+            </select>
+            <select
+              value={municipalityName}
+              onChange={(e) => setMunicipalityName(e.target.value)}
+              disabled={!prefecture}
+              className="w-full rounded-lg border border-neutral-300 dark:border-neutral-700 bg-transparent px-3 py-2 text-sm outline-none focus:border-emerald-500 disabled:opacity-40"
+            >
+              <option value="">市区町村を選択</option>
+              {homeCandidates.map((m) => (
+                <option key={m.name} value={m.name}>
+                  {m.name}
+                </option>
+              ))}
+            </select>
+          </div>
+          {home && (
+            <p className="text-xs text-emerald-700 dark:text-emerald-300 mt-2">
+              ✓ {home.prefecture}{home.name} を起点に距離計算
+            </p>
+          )}
+        </fieldset>
+
         <fieldset className="mb-5">
           <legend className="text-sm font-medium mb-2">キーワード</legend>
           <input
@@ -122,9 +219,14 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
 
         <fieldset className="mb-5">
           <legend className="text-sm font-medium mb-2">
-            東京駅から車で
+            自宅から車で
+            {!home && (
+              <span className="text-xs text-neutral-500 ml-2">
+                (自宅エリアを選択すると有効)
+              </span>
+            )}
           </legend>
-          <div className="space-y-1.5">
+          <div className={"space-y-1.5 " + (home ? "" : "opacity-40 pointer-events-none")}>
             {TRAVEL_OPTIONS.map((opt) => (
               <label
                 key={opt.value}
@@ -228,27 +330,42 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       <section>
         <div className="flex items-center justify-between mb-4">
           <p className="text-sm text-neutral-600 dark:text-neutral-400">
-            {filtered.length} 件 / 全 {courses.length} コース
+            {sorted.length} 件 / 全 {courses.length} コース
+            {home && " ・ 近い順"}
           </p>
         </div>
 
         <div className="grid gap-4">
-          {filtered.length === 0 && (
+          {sorted.length === 0 && (
             <div className="rounded-2xl border border-dashed border-neutral-300 dark:border-neutral-700 p-12 text-center text-sm text-neutral-500">
               条件に該当するコースがありません。条件をゆるめてみてください。
             </div>
           )}
 
-          {filtered.map((c) => (
-            <CourseCard key={c.id} course={c} />
+          {sorted.map((c) => (
+            <CourseCard key={c.id} course={c} hasHome={!!home} />
           ))}
         </div>
+
+        {home && (
+          <p className="text-xs text-neutral-400 mt-6">
+            ※ 所要時間は直線距離 ×1.4 ÷ 平均60km/h での概算値です。実際は道路状況や時間帯で変動します。
+          </p>
+        )}
       </section>
     </div>
   );
 }
 
-function CourseCard({ course }: { course: Course }) {
+type CourseWithTravel = Course & { travelMinutesFromHome?: number };
+
+function CourseCard({
+  course,
+  hasHome,
+}: {
+  course: CourseWithTravel;
+  hasHome: boolean;
+}) {
   return (
     <article className="rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 p-5 hover:shadow-md transition-shadow">
       <div className="flex items-start justify-between gap-4">
@@ -257,8 +374,8 @@ function CourseCard({ course }: { course: Course }) {
           <p className="text-sm text-neutral-500 mt-1">
             {course.prefecture}
             {course.city ? ` / ${course.city}` : ""}
-            {course.travelMinutesFromTokyo
-              ? ` ・ 東京駅から ${course.travelMinutesFromTokyo}分`
+            {hasHome && course.travelMinutesFromHome != null
+              ? ` ・ 自宅から約 ${course.travelMinutesFromHome} 分`
               : ""}
           </p>
         </div>
