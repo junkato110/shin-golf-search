@@ -49,6 +49,12 @@ const PREFECTURES = Array.from(
   new Set(ALL_MUNICIPALITIES.map((m) => m.prefecture))
 );
 
+const SELECT_CLASS =
+  "w-full rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2 text-sm outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)] disabled:opacity-40";
+
+const FIELD_LABEL_CLASS =
+  "text-xs font-semibold tracking-wider uppercase text-[var(--color-ink-muted)] mb-2";
+
 export default function CourseSearch({ courses }: { courses: Course[] }) {
   // 自宅選択
   const [prefecture, setPrefecture] = useState<string>("");
@@ -154,21 +160,21 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6">
-      <aside className="bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800 p-5 h-fit lg:sticky lg:top-6">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-semibold">こだわり検索</h2>
+      <aside className="bg-white border border-[var(--color-line)] p-6 h-fit lg:sticky lg:top-6 shadow-sm">
+        <div className="flex items-baseline justify-between mb-5 pb-4 border-b border-[var(--color-line)]">
+          <h2 className="font-serif text-xl font-semibold text-[var(--color-navy)]">
+            こだわり検索
+          </h2>
           <button
             onClick={reset}
-            className="text-xs text-neutral-500 hover:text-neutral-900 dark:hover:text-white"
+            className="text-xs text-[var(--color-ink-subtle)] hover:text-[var(--color-navy)] underline-offset-2 hover:underline"
           >
             条件をクリア
           </button>
         </div>
 
-        <fieldset className="mb-5 pb-5 border-b border-neutral-200 dark:border-neutral-800">
-          <legend className="text-sm font-medium mb-2">
-            🏠 自宅エリア
-          </legend>
+        <fieldset className="mb-6 pb-6 border-b border-[var(--color-line)]">
+          <legend className={FIELD_LABEL_CLASS}>自宅エリア</legend>
           <div className="space-y-2">
             <select
               value={prefecture}
@@ -176,7 +182,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
                 setPrefecture(e.target.value);
                 setMunicipalityName("");
               }}
-              className="w-full rounded-lg border border-neutral-300 dark:border-neutral-700 bg-transparent px-3 py-2 text-sm outline-none focus:border-emerald-500"
+              className={SELECT_CLASS}
             >
               <option value="">都道府県を選択</option>
               {PREFECTURES.map((p) => (
@@ -189,7 +195,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
               value={municipalityName}
               onChange={(e) => setMunicipalityName(e.target.value)}
               disabled={!prefecture}
-              className="w-full rounded-lg border border-neutral-300 dark:border-neutral-700 bg-transparent px-3 py-2 text-sm outline-none focus:border-emerald-500 disabled:opacity-40"
+              className={SELECT_CLASS}
             >
               <option value="">市区町村を選択</option>
               {homeCandidates.map((m) => (
@@ -200,64 +206,70 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
             </select>
           </div>
           {home && (
-            <p className="text-xs text-emerald-700 dark:text-emerald-300 mt-2">
-              ✓ {home.prefecture}{home.name} を起点に距離計算
+            <p className="text-xs text-[var(--color-navy)] mt-3 flex items-center gap-1.5">
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-[var(--color-accent)]" />
+              {home.prefecture}{home.name} を起点に距離計算
             </p>
           )}
         </fieldset>
 
-        <fieldset className="mb-5">
-          <legend className="text-sm font-medium mb-2">キーワード</legend>
+        <fieldset className="mb-6">
+          <legend className={FIELD_LABEL_CLASS}>キーワード</legend>
           <input
             type="text"
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
             placeholder="コース名・地域・タグ"
-            className="w-full rounded-lg border border-neutral-300 dark:border-neutral-700 bg-transparent px-3 py-2 text-sm outline-none focus:border-emerald-500"
+            className={SELECT_CLASS}
           />
         </fieldset>
 
-        <fieldset className="mb-5">
-          <legend className="text-sm font-medium mb-2">
+        <fieldset className="mb-6">
+          <legend className={FIELD_LABEL_CLASS}>
             自宅から車で
             {!home && (
-              <span className="text-xs text-neutral-500 ml-2">
-                (自宅エリアを選択すると有効)
+              <span className="ml-2 normal-case tracking-normal text-[var(--color-ink-subtle)] font-normal">
+                (要・自宅選択)
               </span>
             )}
           </legend>
-          <div className={"space-y-1.5 " + (home ? "" : "opacity-40 pointer-events-none")}>
+          <div className={"space-y-2 " + (home ? "" : "opacity-40 pointer-events-none")}>
             {TRAVEL_OPTIONS.map((opt) => (
               <label
                 key={opt.value}
-                className="flex items-center gap-2 text-sm cursor-pointer"
+                className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink)]"
               >
                 <input
                   type="radio"
                   name="travelMax"
                   checked={travelMax === opt.value}
                   onChange={() => setTravelMax(opt.value)}
-                  className="accent-emerald-600"
                 />
                 {opt.label}
               </label>
             ))}
-            <label className="flex items-center gap-2 text-sm cursor-pointer text-neutral-500">
+            <label className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink-subtle)]">
               <input
                 type="radio"
                 name="travelMax"
                 checked={travelMax === null}
                 onChange={() => setTravelMax(null)}
-                className="accent-emerald-600"
               />
               指定なし
             </label>
           </div>
         </fieldset>
 
-        <fieldset className="mb-5">
-          <legend className="text-sm font-medium mb-2">
-            難易度: {difficulty === 0 ? "指定なし" : difficulty}
+        <fieldset className="mb-6">
+          <legend className={FIELD_LABEL_CLASS}>
+            難易度{" "}
+            <span className="ml-1 normal-case tracking-normal text-[var(--color-ink)] font-medium">
+              {difficulty === 0
+                ? "指定なし"
+                : difficulty === 1
+                ? "普通以上"
+                : "本格派"}
+            </span>
           </legend>
           <input
             type="range"
@@ -266,40 +278,38 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
             step={1}
             value={difficulty}
             onChange={(e) => setDifficulty(Number(e.target.value))}
-            className="w-full accent-emerald-600"
+            className="w-full"
           />
-          <div className="flex justify-between text-xs text-neutral-500 mt-1">
-            <span>指定なし</span>
+          <div className="flex justify-between text-[10px] text-[var(--color-ink-subtle)] mt-1.5">
+            <span>—</span>
             <span>普通以上</span>
             <span>本格派</span>
           </div>
         </fieldset>
 
-        <fieldset className="mb-5">
-          <legend className="text-sm font-medium mb-2">マナー厳格さ</legend>
-          <div className="space-y-1.5">
+        <fieldset className="mb-6">
+          <legend className={FIELD_LABEL_CLASS}>マナー厳格さ</legend>
+          <div className="space-y-2">
             {MANNER_OPTIONS.map((opt) => (
               <label
                 key={opt.value}
-                className="flex items-center gap-2 text-sm cursor-pointer"
+                className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink)]"
               >
                 <input
                   type="radio"
                   name="manner"
                   checked={mannerLevel === opt.value}
                   onChange={() => setMannerLevel(opt.value)}
-                  className="accent-emerald-600"
                 />
                 {opt.label}
               </label>
             ))}
-            <label className="flex items-center gap-2 text-sm cursor-pointer text-neutral-500">
+            <label className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink-subtle)]">
               <input
                 type="radio"
                 name="manner"
                 checked={mannerLevel === null}
                 onChange={() => setMannerLevel(null)}
-                className="accent-emerald-600"
               />
               指定なし
             </label>
@@ -307,18 +317,18 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         </fieldset>
 
         <fieldset>
-          <legend className="text-sm font-medium mb-2">こだわり条件</legend>
-          <div className="space-y-1.5">
+          <legend className={FIELD_LABEL_CLASS}>こだわり条件</legend>
+          <div className="space-y-2">
             {FEATURE_FILTERS.map((f) => (
               <label
                 key={f.key}
-                className="flex items-center gap-2 text-sm cursor-pointer"
+                className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink)]"
               >
                 <input
                   type="checkbox"
                   checked={featureKeys.has(f.key as string)}
                   onChange={() => toggleFeature(f.key as string)}
-                  className="accent-emerald-600 size-4"
+                  className="size-4"
                 />
                 {f.label}
               </label>
@@ -328,16 +338,26 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       </aside>
 
       <section>
-        <div className="flex items-center justify-between mb-4">
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">
-            {sorted.length} 件 / 全 {courses.length} コース
-            {home && " ・ 近い順"}
+        <div className="flex items-baseline justify-between mb-5 pb-3 border-b border-[var(--color-line)]">
+          <p className="text-sm text-[var(--color-ink-muted)]">
+            <span className="font-serif text-xl text-[var(--color-navy)] mr-2">
+              {sorted.length}
+            </span>
+            件
+            <span className="text-[var(--color-ink-subtle)] ml-1">
+              / 全 {courses.length} コース
+            </span>
+            {home && (
+              <span className="ml-3 text-[var(--color-accent)] tracking-wide">
+                · 自宅から近い順
+              </span>
+            )}
           </p>
         </div>
 
-        <div className="grid gap-4">
+        <div className="grid gap-5">
           {sorted.length === 0 && (
-            <div className="rounded-2xl border border-dashed border-neutral-300 dark:border-neutral-700 p-12 text-center text-sm text-neutral-500">
+            <div className="bg-white border border-dashed border-[var(--color-line-strong)] p-12 text-center text-sm text-[var(--color-ink-subtle)]">
               条件に該当するコースがありません。条件をゆるめてみてください。
             </div>
           )}
@@ -348,7 +368,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         </div>
 
         {home && (
-          <p className="text-xs text-neutral-400 mt-6">
+          <p className="text-xs text-[var(--color-ink-subtle)] mt-6">
             ※ 所要時間は直線距離 ×1.4 ÷ 平均60km/h での概算値です。実際は道路状況や時間帯で変動します。
           </p>
         )}
@@ -367,9 +387,9 @@ function CourseCard({
   hasHome: boolean;
 }) {
   return (
-    <article className="rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 overflow-hidden hover:shadow-md transition-shadow">
+    <article className="bg-white border border-[var(--color-line)] overflow-hidden hover:shadow-md hover:border-[var(--color-line-strong)] transition-all">
       {course.imageUrl && (
-        <div className="aspect-[16/7] bg-neutral-100 dark:bg-neutral-800 overflow-hidden">
+        <div className="aspect-[16/7] bg-neutral-100 overflow-hidden border-b border-[var(--color-line)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={course.imageUrl}
@@ -379,48 +399,54 @@ function CourseCard({
           />
         </div>
       )}
-      <div className="p-5">
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <h3 className="text-lg font-semibold">{course.name}</h3>
-          <p className="text-sm text-neutral-500 mt-1">
-            {course.prefecture}
-            {course.city ? ` / ${course.city}` : ""}
-            {hasHome && course.travelMinutesFromHome != null
-              ? ` ・ 自宅から ${formatTravelTime(course.travelMinutesFromHome)}`
-              : ""}
-          </p>
+      <div className="p-5 sm:p-6">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <h3 className="font-serif text-xl font-semibold text-[var(--color-navy)] leading-snug">
+              {course.name}
+            </h3>
+            <p className="text-xs text-[var(--color-ink-muted)] mt-2 tracking-wide">
+              <span>
+                {course.prefecture}
+                {course.city ? ` · ${course.city}` : ""}
+              </span>
+              {hasHome && course.travelMinutesFromHome != null && (
+                <span className="ml-2 text-[var(--color-accent)]">
+                  · 自宅から {formatTravelTime(course.travelMinutesFromHome)}
+                </span>
+              )}
+            </p>
+          </div>
+          <div className="text-right text-[10px] text-[var(--color-ink-subtle)] shrink-0 tracking-wider uppercase">
+            {course.holeCount && <div>{course.holeCount}H</div>}
+            {course.totalYardage && <div>{course.totalYardage}yd</div>}
+            {course.par && <div>par {course.par}</div>}
+          </div>
         </div>
-        <div className="text-right text-xs text-neutral-500 shrink-0">
-          {course.holeCount && <div>{course.holeCount}H</div>}
-          {course.totalYardage && <div>{course.totalYardage}yd</div>}
-          {course.par && <div>par {course.par}</div>}
-        </div>
-      </div>
 
-      {course.tags && course.tags.length > 0 && (
-        <div className="flex flex-wrap gap-1.5 mt-3">
-          {course.tags.map((t) => (
-            <span
-              key={t}
-              className="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-200 text-xs"
-            >
-              {t}
-            </span>
-          ))}
-        </div>
-      )}
+        {course.tags && course.tags.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 mt-4">
+            {course.tags.map((t) => (
+              <span
+                key={t}
+                className="px-2.5 py-0.5 border border-[var(--color-line-strong)] bg-[var(--color-bg)] text-[var(--color-ink-muted)] text-[11px] tracking-wider"
+              >
+                {t}
+              </span>
+            ))}
+          </div>
+        )}
 
-      {course.scores && (
-        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-x-3 gap-y-1 text-xs text-neutral-600 dark:text-neutral-400">
-          <ScoreLine label="難易度" value={course.scores.difficulty} />
-          <ScoreLine label="フェアウェイ" value={course.scores.fairwayWidth} highIs="広い" />
-          <ScoreLine label="フラット度" value={course.scores.flatness} highIs="フラット" />
-          <ScoreLine label="メシ" value={course.scores.mealQuality} highIs="◎" />
-          <ScoreLine label="マナー" value={course.scores.mannerStrictness} highIs="厳" />
-          <ScoreLine label="練習場" value={course.scores.practiceRange} highIs="◎" />
-        </div>
-      )}
+        {course.scores && (
+          <div className="mt-4 pt-4 border-t border-[var(--color-line)] grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-1.5 text-xs text-[var(--color-ink-muted)]">
+            <ScoreLine label="難易度" value={course.scores.difficulty} />
+            <ScoreLine label="フェアウェイ" value={course.scores.fairwayWidth} highIs="広い" />
+            <ScoreLine label="フラット度" value={course.scores.flatness} highIs="フラット" />
+            <ScoreLine label="メシ" value={course.scores.mealQuality} highIs="◎" />
+            <ScoreLine label="マナー" value={course.scores.mannerStrictness} highIs="厳" />
+            <ScoreLine label="練習場" value={course.scores.practiceRange} highIs="◎" />
+          </div>
+        )}
       </div>
     </article>
   );
@@ -438,11 +464,12 @@ function ScoreLine({
   if (value == null) return null;
   const dots = "●".repeat(value) + "○".repeat(2 - value);
   return (
-    <span>
-      {label}: <span className="font-mono text-emerald-700 dark:text-emerald-300">{dots}</span>
-      {highIs && value === 2 ? (
-        <span className="text-emerald-700 dark:text-emerald-300 ml-1">{highIs}</span>
-      ) : null}
+    <span className="flex items-center gap-1.5">
+      <span className="text-[var(--color-ink-subtle)]">{label}</span>
+      <span className="font-mono text-[var(--color-navy)] text-[10px]">{dots}</span>
+      {highIs && value === 2 && (
+        <span className="text-[var(--color-accent)] font-medium ml-0.5">{highIs}</span>
+      )}
     </span>
   );
 }
