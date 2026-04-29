@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CourseSearch from "@/components/CourseSearch";
+import FeedbackForm from "@/components/FeedbackForm";
 import { getAllCourses } from "@/lib/getCourses";
 
 export default function Home() {
@@ -65,6 +66,8 @@ export default function Home() {
         </div>
         <CourseSearch courses={courses} />
       </main>
+
+      <FeedbackForm />
 
       <footer className="border-t border-[var(--color-line)] bg-white">
         <div className="max-w-6xl mx-auto px-6 py-10 grid sm:grid-cols-2 gap-6 text-xs text-[var(--color-ink-muted)]">
