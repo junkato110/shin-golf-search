@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T06:00:00.000Z",
+  "updatedAt": "2026-04-29T12:24:08.470Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -13,7 +13,6 @@
       "totalYardage": 7080,
       "par": 72,
       "openedYear": 1972,
-      "travelMinutesFromTokyo": 60,
       "scores": {
         "difficulty": 2,
         "fairwayWidth": 1,
@@ -25,8 +24,16 @@
         "summerCool": 0,
         "windShelter": 0
       },
-      "tags": ["本格派", "アクアライン直結", "練習場充実"],
-      "sources": ["仮データ"],
+      "tags": [
+        "本格派",
+        "アクアライン直結",
+        "練習場充実"
+      ],
+      "imageUrl": "/images/course_demo_001.jpg",
+      "customImagePrompt": "loose painterly watercolor sketch, championship golf course near Tokyo Bay, signature long par-5 hole with wide fairway curving toward an elevated green, mature pine trees lining the edges, distant view of Aqualine bridge silhouette beyond the trees, fresh green grass with morning dew, soft hazy spring light, hand-drawn ink outlines, cool ocean breeze atmosphere",
+      "sources": [
+        "仮データ"
+      ],
       "updatedAt": "2026-04-29T06:00:00.000Z"
     },
     {
@@ -40,7 +47,6 @@
       "holeCount": 18,
       "totalYardage": 7060,
       "par": 72,
-      "travelMinutesFromTokyo": 75,
       "scores": {
         "difficulty": 1,
         "fairwayWidth": 1,
@@ -52,8 +58,15 @@
         "summerCool": 0,
         "windShelter": 1
       },
-      "tags": ["温泉あり", "都心近郊"],
-      "sources": ["仮データ"],
+      "tags": [
+        "温泉あり",
+        "都心近郊"
+      ],
+      "imageUrl": "/images/course_demo_002.jpg",
+      "customImagePrompt": "loose painterly watercolor sketch, gently rolling hilly golf course in suburban Saitama, fairway descending into a small valley with a creek crossing, surrounding mixed forest with cedar and oak, traditional Japanese-style clubhouse with hot spring bath visible in distance, soft afternoon golden light, hand-drawn ink outlines, warm intimate atmosphere",
+      "sources": [
+        "仮データ"
+      ],
       "updatedAt": "2026-04-29T06:00:00.000Z"
     },
     {
@@ -62,12 +75,11 @@
       "nameKana": "かるいざわななじゅうにごるふ ひがし おしだてこーす",
       "prefecture": "長野県",
       "city": "北佐久郡軽井沢町",
-      "lat": 36.3500,
+      "lat": 36.35,
       "lng": 138.6333,
       "holeCount": 18,
       "totalYardage": 6921,
       "par": 72,
-      "travelMinutesFromTokyo": 150,
       "scores": {
         "difficulty": 1,
         "fairwayWidth": 2,
@@ -79,8 +91,16 @@
         "summerCool": 2,
         "windShelter": 1
       },
-      "tags": ["高原リゾート", "夏涼しい", "27H以上"],
-      "sources": ["仮データ"],
+      "tags": [
+        "高原リゾート",
+        "夏涼しい",
+        "27H以上"
+      ],
+      "imageUrl": "/images/course_demo_003.jpg",
+      "customImagePrompt": "loose painterly watercolor sketch, highland golf resort in Karuizawa Nagano at the foot of Mount Asama, wide expansive fairway framed by tall white birch trees, distant snow-capped volcanic mountain backdrop, alpine plants and rhododendrons in foreground, crisp cool morning air with hint of mist, fresh emerald green grass, hand-drawn ink outlines, refreshing summer-resort atmosphere",
+      "sources": [
+        "仮データ"
+      ],
       "updatedAt": "2026-04-29T06:00:00.000Z"
     },
     {
@@ -94,7 +114,6 @@
       "holeCount": 18,
       "totalYardage": 7262,
       "par": 72,
-      "travelMinutesFromTokyo": 90,
       "scores": {
         "difficulty": 2,
         "fairwayWidth": 1,
@@ -106,8 +125,16 @@
         "summerCool": 2,
         "windShelter": 0
       },
-      "tags": ["接待向き", "富士山眺望", "本格派"],
-      "sources": ["仮データ"],
+      "tags": [
+        "接待向き",
+        "富士山眺望",
+        "本格派"
+      ],
+      "imageUrl": "/images/course_demo_004.jpg",
+      "customImagePrompt": "loose painterly watercolor sketch, prestigious championship golf course in Gotemba Shizuoka, undulating fairway sweeping toward an iconic majestic Mount Fuji towering in the background, autumn susuki pampas grass swaying along the rough, perfectly manicured greens, golden late-afternoon light catching the grass, hand-drawn ink outlines, formal yet breathtaking atmosphere",
+      "sources": [
+        "仮データ"
+      ],
       "updatedAt": "2026-04-29T06:00:00.000Z"
     },
     {
@@ -121,7 +148,6 @@
       "holeCount": 18,
       "totalYardage": 6800,
       "par": 72,
-      "travelMinutesFromTokyo": 80,
       "scores": {
         "difficulty": 1,
         "fairwayWidth": 1,
@@ -134,8 +160,16 @@
         "windShelter": 1,
         "seniorFriendly": 2
       },
-      "tags": ["フラット", "シニア向き", "歩きやすい"],
-      "sources": ["仮データ"],
+      "tags": [
+        "フラット",
+        "シニア向き",
+        "歩きやすい"
+      ],
+      "imageUrl": "/images/course_demo_005.jpg",
+      "customImagePrompt": "loose painterly watercolor sketch, classic flat parkland golf course in Ibaraki Kanto plain, perfectly horizontal fairway stretching toward a small green guarded by two shallow bunkers, wide open sky with scattered cumulus clouds, mature zelkova trees lining the boundary, easy walking terrain, peaceful retiree-friendly atmosphere, hand-drawn ink outlines, gentle pastel tones",
+      "sources": [
+        "仮データ"
+      ],
       "updatedAt": "2026-04-29T06:00:00.000Z"
     }
   ]

@@ -367,7 +367,19 @@ function CourseCard({
   hasHome: boolean;
 }) {
   return (
-    <article className="rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 p-5 hover:shadow-md transition-shadow">
+    <article className="rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 overflow-hidden hover:shadow-md transition-shadow">
+      {course.imageUrl && (
+        <div className="aspect-[16/9] bg-neutral-100 dark:bg-neutral-800 overflow-hidden">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={course.imageUrl}
+            alt=""
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+      )}
+      <div className="p-5">
       <div className="flex items-start justify-between gap-4">
         <div>
           <h3 className="text-lg font-semibold">{course.name}</h3>
@@ -409,6 +421,7 @@ function CourseCard({
           <ScoreLine label="練習場" value={course.scores.practiceRange} highIs="◎" />
         </div>
       )}
+      </div>
     </article>
   );
 }

@@ -42,6 +42,10 @@ export type Course = {
   scoresEvidence?: ScoreEvidence[];
   /** タグ (温泉あり, 練習場充実, 27Hなど自由形式) */
   tags?: string[];
+  /** カード表示用のサムネイル画像 (例: /images/{id}.jpg) */
+  imageUrl?: string;
+  /** 画像生成用の英語プロンプト (Pollinations.ai 用、コース特性反映) */
+  customImagePrompt?: string;
   /** データソース (国土数値情報 / OSM / Wikipedia / 公式サイト 等) */
   sources?: string[];
   /** 最後にデータ更新した日時 */
