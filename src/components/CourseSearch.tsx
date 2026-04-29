@@ -102,7 +102,10 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       }
       if (difficulty > 0) {
         const d = c.scores?.difficulty ?? 0;
-        if (d < difficulty) return false;
+        // 1=易しい (d<=0), 2=普通以上 (d>=1), 3=本格派 (d>=2)
+        if (difficulty === 1 && d > 0) return false;
+        if (difficulty === 2 && d < 1) return false;
+        if (difficulty === 3 && d < 2) return false;
       }
       if (mannerLevel !== null) {
         if (c.scores?.mannerStrictness !== mannerLevel) return false;
@@ -247,6 +250,8 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
               {difficulty === 0
                 ? "指定なし"
                 : difficulty === 1
+                ? "易しい"
+                : difficulty === 2
                 ? "普通以上"
                 : "本格派"}
             </span>
@@ -254,7 +259,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
           <input
             type="range"
             min={0}
-            max={2}
+            max={3}
             step={1}
             value={difficulty}
             onChange={(e) => setDifficulty(Number(e.target.value))}
@@ -262,6 +267,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
           />
           <div className="flex justify-between text-[10px] text-[var(--color-ink-subtle)] mt-1.5">
             <span>—</span>
+            <span>易しい</span>
             <span>普通以上</span>
             <span>本格派</span>
           </div>
