@@ -93,7 +93,6 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
   const [difficulty, setDifficulty] = useState<number>(0);
   const [mannerLevel, setMannerLevel] = useState<number | null>(null);
   const [featureKeys, setFeatureKeys] = useState<Set<string>>(new Set());
-  const [keyword, setKeyword] = useState<string>("");
 
   const filtered = useMemo(() => {
     return coursesWithTravel.filter((c) => {
@@ -114,22 +113,9 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         const value = c.scores?.[ff.key as keyof CourseScores] ?? 0;
         if (value < ff.minScore) return false;
       }
-      if (keyword.trim()) {
-        const k = keyword.trim().toLowerCase();
-        const haystack = [
-          c.name,
-          c.nameKana ?? "",
-          c.prefecture,
-          c.city ?? "",
-          (c.tags ?? []).join(" "),
-        ]
-          .join(" ")
-          .toLowerCase();
-        if (!haystack.includes(k)) return false;
-      }
       return true;
     });
-  }, [coursesWithTravel, travelMax, difficulty, mannerLevel, featureKeys, keyword]);
+  }, [coursesWithTravel, travelMax, difficulty, mannerLevel, featureKeys]);
 
   // 距離フィルタが有効なら、近い順にソート
   const sorted = useMemo(() => {
@@ -155,7 +141,6 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
     setDifficulty(0);
     setMannerLevel(null);
     setFeatureKeys(new Set());
-    setKeyword("");
   }
 
   return (
@@ -216,17 +201,6 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
               {home.prefecture}{home.name} を起点に距離計算
             </p>
           )}
-        </fieldset>
-
-        <fieldset className="mb-6">
-          <legend className={FIELD_LABEL_CLASS}>キーワード</legend>
-          <input
-            type="text"
-            value={keyword}
-            onChange={(e) => setKeyword(e.target.value)}
-            placeholder="コース名・地域・タグ"
-            className={SELECT_CLASS}
-          />
         </fieldset>
 
         <fieldset className="mb-6">
