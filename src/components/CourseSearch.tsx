@@ -160,14 +160,19 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6">
-      <aside className="bg-white border border-[var(--color-line)] p-6 h-fit lg:sticky lg:top-6 shadow-sm">
-        <div className="flex items-baseline justify-between mb-5 pb-4 border-b border-[var(--color-line)]">
-          <h2 className="font-serif text-xl font-semibold text-[var(--color-navy)]">
-            こだわり検索
-          </h2>
+      <aside className="bg-white border border-[var(--color-line)] p-6 h-fit lg:sticky lg:top-20">
+        <div className="flex items-baseline justify-between mb-6 pb-4 border-b border-[var(--color-line)]">
+          <div className="flex items-baseline gap-2">
+            <h2 className="font-serif text-lg font-semibold text-[var(--color-navy)] tracking-wide">
+              こだわり検索
+            </h2>
+            <span className="font-display text-[10px] text-[var(--color-accent)] tracking-[0.25em] uppercase">
+              Refine
+            </span>
+          </div>
           <button
             onClick={reset}
-            className="text-xs text-[var(--color-ink-subtle)] hover:text-[var(--color-navy)] underline-offset-2 hover:underline"
+            className="text-[11px] text-[var(--color-ink-subtle)] hover:text-[var(--color-navy)] underline-offset-2 hover:underline tracking-wide"
           >
             条件をクリア
           </button>
@@ -338,21 +343,21 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       </aside>
 
       <section>
-        <div className="flex items-baseline justify-between mb-5 pb-3 border-b border-[var(--color-line)]">
-          <p className="text-sm text-[var(--color-ink-muted)]">
-            <span className="font-serif text-xl text-[var(--color-navy)] mr-2">
-              {sorted.length}
-            </span>
-            件
-            <span className="text-[var(--color-ink-subtle)] ml-1">
-              / 全 {courses.length} コース
-            </span>
-            {home && (
-              <span className="ml-3 text-[var(--color-accent)] tracking-wide">
-                · 自宅から近い順
+        <div className="flex items-baseline justify-between mb-6 pb-3 border-b border-[var(--color-line)]">
+          <div className="flex items-baseline gap-3">
+            <p className="font-display text-2xl text-[var(--color-navy)] tracking-wide">
+              {String(sorted.length).padStart(2, "0")}
+            </p>
+            <p className="text-xs text-[var(--color-ink-muted)] tracking-wider">
+              <span className="font-display text-[var(--color-accent)] uppercase tracking-[0.25em] mr-2">
+                Results
               </span>
-            )}
-          </p>
+              全 {courses.length} コース
+              {home && (
+                <span className="ml-2 text-[var(--color-accent)]">· 自宅から近い順</span>
+              )}
+            </p>
+          </div>
         </div>
 
         <div className="grid gap-5">
