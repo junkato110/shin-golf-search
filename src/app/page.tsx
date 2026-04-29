@@ -44,11 +44,9 @@ export default function Home() {
           </div>
         )}
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
-          <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-3xl" style={{ fontWeight: 700, letterSpacing: "0.06em" }}>
-            都心から車で3時間以内特化
-            <br />
-            <span className="text-[var(--color-accent)]">&ldquo;かゆいところに手が届く&rdquo;</span>
-            <br />
+          <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-4xl" style={{ fontWeight: 700, letterSpacing: "0.06em" }}>
+            都心から車で3時間以内特化{" "}
+            <span className="text-[var(--color-accent)]">&ldquo;かゆいところに手が届く&rdquo;</span>{" "}
             「新時代のゴルフ場検索サイト」
           </h1>
           <p className="text-sm text-white/75 mt-4 max-w-2xl leading-relaxed">
