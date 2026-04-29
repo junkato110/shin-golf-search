@@ -4,9 +4,7 @@ import { getAllCourses } from "@/lib/getCourses";
 
 export default function Home() {
   const courses = getAllCourses();
-  // ヒーロー用に画像を持つ最初のコースを使う
-  const heroImage =
-    courses.find((c) => c.imageUrl)?.imageUrl ?? "";
+  const heroImage = "/images/hero-bg.jpg";
 
   return (
     <div className="min-h-screen flex flex-col bg-[var(--color-bg)]">
