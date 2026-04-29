@@ -44,7 +44,9 @@ const FEATURE_FILTERS: ScoreFilter[] = [
   { key: "practiceRange", label: "練習場が充実", minScore: 2 },
   { key: "onsen", label: "温泉あり", minScore: 1 },
   { key: "summerCool", label: "夏でも涼しい", minScore: 2 },
+  { key: "winterWarm", label: "冬でも温かい", minScore: 2 },
   { key: "windShelter", label: "風の影響を受けにくい", minScore: 2 },
+  { key: "scenicView", label: "絶景コースあり", minScore: 2 },
   { key: "womenFriendly", label: "女性に優しい", minScore: 2 },
   { key: "seniorFriendly", label: "シニアに優しい", minScore: 2 },
 ];

@@ -69,8 +69,12 @@ export type CourseScores = {
   onsen?: number;
   /** 夏でも涼しい (0=暑い, 2=涼しい・高原系) */
   summerCool?: number;
+  /** 冬でも温かい (0=寒い, 2=温暖・海近) */
+  winterWarm?: number;
   /** 風の影響を受けにくい (0=風強い, 2=風影響少ない) */
   windShelter?: number;
+  /** 絶景コースあり (0=なし, 2=富士山/海/山などの絶景ホールあり) */
+  scenicView?: number;
   /** 女性に優しい (0=不明, 2=パウダールーム充実等) */
   womenFriendly?: number;
   /** シニアに優しい (0=不明, 2=歩きやすい等) */
