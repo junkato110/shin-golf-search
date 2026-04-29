@@ -50,10 +50,12 @@ export default function Home() {
             Tokyo · within 3 hours by car
           </p>
           <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-3xl" style={{ fontWeight: 300, letterSpacing: "0.1em" }}>
-            都心から3時間以内特化。
+            都心から車で3時間以内特化
             <br />
             <span className="text-[var(--color-accent)]">「かゆいところに手が届く」</span>
-            新時代のゴルフ場検索サイト。
+            <br />
+            <br />
+            新時代のゴルフ場検索サイト
           </h1>
           <p className="text-sm text-white/70 mt-4 max-w-xl leading-relaxed">
             フェアウェイの広さ、メシのこだわり、マナーの厳格さ —
