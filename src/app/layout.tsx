@@ -4,7 +4,7 @@ import "./globals.css";
 
 // Proxima Nova の代替として Montserrat を採用
 const montserrat = Montserrat({
-  variable: "--font-sans",
+  variable: "--font-montserrat",
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });

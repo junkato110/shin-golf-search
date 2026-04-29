@@ -28,6 +28,8 @@
   --color-navy: var(--color-navy);
   --color-navy-2: var(--color-navy-2);
   --color-accent: var(--color-accent);
+  /* Tailwind デフォルトの --font-sans を上書きして Montserrat を本文に使う */
+  --font-sans: var(--font-montserrat), "Yu Gothic", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
   --font-serif: var(--font-noto-serif-jp);
   --font-display: var(--font-cormorant);
   --font-mono: var(--font-geist-mono);
