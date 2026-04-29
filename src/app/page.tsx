@@ -56,9 +56,10 @@ export default function Home() {
             <br />
             「新時代のゴルフ場検索サイト」
           </h1>
-          <p className="text-sm text-white/70 mt-4 max-w-xl leading-relaxed">
-            フェアウェイの広さ、メシのこだわり、マナーの厳格さ —
-            既存の予約サイトでは絞れなかった「体感」で、あなたに合う一コースを探せます。
+          <p className="text-sm text-white/75 mt-4 max-w-xl leading-relaxed">
+            マナーの厳格さ、難易度、フェアウェイの広さ、ご飯の美味しさ etc…
+            <br />
+            今までの予約サイトでは絞れなかった「体感」で、あなたの本当に探しているベストコースを探せます
           </p>
           <div className="mt-5 flex items-center gap-3 text-[10px] sm:text-xs text-white/60 font-display tracking-[0.25em] uppercase">
             <span className="inline-block w-8 border-t border-[var(--color-accent)]" />
