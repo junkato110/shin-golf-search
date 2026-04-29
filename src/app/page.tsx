@@ -46,9 +46,6 @@ export default function Home() {
           </div>
         )}
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
-          <p className="font-display text-xs sm:text-sm text-[var(--color-accent)] tracking-[0.4em] uppercase mb-3">
-            Tokyo · within 3 hours by car
-          </p>
           <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-3xl" style={{ fontWeight: 700, letterSpacing: "0.06em" }}>
             都心から車で3時間以内特化
             <br />
@@ -63,10 +60,6 @@ export default function Home() {
             <br />
             あなたの本当に探しているベストコースを探せます
           </p>
-          <div className="mt-5 flex items-center gap-3 text-[10px] sm:text-xs text-white/60 font-display tracking-[0.25em] uppercase">
-            <span className="inline-block w-8 border-t border-[var(--color-accent)]" />
-            {courses.length} courses listed · free
-          </div>
         </div>
       </section>
 
