@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getCourseById, getAllCourses } from "@/lib/getCourses";
+import { getReservationLinks } from "@/lib/reservationLinks";
 import type { CourseScores } from "@/types";
 
 export async function generateStaticParams() {
@@ -221,19 +222,20 @@ export default async function CoursePage({
             空き状況・料金・プラン詳細は外部の予約サイトでご確認ください。
           </p>
           <div className="grid sm:grid-cols-3 gap-3">
-            <ExternalButton
-              label="楽天GORA"
-              href="https://gora.golf.rakuten.co.jp/search/"
-            />
-            <ExternalButton
-              label="GDO"
-              href="https://reserve.golfdigest.co.jp/"
-            />
-            <ExternalButton
-              label="ALBA.Net"
-              href="https://www.alba.co.jp/golfcourse/"
-            />
+            {getReservationLinks().map((l) => (
+              <ExternalButton
+                key={l.label}
+                label={l.label}
+                href={l.href}
+                isAffiliate={l.isAffiliate}
+              />
+            ))}
           </div>
+          {getReservationLinks().some((l) => l.isAffiliate) && (
+            <p className="text-[10px] text-[var(--color-ink-subtle)] mt-3 tracking-wider">
+              ※ 一部リンクは提携サイトの広告 (PR) を含みます
+            </p>
+          )}
         </section>
 
         {/* 補足リンク */}
@@ -308,18 +310,31 @@ function Stat({
   );
 }
 
-function ExternalButton({ label, href }: { label: string; href: string }) {
+function ExternalButton({
+  label,
+  href,
+  isAffiliate,
+}: {
+  label: string;
+  href: string;
+  isAffiliate?: boolean;
+}) {
   return (
     <a
       href={href}
       target="_blank"
-      rel="noopener noreferrer"
-      className="block border border-[var(--color-navy)] text-center px-4 py-3 text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
+      rel={isAffiliate ? "sponsored noopener noreferrer" : "noopener noreferrer"}
+      className="relative block border border-[var(--color-navy)] text-center px-4 py-3 text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
     >
       <span className="font-serif" style={{ fontWeight: 600 }}>
         {label}
       </span>
       <span className="ml-2 text-xs opacity-70">で探す →</span>
+      {isAffiliate && (
+        <span className="absolute top-1 right-2 font-display text-[9px] tracking-wider text-[var(--color-accent)]">
+          PR
+        </span>
+      )}
     </a>
   );
 }
