@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import type {
   Course,
   CourseScores,
@@ -394,7 +395,10 @@ function CourseCard({
   hasHome: boolean;
 }) {
   return (
-    <article className="bg-white border border-[var(--color-line)] overflow-hidden hover:shadow-md hover:border-[var(--color-line-strong)] transition-all">
+    <Link
+      href={`/courses/${course.id}`}
+      className="block bg-white border border-[var(--color-line)] overflow-hidden hover:shadow-md hover:border-[var(--color-line-strong)] transition-all"
+    >
       {course.imageUrl && (
         <div className="aspect-[16/7] bg-neutral-100 overflow-hidden border-b border-[var(--color-line)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -455,7 +459,7 @@ function CourseCard({
           </div>
         )}
       </div>
-    </article>
+    </Link>
   );
 }
 
