@@ -45,8 +45,8 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-navy)] via-[var(--color-navy)]/70 to-transparent" />
           </div>
         )}
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
-          <p className="font-display text-xs sm:text-sm text-[var(--color-accent)] tracking-[0.4em] uppercase mb-4">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
+          <p className="font-display text-xs sm:text-sm text-[var(--color-accent)] tracking-[0.4em] uppercase mb-3">
             Tokyo · within 3 hours by car
           </p>
           <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-3xl" style={{ fontWeight: 300, letterSpacing: "0.1em" }}>
@@ -55,11 +55,11 @@ export default function Home() {
             <span className="text-[var(--color-accent)]">「かゆいところに手が届く」</span>
             新時代のゴルフ場検索サイト。
           </h1>
-          <p className="text-sm text-white/70 mt-5 max-w-xl leading-relaxed">
+          <p className="text-sm text-white/70 mt-4 max-w-xl leading-relaxed">
             フェアウェイの広さ、メシのこだわり、マナーの厳格さ —
             既存の予約サイトでは絞れなかった「体感」で、あなたに合う一コースを探せます。
           </p>
-          <div className="mt-8 flex items-center gap-3 text-[10px] sm:text-xs text-white/60 font-display tracking-[0.25em] uppercase">
+          <div className="mt-5 flex items-center gap-3 text-[10px] sm:text-xs text-white/60 font-display tracking-[0.25em] uppercase">
             <span className="inline-block w-8 border-t border-[var(--color-accent)]" />
             {courses.length} courses listed · free
           </div>
