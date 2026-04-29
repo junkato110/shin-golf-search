@@ -49,7 +49,7 @@ export default function Home() {
           <p className="font-display text-xs sm:text-sm text-[var(--color-accent)] tracking-[0.4em] uppercase mb-3">
             Tokyo · within 3 hours by car
           </p>
-          <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-3xl" style={{ fontWeight: 300, letterSpacing: "0.1em" }}>
+          <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-3xl" style={{ fontWeight: 700, letterSpacing: "0.06em" }}>
             都心から車で3時間以内特化
             <br />
             <span className="text-[var(--color-accent)]">&ldquo;かゆいところに手が届く&rdquo;</span>

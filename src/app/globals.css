@@ -13,7 +13,7 @@
   /* ブランドカラー: ダークグリーン (変数名は互換のため navy のまま) */
   --color-navy: #013220;
   --color-navy-2: #1a4d36;
-  --color-accent: #b48b3c;          /* champagne gold (緑とゴールドはゴルフ場の王道) */
+  --color-accent: #e8c547;          /* bright yellow gold (高視認性・ダークグリーンに映える) */
 }
 
 @theme inline {
