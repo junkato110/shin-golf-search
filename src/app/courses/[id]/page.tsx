@@ -223,15 +223,15 @@ export default async function CoursePage({
           <div className="grid sm:grid-cols-3 gap-3">
             <ExternalButton
               label="楽天GORA"
-              href="https://gora.golf.rakuten.co.jp/"
+              href="https://gora.golf.rakuten.co.jp/search/"
             />
             <ExternalButton
               label="GDO"
-              href="https://www.golfdigest.co.jp/"
+              href="https://reserve.golfdigest.co.jp/"
             />
             <ExternalButton
-              label="じゃらんゴルフ"
-              href="https://golf.jalan.net/"
+              label="ALBA.Net"
+              href="https://www.alba.co.jp/golfcourse/"
             />
           </div>
         </section>
