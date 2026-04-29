@@ -24,6 +24,12 @@ const MANNER_OPTIONS = [
   { label: "厳しい (本格派)", value: 2 },
 ];
 
+const DIFFICULTY_OPTIONS = [
+  { label: "易しい", value: 1 },
+  { label: "普通以上", value: 2 },
+  { label: "本格派", value: 3 },
+];
+
 type ScoreFilter = {
   key: keyof CourseScores;
   label: string;
@@ -244,32 +250,31 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         </fieldset>
 
         <fieldset className="mb-6">
-          <legend className={FIELD_LABEL_CLASS}>
-            難易度{" "}
-            <span className="ml-1 normal-case tracking-normal text-[var(--color-ink)] font-medium">
-              {difficulty === 0
-                ? "指定なし"
-                : difficulty === 1
-                ? "易しい"
-                : difficulty === 2
-                ? "普通以上"
-                : "本格派"}
-            </span>
-          </legend>
-          <input
-            type="range"
-            min={0}
-            max={3}
-            step={1}
-            value={difficulty}
-            onChange={(e) => setDifficulty(Number(e.target.value))}
-            className="w-full"
-          />
-          <div className="flex justify-between text-[10px] text-[var(--color-ink-subtle)] mt-1.5">
-            <span>—</span>
-            <span>易しい</span>
-            <span>普通以上</span>
-            <span>本格派</span>
+          <legend className={FIELD_LABEL_CLASS}>難易度</legend>
+          <div className="space-y-2">
+            {DIFFICULTY_OPTIONS.map((opt) => (
+              <label
+                key={opt.value}
+                className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink)]"
+              >
+                <input
+                  type="radio"
+                  name="difficulty"
+                  checked={difficulty === opt.value}
+                  onChange={() => setDifficulty(opt.value)}
+                />
+                {opt.label}
+              </label>
+            ))}
+            <label className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink-subtle)]">
+              <input
+                type="radio"
+                name="difficulty"
+                checked={difficulty === 0}
+                onChange={() => setDifficulty(0)}
+              />
+              指定なし
+            </label>
           </div>
         </fieldset>
 
