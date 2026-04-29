@@ -15,7 +15,7 @@ export default function Home() {
             <span className="font-serif text-2xl sm:text-3xl text-[var(--color-navy)]" style={{ fontWeight: 700, letterSpacing: "0.08em" }}>
               シン・ゴルフサーチ
             </span>
-            <span className="font-display text-sm text-[var(--color-accent)] uppercase tracking-[0.25em]">
+            <span className="font-display text-lg sm:text-xl text-[var(--color-navy)] uppercase tracking-[0.2em]" style={{ fontWeight: 500 }}>
               Shin Golf Search
             </span>
           </Link>
