@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  /* テラスハウス風: 白基調・抜け感・濃ネイビー */
+  /* テラスハウス風: 白基調・抜け感・ダークグリーン (#013220) */
   --color-bg: #ffffff;
   --color-bg-soft: #f6f7f8;
   --color-card: #ffffff;
-  --color-ink: #0a1d36;            /* deep navy text */
-  --color-ink-muted: #495667;
-  --color-ink-subtle: #8a93a3;
+  --color-ink: #013220;            /* dark green (#013220) */
+  --color-ink-muted: #3e5949;
+  --color-ink-subtle: #8a978f;
   --color-line: #e6e2d8;
   --color-line-strong: #c9c2b1;
-  --color-navy: #0a1d36;
-  --color-navy-2: #173458;
-  --color-accent: #b48b3c;
+  /* ブランドカラー: ダークグリーン (変数名は互換のため navy のまま) */
+  --color-navy: #013220;
+  --color-navy-2: #1a4d36;
+  --color-accent: #b48b3c;          /* champagne gold (緑とゴールドはゴルフ場の王道) */
 }
 
 @theme inline {
