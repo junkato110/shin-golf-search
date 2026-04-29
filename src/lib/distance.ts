@@ -33,3 +33,20 @@ export function estimateDriveMinutes(
   const minutes = (km / 60) * 60; // = km / 60 * 60
   return Math.round(minutes);
 }
+
+/**
+ * 所要時間を 15分単位 (60分以上は 30分単位) で丸めた表示文字列にする。
+ * 一桁台のような細かい数値は出さず、目安表示に統一する。
+ *
+ * 例: 7  → "目安 15分程度"
+ *     47 → "目安 45分程度"
+ *     65 → "目安 60分程度"
+ *     112 → "目安 120分程度"
+ */
+export function formatTravelTime(minutes: number): string {
+  const bucket =
+    minutes < 60
+      ? Math.max(15, Math.round(minutes / 15) * 15)
+      : Math.round(minutes / 30) * 30;
+  return `目安 ${bucket}分程度`;
+}

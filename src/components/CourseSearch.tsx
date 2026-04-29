@@ -8,7 +8,7 @@ import type {
   MunicipalitiesData,
 } from "@/types";
 import municipalitiesData from "@/data/municipalities.json";
-import { estimateDriveMinutes } from "@/lib/distance";
+import { estimateDriveMinutes, formatTravelTime } from "@/lib/distance";
 
 const TRAVEL_OPTIONS = [
   { label: "30分以内", value: 30 },
@@ -375,7 +375,7 @@ function CourseCard({
             {course.prefecture}
             {course.city ? ` / ${course.city}` : ""}
             {hasHome && course.travelMinutesFromHome != null
-              ? ` ・ 自宅から約 ${course.travelMinutesFromHome} 分`
+              ? ` ・ 自宅から ${formatTravelTime(course.travelMinutesFromHome)}`
               : ""}
           </p>
         </div>
