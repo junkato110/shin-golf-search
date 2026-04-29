@@ -149,10 +149,10 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         <div className="flex items-baseline justify-between mb-6 pb-4 border-b border-[var(--color-line)]">
           <div className="flex items-baseline gap-2">
             <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
-              こだわり検索
+              基本検索条件
             </h2>
             <span className="font-display text-[10px] text-[var(--color-accent)] uppercase">
-              Refine
+              Filters
             </span>
           </div>
           <button
