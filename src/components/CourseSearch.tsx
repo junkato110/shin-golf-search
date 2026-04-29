@@ -145,23 +145,24 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6">
-      <aside className="bg-white border border-[var(--color-line)] p-6 h-fit lg:sticky lg:top-20">
-        <div className="flex items-baseline justify-between mb-6 pb-4 border-b border-[var(--color-line)]">
-          <div className="flex items-baseline gap-2">
-            <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
-              基本検索条件
-            </h2>
-            <span className="font-display text-[10px] text-[var(--color-accent)] uppercase">
-              Filters
-            </span>
+      <aside className="space-y-4 h-fit lg:sticky lg:top-20">
+        <div className="bg-white border border-[var(--color-line)] p-6">
+          <div className="flex items-baseline justify-between mb-6 pb-4 border-b border-[var(--color-line)]">
+            <div className="flex items-baseline gap-2">
+              <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
+                基本検索条件
+              </h2>
+              <span className="font-display text-[10px] text-[var(--color-accent)] uppercase">
+                Filters
+              </span>
+            </div>
+            <button
+              onClick={reset}
+              className="text-[11px] text-[var(--color-ink-subtle)] hover:text-[var(--color-navy)] underline-offset-2 hover:underline tracking-wide"
+            >
+              条件をクリア
+            </button>
           </div>
-          <button
-            onClick={reset}
-            className="text-[11px] text-[var(--color-ink-subtle)] hover:text-[var(--color-navy)] underline-offset-2 hover:underline tracking-wide"
-          >
-            条件をクリア
-          </button>
-        </div>
 
         <fieldset className="mb-6 pb-6 border-b border-[var(--color-line)]">
           <legend className={FIELD_LABEL_CLASS}>自宅エリア</legend>
@@ -295,25 +296,39 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
           </div>
         </fieldset>
 
-        <fieldset>
-          <legend className={FIELD_LABEL_CLASS}>こだわり条件</legend>
-          <div className="space-y-2">
-            {FEATURE_FILTERS.map((f) => (
-              <label
-                key={f.key}
-                className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink)]"
-              >
-                <input
-                  type="checkbox"
-                  checked={featureKeys.has(f.key as string)}
-                  onChange={() => toggleFeature(f.key as string)}
-                  className="size-4"
-                />
-                {f.label}
-              </label>
-            ))}
+        </div>
+
+        <div className="bg-white border border-[var(--color-line)] p-6">
+          <div className="flex items-baseline gap-2 mb-5 pb-4 border-b border-[var(--color-line)]">
+            <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
+              こだわり条件
+            </h2>
+            <span className="font-display text-[10px] text-[var(--color-accent)] uppercase">
+              Preferences
+            </span>
           </div>
-        </fieldset>
+          <p className="text-[11px] text-[var(--color-ink-subtle)] mb-4 leading-relaxed">
+            「かゆいところに手が届く」体感軸でさらに絞り込み
+          </p>
+          <fieldset>
+            <div className="space-y-2">
+              {FEATURE_FILTERS.map((f) => (
+                <label
+                  key={f.key}
+                  className="flex items-center gap-2.5 text-sm cursor-pointer text-[var(--color-ink)]"
+                >
+                  <input
+                    type="checkbox"
+                    checked={featureKeys.has(f.key as string)}
+                    onChange={() => toggleFeature(f.key as string)}
+                    className="size-4"
+                  />
+                  {f.label}
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        </div>
       </aside>
 
       <section>
