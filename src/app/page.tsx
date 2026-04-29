@@ -10,12 +10,12 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-[var(--color-bg)]">
       {/* 上部ヘッダー (固定/白基調) */}
       <header className="border-b border-[var(--color-line)] bg-white sticky top-0 z-30">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-baseline gap-3">
-            <span className="font-serif text-lg text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
+            <span className="font-serif text-2xl sm:text-3xl text-[var(--color-navy)]" style={{ fontWeight: 700, letterSpacing: "0.08em" }}>
               シン・ゴルフサーチ
             </span>
-            <span className="font-display text-xs text-[var(--color-accent)] uppercase">
+            <span className="font-display text-sm text-[var(--color-accent)] uppercase tracking-[0.25em]">
               Shin Golf Search
             </span>
           </Link>
