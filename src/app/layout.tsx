@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Noto_Serif_JP, Cormorant_Garamond } from "next/font/google";
+import { Geist_Mono, Noto_Serif_JP, Cormorant_Garamond, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Proxima Nova の代替として Montserrat を採用
+const montserrat = Montserrat({
+  variable: "--font-sans",
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
@@ -38,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`${geistSans.variable} ${geistMono.variable} ${notoSerifJP.variable} ${cormorant.variable} h-full antialiased`}
+      className={`${montserrat.variable} ${geistMono.variable} ${notoSerifJP.variable} ${cormorant.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
