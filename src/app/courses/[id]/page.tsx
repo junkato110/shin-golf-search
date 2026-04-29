@@ -227,7 +227,7 @@ export default async function CoursePage({
             />
             <ExternalButton
               label="GDO"
-              href="https://reserve.golfdigest.co.jp/"
+              href="https://www.golfdigest.co.jp/"
             />
             <ExternalButton
               label="じゃらんゴルフ"
