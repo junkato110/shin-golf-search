@@ -19,7 +19,7 @@ const COURSES_PATH = join(ROOT, "src/data/courses.json");
 const IMAGES_DIR = join(ROOT, "public/images");
 
 const BASE_STYLE =
-  "warm watercolor illustration, soft natural colors, editorial magazine quality, no text no letters no words no signage";
+  "professional landscape photography, golden hour natural lighting, photorealistic, high detail, sharp focus, vibrant natural colors, editorial magazine quality, shot on full-frame DSLR, no text no letters no words no signage no people";
 
 /**
  * customImagePrompt があればそれを使い、なければタグから簡易プロンプトを構築。
@@ -33,25 +33,30 @@ function buildPrompt(course) {
   return `Japanese golf course in ${course.prefecture}, fairway and green visible, ${tagText}, ${BASE_STYLE}`;
 }
 
-async function downloadImage(prompt, filename, seed) {
+async function downloadImage(prompt, filename, seed, attempt = 1) {
+  const MAX_ATTEMPTS = 3;
   const url =
     `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}` +
     `?seed=${seed}&width=1280&height=720&nologo=true`;
   const outPath = join(IMAGES_DIR, filename);
   try {
-    execSync(`curl -sL --max-time 90 -o "${outPath}" "${url}"`, { stdio: "pipe" });
+    execSync(`curl -sL --max-time 240 -o "${outPath}" "${url}"`, { stdio: "pipe" });
     if (existsSync(outPath)) {
       const size = statSync(outPath).size;
       if (size > 5000) {
         console.log(`  成功: ${(size / 1024).toFixed(0)}KB`);
         return true;
       }
-      console.error(`  失敗: ファイルサイズ異常 (${size}B)`);
+      console.error(`  失敗 (試行${attempt}): ファイルサイズ異常 (${size}B)`);
     } else {
-      console.error("  失敗: ファイルなし");
+      console.error(`  失敗 (試行${attempt}): ファイルなし`);
     }
   } catch (e) {
-    console.error(`  失敗: ${e.message}`);
+    console.error(`  失敗 (試行${attempt}): ${(e.message || "").slice(0, 80)}`);
+  }
+  if (attempt < MAX_ATTEMPTS) {
+    console.log(`  リトライ中 (${attempt + 1}/${MAX_ATTEMPTS})...`);
+    return downloadImage(prompt, filename, seed + 1, attempt + 1);
   }
   return false;
 }

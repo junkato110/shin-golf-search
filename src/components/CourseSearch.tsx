@@ -369,7 +369,7 @@ function CourseCard({
   return (
     <article className="rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 overflow-hidden hover:shadow-md transition-shadow">
       {course.imageUrl && (
-        <div className="aspect-[16/9] bg-neutral-100 dark:bg-neutral-800 overflow-hidden">
+        <div className="aspect-[16/7] bg-neutral-100 dark:bg-neutral-800 overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={course.imageUrl}
