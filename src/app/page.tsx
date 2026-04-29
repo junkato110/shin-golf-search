@@ -15,10 +15,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-baseline gap-3">
             <span className="font-serif text-lg font-semibold text-[var(--color-navy)] tracking-wide">
-              ゴルフ場検索
+              シン・ゴルフサーチ
             </span>
             <span className="font-display text-xs text-[var(--color-accent)] tracking-[0.3em] uppercase">
-              Golf Course Finder
+              Shin Golf Search
             </span>
           </Link>
           <nav className="hidden sm:flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)]">
@@ -45,21 +45,21 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-navy)] via-[var(--color-navy)]/70 to-transparent" />
           </div>
         )}
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28">
-          <p className="font-display text-sm text-[var(--color-accent)] tracking-[0.4em] uppercase mb-4">
-            Tokyo · 3 hours by car
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
+          <p className="font-display text-xs sm:text-sm text-[var(--color-accent)] tracking-[0.4em] uppercase mb-4">
+            Tokyo · within 3 hours by car
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-semibold leading-tight tracking-wider">
-            本格派が、本気で選ぶ。
-          </h1>
-          <p className="text-sm sm:text-base text-white/75 mt-6 max-w-xl leading-relaxed">
-            既存の予約サイトでは届かない「かゆいところ」へ。
+          <h1 className="font-serif text-2xl sm:text-3xl font-semibold leading-snug tracking-wide max-w-3xl">
+            都心から3時間以内特化。
             <br />
+            <span className="text-[var(--color-accent)]">「かゆいところに手が届く」</span>
+            新時代のゴルフ場検索サイト。
+          </h1>
+          <p className="text-sm text-white/70 mt-5 max-w-xl leading-relaxed">
             フェアウェイの広さ、メシのこだわり、マナーの厳格さ —
-            <br className="hidden sm:inline" />
-            あなたの体感で、ゴルフ場を絞り込む。
+            既存の予約サイトでは絞れなかった「体感」で、あなたに合う一コースを探せます。
           </p>
-          <div className="mt-10 flex items-center gap-3 text-xs text-white/60 font-display tracking-[0.2em] uppercase">
+          <div className="mt-8 flex items-center gap-3 text-[10px] sm:text-xs text-white/60 font-display tracking-[0.25em] uppercase">
             <span className="inline-block w-8 border-t border-[var(--color-accent)]" />
             {courses.length} courses listed · free
           </div>
@@ -78,15 +78,18 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-10 grid sm:grid-cols-2 gap-6 text-xs text-[var(--color-ink-muted)]">
           <div>
             <p className="font-serif text-base text-[var(--color-navy)] mb-2">
-              ゴルフ場検索 <span className="font-display text-xs text-[var(--color-accent)] ml-2 tracking-[0.2em]">Golf Course Finder</span>
+              シン・ゴルフサーチ
+              <span className="font-display text-xs text-[var(--color-accent)] ml-2 tracking-[0.2em]">
+                Shin Golf Search
+              </span>
             </p>
-            <p>東京駅から車で3時間圏内のゴルフ場を、体感軸で検索。</p>
+            <p>都心から3時間以内特化。「かゆいところに手が届く」新時代のゴルフ場検索サイト。</p>
           </div>
           <div className="sm:text-right">
             <p>データソース: 国土数値情報 / OpenStreetMap / Wikipedia 他</p>
             <p>画像: AI 生成 (Pollinations.ai)</p>
             <p className="mt-2 font-display tracking-[0.2em] text-[var(--color-ink-subtle)]">
-              © 2026 GOLF COURSE FINDER
+              © 2026 SHIN GOLF SEARCH
             </p>
           </div>
         </div>

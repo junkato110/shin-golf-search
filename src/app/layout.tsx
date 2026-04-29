@@ -25,9 +25,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "ゴルフ場検索 — 本格派が、本気で選ぶ",
+  title: "シン・ゴルフサーチ — 都心から3時間以内特化のゴルフ場検索",
   description:
-    "既存サイトでは見つからない「かゆいところに手が届く」ゴルフ場検索。東京駅から車で3時間圏内。",
+    "都心から3時間以内特化。「かゆいところに手が届く」新時代のゴルフ場検索サイト。",
 };
 
 export default function RootLayout({
