@@ -434,7 +434,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         <div className="bg-white border border-[var(--color-line)] p-4 sm:p-6">
           <div className="mb-4 sm:mb-5 pb-3 sm:pb-4 border-b border-[var(--color-line)]">
             <h2 className="font-serif text-sm sm:text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
-              こだわり条件
+              体感スコア検索
             </h2>
           </div>
           <p className="text-[11px] text-[var(--color-ink-subtle)] mb-4 leading-relaxed">
