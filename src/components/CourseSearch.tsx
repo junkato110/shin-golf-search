@@ -75,7 +75,7 @@ const PREFECTURES = Array.from(
 );
 
 const SELECT_CLASS =
-  "w-full rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2 text-sm outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)] disabled:opacity-40";
+  "w-full rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2.5 sm:py-2 text-base sm:text-sm outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)] disabled:opacity-40 disabled:cursor-not-allowed";
 
 const FIELD_LABEL_CLASS =
   "block text-xs sm:text-sm font-bold tracking-wider text-[var(--color-navy)] mb-2 sm:mb-3";
