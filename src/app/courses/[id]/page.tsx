@@ -212,15 +212,9 @@ export default async function CoursePage({
               className="font-serif text-base text-[var(--color-navy)]"
               style={{ fontWeight: 700, letterSpacing: "0.08em" }}
             >
-              予約サイトで探す
+              予約・空き確認はコチラから
             </h2>
-            <span className="font-display text-[10px] text-[var(--color-accent)] uppercase tracking-[0.3em]">
-              Book
-            </span>
           </div>
-          <p className="text-xs text-[var(--color-ink-subtle)] mb-4 leading-relaxed">
-            空き状況・料金・プラン詳細は外部の予約サイトでご確認ください。
-          </p>
           <div className="grid sm:grid-cols-3 gap-3">
             {getReservationLinks().map((l) => (
               <ExternalButton
