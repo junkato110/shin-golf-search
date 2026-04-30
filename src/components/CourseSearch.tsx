@@ -199,14 +199,9 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       <aside className="space-y-4 h-fit lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:pr-2 lg:pb-4 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-[var(--color-line-strong)] [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-transparent">
         <div className="bg-white border border-[var(--color-line)] p-6">
           <div className="flex items-baseline justify-between mb-6 pb-4 border-b border-[var(--color-line)]">
-            <div className="flex items-baseline gap-2">
-              <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
-                基本検索条件
-              </h2>
-              <span className="font-display text-[10px] text-[var(--color-accent)] uppercase">
-                Filters
-              </span>
-            </div>
+            <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
+              基本検索条件
+            </h2>
             <button
               onClick={reset}
               className="text-[11px] text-[var(--color-ink-subtle)] hover:text-[var(--color-navy)] underline-offset-2 hover:underline tracking-wide"
@@ -352,13 +347,10 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         </div>
 
         <div className="bg-white border border-[var(--color-line)] p-6">
-          <div className="flex items-baseline gap-2 mb-5 pb-4 border-b border-[var(--color-line)]">
+          <div className="mb-5 pb-4 border-b border-[var(--color-line)]">
             <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
               こだわり条件
             </h2>
-            <span className="font-display text-[10px] text-[var(--color-accent)] uppercase">
-              Preferences
-            </span>
           </div>
           <p className="text-[11px] text-[var(--color-ink-subtle)] mb-4 leading-relaxed">
             「かゆいところに手が届く」体感軸でさらに絞り込み

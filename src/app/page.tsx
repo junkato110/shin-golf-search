@@ -62,7 +62,6 @@ export default function Home() {
       <main id="search" className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 py-12 sm:py-16">
         <div className="section-title">
           <span className="ja">コース検索</span>
-          <span className="en">Search</span>
         </div>
         <CourseSearch courses={courses} />
       </main>
