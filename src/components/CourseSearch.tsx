@@ -127,8 +127,12 @@ function Dropdown({
             return (
               <label
                 key={o.value}
+                onClick={() => {
+                  onChange(o.value);
+                  if (detailsRef.current) detailsRef.current.open = false;
+                }}
                 className={
-                  "flex items-center gap-2.5 px-3 py-2 text-sm cursor-pointer hover:bg-[var(--color-bg-soft)] " +
+                  "flex items-center gap-2 px-3 py-2 text-sm cursor-pointer hover:bg-[var(--color-bg-soft)] " +
                   (active
                     ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
                     : "text-[var(--color-ink)]")
@@ -139,12 +143,18 @@ function Dropdown({
                   name={groupId}
                   value={o.value}
                   checked={active}
-                  onChange={() => {
-                    onChange(o.value);
-                    if (detailsRef.current) detailsRef.current.open = false;
-                  }}
-                  className="size-4"
+                  readOnly
+                  className="absolute opacity-0 pointer-events-none w-0 h-0"
                 />
+                <span
+                  aria-hidden
+                  className={
+                    "inline-block w-3 text-[var(--color-accent)] " +
+                    (active ? "" : "invisible")
+                  }
+                >
+                  ✓
+                </span>
                 {o.label}
               </label>
             );
