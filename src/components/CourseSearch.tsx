@@ -75,7 +75,7 @@ const PREFECTURES = Array.from(
 );
 
 const SELECT_CLASS =
-  "w-full rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2.5 sm:py-2 text-base sm:text-sm outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)] disabled:opacity-40 disabled:cursor-not-allowed";
+  "w-full rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2 text-sm outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)] disabled:opacity-40";
 
 const FIELD_LABEL_CLASS =
   "block text-xs sm:text-sm font-bold tracking-wider text-[var(--color-navy)] mb-2 sm:mb-3";
@@ -232,15 +232,20 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
             <select
               value={municipalityName}
               onChange={(e) => setMunicipalityName(e.target.value)}
-              disabled={!prefecture}
               className={SELECT_CLASS}
             >
-              <option value="">市区町村を選択</option>
-              {homeCandidates.map((m) => (
-                <option key={m.name} value={m.name}>
-                  {m.name}
-                </option>
-              ))}
+              {!prefecture ? (
+                <option value="">先に都道府県を選択</option>
+              ) : (
+                <>
+                  <option value="">市区町村を選択</option>
+                  {homeCandidates.map((m) => (
+                    <option key={m.name} value={m.name}>
+                      {m.name}
+                    </option>
+                  ))}
+                </>
+              )}
             </select>
           </div>
           {home && (
