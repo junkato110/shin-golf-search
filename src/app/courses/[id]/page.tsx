@@ -127,9 +127,6 @@ export default async function CoursePage({
 
       <main className="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 py-8 sm:py-12">
         <div className="mb-6 sm:mb-8 pb-5 sm:pb-6 border-b border-[var(--color-line)]">
-          <p className="font-display text-[11px] sm:text-xs text-[var(--color-accent)] tracking-[0.3em] uppercase mb-2">
-            Course Detail
-          </p>
           <div className="flex items-start justify-between gap-3 sm:gap-4">
             <h1
               className="font-serif text-lg sm:text-2xl md:text-3xl text-[var(--color-navy)] leading-snug"
@@ -184,9 +181,6 @@ export default async function CoursePage({
               >
                 基本情報
               </h2>
-              <span className="font-display text-[11px] text-[var(--color-accent)] uppercase tracking-[0.3em]">
-                Overview
-              </span>
             </div>
             <dl className="grid grid-cols-2 sm:grid-cols-4 gap-y-6 gap-x-6">
             <Stat label="距離" value={course.totalYardage ? `${course.totalYardage} yd` : "—"} />
@@ -244,14 +238,11 @@ export default async function CoursePage({
             <div className="bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-4 sm:p-8">
               <div className="flex items-baseline gap-3 mb-6 pb-4 border-b border-[var(--color-line)]">
                 <h2
-                  className="font-serif text-lg text-[var(--color-navy)]"
+                  className="font-serif text-sm sm:text-lg text-[var(--color-navy)]"
                   style={{ fontWeight: 700, letterSpacing: "0.08em" }}
                 >
                   体感スコア
                 </h2>
-                <span className="font-display text-[11px] text-[var(--color-accent)] uppercase tracking-[0.3em]">
-                  Vibe
-                </span>
               </div>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6">
                 {SCORE_AXES.map((axis) => {
