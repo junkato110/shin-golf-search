@@ -124,20 +124,17 @@ function Dropdown({
         ) : (
           options.map((o) => {
             const active = o.value === value;
-            const inputId = `${groupId}-${o.value}`;
             return (
               <label
                 key={o.value}
-                htmlFor={inputId}
                 className={
-                  "block w-full cursor-pointer touch-manipulation text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] " +
+                  "flex items-center gap-2.5 px-3 py-2 text-sm cursor-pointer hover:bg-[var(--color-bg-soft)] " +
                   (active
                     ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
                     : "text-[var(--color-ink)]")
                 }
               >
                 <input
-                  id={inputId}
                   type="radio"
                   name={groupId}
                   value={o.value}
@@ -146,7 +143,7 @@ function Dropdown({
                     onChange(o.value);
                     if (detailsRef.current) detailsRef.current.open = false;
                   }}
-                  className="sr-only"
+                  className="size-4"
                 />
                 {o.label}
               </label>
