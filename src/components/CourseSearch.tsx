@@ -172,7 +172,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6">
-      <aside className="space-y-4 h-fit lg:sticky lg:top-20">
+      <aside className="space-y-4 h-fit lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:pr-2 lg:pb-4 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-[var(--color-line-strong)] [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-transparent">
         <div className="bg-white border border-[var(--color-line)] p-6">
           <div className="flex items-baseline justify-between mb-6 pb-4 border-b border-[var(--color-line)]">
             <div className="flex items-baseline gap-2">
