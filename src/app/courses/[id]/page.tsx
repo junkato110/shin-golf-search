@@ -226,9 +226,10 @@ export default async function CoursePage({
           <section className="mb-10">
             <div className="flex items-baseline gap-3 mb-4">
               <h2
-                className="font-serif text-base text-[var(--color-navy)]"
+                className="font-serif text-lg text-[var(--color-navy)] flex items-center gap-3"
                 style={{ fontWeight: 700, letterSpacing: "0.08em" }}
               >
+                <span className="inline-block w-1 h-5 bg-[var(--color-accent)]" />
                 特徴
               </h2>
             </div>
@@ -236,7 +237,8 @@ export default async function CoursePage({
               {course.tags.map((t) => (
                 <span
                   key={t}
-                  className="px-3 py-1 border border-[var(--color-line-strong)] bg-[var(--color-bg-soft)] text-[var(--color-ink-muted)] text-xs tracking-wider"
+                  className="px-3.5 py-1.5 border border-[var(--color-navy)]/30 bg-white text-[var(--color-navy)] text-sm tracking-wide"
+                  style={{ fontWeight: 600 }}
                 >
                   {t}
                 </span>
@@ -249,9 +251,10 @@ export default async function CoursePage({
         <section className="mb-10">
           <div className="flex items-baseline gap-3 mb-4">
             <h2
-              className="font-serif text-base text-[var(--color-navy)]"
+              className="font-serif text-lg text-[var(--color-navy)] flex items-center gap-3"
               style={{ fontWeight: 700, letterSpacing: "0.08em" }}
             >
+              <span className="inline-block w-1 h-5 bg-[var(--color-accent)]" />
               予約・空き確認はコチラから
             </h2>
           </div>
