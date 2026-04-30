@@ -14,10 +14,10 @@ export default function Home() {
       <header className="border-b border-[var(--color-line)] bg-white sticky top-0 z-30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
           <Link href="/" className="flex items-baseline gap-1.5 sm:gap-3 min-w-0">
-            <span className="font-serif text-xl sm:text-2xl md:text-3xl text-[var(--color-navy)] whitespace-nowrap" style={{ fontWeight: 700, letterSpacing: "0.06em" }}>
+            <span className="font-serif text-base sm:text-2xl md:text-3xl text-[var(--color-navy)] whitespace-nowrap" style={{ fontWeight: 700, letterSpacing: "0.04em" }}>
               シン・ゴルフサーチ
             </span>
-            <span className="font-display text-[8px] sm:text-base md:text-xl text-[var(--color-navy)] uppercase tracking-[0.05em] sm:tracking-[0.2em] whitespace-nowrap" style={{ fontWeight: 500 }}>
+            <span className="font-display text-[7px] sm:text-base md:text-xl text-[var(--color-navy)] uppercase tracking-[0.05em] sm:tracking-[0.2em] whitespace-nowrap" style={{ fontWeight: 500 }}>
               ーSHIN・GOLF SEARCHー
             </span>
           </Link>
