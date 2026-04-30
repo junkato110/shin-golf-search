@@ -118,6 +118,10 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
   const [mannerLevel, setMannerLevel] = useState<number | null>(null);
   const [featureKeys, setFeatureKeys] = useState<Set<string>>(new Set());
 
+  // 並び順
+  type SortKey = "home" | "diff_asc" | "diff_desc" | "manner_easy";
+  const [sortKey, setSortKey] = useState<SortKey>("home");
+
   const filtered = useMemo(() => {
     return coursesWithTravel.filter((c) => {
       if (travelMax !== null) {
@@ -144,15 +148,35 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
     });
   }, [coursesWithTravel, travelMax, difficulty, mannerLevel, featureKeys]);
 
-  // 距離フィルタが有効なら、近い順にソート
+  // 並び順
   const sorted = useMemo(() => {
-    if (!home) return filtered;
-    return [...filtered].sort((a, b) => {
-      const at = a.travelMinutesFromHome ?? Infinity;
-      const bt = b.travelMinutesFromHome ?? Infinity;
-      return at - bt;
-    });
-  }, [filtered, home]);
+    const arr = [...filtered];
+    if (sortKey === "home" && home) {
+      arr.sort(
+        (a, b) =>
+          (a.travelMinutesFromHome ?? Infinity) -
+          (b.travelMinutesFromHome ?? Infinity)
+      );
+    } else if (sortKey === "diff_asc") {
+      arr.sort(
+        (a, b) =>
+          (a.scores?.difficulty ?? Infinity) -
+          (b.scores?.difficulty ?? Infinity)
+      );
+    } else if (sortKey === "diff_desc") {
+      arr.sort(
+        (a, b) =>
+          (b.scores?.difficulty ?? -1) - (a.scores?.difficulty ?? -1)
+      );
+    } else if (sortKey === "manner_easy") {
+      arr.sort(
+        (a, b) =>
+          (a.scores?.mannerStrictness ?? Infinity) -
+          (b.scores?.mannerStrictness ?? Infinity)
+      );
+    }
+    return arr;
+  }, [filtered, sortKey, home]);
 
   function toggleFeature(key: string) {
     setFeatureKeys((prev) => {
@@ -361,7 +385,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       </aside>
 
       <section>
-        <div className="flex items-baseline justify-between mb-6 pb-3 border-b border-[var(--color-line)]">
+        <div className="flex items-end justify-between mb-6 pb-3 border-b border-[var(--color-line)] gap-4">
           <div className="flex items-baseline gap-3">
             <p className="font-display text-3xl text-[var(--color-navy)]" style={{ fontWeight: 200 }}>
               {String(sorted.length).padStart(2, "0")}
@@ -371,10 +395,25 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
                 Results
               </span>
               全 {courses.length} コース
-              {home && (
-                <span className="ml-2 text-[var(--color-accent)]">· 自宅から近い順</span>
-              )}
             </p>
+          </div>
+          <div className="flex items-center gap-2 text-xs">
+            <label htmlFor="sort-key" className="text-[var(--color-ink-muted)] tracking-wide">
+              並び順
+            </label>
+            <select
+              id="sort-key"
+              value={sortKey}
+              onChange={(e) => setSortKey(e.target.value as SortKey)}
+              className="rounded-md border border-[var(--color-line-strong)] bg-white px-2.5 py-1.5 text-[var(--color-navy)] outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)]"
+            >
+              <option value="home" disabled={!home}>
+                自宅から近い順{!home ? " (自宅未選択)" : ""}
+              </option>
+              <option value="diff_asc">難易度が易しい順</option>
+              <option value="diff_desc">難易度が難しい順</option>
+              <option value="manner_easy">マナーに易しい順</option>
+            </select>
           </div>
         </div>
 
