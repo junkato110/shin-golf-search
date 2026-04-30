@@ -70,9 +70,16 @@ const FEATURE_FILTERS: ScoreFilter[] = [
 
 const ALL_MUNICIPALITIES = (municipalitiesData as MunicipalitiesData)
   .municipalities;
-const PREFECTURES = Array.from(
-  new Set(ALL_MUNICIPALITIES.map((m) => m.prefecture))
-);
+// 関東1都6県のみ
+const PREFECTURES = [
+  "東京都",
+  "神奈川県",
+  "埼玉県",
+  "千葉県",
+  "茨城県",
+  "栃木県",
+  "群馬県",
+] as const;
 
 const DROPDOWN_BTN_CLASS =
   "w-full flex items-center justify-between rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2 text-sm text-left text-[var(--color-ink)] outline-none focus-visible:border-[var(--color-navy)] focus-visible:ring-1 focus-visible:ring-[var(--color-navy)] disabled:opacity-40 disabled:cursor-not-allowed";
