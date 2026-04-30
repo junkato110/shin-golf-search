@@ -36,7 +36,7 @@ const SCORE_AXES: ScoreAxisDef[] = [
   { key: "difficulty", label: "難易度", low: "易しい", high: "本格派" },
   { key: "fairwayWidth", label: "フェアウェイ", low: "狭い", high: "広い" },
   { key: "flatness", label: "フラット度", low: "起伏あり", high: "フラット" },
-  { key: "mealQuality", label: "メシ", low: "並", high: "こだわり" },
+  { key: "mealQuality", label: "ご飯", low: "並", high: "こだわりあり" },
   { key: "mannerStrictness", label: "マナー", low: "緩い (初心者歓迎)", high: "厳しい (名門寄り)" },
   { key: "practiceRange", label: "練習場", low: "簡素", high: "充実" },
   { key: "onsen", label: "温泉", low: "なし", high: "あり" },
