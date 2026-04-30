@@ -506,14 +506,16 @@ function CourseCard({
         {/* 体感スコア (6軸を 2列×3行 で表示・両端ラベル付き) */}
         {course.scores && (
           <div className="mt-4 pt-4 border-t border-[var(--color-line)] grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
-            {CARD_SCORE_AXES.map((axis) => {
+            {CARD_SCORE_AXES.map((axis, idx) => {
               const value = course.scores?.[axis.key];
               if (value == null) return null;
               const filled = value * 2 + 1;
               const isMax = value === 2;
               const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
+              // モバイルでは練習場 (idx=4) と絶景度 (idx=5) を非表示
+              const hideOnMobile = idx >= 4;
               return (
-                <div key={axis.key}>
+                <div key={axis.key} className={hideOnMobile ? "hidden sm:block" : ""}>
                   <p className="text-[10px] text-[var(--color-ink-muted)] mb-1 tracking-wide font-medium">
                     {axis.label}
                   </p>
