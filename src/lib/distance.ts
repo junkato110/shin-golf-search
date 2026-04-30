@@ -20,17 +20,22 @@ export function haversineKm(
 /**
  * 直線距離から車での所要時間を概算する。
  *
- * - 道路係数 1.4 (実際の道路は直線距離より約4割長い)
- * - 平均車速 60 km/h (高速道路+一般道のミックス想定)
+ * 「ほぼ渋滞しない時間帯 (早朝・休日朝など) 」を想定したベストケース見積り。
+ * - 道路係数 1.2 (圏央道・常磐道・東関東道など高速主体のルートを想定し、迂回は最小)
+ * - 平均車速 80 km/h (高速 100km/h + IC前後の一般道 50-60km/h を加重平均)
  *
  * 厳密な計算ではなく、検索時のフィルタ用途に十分な近似値。
+ * ナビ実測値より 5-10% 短めに出ることを許容。
  */
+const ROAD_FACTOR = 1.2;
+const AVERAGE_SPEED_KMH = 80;
+
 export function estimateDriveMinutes(
   from: { lat: number; lng: number },
   to: { lat: number; lng: number }
 ): number {
-  const km = haversineKm(from, to) * 1.4;
-  const minutes = (km / 60) * 60; // = km / 60 * 60
+  const km = haversineKm(from, to) * ROAD_FACTOR;
+  const minutes = (km / AVERAGE_SPEED_KMH) * 60;
   return Math.round(minutes);
 }
 

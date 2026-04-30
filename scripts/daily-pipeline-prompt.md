@@ -182,9 +182,11 @@ aerial-style landscape photo of a championship golf course in Chiba, signature l
 
 **距離計算 (travelMinutesFromTokyo)**:
 
+「ほぼ渋滞しない時間帯」のベストケース見積り。
+
 ```
 東京駅: lat=35.6812, lng=139.7671
-haversine 距離 (km) → ×1.4 (道路係数) → ÷60 (km/h) → ×60 (分) → 整数丸め
+haversine 距離 (km) → ×1.2 (道路係数) → ÷80 (km/h) → ×60 (分) → 整数丸め
 ```
 
 `node -e` で haversine を計算する例:
@@ -195,7 +197,7 @@ const a={lat:35.6812,lng:139.7671},b={lat:LAT,lng:LNG};
 const dlat=toRad(b.lat-a.lat),dlng=toRad(b.lng-a.lng);
 const h=Math.sin(dlat/2)**2+Math.cos(toRad(a.lat))*Math.cos(toRad(b.lat))*Math.sin(dlng/2)**2;
 const km=2*R*Math.asin(Math.sqrt(h));
-console.log(Math.round(km*1.4/60*60));
+console.log(Math.round(km*1.2/80*60));
 "
 ```
 

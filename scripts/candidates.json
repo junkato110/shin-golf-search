@@ -25,7 +25,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 62,
+      "travelMinutesFromTokyo": 40,
       "courseId": "course_001"
     },
     {
@@ -38,7 +38,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 154
+      "travelMinutesFromTokyo": 99
     },
     {
       "prefecture": "茨城県",
@@ -51,7 +51,7 @@
         "wikipedia"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 112
+      "travelMinutesFromTokyo": 72
     },
     {
       "prefecture": "茨城県",
@@ -63,7 +63,7 @@
         "osm"
       ],
       "status": "error",
-      "travelMinutesFromTokyo": 142,
+      "travelMinutesFromTokyo": 91,
       "errorReason": "Not a golf course or location mismatch"
     },
     {
@@ -76,7 +76,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 158
+      "travelMinutesFromTokyo": 102
     },
     {
       "prefecture": "茨城県",
@@ -88,7 +88,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 109
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "茨城県",
@@ -100,7 +100,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 49
+      "travelMinutesFromTokyo": 31
     },
     {
       "prefecture": "茨城県",
@@ -112,7 +112,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 84
+      "travelMinutesFromTokyo": 54
     },
     {
       "prefecture": "茨城県",
@@ -125,7 +125,7 @@
         "wikipedia"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "茨城県",
@@ -148,7 +148,7 @@
         "osm"
       ],
       "status": "error",
-      "travelMinutesFromTokyo": 122,
+      "travelMinutesFromTokyo": 79,
       "errorReason": "Not a golf course or location mismatch"
     },
     {
@@ -161,7 +161,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 98
+      "travelMinutesFromTokyo": 63
     },
     {
       "prefecture": "茨城県",
@@ -173,7 +173,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 155
+      "travelMinutesFromTokyo": 100
     },
     {
       "prefecture": "茨城県",
@@ -186,7 +186,7 @@
         "wikipedia"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 169
+      "travelMinutesFromTokyo": 108
     },
     {
       "prefecture": "茨城県",
@@ -198,7 +198,7 @@
         "osm"
       ],
       "status": "error",
-      "travelMinutesFromTokyo": 114,
+      "travelMinutesFromTokyo": 74,
       "errorReason": "Not a golf course or location mismatch"
     },
     {
@@ -211,7 +211,7 @@
         "osm"
       ],
       "status": "error",
-      "travelMinutesFromTokyo": 53,
+      "travelMinutesFromTokyo": 34,
       "errorReason": "Not a golf course or location mismatch"
     },
     {
@@ -224,7 +224,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 160
+      "travelMinutesFromTokyo": 103
     },
     {
       "prefecture": "茨城県",
@@ -236,7 +236,7 @@
         "osm"
       ],
       "status": "error",
-      "travelMinutesFromTokyo": 68,
+      "travelMinutesFromTokyo": 44,
       "errorReason": "Not a golf course or location mismatch"
     },
     {
@@ -250,7 +250,7 @@
         "wikipedia"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "茨城県",
@@ -262,7 +262,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 121
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "茨城県",
@@ -274,7 +274,7 @@
         "osm"
       ],
       "status": "error",
-      "travelMinutesFromTokyo": 76,
+      "travelMinutesFromTokyo": 49,
       "errorReason": "Not a golf course or location mismatch"
     },
     {
@@ -287,7 +287,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 108
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "茨城県",
@@ -310,7 +310,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 164
+      "travelMinutesFromTokyo": 105
     },
     {
       "prefecture": "茨城県",
@@ -322,7 +322,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 112
+      "travelMinutesFromTokyo": 72
     },
     {
       "prefecture": "茨城県",
@@ -334,7 +334,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 100
+      "travelMinutesFromTokyo": 64
     },
     {
       "prefecture": "茨城県",
@@ -346,7 +346,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 91
+      "travelMinutesFromTokyo": 58
     },
     {
       "prefecture": "茨城県",
@@ -358,7 +358,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 111
+      "travelMinutesFromTokyo": 71
     },
     {
       "prefecture": "茨城県",
@@ -381,7 +381,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 113
+      "travelMinutesFromTokyo": 73
     },
     {
       "prefecture": "茨城県",
@@ -393,7 +393,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "茨城県",
@@ -405,7 +405,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 93
+      "travelMinutesFromTokyo": 60
     },
     {
       "prefecture": "茨城県",
@@ -417,7 +417,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 88
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "茨城県",
@@ -429,7 +429,7 @@
         "osm"
       ],
       "status": "added",
-      "travelMinutesFromTokyo": 120
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "茨城県",
@@ -441,7 +441,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 153
+      "travelMinutesFromTokyo": 98
     },
     {
       "prefecture": "茨城県",
@@ -453,7 +453,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "茨城県",
@@ -465,7 +465,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 165
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "茨城県",
@@ -477,7 +477,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 158
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "茨城県",
@@ -489,7 +489,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 102
+      "travelMinutesFromTokyo": 66
     },
     {
       "prefecture": "茨城県",
@@ -501,7 +501,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 166
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "茨城県",
@@ -513,7 +513,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 162
+      "travelMinutesFromTokyo": 104
     },
     {
       "prefecture": "茨城県",
@@ -525,7 +525,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 119
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "茨城県",
@@ -537,7 +537,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 90
+      "travelMinutesFromTokyo": 58
     },
     {
       "prefecture": "茨城県",
@@ -549,7 +549,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 78
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "茨城県",
@@ -562,7 +562,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 62
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "茨城県",
@@ -574,7 +574,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 165
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "茨城県",
@@ -586,7 +586,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "茨城県",
@@ -598,7 +598,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 100
+      "travelMinutesFromTokyo": 64
     },
     {
       "prefecture": "茨城県",
@@ -610,7 +610,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 84
+      "travelMinutesFromTokyo": 54
     },
     {
       "prefecture": "茨城県",
@@ -622,7 +622,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 110
+      "travelMinutesFromTokyo": 71
     },
     {
       "prefecture": "茨城県",
@@ -635,7 +635,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "茨城県",
@@ -647,7 +647,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 89
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "茨城県",
@@ -659,7 +659,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 89
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "茨城県",
@@ -671,7 +671,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 119
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "茨城県",
@@ -683,7 +683,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 107
+      "travelMinutesFromTokyo": 69
     },
     {
       "prefecture": "茨城県",
@@ -695,7 +695,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 163
+      "travelMinutesFromTokyo": 105
     },
     {
       "prefecture": "茨城県",
@@ -707,7 +707,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 67
+      "travelMinutesFromTokyo": 43
     },
     {
       "prefecture": "茨城県",
@@ -719,7 +719,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 72
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "茨城県",
@@ -731,7 +731,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "茨城県",
@@ -743,7 +743,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "茨城県",
@@ -755,7 +755,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 64
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "茨城県",
@@ -767,7 +767,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 90
+      "travelMinutesFromTokyo": 58
     },
     {
       "prefecture": "茨城県",
@@ -791,7 +791,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 38
     },
     {
       "prefecture": "茨城県",
@@ -803,7 +803,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 56
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "茨城県",
@@ -816,7 +816,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 155
+      "travelMinutesFromTokyo": 100
     },
     {
       "prefecture": "茨城県",
@@ -828,7 +828,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "茨城県",
@@ -840,7 +840,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 169
+      "travelMinutesFromTokyo": 108
     },
     {
       "prefecture": "茨城県",
@@ -853,7 +853,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 57
+      "travelMinutesFromTokyo": 37
     },
     {
       "prefecture": "茨城県",
@@ -865,7 +865,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 161
+      "travelMinutesFromTokyo": 104
     },
     {
       "prefecture": "茨城県",
@@ -877,7 +877,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 136
+      "travelMinutesFromTokyo": 88
     },
     {
       "prefecture": "茨城県",
@@ -901,7 +901,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 95
+      "travelMinutesFromTokyo": 61
     },
     {
       "prefecture": "茨城県",
@@ -924,7 +924,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 109
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "茨城県",
@@ -936,7 +936,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 133
+      "travelMinutesFromTokyo": 86
     },
     {
       "prefecture": "茨城県",
@@ -959,7 +959,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 144
+      "travelMinutesFromTokyo": 92
     },
     {
       "prefecture": "茨城県",
@@ -983,7 +983,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 57
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "茨城県",
@@ -996,7 +996,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 62
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "茨城県",
@@ -1008,7 +1008,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 114
+      "travelMinutesFromTokyo": 73
     },
     {
       "prefecture": "茨城県",
@@ -1020,7 +1020,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 90
+      "travelMinutesFromTokyo": 58
     },
     {
       "prefecture": "茨城県",
@@ -1032,7 +1032,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 84
+      "travelMinutesFromTokyo": 54
     },
     {
       "prefecture": "茨城県",
@@ -1055,7 +1055,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 86
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "茨城県",
@@ -1067,7 +1067,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 49
+      "travelMinutesFromTokyo": 32
     },
     {
       "prefecture": "茨城県",
@@ -1079,7 +1079,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 155
+      "travelMinutesFromTokyo": 100
     },
     {
       "prefecture": "茨城県",
@@ -1091,7 +1091,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 127
+      "travelMinutesFromTokyo": 82
     },
     {
       "prefecture": "茨城県",
@@ -1103,7 +1103,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 174
+      "travelMinutesFromTokyo": 112
     },
     {
       "prefecture": "茨城県",
@@ -1115,7 +1115,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 112
+      "travelMinutesFromTokyo": 72
     },
     {
       "prefecture": "茨城県",
@@ -1128,7 +1128,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 90
+      "travelMinutesFromTokyo": 58
     },
     {
       "prefecture": "茨城県",
@@ -1140,7 +1140,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 98
+      "travelMinutesFromTokyo": 63
     },
     {
       "prefecture": "茨城県",
@@ -1163,7 +1163,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 75
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "茨城県",
@@ -1175,7 +1175,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 120
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "茨城県",
@@ -1187,7 +1187,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 49
+      "travelMinutesFromTokyo": 31
     },
     {
       "prefecture": "茨城県",
@@ -1199,7 +1199,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "茨城県",
@@ -1222,7 +1222,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 161
+      "travelMinutesFromTokyo": 103
     },
     {
       "prefecture": "群馬県",
@@ -1234,7 +1234,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 166
+      "travelMinutesFromTokyo": 107
     },
     {
       "prefecture": "群馬県",
@@ -1247,7 +1247,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 150
+      "travelMinutesFromTokyo": 96
     },
     {
       "prefecture": "群馬県",
@@ -1259,7 +1259,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 169
+      "travelMinutesFromTokyo": 108
     },
     {
       "prefecture": "群馬県",
@@ -1271,7 +1271,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 99
+      "travelMinutesFromTokyo": 64
     },
     {
       "prefecture": "群馬県",
@@ -1283,7 +1283,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 119
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "群馬県",
@@ -1295,7 +1295,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 128
+      "travelMinutesFromTokyo": 82
     },
     {
       "prefecture": "群馬県",
@@ -1307,7 +1307,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 175
+      "travelMinutesFromTokyo": 112
     },
     {
       "prefecture": "群馬県",
@@ -1319,7 +1319,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 129
+      "travelMinutesFromTokyo": 83
     },
     {
       "prefecture": "群馬県",
@@ -1331,7 +1331,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 137
+      "travelMinutesFromTokyo": 88
     },
     {
       "prefecture": "群馬県",
@@ -1343,7 +1343,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 161
+      "travelMinutesFromTokyo": 104
     },
     {
       "prefecture": "群馬県",
@@ -1355,7 +1355,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 178
+      "travelMinutesFromTokyo": 114
     },
     {
       "prefecture": "群馬県",
@@ -1367,7 +1367,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 124
+      "travelMinutesFromTokyo": 80
     },
     {
       "prefecture": "群馬県",
@@ -1390,7 +1390,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 174
+      "travelMinutesFromTokyo": 112
     },
     {
       "prefecture": "群馬県",
@@ -1402,7 +1402,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 162
+      "travelMinutesFromTokyo": 104
     },
     {
       "prefecture": "群馬県",
@@ -1414,7 +1414,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 114
+      "travelMinutesFromTokyo": 73
     },
     {
       "prefecture": "群馬県",
@@ -1426,7 +1426,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 142
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "群馬県",
@@ -1438,7 +1438,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 90
     },
     {
       "prefecture": "群馬県",
@@ -1450,7 +1450,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 122
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "群馬県",
@@ -1462,7 +1462,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "群馬県",
@@ -1485,7 +1485,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 157
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "群馬県",
@@ -1497,7 +1497,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 165
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "群馬県",
@@ -1509,7 +1509,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 169
+      "travelMinutesFromTokyo": 109
     },
     {
       "prefecture": "群馬県",
@@ -1521,7 +1521,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 174
+      "travelMinutesFromTokyo": 112
     },
     {
       "prefecture": "群馬県",
@@ -1533,7 +1533,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 166
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "群馬県",
@@ -1546,7 +1546,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 152
+      "travelMinutesFromTokyo": 98
     },
     {
       "prefecture": "群馬県",
@@ -1558,7 +1558,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 159
+      "travelMinutesFromTokyo": 102
     },
     {
       "prefecture": "群馬県",
@@ -1571,7 +1571,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 135
+      "travelMinutesFromTokyo": 86
     },
     {
       "prefecture": "群馬県",
@@ -1583,7 +1583,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 133
+      "travelMinutesFromTokyo": 85
     },
     {
       "prefecture": "群馬県",
@@ -1595,7 +1595,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 138
+      "travelMinutesFromTokyo": 89
     },
     {
       "prefecture": "群馬県",
@@ -1607,7 +1607,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 134
+      "travelMinutesFromTokyo": 86
     },
     {
       "prefecture": "群馬県",
@@ -1619,7 +1619,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 123
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "群馬県",
@@ -1631,7 +1631,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 120
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "群馬県",
@@ -1643,7 +1643,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 124
+      "travelMinutesFromTokyo": 80
     },
     {
       "prefecture": "群馬県",
@@ -1655,7 +1655,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 143
+      "travelMinutesFromTokyo": 92
     },
     {
       "prefecture": "群馬県",
@@ -1667,7 +1667,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 164
+      "travelMinutesFromTokyo": 105
     },
     {
       "prefecture": "群馬県",
@@ -1679,7 +1679,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 131
+      "travelMinutesFromTokyo": 84
     },
     {
       "prefecture": "群馬県",
@@ -1691,7 +1691,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 178
+      "travelMinutesFromTokyo": 114
     },
     {
       "prefecture": "群馬県",
@@ -1703,7 +1703,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 157
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "群馬県",
@@ -1715,7 +1715,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 173
+      "travelMinutesFromTokyo": 111
     },
     {
       "prefecture": "群馬県",
@@ -1727,7 +1727,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 135
+      "travelMinutesFromTokyo": 87
     },
     {
       "prefecture": "群馬県",
@@ -1739,7 +1739,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 164
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "群馬県",
@@ -1751,7 +1751,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 120
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "群馬県",
@@ -1763,7 +1763,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 176
+      "travelMinutesFromTokyo": 113
     },
     {
       "prefecture": "群馬県",
@@ -1775,7 +1775,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 121
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "群馬県",
@@ -1787,7 +1787,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 122
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "群馬県",
@@ -1799,7 +1799,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 170
+      "travelMinutesFromTokyo": 109
     },
     {
       "prefecture": "群馬県",
@@ -1822,7 +1822,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 139
+      "travelMinutesFromTokyo": 90
     },
     {
       "prefecture": "群馬県",
@@ -1834,7 +1834,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 159
+      "travelMinutesFromTokyo": 103
     },
     {
       "prefecture": "群馬県",
@@ -1846,7 +1846,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 150
+      "travelMinutesFromTokyo": 97
     },
     {
       "prefecture": "群馬県",
@@ -1858,7 +1858,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 119
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "群馬県",
@@ -1870,7 +1870,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 133
+      "travelMinutesFromTokyo": 86
     },
     {
       "prefecture": "群馬県",
@@ -1882,7 +1882,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 128
+      "travelMinutesFromTokyo": 82
     },
     {
       "prefecture": "群馬県",
@@ -1894,7 +1894,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 168
+      "travelMinutesFromTokyo": 108
     },
     {
       "prefecture": "群馬県",
@@ -1907,7 +1907,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "群馬県",
@@ -1919,7 +1919,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "群馬県",
@@ -1931,7 +1931,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 144
+      "travelMinutesFromTokyo": 93
     },
     {
       "prefecture": "群馬県",
@@ -1943,7 +1943,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 116
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "群馬県",
@@ -1955,7 +1955,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 127
+      "travelMinutesFromTokyo": 81
     },
     {
       "prefecture": "群馬県",
@@ -1967,7 +1967,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 151
+      "travelMinutesFromTokyo": 97
     },
     {
       "prefecture": "埼玉県",
@@ -1979,7 +1979,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 20
+      "travelMinutesFromTokyo": 13
     },
     {
       "prefecture": "埼玉県",
@@ -1991,7 +1991,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "埼玉県",
@@ -2003,7 +2003,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 76
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "埼玉県",
@@ -2015,7 +2015,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 67
+      "travelMinutesFromTokyo": 43
     },
     {
       "prefecture": "埼玉県",
@@ -2038,7 +2038,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 35
+      "travelMinutesFromTokyo": 23
     },
     {
       "prefecture": "埼玉県",
@@ -2050,7 +2050,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 107
+      "travelMinutesFromTokyo": 69
     },
     {
       "prefecture": "埼玉県",
@@ -2062,7 +2062,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "埼玉県",
@@ -2074,7 +2074,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 107
+      "travelMinutesFromTokyo": 69
     },
     {
       "prefecture": "埼玉県",
@@ -2086,7 +2086,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 44
+      "travelMinutesFromTokyo": 28
     },
     {
       "prefecture": "埼玉県",
@@ -2098,7 +2098,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 41
+      "travelMinutesFromTokyo": 26
     },
     {
       "prefecture": "埼玉県",
@@ -2121,7 +2121,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "埼玉県",
@@ -2133,7 +2133,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "埼玉県",
@@ -2145,7 +2145,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "埼玉県",
@@ -2157,7 +2157,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 72
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "埼玉県",
@@ -2169,7 +2169,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "埼玉県",
@@ -2192,7 +2192,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 112
+      "travelMinutesFromTokyo": 72
     },
     {
       "prefecture": "埼玉県",
@@ -2204,7 +2204,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 116
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "埼玉県",
@@ -2216,7 +2216,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "埼玉県",
@@ -2228,7 +2228,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 39
+      "travelMinutesFromTokyo": 25
     },
     {
       "prefecture": "埼玉県",
@@ -2240,7 +2240,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 104
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "埼玉県",
@@ -2252,7 +2252,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "埼玉県",
@@ -2264,7 +2264,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "埼玉県",
@@ -2276,7 +2276,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 38
+      "travelMinutesFromTokyo": 25
     },
     {
       "prefecture": "埼玉県",
@@ -2288,7 +2288,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 26
+      "travelMinutesFromTokyo": 17
     },
     {
       "prefecture": "埼玉県",
@@ -2300,7 +2300,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 29
+      "travelMinutesFromTokyo": 19
     },
     {
       "prefecture": "埼玉県",
@@ -2312,7 +2312,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 109
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "埼玉県",
@@ -2324,7 +2324,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 50
+      "travelMinutesFromTokyo": 32
     },
     {
       "prefecture": "埼玉県",
@@ -2336,7 +2336,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 32
+      "travelMinutesFromTokyo": 21
     },
     {
       "prefecture": "埼玉県",
@@ -2348,7 +2348,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "埼玉県",
@@ -2360,7 +2360,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 106
+      "travelMinutesFromTokyo": 68
     },
     {
       "prefecture": "埼玉県",
@@ -2372,7 +2372,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 106
+      "travelMinutesFromTokyo": 68
     },
     {
       "prefecture": "埼玉県",
@@ -2385,7 +2385,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 57
+      "travelMinutesFromTokyo": 37
     },
     {
       "prefecture": "埼玉県",
@@ -2397,7 +2397,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 57
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "埼玉県",
@@ -2409,7 +2409,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 92
+      "travelMinutesFromTokyo": 59
     },
     {
       "prefecture": "埼玉県",
@@ -2421,7 +2421,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "埼玉県",
@@ -2433,7 +2433,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "埼玉県",
@@ -2445,7 +2445,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 55
+      "travelMinutesFromTokyo": 35
     },
     {
       "prefecture": "埼玉県",
@@ -2458,7 +2458,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 56
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "埼玉県",
@@ -2470,7 +2470,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "埼玉県",
@@ -2482,7 +2482,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 120
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "埼玉県",
@@ -2495,7 +2495,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 88
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "埼玉県",
@@ -2507,7 +2507,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "埼玉県",
@@ -2519,7 +2519,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 27
+      "travelMinutesFromTokyo": 17
     },
     {
       "prefecture": "埼玉県",
@@ -2531,7 +2531,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 83
+      "travelMinutesFromTokyo": 53
     },
     {
       "prefecture": "埼玉県",
@@ -2554,7 +2554,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "埼玉県",
@@ -2566,7 +2566,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "埼玉県",
@@ -2578,7 +2578,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 67
+      "travelMinutesFromTokyo": 43
     },
     {
       "prefecture": "埼玉県",
@@ -2590,7 +2590,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "埼玉県",
@@ -2602,7 +2602,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 75
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "埼玉県",
@@ -2614,7 +2614,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 105
+      "travelMinutesFromTokyo": 68
     },
     {
       "prefecture": "埼玉県",
@@ -2626,7 +2626,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "埼玉県",
@@ -2638,7 +2638,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 115
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "埼玉県",
@@ -2650,7 +2650,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 110
+      "travelMinutesFromTokyo": 71
     },
     {
       "prefecture": "埼玉県",
@@ -2662,7 +2662,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 40
+      "travelMinutesFromTokyo": 26
     },
     {
       "prefecture": "埼玉県",
@@ -2674,7 +2674,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "埼玉県",
@@ -2686,7 +2686,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "埼玉県",
@@ -2698,7 +2698,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 25
+      "travelMinutesFromTokyo": 16
     },
     {
       "prefecture": "埼玉県",
@@ -2710,7 +2710,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 121
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "埼玉県",
@@ -2722,7 +2722,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 52
+      "travelMinutesFromTokyo": 33
     },
     {
       "prefecture": "埼玉県",
@@ -2734,7 +2734,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 16
+      "travelMinutesFromTokyo": 10
     },
     {
       "prefecture": "埼玉県",
@@ -2746,7 +2746,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "埼玉県",
@@ -2759,7 +2759,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 90
+      "travelMinutesFromTokyo": 58
     },
     {
       "prefecture": "埼玉県",
@@ -2772,7 +2772,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "埼玉県",
@@ -2784,7 +2784,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 51
+      "travelMinutesFromTokyo": 33
     },
     {
       "prefecture": "埼玉県",
@@ -2796,7 +2796,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 45
+      "travelMinutesFromTokyo": 29
     },
     {
       "prefecture": "埼玉県",
@@ -2809,7 +2809,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "埼玉県",
@@ -2821,7 +2821,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 19
+      "travelMinutesFromTokyo": 13
     },
     {
       "prefecture": "埼玉県",
@@ -2833,7 +2833,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 45
+      "travelMinutesFromTokyo": 29
     },
     {
       "prefecture": "埼玉県",
@@ -2846,7 +2846,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 79
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "埼玉県",
@@ -2858,7 +2858,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 44
+      "travelMinutesFromTokyo": 28
     },
     {
       "prefecture": "埼玉県",
@@ -2870,7 +2870,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 25
+      "travelMinutesFromTokyo": 16
     },
     {
       "prefecture": "埼玉県",
@@ -2882,7 +2882,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 17
+      "travelMinutesFromTokyo": 11
     },
     {
       "prefecture": "埼玉県",
@@ -2894,7 +2894,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 19
+      "travelMinutesFromTokyo": 12
     },
     {
       "prefecture": "埼玉県",
@@ -2906,7 +2906,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 99
+      "travelMinutesFromTokyo": 64
     },
     {
       "prefecture": "埼玉県",
@@ -2918,7 +2918,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 89
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "埼玉県",
@@ -2930,7 +2930,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 43
+      "travelMinutesFromTokyo": 28
     },
     {
       "prefecture": "埼玉県",
@@ -2942,7 +2942,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 54
+      "travelMinutesFromTokyo": 35
     },
     {
       "prefecture": "埼玉県",
@@ -2954,7 +2954,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "埼玉県",
@@ -2966,7 +2966,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 99
+      "travelMinutesFromTokyo": 64
     },
     {
       "prefecture": "埼玉県",
@@ -2978,7 +2978,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 29
+      "travelMinutesFromTokyo": 19
     },
     {
       "prefecture": "埼玉県",
@@ -2990,7 +2990,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 105
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "埼玉県",
@@ -3003,7 +3003,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 56
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "埼玉県",
@@ -3016,7 +3016,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 78
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "埼玉県",
@@ -3028,7 +3028,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 104
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "埼玉県",
@@ -3040,7 +3040,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "埼玉県",
@@ -3053,7 +3053,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 59
+      "travelMinutesFromTokyo": 38
     },
     {
       "prefecture": "埼玉県",
@@ -3065,7 +3065,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 59
+      "travelMinutesFromTokyo": 38
     },
     {
       "prefecture": "埼玉県",
@@ -3077,7 +3077,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 76
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "埼玉県",
@@ -3089,7 +3089,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "埼玉県",
@@ -3102,7 +3102,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "埼玉県",
@@ -3114,7 +3114,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "埼玉県",
@@ -3126,7 +3126,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "埼玉県",
@@ -3139,7 +3139,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 38
     },
     {
       "prefecture": "埼玉県",
@@ -3151,7 +3151,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "埼玉県",
@@ -3163,7 +3163,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 104
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "埼玉県",
@@ -3175,7 +3175,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 103
+      "travelMinutesFromTokyo": 66
     },
     {
       "prefecture": "埼玉県",
@@ -3187,7 +3187,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 72
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "埼玉県",
@@ -3210,7 +3210,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 53
+      "travelMinutesFromTokyo": 34
     },
     {
       "prefecture": "埼玉県",
@@ -3222,7 +3222,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 79
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "埼玉県",
@@ -3235,7 +3235,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "埼玉県",
@@ -3248,7 +3248,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 75
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "埼玉県",
@@ -3260,7 +3260,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 96
+      "travelMinutesFromTokyo": 62
     },
     {
       "prefecture": "埼玉県",
@@ -3272,7 +3272,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 114
+      "travelMinutesFromTokyo": 73
     },
     {
       "prefecture": "埼玉県",
@@ -3295,7 +3295,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "山梨県",
@@ -3307,7 +3307,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 84
+      "travelMinutesFromTokyo": 54
     },
     {
       "prefecture": "山梨県",
@@ -3319,7 +3319,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 88
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "山梨県",
@@ -3331,7 +3331,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 165
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "山梨県",
@@ -3343,7 +3343,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 149
+      "travelMinutesFromTokyo": 96
     },
     {
       "prefecture": "山梨県",
@@ -3366,7 +3366,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 138
+      "travelMinutesFromTokyo": 89
     },
     {
       "prefecture": "山梨県",
@@ -3400,7 +3400,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 163
+      "travelMinutesFromTokyo": 105
     },
     {
       "prefecture": "山梨県",
@@ -3423,7 +3423,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 107
+      "travelMinutesFromTokyo": 69
     },
     {
       "prefecture": "山梨県",
@@ -3435,7 +3435,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 172
+      "travelMinutesFromTokyo": 111
     },
     {
       "prefecture": "山梨県",
@@ -3447,7 +3447,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 145
+      "travelMinutesFromTokyo": 93
     },
     {
       "prefecture": "山梨県",
@@ -3471,7 +3471,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 137
+      "travelMinutesFromTokyo": 88
     },
     {
       "prefecture": "山梨県",
@@ -3483,7 +3483,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 88
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "山梨県",
@@ -3495,7 +3495,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 142
+      "travelMinutesFromTokyo": 92
     },
     {
       "prefecture": "山梨県",
@@ -3507,7 +3507,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 128
+      "travelMinutesFromTokyo": 82
     },
     {
       "prefecture": "山梨県",
@@ -3519,7 +3519,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 83
+      "travelMinutesFromTokyo": 53
     },
     {
       "prefecture": "山梨県",
@@ -3531,7 +3531,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 99
+      "travelMinutesFromTokyo": 64
     },
     {
       "prefecture": "山梨県",
@@ -3543,7 +3543,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 108
+      "travelMinutesFromTokyo": 69
     },
     {
       "prefecture": "山梨県",
@@ -3566,7 +3566,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 148
+      "travelMinutesFromTokyo": 95
     },
     {
       "prefecture": "山梨県",
@@ -3579,7 +3579,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 124
+      "travelMinutesFromTokyo": 80
     },
     {
       "prefecture": "山梨県",
@@ -3613,7 +3613,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 135
+      "travelMinutesFromTokyo": 87
     },
     {
       "prefecture": "山梨県",
@@ -3636,7 +3636,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 43
+      "travelMinutesFromTokyo": 27
     },
     {
       "prefecture": "神奈川県",
@@ -3648,7 +3648,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 108
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "神奈川県",
@@ -3660,7 +3660,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 83
+      "travelMinutesFromTokyo": 53
     },
     {
       "prefecture": "神奈川県",
@@ -3672,7 +3672,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "神奈川県",
@@ -3684,7 +3684,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 67
+      "travelMinutesFromTokyo": 43
     },
     {
       "prefecture": "神奈川県",
@@ -3696,7 +3696,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "神奈川県",
@@ -3708,7 +3708,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 94
+      "travelMinutesFromTokyo": 60
     },
     {
       "prefecture": "神奈川県",
@@ -3720,7 +3720,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 43
+      "travelMinutesFromTokyo": 28
     },
     {
       "prefecture": "神奈川県",
@@ -3732,7 +3732,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "神奈川県",
@@ -3745,7 +3745,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 54
     },
     {
       "prefecture": "神奈川県",
@@ -3757,7 +3757,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 88
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "神奈川県",
@@ -3769,7 +3769,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 36
+      "travelMinutesFromTokyo": 23
     },
     {
       "prefecture": "神奈川県",
@@ -3781,7 +3781,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 76
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "神奈川県",
@@ -3794,7 +3794,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 53
+      "travelMinutesFromTokyo": 34
     },
     {
       "prefecture": "神奈川県",
@@ -3807,7 +3807,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 46
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "神奈川県",
@@ -3819,7 +3819,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 58
+      "travelMinutesFromTokyo": 37
     },
     {
       "prefecture": "神奈川県",
@@ -3832,7 +3832,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "神奈川県",
@@ -3844,7 +3844,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "神奈川県",
@@ -3856,7 +3856,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 31
     },
     {
       "prefecture": "神奈川県",
@@ -3879,7 +3879,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "神奈川県",
@@ -3892,7 +3892,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 64
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "神奈川県",
@@ -3904,7 +3904,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "神奈川県",
@@ -3916,7 +3916,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "神奈川県",
@@ -3928,7 +3928,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 53
+      "travelMinutesFromTokyo": 34
     },
     {
       "prefecture": "神奈川県",
@@ -3940,7 +3940,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 102
+      "travelMinutesFromTokyo": 65
     },
     {
       "prefecture": "神奈川県",
@@ -3952,7 +3952,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 66
+      "travelMinutesFromTokyo": 43
     },
     {
       "prefecture": "神奈川県",
@@ -3964,7 +3964,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 57
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "神奈川県",
@@ -3976,7 +3976,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 113
+      "travelMinutesFromTokyo": 73
     },
     {
       "prefecture": "神奈川県",
@@ -3989,7 +3989,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 109
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "神奈川県",
@@ -4002,7 +4002,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 66
+      "travelMinutesFromTokyo": 43
     },
     {
       "prefecture": "神奈川県",
@@ -4014,7 +4014,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 75
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "神奈川県",
@@ -4037,7 +4037,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "神奈川県",
@@ -4049,7 +4049,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 80
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "神奈川県",
@@ -4061,7 +4061,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "神奈川県",
@@ -4073,7 +4073,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 25
+      "travelMinutesFromTokyo": 16
     },
     {
       "prefecture": "神奈川県",
@@ -4086,7 +4086,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 29
+      "travelMinutesFromTokyo": 19
     },
     {
       "prefecture": "神奈川県",
@@ -4098,7 +4098,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 22
+      "travelMinutesFromTokyo": 14
     },
     {
       "prefecture": "神奈川県",
@@ -4111,7 +4111,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 50
+      "travelMinutesFromTokyo": 32
     },
     {
       "prefecture": "神奈川県",
@@ -4124,7 +4124,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 51
+      "travelMinutesFromTokyo": 33
     },
     {
       "prefecture": "神奈川県",
@@ -4136,7 +4136,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 62
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "神奈川県",
@@ -4148,7 +4148,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 86
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "神奈川県",
@@ -4160,7 +4160,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "神奈川県",
@@ -4172,7 +4172,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "神奈川県",
@@ -4184,7 +4184,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "神奈川県",
@@ -4207,7 +4207,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "神奈川県",
@@ -4219,7 +4219,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 68
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "神奈川県",
@@ -4231,7 +4231,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "神奈川県",
@@ -4244,7 +4244,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 46
+      "travelMinutesFromTokyo": 29
     },
     {
       "prefecture": "神奈川県",
@@ -4256,7 +4256,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 57
+      "travelMinutesFromTokyo": 37
     },
     {
       "prefecture": "神奈川県",
@@ -4268,7 +4268,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 21
+      "travelMinutesFromTokyo": 13
     },
     {
       "prefecture": "神奈川県",
@@ -4280,7 +4280,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 35
+      "travelMinutesFromTokyo": 22
     },
     {
       "prefecture": "神奈川県",
@@ -4292,7 +4292,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 64
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "神奈川県",
@@ -4337,7 +4337,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 122
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "神奈川県",
@@ -4349,7 +4349,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 120
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "神奈川県",
@@ -4372,7 +4372,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 116
+      "travelMinutesFromTokyo": 75
     },
     {
       "prefecture": "神奈川県",
@@ -4395,7 +4395,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "神奈川県",
@@ -4418,7 +4418,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "神奈川県",
@@ -4441,7 +4441,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 49
+      "travelMinutesFromTokyo": 31
     },
     {
       "prefecture": "神奈川県",
@@ -4453,7 +4453,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "神奈川県",
@@ -4476,7 +4476,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "神奈川県",
@@ -4488,7 +4488,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 37
+      "travelMinutesFromTokyo": 24
     },
     {
       "prefecture": "静岡県",
@@ -4500,7 +4500,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 154
+      "travelMinutesFromTokyo": 99
     },
     {
       "prefecture": "静岡県",
@@ -4512,7 +4512,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 131
+      "travelMinutesFromTokyo": 84
     },
     {
       "prefecture": "静岡県",
@@ -4524,7 +4524,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 108
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "静岡県",
@@ -4536,7 +4536,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 113
+      "travelMinutesFromTokyo": 73
     },
     {
       "prefecture": "静岡県",
@@ -4548,7 +4548,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 121
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "静岡県",
@@ -4561,7 +4561,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 130
+      "travelMinutesFromTokyo": 83
     },
     {
       "prefecture": "静岡県",
@@ -4584,7 +4584,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 147
+      "travelMinutesFromTokyo": 94
     },
     {
       "prefecture": "静岡県",
@@ -4596,7 +4596,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 150
+      "travelMinutesFromTokyo": 96
     },
     {
       "prefecture": "静岡県",
@@ -4608,7 +4608,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "静岡県",
@@ -4620,7 +4620,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 136
+      "travelMinutesFromTokyo": 88
     },
     {
       "prefecture": "静岡県",
@@ -4632,7 +4632,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 158
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "静岡県",
@@ -4644,7 +4644,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 157
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "静岡県",
@@ -4656,7 +4656,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 170
+      "travelMinutesFromTokyo": 110
     },
     {
       "prefecture": "静岡県",
@@ -4668,7 +4668,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 125
+      "travelMinutesFromTokyo": 80
     },
     {
       "prefecture": "静岡県",
@@ -4680,7 +4680,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 144
+      "travelMinutesFromTokyo": 93
     },
     {
       "prefecture": "静岡県",
@@ -4693,7 +4693,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 124
+      "travelMinutesFromTokyo": 80
     },
     {
       "prefecture": "静岡県",
@@ -4705,7 +4705,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 147
+      "travelMinutesFromTokyo": 94
     },
     {
       "prefecture": "静岡県",
@@ -4717,7 +4717,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 143
+      "travelMinutesFromTokyo": 92
     },
     {
       "prefecture": "静岡県",
@@ -4730,7 +4730,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 138
+      "travelMinutesFromTokyo": 89
     },
     {
       "prefecture": "静岡県",
@@ -4742,7 +4742,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 157
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "静岡県",
@@ -4754,7 +4754,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 138
+      "travelMinutesFromTokyo": 89
     },
     {
       "prefecture": "静岡県",
@@ -4766,7 +4766,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 167
+      "travelMinutesFromTokyo": 107
     },
     {
       "prefecture": "静岡県",
@@ -4790,7 +4790,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 123
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "静岡県",
@@ -4802,7 +4802,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 132
+      "travelMinutesFromTokyo": 85
     },
     {
       "prefecture": "静岡県",
@@ -4814,7 +4814,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 138
+      "travelMinutesFromTokyo": 89
     },
     {
       "prefecture": "静岡県",
@@ -4826,7 +4826,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 153
+      "travelMinutesFromTokyo": 98
     },
     {
       "prefecture": "静岡県",
@@ -4838,7 +4838,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "静岡県",
@@ -4850,7 +4850,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 160
+      "travelMinutesFromTokyo": 103
     },
     {
       "prefecture": "静岡県",
@@ -4862,7 +4862,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 126
+      "travelMinutesFromTokyo": 81
     },
     {
       "prefecture": "静岡県",
@@ -4874,7 +4874,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "静岡県",
@@ -4887,7 +4887,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "静岡県",
@@ -4899,7 +4899,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 143
+      "travelMinutesFromTokyo": 92
     },
     {
       "prefecture": "静岡県",
@@ -4922,7 +4922,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 134
+      "travelMinutesFromTokyo": 86
     },
     {
       "prefecture": "静岡県",
@@ -4934,7 +4934,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 127
+      "travelMinutesFromTokyo": 81
     },
     {
       "prefecture": "静岡県",
@@ -4957,7 +4957,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "静岡県",
@@ -4969,7 +4969,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 116
+      "travelMinutesFromTokyo": 75
     },
     {
       "prefecture": "静岡県",
@@ -4981,7 +4981,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 128
+      "travelMinutesFromTokyo": 83
     },
     {
       "prefecture": "静岡県",
@@ -4993,7 +4993,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 138
+      "travelMinutesFromTokyo": 89
     },
     {
       "prefecture": "静岡県",
@@ -5006,7 +5006,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 152
+      "travelMinutesFromTokyo": 98
     },
     {
       "prefecture": "静岡県",
@@ -5018,7 +5018,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 151
+      "travelMinutesFromTokyo": 97
     },
     {
       "prefecture": "静岡県",
@@ -5030,7 +5030,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 157
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "静岡県",
@@ -5042,7 +5042,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 154
+      "travelMinutesFromTokyo": 99
     },
     {
       "prefecture": "静岡県",
@@ -5065,7 +5065,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 157
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "静岡県",
@@ -5078,7 +5078,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 157
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "静岡県",
@@ -5090,7 +5090,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 118
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "静岡県",
@@ -5103,7 +5103,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 136
+      "travelMinutesFromTokyo": 88
     },
     {
       "prefecture": "静岡県",
@@ -5115,7 +5115,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 112
+      "travelMinutesFromTokyo": 72
     },
     {
       "prefecture": "静岡県",
@@ -5127,7 +5127,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 168
+      "travelMinutesFromTokyo": 108
     },
     {
       "prefecture": "静岡県",
@@ -5140,7 +5140,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 125
+      "travelMinutesFromTokyo": 80
     },
     {
       "prefecture": "静岡県",
@@ -5152,7 +5152,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 129
+      "travelMinutesFromTokyo": 83
     },
     {
       "prefecture": "静岡県",
@@ -5164,7 +5164,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 131
+      "travelMinutesFromTokyo": 84
     },
     {
       "prefecture": "静岡県",
@@ -5176,7 +5176,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 122
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "静岡県",
@@ -5188,7 +5188,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 139
+      "travelMinutesFromTokyo": 90
     },
     {
       "prefecture": "静岡県",
@@ -5201,7 +5201,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 118
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "静岡県",
@@ -5213,7 +5213,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 166
+      "travelMinutesFromTokyo": 107
     },
     {
       "prefecture": "静岡県",
@@ -5225,7 +5225,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 123
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "静岡県",
@@ -5237,7 +5237,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 113
+      "travelMinutesFromTokyo": 73
     },
     {
       "prefecture": "静岡県",
@@ -5249,7 +5249,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 165
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "静岡県",
@@ -5261,7 +5261,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 177
+      "travelMinutesFromTokyo": 114
     },
     {
       "prefecture": "静岡県",
@@ -5273,7 +5273,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 127
+      "travelMinutesFromTokyo": 82
     },
     {
       "prefecture": "静岡県",
@@ -5285,7 +5285,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 125
+      "travelMinutesFromTokyo": 81
     },
     {
       "prefecture": "静岡県",
@@ -5297,7 +5297,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 119
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "静岡県",
@@ -5309,7 +5309,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 120
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "静岡県",
@@ -5322,7 +5322,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 135
+      "travelMinutesFromTokyo": 87
     },
     {
       "prefecture": "静岡県",
@@ -5334,7 +5334,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 123
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "静岡県",
@@ -5346,7 +5346,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 176
+      "travelMinutesFromTokyo": 113
     },
     {
       "prefecture": "静岡県",
@@ -5358,7 +5358,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 125
+      "travelMinutesFromTokyo": 80
     },
     {
       "prefecture": "千葉県",
@@ -5370,7 +5370,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 93
+      "travelMinutesFromTokyo": 60
     },
     {
       "prefecture": "千葉県",
@@ -5382,7 +5382,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 66
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "千葉県",
@@ -5394,7 +5394,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "千葉県",
@@ -5406,7 +5406,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 37
+      "travelMinutesFromTokyo": 24
     },
     {
       "prefecture": "千葉県",
@@ -5418,7 +5418,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 91
+      "travelMinutesFromTokyo": 59
     },
     {
       "prefecture": "千葉県",
@@ -5430,7 +5430,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 75
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "千葉県",
@@ -5442,7 +5442,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 79
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -5454,7 +5454,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 16
+      "travelMinutesFromTokyo": 11
     },
     {
       "prefecture": "千葉県",
@@ -5466,7 +5466,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "千葉県",
@@ -5479,7 +5479,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 76
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "千葉県",
@@ -5491,7 +5491,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 76
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "千葉県",
@@ -5503,7 +5503,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "千葉県",
@@ -5537,7 +5537,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "千葉県",
@@ -5549,7 +5549,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 93
+      "travelMinutesFromTokyo": 60
     },
     {
       "prefecture": "千葉県",
@@ -5561,7 +5561,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "千葉県",
@@ -5585,7 +5585,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 59
+      "travelMinutesFromTokyo": 38
     },
     {
       "prefecture": "千葉県",
@@ -5598,7 +5598,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "千葉県",
@@ -5610,7 +5610,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 101
+      "travelMinutesFromTokyo": 65
     },
     {
       "prefecture": "千葉県",
@@ -5622,7 +5622,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 64
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "千葉県",
@@ -5634,7 +5634,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 46
+      "travelMinutesFromTokyo": 29
     },
     {
       "prefecture": "千葉県",
@@ -5646,7 +5646,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "千葉県",
@@ -5659,7 +5659,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 79
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -5671,7 +5671,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "千葉県",
@@ -5683,7 +5683,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 72
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "千葉県",
@@ -5695,7 +5695,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 92
+      "travelMinutesFromTokyo": 59
     },
     {
       "prefecture": "千葉県",
@@ -5707,7 +5707,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 80
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -5719,7 +5719,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 48
+      "travelMinutesFromTokyo": 31
     },
     {
       "prefecture": "千葉県",
@@ -5731,7 +5731,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 91
+      "travelMinutesFromTokyo": 58
     },
     {
       "prefecture": "千葉県",
@@ -5743,7 +5743,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -5755,7 +5755,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "千葉県",
@@ -5767,7 +5767,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 37
+      "travelMinutesFromTokyo": 24
     },
     {
       "prefecture": "千葉県",
@@ -5779,7 +5779,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -5791,7 +5791,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "千葉県",
@@ -5803,7 +5803,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 83
+      "travelMinutesFromTokyo": 53
     },
     {
       "prefecture": "千葉県",
@@ -5815,7 +5815,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "千葉県",
@@ -5827,7 +5827,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 75
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "千葉県",
@@ -5839,7 +5839,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 22
+      "travelMinutesFromTokyo": 14
     },
     {
       "prefecture": "千葉県",
@@ -5851,7 +5851,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "千葉県",
@@ -5863,7 +5863,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 48
+      "travelMinutesFromTokyo": 31
     },
     {
       "prefecture": "千葉県",
@@ -5875,7 +5875,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "千葉県",
@@ -5887,7 +5887,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -5899,7 +5899,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 83
+      "travelMinutesFromTokyo": 54
     },
     {
       "prefecture": "千葉県",
@@ -5911,7 +5911,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "千葉県",
@@ -5923,7 +5923,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 55
+      "travelMinutesFromTokyo": 35
     },
     {
       "prefecture": "千葉県",
@@ -5935,7 +5935,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 79
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -5947,7 +5947,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -5959,7 +5959,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 79
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -5971,7 +5971,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 86
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "千葉県",
@@ -5994,7 +5994,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 75
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "千葉県",
@@ -6006,7 +6006,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "千葉県",
@@ -6018,7 +6018,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 30
+      "travelMinutesFromTokyo": 20
     },
     {
       "prefecture": "千葉県",
@@ -6030,7 +6030,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 92
+      "travelMinutesFromTokyo": 59
     },
     {
       "prefecture": "千葉県",
@@ -6042,7 +6042,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 79
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -6054,7 +6054,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 96
+      "travelMinutesFromTokyo": 61
     },
     {
       "prefecture": "千葉県",
@@ -6067,7 +6067,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 46
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "千葉県",
@@ -6079,7 +6079,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 30
+      "travelMinutesFromTokyo": 19
     },
     {
       "prefecture": "千葉県",
@@ -6091,7 +6091,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 32
+      "travelMinutesFromTokyo": 20
     },
     {
       "prefecture": "千葉県",
@@ -6103,7 +6103,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 92
+      "travelMinutesFromTokyo": 59
     },
     {
       "prefecture": "千葉県",
@@ -6115,7 +6115,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 114
+      "travelMinutesFromTokyo": 73
     },
     {
       "prefecture": "千葉県",
@@ -6127,7 +6127,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -6139,7 +6139,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 31
+      "travelMinutesFromTokyo": 20
     },
     {
       "prefecture": "千葉県",
@@ -6151,7 +6151,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -6163,7 +6163,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 78
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "千葉県",
@@ -6175,7 +6175,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 72
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "千葉県",
@@ -6187,7 +6187,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "千葉県",
@@ -6199,7 +6199,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 55
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "千葉県",
@@ -6211,7 +6211,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 66
+      "travelMinutesFromTokyo": 43
     },
     {
       "prefecture": "千葉県",
@@ -6223,7 +6223,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 87
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "千葉県",
@@ -6235,7 +6235,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "千葉県",
@@ -6247,7 +6247,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 19
+      "travelMinutesFromTokyo": 12
     },
     {
       "prefecture": "千葉県",
@@ -6259,7 +6259,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 20
+      "travelMinutesFromTokyo": 13
     },
     {
       "prefecture": "千葉県",
@@ -6271,7 +6271,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 102
+      "travelMinutesFromTokyo": 66
     },
     {
       "prefecture": "千葉県",
@@ -6283,7 +6283,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 43
+      "travelMinutesFromTokyo": 27
     },
     {
       "prefecture": "千葉県",
@@ -6295,7 +6295,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 104
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "千葉県",
@@ -6307,7 +6307,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "千葉県",
@@ -6319,7 +6319,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 83
+      "travelMinutesFromTokyo": 53
     },
     {
       "prefecture": "千葉県",
@@ -6331,7 +6331,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 78
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "千葉県",
@@ -6343,7 +6343,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 53
+      "travelMinutesFromTokyo": 34
     },
     {
       "prefecture": "千葉県",
@@ -6355,7 +6355,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 55
+      "travelMinutesFromTokyo": 35
     },
     {
       "prefecture": "千葉県",
@@ -6367,7 +6367,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "千葉県",
@@ -6379,7 +6379,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "千葉県",
@@ -6402,7 +6402,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 45
+      "travelMinutesFromTokyo": 29
     },
     {
       "prefecture": "千葉県",
@@ -6414,7 +6414,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 46
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "千葉県",
@@ -6426,7 +6426,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -6438,7 +6438,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 82
+      "travelMinutesFromTokyo": 53
     },
     {
       "prefecture": "千葉県",
@@ -6450,7 +6450,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 52
+      "travelMinutesFromTokyo": 34
     },
     {
       "prefecture": "千葉県",
@@ -6462,7 +6462,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 79
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -6474,7 +6474,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 38
+      "travelMinutesFromTokyo": 24
     },
     {
       "prefecture": "千葉県",
@@ -6486,7 +6486,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 97
+      "travelMinutesFromTokyo": 63
     },
     {
       "prefecture": "千葉県",
@@ -6498,7 +6498,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 105
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "千葉県",
@@ -6510,7 +6510,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 106
+      "travelMinutesFromTokyo": 68
     },
     {
       "prefecture": "千葉県",
@@ -6522,7 +6522,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 40
+      "travelMinutesFromTokyo": 25
     },
     {
       "prefecture": "千葉県",
@@ -6534,7 +6534,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "千葉県",
@@ -6547,7 +6547,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -6559,7 +6559,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "千葉県",
@@ -6571,7 +6571,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -6584,7 +6584,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "千葉県",
@@ -6596,7 +6596,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -6608,7 +6608,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -6631,7 +6631,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 87
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "千葉県",
@@ -6644,7 +6644,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 80
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -6656,7 +6656,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 98
+      "travelMinutesFromTokyo": 63
     },
     {
       "prefecture": "千葉県",
@@ -6668,7 +6668,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -6680,7 +6680,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 51
+      "travelMinutesFromTokyo": 33
     },
     {
       "prefecture": "千葉県",
@@ -6692,7 +6692,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "千葉県",
@@ -6715,7 +6715,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 43
+      "travelMinutesFromTokyo": 28
     },
     {
       "prefecture": "千葉県",
@@ -6727,7 +6727,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "千葉県",
@@ -6739,7 +6739,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 67
+      "travelMinutesFromTokyo": 43
     },
     {
       "prefecture": "千葉県",
@@ -6751,7 +6751,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "千葉県",
@@ -6763,7 +6763,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "千葉県",
@@ -6775,7 +6775,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 56
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "千葉県",
@@ -6787,7 +6787,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "千葉県",
@@ -6799,7 +6799,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 50
+      "travelMinutesFromTokyo": 32
     },
     {
       "prefecture": "千葉県",
@@ -6811,7 +6811,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 51
+      "travelMinutesFromTokyo": 33
     },
     {
       "prefecture": "千葉県",
@@ -6824,7 +6824,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 45
+      "travelMinutesFromTokyo": 29
     },
     {
       "prefecture": "千葉県",
@@ -6836,7 +6836,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 78
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "千葉県",
@@ -6870,7 +6870,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 86
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "千葉県",
@@ -6882,7 +6882,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "千葉県",
@@ -6894,7 +6894,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -6906,7 +6906,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "千葉県",
@@ -6918,7 +6918,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 88
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "千葉県",
@@ -6930,7 +6930,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 88
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "千葉県",
@@ -6943,7 +6943,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 105
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "千葉県",
@@ -6955,7 +6955,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "千葉県",
@@ -6967,7 +6967,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 86
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "千葉県",
@@ -6979,7 +6979,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 88
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "千葉県",
@@ -6991,7 +6991,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 73
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -7003,7 +7003,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 44
+      "travelMinutesFromTokyo": 28
     },
     {
       "prefecture": "千葉県",
@@ -7026,7 +7026,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 41
+      "travelMinutesFromTokyo": 27
     },
     {
       "prefecture": "千葉県",
@@ -7038,7 +7038,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 87
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "千葉県",
@@ -7050,7 +7050,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 72
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "千葉県",
@@ -7062,7 +7062,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -7075,7 +7075,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 71
+      "travelMinutesFromTokyo": 46
     },
     {
       "prefecture": "千葉県",
@@ -7087,7 +7087,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 49
+      "travelMinutesFromTokyo": 32
     },
     {
       "prefecture": "千葉県",
@@ -7099,7 +7099,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 70
+      "travelMinutesFromTokyo": 45
     },
     {
       "prefecture": "千葉県",
@@ -7111,7 +7111,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 64
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "千葉県",
@@ -7123,7 +7123,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 76
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "千葉県",
@@ -7135,7 +7135,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 100
+      "travelMinutesFromTokyo": 64
     },
     {
       "prefecture": "千葉県",
@@ -7147,7 +7147,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 50
+      "travelMinutesFromTokyo": 32
     },
     {
       "prefecture": "千葉県",
@@ -7160,7 +7160,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 111
+      "travelMinutesFromTokyo": 71
     },
     {
       "prefecture": "千葉県",
@@ -7172,7 +7172,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -7185,7 +7185,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 41
+      "travelMinutesFromTokyo": 27
     },
     {
       "prefecture": "千葉県",
@@ -7197,7 +7197,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "千葉県",
@@ -7209,7 +7209,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 58
+      "travelMinutesFromTokyo": 37
     },
     {
       "prefecture": "千葉県",
@@ -7221,7 +7221,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 74
+      "travelMinutesFromTokyo": 47
     },
     {
       "prefecture": "千葉県",
@@ -7233,7 +7233,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "千葉県",
@@ -7245,7 +7245,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 37
+      "travelMinutesFromTokyo": 24
     },
     {
       "prefecture": "千葉県",
@@ -7257,7 +7257,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 75
+      "travelMinutesFromTokyo": 48
     },
     {
       "prefecture": "千葉県",
@@ -7269,7 +7269,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 56
+      "travelMinutesFromTokyo": 36
     },
     {
       "prefecture": "千葉県",
@@ -7282,7 +7282,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 62
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "千葉県",
@@ -7294,7 +7294,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 76
+      "travelMinutesFromTokyo": 49
     },
     {
       "prefecture": "千葉県",
@@ -7306,7 +7306,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 52
+      "travelMinutesFromTokyo": 34
     },
     {
       "prefecture": "千葉県",
@@ -7329,7 +7329,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "千葉県",
@@ -7341,7 +7341,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 80
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -7353,7 +7353,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 80
+      "travelMinutesFromTokyo": 51
     },
     {
       "prefecture": "千葉県",
@@ -7365,7 +7365,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 114
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "千葉県",
@@ -7388,7 +7388,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "千葉県",
@@ -7400,7 +7400,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 85
+      "travelMinutesFromTokyo": 55
     },
     {
       "prefecture": "千葉県",
@@ -7412,7 +7412,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 59
+      "travelMinutesFromTokyo": 38
     },
     {
       "prefecture": "千葉県",
@@ -7435,7 +7435,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 87
+      "travelMinutesFromTokyo": 56
     },
     {
       "prefecture": "千葉県",
@@ -7447,7 +7447,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 77
+      "travelMinutesFromTokyo": 50
     },
     {
       "prefecture": "千葉県",
@@ -7459,7 +7459,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "千葉県",
@@ -7471,7 +7471,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 83
+      "travelMinutesFromTokyo": 53
     },
     {
       "prefecture": "千葉県",
@@ -7483,7 +7483,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 46
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "千葉県",
@@ -7495,7 +7495,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 46
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "千葉県",
@@ -7507,7 +7507,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 48
+      "travelMinutesFromTokyo": 31
     },
     {
       "prefecture": "千葉県",
@@ -7519,7 +7519,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 55
+      "travelMinutesFromTokyo": 35
     },
     {
       "prefecture": "千葉県",
@@ -7531,7 +7531,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 37
+      "travelMinutesFromTokyo": 24
     },
     {
       "prefecture": "千葉県",
@@ -7543,7 +7543,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 33
+      "travelMinutesFromTokyo": 21
     },
     {
       "prefecture": "長野県",
@@ -7589,7 +7589,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 176
+      "travelMinutesFromTokyo": 113
     },
     {
       "prefecture": "長野県",
@@ -7634,7 +7634,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 176
+      "travelMinutesFromTokyo": 113
     },
     {
       "prefecture": "長野県",
@@ -7646,7 +7646,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 170
+      "travelMinutesFromTokyo": 109
     },
     {
       "prefecture": "長野県",
@@ -7680,7 +7680,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 20
+      "travelMinutesFromTokyo": 13
     },
     {
       "prefecture": "東京都",
@@ -7692,7 +7692,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 19
+      "travelMinutesFromTokyo": 12
     },
     {
       "prefecture": "東京都",
@@ -7704,7 +7704,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 40
     },
     {
       "prefecture": "東京都",
@@ -7716,7 +7716,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 17
+      "travelMinutesFromTokyo": 11
     },
     {
       "prefecture": "東京都",
@@ -7728,7 +7728,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 45
+      "travelMinutesFromTokyo": 29
     },
     {
       "prefecture": "東京都",
@@ -7751,7 +7751,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 23
+      "travelMinutesFromTokyo": 15
     },
     {
       "prefecture": "東京都",
@@ -7775,7 +7775,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 13
+      "travelMinutesFromTokyo": 8
     },
     {
       "prefecture": "東京都",
@@ -7787,7 +7787,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 25
+      "travelMinutesFromTokyo": 16
     },
     {
       "prefecture": "東京都",
@@ -7799,7 +7799,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 25
+      "travelMinutesFromTokyo": 16
     },
     {
       "prefecture": "東京都",
@@ -7822,7 +7822,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 38
+      "travelMinutesFromTokyo": 25
     },
     {
       "prefecture": "東京都",
@@ -7835,7 +7835,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 13
+      "travelMinutesFromTokyo": 8
     },
     {
       "prefecture": "東京都",
@@ -7848,7 +7848,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 34
+      "travelMinutesFromTokyo": 22
     },
     {
       "prefecture": "東京都",
@@ -7871,7 +7871,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 16
+      "travelMinutesFromTokyo": 10
     },
     {
       "prefecture": "東京都",
@@ -7884,7 +7884,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 16
+      "travelMinutesFromTokyo": 10
     },
     {
       "prefecture": "東京都",
@@ -7896,7 +7896,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 21
+      "travelMinutesFromTokyo": 14
     },
     {
       "prefecture": "東京都",
@@ -7908,7 +7908,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 63
+      "travelMinutesFromTokyo": 41
     },
     {
       "prefecture": "東京都",
@@ -7920,7 +7920,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 65
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "東京都",
@@ -7932,7 +7932,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 58
+      "travelMinutesFromTokyo": 37
     },
     {
       "prefecture": "東京都",
@@ -7944,7 +7944,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 61
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "東京都",
@@ -7956,7 +7956,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 19
+      "travelMinutesFromTokyo": 13
     },
     {
       "prefecture": "東京都",
@@ -7968,7 +7968,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 17
+      "travelMinutesFromTokyo": 11
     },
     {
       "prefecture": "東京都",
@@ -7981,7 +7981,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 37
+      "travelMinutesFromTokyo": 24
     },
     {
       "prefecture": "東京都",
@@ -8004,7 +8004,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 147
+      "travelMinutesFromTokyo": 95
     },
     {
       "prefecture": "東京都",
@@ -8027,7 +8027,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 66
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "東京都",
@@ -8040,7 +8040,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 35
+      "travelMinutesFromTokyo": 22
     },
     {
       "prefecture": "東京都",
@@ -8052,7 +8052,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 66
+      "travelMinutesFromTokyo": 42
     },
     {
       "prefecture": "東京都",
@@ -8064,7 +8064,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 46
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "東京都",
@@ -8076,7 +8076,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 59
+      "travelMinutesFromTokyo": 38
     },
     {
       "prefecture": "東京都",
@@ -8088,7 +8088,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 13
+      "travelMinutesFromTokyo": 9
     },
     {
       "prefecture": "東京都",
@@ -8100,7 +8100,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 45
+      "travelMinutesFromTokyo": 29
     },
     {
       "prefecture": "東京都",
@@ -8113,7 +8113,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "東京都",
@@ -8125,7 +8125,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 69
+      "travelMinutesFromTokyo": 44
     },
     {
       "prefecture": "東京都",
@@ -8138,7 +8138,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 47
+      "travelMinutesFromTokyo": 30
     },
     {
       "prefecture": "東京都",
@@ -8151,7 +8151,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 58
+      "travelMinutesFromTokyo": 38
     },
     {
       "prefecture": "東京都",
@@ -8163,7 +8163,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 60
+      "travelMinutesFromTokyo": 39
     },
     {
       "prefecture": "東京都",
@@ -8175,7 +8175,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 37
+      "travelMinutesFromTokyo": 24
     },
     {
       "prefecture": "栃木県",
@@ -8187,7 +8187,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 175
+      "travelMinutesFromTokyo": 112
     },
     {
       "prefecture": "栃木県",
@@ -8199,7 +8199,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 148
+      "travelMinutesFromTokyo": 95
     },
     {
       "prefecture": "栃木県",
@@ -8233,7 +8233,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 92
+      "travelMinutesFromTokyo": 59
     },
     {
       "prefecture": "栃木県",
@@ -8245,7 +8245,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 115
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "栃木県",
@@ -8257,7 +8257,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 110
+      "travelMinutesFromTokyo": 71
     },
     {
       "prefecture": "栃木県",
@@ -8269,7 +8269,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 117
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "栃木県",
@@ -8282,7 +8282,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 121
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "栃木県",
@@ -8294,7 +8294,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 153
+      "travelMinutesFromTokyo": 98
     },
     {
       "prefecture": "栃木県",
@@ -8306,7 +8306,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 158
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "栃木県",
@@ -8318,7 +8318,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 107
+      "travelMinutesFromTokyo": 69
     },
     {
       "prefecture": "栃木県",
@@ -8330,7 +8330,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 150
+      "travelMinutesFromTokyo": 96
     },
     {
       "prefecture": "栃木県",
@@ -8342,7 +8342,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 109
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "栃木県",
@@ -8354,7 +8354,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 118
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "栃木県",
@@ -8366,7 +8366,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 119
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "栃木県",
@@ -8378,7 +8378,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 149
+      "travelMinutesFromTokyo": 96
     },
     {
       "prefecture": "栃木県",
@@ -8390,7 +8390,7 @@
         "osm"
       ],
       "status": "error",
-      "travelMinutesFromTokyo": 114,
+      "travelMinutesFromTokyo": 74,
       "errorReason": "Not a golf course or location mismatch"
     },
     {
@@ -8403,7 +8403,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 113
+      "travelMinutesFromTokyo": 72
     },
     {
       "prefecture": "栃木県",
@@ -8415,7 +8415,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 115
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "栃木県",
@@ -8427,7 +8427,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 145
+      "travelMinutesFromTokyo": 93
     },
     {
       "prefecture": "栃木県",
@@ -8439,7 +8439,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 152
+      "travelMinutesFromTokyo": 98
     },
     {
       "prefecture": "栃木県",
@@ -8451,7 +8451,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 153
+      "travelMinutesFromTokyo": 99
     },
     {
       "prefecture": "栃木県",
@@ -8463,7 +8463,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 170
+      "travelMinutesFromTokyo": 109
     },
     {
       "prefecture": "栃木県",
@@ -8475,7 +8475,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 116
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "栃木県",
@@ -8487,7 +8487,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 141
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "栃木県",
@@ -8510,7 +8510,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 122
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "栃木県",
@@ -8533,7 +8533,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 177
+      "travelMinutesFromTokyo": 114
     },
     {
       "prefecture": "栃木県",
@@ -8545,7 +8545,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 149
+      "travelMinutesFromTokyo": 96
     },
     {
       "prefecture": "栃木県",
@@ -8557,7 +8557,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 122
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "栃木県",
@@ -8580,7 +8580,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 160
+      "travelMinutesFromTokyo": 103
     },
     {
       "prefecture": "栃木県",
@@ -8603,7 +8603,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 159
+      "travelMinutesFromTokyo": 102
     },
     {
       "prefecture": "栃木県",
@@ -8615,7 +8615,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 93
+      "travelMinutesFromTokyo": 60
     },
     {
       "prefecture": "栃木県",
@@ -8628,7 +8628,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 118
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "栃木県",
@@ -8640,7 +8640,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 168
+      "travelMinutesFromTokyo": 108
     },
     {
       "prefecture": "栃木県",
@@ -8652,7 +8652,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 134
+      "travelMinutesFromTokyo": 86
     },
     {
       "prefecture": "栃木県",
@@ -8675,7 +8675,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 144
+      "travelMinutesFromTokyo": 93
     },
     {
       "prefecture": "栃木県",
@@ -8687,7 +8687,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 161
+      "travelMinutesFromTokyo": 104
     },
     {
       "prefecture": "栃木県",
@@ -8699,7 +8699,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 110
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "栃木県",
@@ -8711,7 +8711,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 148
+      "travelMinutesFromTokyo": 95
     },
     {
       "prefecture": "栃木県",
@@ -8723,7 +8723,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 166
+      "travelMinutesFromTokyo": 107
     },
     {
       "prefecture": "栃木県",
@@ -8735,7 +8735,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 157
+      "travelMinutesFromTokyo": 101
     },
     {
       "prefecture": "栃木県",
@@ -8747,7 +8747,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 144
+      "travelMinutesFromTokyo": 93
     },
     {
       "prefecture": "栃木県",
@@ -8759,7 +8759,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 167
+      "travelMinutesFromTokyo": 107
     },
     {
       "prefecture": "栃木県",
@@ -8782,7 +8782,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 130
+      "travelMinutesFromTokyo": 84
     },
     {
       "prefecture": "栃木県",
@@ -8794,7 +8794,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 135
+      "travelMinutesFromTokyo": 87
     },
     {
       "prefecture": "栃木県",
@@ -8806,7 +8806,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 113
+      "travelMinutesFromTokyo": 72
     },
     {
       "prefecture": "栃木県",
@@ -8818,7 +8818,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 142
+      "travelMinutesFromTokyo": 91
     },
     {
       "prefecture": "栃木県",
@@ -8830,7 +8830,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 107
+      "travelMinutesFromTokyo": 69
     },
     {
       "prefecture": "栃木県",
@@ -8842,7 +8842,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 172
+      "travelMinutesFromTokyo": 110
     },
     {
       "prefecture": "栃木県",
@@ -8854,7 +8854,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 131
+      "travelMinutesFromTokyo": 84
     },
     {
       "prefecture": "栃木県",
@@ -8866,7 +8866,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 170
+      "travelMinutesFromTokyo": 109
     },
     {
       "prefecture": "栃木県",
@@ -8878,7 +8878,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 129
+      "travelMinutesFromTokyo": 83
     },
     {
       "prefecture": "栃木県",
@@ -8890,7 +8890,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 81
+      "travelMinutesFromTokyo": 52
     },
     {
       "prefecture": "栃木県",
@@ -8902,7 +8902,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 140
+      "travelMinutesFromTokyo": 90
     },
     {
       "prefecture": "栃木県",
@@ -8914,7 +8914,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 110
+      "travelMinutesFromTokyo": 71
     },
     {
       "prefecture": "栃木県",
@@ -8926,7 +8926,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 135
+      "travelMinutesFromTokyo": 87
     },
     {
       "prefecture": "栃木県",
@@ -8938,7 +8938,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 116
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "栃木県",
@@ -8950,7 +8950,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 132
+      "travelMinutesFromTokyo": 85
     },
     {
       "prefecture": "栃木県",
@@ -8962,7 +8962,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 129
+      "travelMinutesFromTokyo": 83
     },
     {
       "prefecture": "栃木県",
@@ -8974,7 +8974,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 127
+      "travelMinutesFromTokyo": 82
     },
     {
       "prefecture": "栃木県",
@@ -8997,7 +8997,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 143
+      "travelMinutesFromTokyo": 92
     },
     {
       "prefecture": "栃木県",
@@ -9009,7 +9009,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 99
+      "travelMinutesFromTokyo": 64
     },
     {
       "prefecture": "栃木県",
@@ -9022,7 +9022,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 103
+      "travelMinutesFromTokyo": 66
     },
     {
       "prefecture": "栃木県",
@@ -9034,7 +9034,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 121
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "栃木県",
@@ -9046,7 +9046,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 154
+      "travelMinutesFromTokyo": 99
     },
     {
       "prefecture": "栃木県",
@@ -9058,7 +9058,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 150
+      "travelMinutesFromTokyo": 96
     },
     {
       "prefecture": "栃木県",
@@ -9070,7 +9070,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 124
+      "travelMinutesFromTokyo": 80
     },
     {
       "prefecture": "栃木県",
@@ -9082,7 +9082,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 121
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "栃木県",
@@ -9094,7 +9094,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 165
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "栃木県",
@@ -9106,7 +9106,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 119
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "栃木県",
@@ -9118,7 +9118,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 177
+      "travelMinutesFromTokyo": 114
     },
     {
       "prefecture": "栃木県",
@@ -9141,7 +9141,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 133
+      "travelMinutesFromTokyo": 85
     },
     {
       "prefecture": "栃木県",
@@ -9153,7 +9153,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 117
+      "travelMinutesFromTokyo": 75
     },
     {
       "prefecture": "栃木県",
@@ -9165,7 +9165,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 104
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "栃木県",
@@ -9177,7 +9177,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 136
+      "travelMinutesFromTokyo": 87
     },
     {
       "prefecture": "栃木県",
@@ -9189,7 +9189,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 118
+      "travelMinutesFromTokyo": 76
     },
     {
       "prefecture": "栃木県",
@@ -9201,7 +9201,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 153
+      "travelMinutesFromTokyo": 99
     },
     {
       "prefecture": "栃木県",
@@ -9213,7 +9213,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 123
+      "travelMinutesFromTokyo": 79
     },
     {
       "prefecture": "栃木県",
@@ -9225,7 +9225,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 170
+      "travelMinutesFromTokyo": 109
     },
     {
       "prefecture": "栃木県",
@@ -9237,7 +9237,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 108
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "栃木県",
@@ -9249,7 +9249,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 127
+      "travelMinutesFromTokyo": 81
     },
     {
       "prefecture": "栃木県",
@@ -9261,7 +9261,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 147
+      "travelMinutesFromTokyo": 95
     },
     {
       "prefecture": "栃木県",
@@ -9273,7 +9273,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 89
+      "travelMinutesFromTokyo": 57
     },
     {
       "prefecture": "栃木県",
@@ -9285,7 +9285,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 120
+      "travelMinutesFromTokyo": 77
     },
     {
       "prefecture": "栃木県",
@@ -9297,7 +9297,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 116
+      "travelMinutesFromTokyo": 75
     },
     {
       "prefecture": "栃木県",
@@ -9309,7 +9309,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 104
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "栃木県",
@@ -9321,7 +9321,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 137
+      "travelMinutesFromTokyo": 88
     },
     {
       "prefecture": "栃木県",
@@ -9333,7 +9333,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 156
+      "travelMinutesFromTokyo": 100
     },
     {
       "prefecture": "栃木県",
@@ -9345,7 +9345,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 105
+      "travelMinutesFromTokyo": 67
     },
     {
       "prefecture": "栃木県",
@@ -9357,7 +9357,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 121
+      "travelMinutesFromTokyo": 78
     },
     {
       "prefecture": "栃木県",
@@ -9369,7 +9369,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 97
+      "travelMinutesFromTokyo": 62
     },
     {
       "prefecture": "栃木県",
@@ -9381,7 +9381,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 110
+      "travelMinutesFromTokyo": 71
     },
     {
       "prefecture": "栃木県",
@@ -9394,7 +9394,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 109
+      "travelMinutesFromTokyo": 70
     },
     {
       "prefecture": "栃木県",
@@ -9406,7 +9406,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 115
+      "travelMinutesFromTokyo": 74
     },
     {
       "prefecture": "栃木県",
@@ -9418,7 +9418,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 150
+      "travelMinutesFromTokyo": 97
     },
     {
       "prefecture": "栃木県",
@@ -9430,7 +9430,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 171
+      "travelMinutesFromTokyo": 110
     },
     {
       "prefecture": "栃木県",
@@ -9442,7 +9442,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 129
+      "travelMinutesFromTokyo": 83
     },
     {
       "prefecture": "栃木県",
@@ -9454,7 +9454,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 132
+      "travelMinutesFromTokyo": 85
     },
     {
       "prefecture": "栃木県",
@@ -9467,7 +9467,7 @@
         "wikipedia"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 166
+      "travelMinutesFromTokyo": 107
     },
     {
       "prefecture": "栃木県",
@@ -9479,7 +9479,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 164
+      "travelMinutesFromTokyo": 106
     },
     {
       "prefecture": "栃木県",
@@ -9491,7 +9491,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 173
+      "travelMinutesFromTokyo": 111
     },
     {
       "prefecture": "栃木県",
@@ -9503,7 +9503,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 180
+      "travelMinutesFromTokyo": 115
     },
     {
       "prefecture": "栃木県",
@@ -9515,7 +9515,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 128
+      "travelMinutesFromTokyo": 82
     },
     {
       "prefecture": "栃木県",
@@ -9527,7 +9527,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 162
+      "travelMinutesFromTokyo": 104
     },
     {
       "prefecture": "栃木県",
@@ -9539,7 +9539,7 @@
         "osm"
       ],
       "status": "pending",
-      "travelMinutesFromTokyo": 138
+      "travelMinutesFromTokyo": 88
     },
     {
       "prefecture": "福島県",

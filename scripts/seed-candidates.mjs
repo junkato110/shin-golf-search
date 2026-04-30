@@ -150,7 +150,7 @@ for (const pref of PREFECTURES) {
 }
 
 // 東京駅から車3時間以内 (推定 180分以内) でフィルタ
-// 道路係数 1.4 + 平均60km/h → 直線約 130km 以内
+// 道路係数 1.2 + 平均80km/h (ほぼ渋滞しない想定) → 直線約 200km 以内
 const TOKYO = { lat: 35.6812, lng: 139.7671 };
 const MAX_MINUTES = 180;
 function haversineKm(a, b) {
@@ -164,7 +164,7 @@ function haversineKm(a, b) {
   return 2 * R * Math.asin(Math.sqrt(h));
 }
 function estimateMinutes(a, b) {
-  return Math.round(((haversineKm(a, b) * 1.4) / 60) * 60);
+  return Math.round(((haversineKm(a, b) * 1.2) / 80) * 60);
 }
 
 const all = Array.from(merged.values());
