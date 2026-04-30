@@ -140,23 +140,13 @@ courses.json に既に同名のコースがあればスキップ (status を "ad
   - 標高低め+起伏あり、明確な「林間」の表現がない → "丘陵"
   - 河川敷の名前 (「○○リバーサイド」「江戸川○○」等) → "河川敷"
 
-#### customImagePrompt の書き方 — **実物写真ベース**
+#### 画像は AI 生成しない — 公式 og:image を使う
 
-「想像で書く」のではなく、**実際にそのコースの写真を観察してから書く**。
+**重要な変更**: 体感スコアと実物写真の乖離を避けるため、**AI 画像生成 (Pollinations) は廃止**。代わりに `node scripts/scrape-course-images.mjs <id>` を使って sources にある公式・予約サイトの og:image を取得して `imageUrl` を設定する。
 
-**手順 (必須):**
-
-1. `WebSearch` で `<コース名> 名物ホール` `<コース名> コースガイド` `<コース名> クラブハウス 外観` などのクエリで画像を含むページを探す
-2. 楽天GORA・GDO・公式サイトの「コース紹介」「コースガイド」ページを `WebFetch` で取得 (画像 URL や写真ありのページを含むもの)
-3. 可能なら直接の画像 URL を `WebFetch` する (画像はマルチモーダルで認識可能)
-4. 観察できた特徴 — 例: 「フェアウェイ右に池あり」「グリーン手前にクロスバンカー2つ」「クラブハウスは2階建て白壁の和洋折衷」 — を**忠実に**英語で描写
-
-**【厳守ルール】**
-- **最低 200文字 (英語) 以上**
-- **観察できなかった要素は書かない** (想像で松林とか盛らない)
-- ホールタイプ (par-N) + 地形 + 障害物 + 周辺植生 + 遠景 + ライティング — 観察できた範囲で
-- **テキスト・人物・看板は含めない** (BASE_STYLE が後ろに付くので不要)
-- 写真が見つからない場合は `customImagePrompt` を **短い汎用文に逃げず**、公式説明から推測した最低限の描写 + ライティングだけ書く
+- 各コース 1枚 (コースイメージのみ、クラブハウスは廃止)
+- `customImagePrompt` / `additionalImages` フィールドは新規コースで設定する必要なし (互換のため空配列で OK)
+- スクレイピングで取得した `imageSourceUrl` (画像の実 URL) と `imageSourcePage` (取得元ページ) も自動で記録される
 
 良い例 (約 350 文字):
 
@@ -218,24 +208,20 @@ ID は連番。例: 既存の最大が `course_005` なら `course_006` から�
 { "name": "...", "status": "error", "errorReason": "公式サイトが見つからない" }
 ```
 
-### 6. 画像生成
-
-**Anthropic Cloud から実行する場合は必ず IMAGE_API_BASE を指定する** (Pollinations が cloud IP をブロックするため、Vercel proxy 経由にする):
+### 6. 画像取得 (og:image スクレイピング)
 
 ```bash
-IMAGE_API_BASE=https://shin-golf-search.vercel.app/api/gen-image node scripts/fix-missing-images.mjs
+node scripts/scrape-course-images.mjs
 ```
 
-ローカル実行時は環境変数なしで OK (Pollinations 直アクセス):
+- `src/data/courses.json` の各コースについて、`sources` にある公式サイト・楽天GORA・GDO・ALBA・jalan・homemate-golf 等から og:image を取得
+- 1パス目は厳しめ (600x300+) で取得、失敗したコースは 2パス目で 緩め (400x300+)
+- 取得した画像は `public/images/<id>.<ext>` (jpg/png/webp) に保存
+- `imageUrl`, `imageSourceUrl`, `imageSourcePage` を courses.json に書き戻す
+- ファビコン・ロゴらしき URL (logo/favicon/sprite/avatar) は除外
+- JPEG/PNG/WebP マジックバイト検査で不正レスポンスを除去
 
-```bash
-node scripts/fix-missing-images.mjs
-```
-
-これで `imageUrl` で参照されるが実体ファイルが存在しない/壊れているコースの画像が生成される。
-1コース 2枚 (名物ホール + クラブハウス) で、合計 ~30秒〜2分。
-script は JPEG/PNG マジックバイトを検査するため、エラー応答ファイル (例: "Host not in allowlist") が混入することはない。
-失敗したコースは `imageUrl` が空のまま残るが、それは許容 (次回の routine で再試行)。
+`--force` で既存画像も上書き。`<id>` 指定で 1件だけ実行可能。
 
 ### 7. 検証
 

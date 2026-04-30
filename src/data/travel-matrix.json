@@ -1,0 +1,6 @@
+{
+  "note": "自宅 → 各コースID への所要時間 (分)。OSRM table API、driving プロファイル、free-flow time。build-travel-matrix.mjs で生成。",
+  "computedAt": "2026-04-30T00:00:00.000Z",
+  "courseIds": [],
+  "matrix": {}
+}

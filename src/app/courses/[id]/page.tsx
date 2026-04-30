@@ -99,39 +99,19 @@ export default async function CoursePage({
       </header>
 
       {course.imageUrl && (
-        <div className="w-full bg-neutral-100 grid grid-cols-1 md:grid-cols-2 gap-1 md:h-[220px] lg:h-[260px]">
-          {/* メイン: 名物ホール (モバイルではこの1枚のみ表示) */}
-          <div className="relative overflow-hidden aspect-[16/6] sm:aspect-[16/7] md:aspect-auto md:h-full">
+        <div className="w-full bg-neutral-100">
+          <div className="relative overflow-hidden aspect-[16/6] sm:aspect-[16/7] md:aspect-[16/5] lg:aspect-[16/4.5] max-h-[420px]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={course.imageUrl}
-              alt={`${course.name} 名物ホール`}
+              alt={`${course.name} コースイメージ`}
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
             <span className="absolute bottom-2 left-3 sm:bottom-3 sm:left-4 text-[10px] sm:text-[11px] tracking-[0.2em] text-white font-medium font-display uppercase">
-              Signature Hole
+              Course Image
             </span>
           </div>
-          {/* サブ: クラブハウス外観 (md 以上で表示) */}
-          {course.additionalImages?.[0] && (
-            <div className="hidden md:block relative overflow-hidden md:h-full">
-              {course.additionalImages[0].url ? (
-                /* eslint-disable-next-line @next/next/no-img-element */
-                <img
-                  src={course.additionalImages[0].url}
-                  alt={`${course.name} ${course.additionalImages[0].label}`}
-                  className="w-full h-full object-cover"
-                />
-              ) : (
-                <div className="w-full h-full bg-neutral-200" />
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
-              <span className="absolute bottom-3 left-4 text-[11px] tracking-[0.2em] text-white font-medium font-display uppercase">
-                Club House
-              </span>
-            </div>
-          )}
         </div>
       )}
 

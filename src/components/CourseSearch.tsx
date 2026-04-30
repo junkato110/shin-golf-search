@@ -9,6 +9,7 @@ import type {
   MunicipalitiesData,
 } from "@/types";
 import municipalitiesData from "@/data/municipalities.json";
+import travelMatrixData from "@/data/travel-matrix.json";
 import { estimateDriveMinutes, formatTravelTime } from "@/lib/distance";
 import FavoriteButton from "./FavoriteButton";
 
@@ -199,7 +200,15 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
   // 各コースに自宅からの所要時間を付与
   const coursesWithTravel = useMemo(() => {
     return courses.map((c) => {
-      if (home && c.lat != null && c.lng != null) {
+      if (!home) return { ...c, travelMinutesFromHome: undefined };
+      // 1. travel-matrix.json (OSRM 実ルート) を優先
+      const key = `${home.prefecture}|${home.name}`;
+      const matrixMinutes = travelMatrixData?.matrix?.[key]?.[c.id];
+      if (typeof matrixMinutes === "number") {
+        return { ...c, travelMinutesFromHome: matrixMinutes };
+      }
+      // 2. フォールバック: haversine 簡易式
+      if (c.lat != null && c.lng != null) {
         const minutes = estimateDriveMinutes(home, { lat: c.lat, lng: c.lng });
         return { ...c, travelMinutesFromHome: minutes };
       }
