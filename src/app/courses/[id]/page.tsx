@@ -207,7 +207,16 @@ export default async function CoursePage({
                   : "カート道のみ"
               }
             />
-            <Stat label="お風呂" value={course.hasBath ? "あり" : "なし"} />
+            <Stat
+              label="お風呂"
+              value={
+                !course.hasBath
+                  ? "なし"
+                  : (course.scores?.onsen ?? 0) >= 1
+                  ? "温泉あり"
+                  : "大浴場あり"
+              }
+            />
             <Stat label="キャディ" value={course.caddyType ?? "—"} />
             <Stat label="コース形態" value={course.courseLayout ?? "—"} />
             <Stat label="ドレスコード" value={course.dressCode ?? "—"} />
