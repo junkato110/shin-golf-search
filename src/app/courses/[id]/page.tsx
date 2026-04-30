@@ -43,7 +43,7 @@ const SCORE_AXES: ScoreAxisDef[] = [
   { key: "summerCool", label: "夏の涼しさ", low: "暑い", high: "涼しい" },
   { key: "winterWarm", label: "冬の温かさ", low: "寒い", high: "温かい" },
   { key: "windShelter", label: "風の影響", low: "風強い", high: "影響少" },
-  { key: "scenicView", label: "絶景度", low: "並", high: "絶景" },
+  { key: "scenicView", label: "絶景度", low: "並", high: "絶景コースあり" },
   { key: "womenFriendly", label: "女性向け", low: "並", high: "充実" },
   { key: "seniorFriendly", label: "シニア向け", low: "並", high: "歩きやすい" },
 ];
@@ -285,7 +285,7 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
         {axis.label}
       </p>
       <div className="flex items-center gap-2.5">
-        <span className="text-[10px] text-[var(--color-ink-subtle)] w-14 text-right shrink-0 tracking-wide">
+        <span className="text-[10px] text-[var(--color-ink-subtle)] w-16 text-right shrink-0 tracking-wide whitespace-nowrap">
           {axis.low}
         </span>
         <div className="flex gap-1 flex-1 min-w-0">
@@ -300,7 +300,7 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
           ))}
         </div>
         <span
-          className={`text-[10px] w-14 shrink-0 tracking-wide ${
+          className={`text-[10px] w-24 shrink-0 tracking-wide whitespace-nowrap ${
             isMax
               ? "text-[var(--color-accent)] font-semibold"
               : "text-[var(--color-ink-subtle)]"
