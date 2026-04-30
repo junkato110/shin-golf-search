@@ -6,6 +6,7 @@ import { getReservationLinks } from "@/lib/reservationLinks";
 import { formatTravelTime } from "@/lib/distance";
 import FavoriteButton from "@/components/FavoriteButton";
 import HeaderFavoritesLink from "@/components/HeaderFavoritesLink";
+import ShareButtons from "@/components/ShareButtons";
 import type { CourseScores } from "@/types";
 
 export async function generateStaticParams() {
@@ -317,6 +318,8 @@ export default async function CoursePage({
             </p>
           )}
         </section>
+
+        <ShareButtons courseName={course.name} />
 
         {/* 補足リンク */}
         <section className="mb-10 pt-6 border-t border-[var(--color-line)] flex flex-col sm:flex-row gap-4 justify-between text-xs text-[var(--color-ink-subtle)]">
