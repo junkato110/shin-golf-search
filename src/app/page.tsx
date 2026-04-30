@@ -12,16 +12,16 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-[var(--color-bg)]">
       {/* 上部ヘッダー (固定/白基調) */}
       <header className="border-b border-[var(--color-line)] bg-white sticky top-0 z-30">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
-          <Link href="/" className="flex items-baseline gap-3">
-            <span className="font-serif text-2xl sm:text-3xl text-[var(--color-navy)]" style={{ fontWeight: 700, letterSpacing: "0.08em" }}>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
+          <Link href="/" className="flex items-baseline gap-3 min-w-0">
+            <span className="font-serif text-xl sm:text-2xl md:text-3xl text-[var(--color-navy)] whitespace-nowrap" style={{ fontWeight: 700, letterSpacing: "0.06em" }}>
               シン・ゴルフサーチ
             </span>
-            <span className="font-display text-lg sm:text-xl text-[var(--color-navy)] uppercase tracking-[0.2em]" style={{ fontWeight: 500 }}>
+            <span className="hidden md:inline font-display text-lg md:text-xl text-[var(--color-navy)] uppercase tracking-[0.2em] whitespace-nowrap" style={{ fontWeight: 500 }}>
               ーSHIN・GOLF SEARCHー
             </span>
           </Link>
-          <nav className="hidden sm:flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)]">
+          <nav className="flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)] shrink-0">
             <HeaderFavoritesLink />
           </nav>
         </div>
@@ -41,13 +41,15 @@ export default function Home() {
           </div>
         )}
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
-          <h1 className="font-serif text-2xl sm:text-3xl leading-snug max-w-4xl" style={{ fontWeight: 700, letterSpacing: "0.06em" }}>
+          <h1 className="font-serif text-xl sm:text-2xl md:text-3xl leading-snug max-w-4xl" style={{ fontWeight: 700, letterSpacing: "0.04em" }}>
             都心から車で3時間以内特化
             <br />
-            <span className="text-[var(--color-accent)]">&ldquo;かゆいところに手が届く&rdquo;</span>{" "}
+            <span className="text-[var(--color-accent)]">&ldquo;かゆいところに手が届く&rdquo;</span>
+            <br className="sm:hidden" />
+            <span className="hidden sm:inline">{" "}</span>
             「新時代のゴルフ場検索サイト」
           </h1>
-          <p className="text-sm text-white/75 mt-4 leading-relaxed whitespace-nowrap overflow-x-auto">
+          <p className="text-xs sm:text-sm text-white/75 mt-4 leading-relaxed sm:whitespace-nowrap">
             マナーの厳格さ、難易度、フェアウェイの広さ、ご飯の美味しさ etc…
             <br />
             今までの予約サイトでは絞れなかった「体感スコア」で、あなたの本当に探しているベストコースを探せます

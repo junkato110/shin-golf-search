@@ -14,24 +14,25 @@ export default function FavoritesPage() {
   return (
     <div className="min-h-screen flex flex-col bg-[var(--color-bg)]">
       <header className="border-b border-[var(--color-line)] bg-white sticky top-0 z-30">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
-          <Link href="/" className="flex items-baseline gap-3">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
+          <Link href="/" className="flex items-baseline gap-3 min-w-0">
             <span
-              className="font-serif text-2xl sm:text-3xl text-[var(--color-navy)]"
-              style={{ fontWeight: 700, letterSpacing: "0.08em" }}
+              className="font-serif text-xl sm:text-2xl md:text-3xl text-[var(--color-navy)] whitespace-nowrap"
+              style={{ fontWeight: 700, letterSpacing: "0.06em" }}
             >
               シン・ゴルフサーチ
             </span>
             <span
-              className="font-display text-lg sm:text-xl text-[var(--color-navy)] uppercase tracking-[0.2em]"
+              className="hidden md:inline font-display text-lg md:text-xl text-[var(--color-navy)] uppercase tracking-[0.2em] whitespace-nowrap"
               style={{ fontWeight: 500 }}
             >
               ーSHIN・GOLF SEARCHー
             </span>
           </Link>
-          <nav className="hidden sm:flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)]">
-            <Link href="/" className="hover:text-[var(--color-navy)]">
-              ← 検索に戻る
+          <nav className="flex items-center gap-4 sm:gap-6 text-xs tracking-wider text-[var(--color-ink-muted)] shrink-0">
+            <Link href="/" className="hover:text-[var(--color-navy)] whitespace-nowrap">
+              <span className="hidden sm:inline">← 検索に戻る</span>
+              <span className="sm:hidden">← 戻る</span>
             </Link>
             <HeaderFavoritesLink />
           </nav>
