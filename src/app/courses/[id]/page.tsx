@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { getCourseById, getAllCourses } from "@/lib/getCourses";
 import { getReservationLinks } from "@/lib/reservationLinks";
 import { formatTravelTime } from "@/lib/distance";
+import FavoriteButton from "@/components/FavoriteButton";
+import HeaderFavoritesLink from "@/components/HeaderFavoritesLink";
 import type { CourseScores } from "@/types";
 
 export async function generateStaticParams() {
@@ -75,12 +77,12 @@ export default async function CoursePage({
               Shin Golf Search
             </span>
           </Link>
-          <Link
-            href="/"
-            className="text-xs text-[var(--color-ink-muted)] hover:text-[var(--color-navy)] tracking-wider"
-          >
-            ← 検索に戻る
-          </Link>
+          <nav className="hidden sm:flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)]">
+            <Link href="/" className="hover:text-[var(--color-navy)]">
+              ← 検索に戻る
+            </Link>
+            <HeaderFavoritesLink />
+          </nav>
         </div>
       </header>
 
@@ -126,12 +128,17 @@ export default async function CoursePage({
           <p className="font-display text-xs text-[var(--color-accent)] tracking-[0.3em] uppercase mb-2">
             Course Detail
           </p>
-          <h1
-            className="font-serif text-2xl sm:text-3xl text-[var(--color-navy)] leading-snug"
-            style={{ fontWeight: 700, letterSpacing: "0.04em" }}
-          >
-            {course.name}
-          </h1>
+          <div className="flex items-start justify-between gap-4">
+            <h1
+              className="font-serif text-2xl sm:text-3xl text-[var(--color-navy)] leading-snug"
+              style={{ fontWeight: 700, letterSpacing: "0.04em" }}
+            >
+              {course.name}
+            </h1>
+            <div className="shrink-0">
+              <FavoriteButton courseId={course.id} variant="inline" size="lg" />
+            </div>
+          </div>
           {course.nameKana && (
             <p className="text-xs text-[var(--color-ink-subtle)] mt-2 tracking-wide">
               {course.nameKana}

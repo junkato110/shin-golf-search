@@ -10,6 +10,7 @@ import type {
 } from "@/types";
 import municipalitiesData from "@/data/municipalities.json";
 import { estimateDriveMinutes, formatTravelTime } from "@/lib/distance";
+import FavoriteButton from "./FavoriteButton";
 
 const TRAVEL_OPTIONS = [
   { label: "30分以内", value: 30 },
@@ -453,7 +454,8 @@ function CourseCard({
   if (course.totalYardage) specs.push({ label: "距離", value: `${course.totalYardage} yd` });
 
   return (
-    <Link
+    <div className="relative">
+      <Link
       href={`/courses/${course.id}`}
       className="block bg-white border border-[var(--color-line)] overflow-hidden hover:shadow-md hover:border-[var(--color-line-strong)] transition-all"
     >
@@ -562,6 +564,10 @@ function CourseCard({
           </div>
         )}
       </div>
-    </Link>
+      </Link>
+      <div className="absolute top-3 right-3">
+        <FavoriteButton courseId={course.id} variant="overlay" size="md" />
+      </div>
+    </div>
   );
 }

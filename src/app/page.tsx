@@ -1,6 +1,7 @@
 import Link from "next/link";
 import CourseSearch from "@/components/CourseSearch";
 import FeedbackForm from "@/components/FeedbackForm";
+import HeaderFavoritesLink from "@/components/HeaderFavoritesLink";
 import { getAllCourses } from "@/lib/getCourses";
 
 export default function Home() {
@@ -22,11 +23,9 @@ export default function Home() {
           </Link>
           <nav className="hidden sm:flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)]">
             <a href="#search" className="hover:text-[var(--color-navy)]">
-              検索 <span className="font-display text-[var(--color-accent)]">Search</span>
+              検索
             </a>
-            <a href="#about" className="hover:text-[var(--color-navy)]">
-              本サービス <span className="font-display text-[var(--color-accent)]">About</span>
-            </a>
+            <HeaderFavoritesLink />
           </nav>
         </div>
       </header>
