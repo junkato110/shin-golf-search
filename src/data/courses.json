@@ -52,7 +52,7 @@
       "caddyType": "セルフのみ",
       "dressCode": "普段着OK",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 36,
+      "travelMinutesFromTokyo": 64,
       "sources": [
         "https://www.31cc.com/",
         "https://www.31cc.com/facility/",
@@ -128,7 +128,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 88,
+      "travelMinutesFromTokyo": 123,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://www.alpen-group.net/sunnyfield/ogp.jpg",
       "imageSourcePage": "https://www.alpen-group.net/sunnyfield/"
@@ -194,7 +194,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 64,
+      "travelMinutesFromTokyo": 86,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://www.pacificgolf.co.jp/ishioka/assets/img/og-image.jpg",
       "imageSourcePage": "https://www.pacificgolf.co.jp/ishioka/"
@@ -260,7 +260,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 90,
+      "travelMinutesFromTokyo": 132,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://book.alba.co.jp/image/club/080002/640x480/fix/0_0010_1.jpg",
       "imageSourcePage": "https://book.alba.co.jp/080002"
@@ -326,7 +326,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 63,
+      "travelMinutesFromTokyo": 96,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://www.homemate-research.com/search/image/dtl/photo_image/b58.jpg",
       "imageSourcePage": "https://www.homemate-golf.com/golf-course/dtl/00000000000000091458/"
@@ -392,7 +392,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 28,
+      "travelMinutesFromTokyo": 60,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://book.alba.co.jp/image/club/080004/640x480/fix/0_0115_0.jpg",
       "imageSourcePage": "https://book.alba.co.jp/080004"
@@ -458,7 +458,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 48,
+      "travelMinutesFromTokyo": 84,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://book.alba.co.jp/image/club/080005/640x480/fix/0_0011_1.jpg",
       "imageSourcePage": "https://book.alba.co.jp/080005"
@@ -524,7 +524,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 41,
+      "travelMinutesFromTokyo": 68,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Eagle_Point_Golf_Club%2C_Ami_Ibaraki_Aerial_photograph.2013.jpg/1280px-Eagle_Point_Golf_Club%2C_Ami_Ibaraki_Aerial_photograph.2013.jpg",
       "imageSourcePage": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96"
@@ -590,7 +590,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 70,
+      "travelMinutesFromTokyo": 98,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://book.alba.co.jp/image/club/080025/640x480/fix/2021100116074568561.jpg",
       "imageSourcePage": "https://book.alba.co.jp/080025"
@@ -656,7 +656,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 54,
+      "travelMinutesFromTokyo": 78,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://image.gora.golf.rakuten.co.jp/img/golf/80027/photo1.jpg",
       "imageSourcePage": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80027/"
@@ -722,7 +722,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 88,
+      "travelMinutesFromTokyo": 128,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://kabayagc.com/img/common/ogp.jpg",
       "imageSourcePage": "https://kabayagc.com/"
@@ -788,7 +788,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 97,
+      "travelMinutesFromTokyo": 121,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://booking.pacificgolf.co.jp/images/guide/sp_main_visual/40.png",
       "imageSourcePage": "https://booking.pacificgolf.co.jp/guide/40.html"
@@ -856,7 +856,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 91,
+      "travelMinutesFromTokyo": 128,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://book.alba.co.jp/image/club/080040/640x480/fix/0_0006_0.jpg",
       "imageSourcePage": "https://book.alba.co.jp/080040"
@@ -922,7 +922,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 40,
+      "travelMinutesFromTokyo": 75,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://www.pacificgolf.co.jp/ryugasaki/assets/img/og-image.jpg",
       "imageSourcePage": "https://www.pacificgolf.co.jp/ryugasaki/"
@@ -988,7 +988,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 69,
+      "travelMinutesFromTokyo": 104,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "imageSourceUrl": "https://the-royal-golf-club.com/img/common/ogp.jpg",
       "imageSourcePage": "https://the-royal-golf-club.com/"
@@ -1044,7 +1044,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 88,
+      "travelMinutesFromTokyo": 123,
       "sources": [
         "https://www.alpen-group.net/sunnyfield/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80052/",
@@ -1111,7 +1111,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 90,
+      "travelMinutesFromTokyo": 132,
       "sources": [
         "https://kenrakuen.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80002/",
@@ -1176,7 +1176,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 48,
+      "travelMinutesFromTokyo": 84,
       "sources": [
         "https://www.athletic-golf.co.jp/",
         "http://shotnavi.jp/gcguide/gcinfo_192.htm",
@@ -1243,7 +1243,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 56,
+      "travelMinutesFromTokyo": 89,
       "sources": [
         "https://reserve.accordiagolf.com/golfCourse/ibaraki/kasumigaura/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80027/",
@@ -1308,7 +1308,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 88,
+      "travelMinutesFromTokyo": 128,
       "sources": [
         "https://kabayagc.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80034/",
@@ -1375,7 +1375,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 40,
+      "travelMinutesFromTokyo": 75,
       "sources": [
         "https://www.pacificgolf.co.jp/ryugasaki/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80049/",
@@ -1442,7 +1442,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 69,
+      "travelMinutesFromTokyo": 104,
       "sources": [
         "https://the-royal-golf-club.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80054/",
@@ -1509,7 +1509,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 62,
+      "travelMinutesFromTokyo": 97,
       "sources": [
         "http://tatemono-golf.sakura.ne.jp/jgk.tatemono-golf.com/cms/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80056/",
@@ -1584,7 +1584,7 @@
         "https://www.starts.co.jp/column/article75/"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "travelMinutesFromTokyo": 70,
+      "travelMinutesFromTokyo": 93,
       "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Starts_Kasama_Golf_Club%2C_Kasama_Ibaraki_Aerial_photograph.2019.jpg/1280px-Starts_Kasama_Golf_Club%2C_Kasama_Ibaraki_Aerial_photograph.2019.jpg",
       "imageSourcePage": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%84%E7%AC%A0%E9%96%93%E3%82%B4%E3%83%AB%E3%83%95%E5%80%B6%E6%A5%BD%E9%83%A8"
     },
@@ -1639,7 +1639,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 94,
+      "travelMinutesFromTokyo": 124,
       "sources": [
         "https://www.resol-golf.jp/en/kuji/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80040/",
@@ -1704,7 +1704,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 64,
+      "travelMinutesFromTokyo": 107,
       "sources": [
         "https://booking.pacificgolf.co.jp/guide/46.html",
         "https://book.alba.co.jp/080076",
@@ -1771,7 +1771,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 57,
+      "travelMinutesFromTokyo": 86,
       "sources": [
         "https://www.pacificgolf.co.jp/segovia/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80070/",
@@ -1836,7 +1836,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 52,
+      "travelMinutesFromTokyo": 93,
       "sources": [
         "https://www.jgmgroup.co.jp/seve/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80071/",
@@ -1901,7 +1901,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 63,
+      "travelMinutesFromTokyo": 103,
       "sources": [
         "https://reserve.accordiagolf.com/golfCourse/ibaraki/central_new/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80120/",
@@ -1976,7 +1976,7 @@
         "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "travelMinutesFromTokyo": 62,
+      "travelMinutesFromTokyo": 103,
       "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Central_Golf_Club%2C_Namegata_Ibaraki_Aerial_photograph.2010.jpg/1280px-Central_Golf_Club%2C_Namegata_Ibaraki_Aerial_photograph.2010.jpg",
       "imageSourcePage": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96"
     },
@@ -2031,7 +2031,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 65,
+      "travelMinutesFromTokyo": 105,
       "sources": [
         "http://www.daiyagreen.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80075/",
@@ -2098,7 +2098,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 49,
+      "travelMinutesFromTokyo": 76,
       "sources": [
         "https://www.tsukuba-golfgarden.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520266/",
@@ -2163,7 +2163,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 53,
+      "travelMinutesFromTokyo": 93,
       "sources": [
         "https://www.tukubane.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80085/",
@@ -2228,7 +2228,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 50,
+      "travelMinutesFromTokyo": 81,
       "sources": [
         "https://www.tsukuba-chikusei.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520354/",
@@ -2293,7 +2293,7 @@
       "caddyType": "選択",
       "dressCode": "襟付き必須",
       "throughPlay": false,
-      "travelMinutesFromTokyo": 69,
+      "travelMinutesFromTokyo": 93,
       "sources": [
         "http://tatemono-golf.sakura.ne.jp/jgk.tatemono-golf.com/cms/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520319/",
