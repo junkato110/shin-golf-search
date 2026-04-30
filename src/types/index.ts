@@ -42,10 +42,16 @@ export type Course = {
   scoresEvidence?: ScoreEvidence[];
   /** タグ (温泉あり, 練習場充実, 27Hなど自由形式) */
   tags?: string[];
-  /** カード表示用のサムネイル画像 (例: /images/{id}.jpg) */
+  /** カード表示用のサムネイル画像 / ヒーローの「名物ホール」(例: /images/{id}.jpg) */
   imageUrl?: string;
   /** 画像生成用の英語プロンプト (Pollinations.ai 用、コース特性反映) */
   customImagePrompt?: string;
+  /** ヒーローに並べる追加画像 (クラブハウス・特徴等)。先頭の imageUrl と合わせて 2-3 枚構成 */
+  additionalImages?: Array<{
+    label: string;
+    url: string;
+    prompt: string;
+  }>;
   /** お風呂 (一般浴・温泉問わず) があるか */
   hasBath?: boolean;
   /** フェアウェイへのカート乗り入れが可能か (true=可、false=カート道のみ) */
