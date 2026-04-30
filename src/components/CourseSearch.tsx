@@ -393,14 +393,12 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
             </span>
           </p>
           <div className="flex items-center gap-2 text-xs">
-            <label htmlFor="sort-key" className="text-[var(--color-ink-muted)] tracking-wide">
-              並び順
-            </label>
             <select
               id="sort-key"
+              aria-label="並び順"
               value={sortKey}
               onChange={(e) => setSortKey(e.target.value as SortKey)}
-              className="rounded-md border border-[var(--color-line-strong)] bg-white px-2.5 py-1.5 text-[var(--color-navy)] outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)]"
+              className="rounded-md border border-[var(--color-line-strong)] bg-white px-1.5 py-1 text-[10px] sm:text-xs sm:px-2.5 sm:py-1.5 text-[var(--color-navy)] outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)]"
             >
               <option value="home" disabled={!home}>
                 自宅から近い順{!home ? " (自宅未選択)" : ""}
