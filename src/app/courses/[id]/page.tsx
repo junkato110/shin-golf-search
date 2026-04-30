@@ -99,8 +99,8 @@ export default async function CoursePage({
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
-            <span className="absolute bottom-2 left-3 sm:bottom-3 sm:left-4 text-[10px] sm:text-[11px] tracking-[0.2em] text-white font-medium">
-              名物ホール
+            <span className="absolute bottom-2 left-3 sm:bottom-3 sm:left-4 text-[10px] sm:text-[11px] tracking-[0.2em] text-white font-medium font-display uppercase">
+              Signature Hole
             </span>
           </div>
           {/* サブ: クラブハウス外観 (md 以上で表示) */}
@@ -117,8 +117,8 @@ export default async function CoursePage({
                 <div className="w-full h-full bg-neutral-200" />
               )}
               <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
-              <span className="absolute bottom-3 left-4 text-[11px] tracking-[0.2em] text-white font-medium">
-                {course.additionalImages[0].label}
+              <span className="absolute bottom-3 left-4 text-[11px] tracking-[0.2em] text-white font-medium font-display uppercase">
+                Club House
               </span>
             </div>
           )}
