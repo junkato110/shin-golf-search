@@ -227,6 +227,7 @@ export default async function CoursePage({
                 key={l.label}
                 label={l.label}
                 href={l.href}
+                iconPath={l.iconPath}
                 isAffiliate={l.isAffiliate}
               />
             ))}
@@ -313,10 +314,12 @@ function Stat({
 function ExternalButton({
   label,
   href,
+  iconPath,
   isAffiliate,
 }: {
   label: string;
   href: string;
+  iconPath: string;
   isAffiliate?: boolean;
 }) {
   return (
@@ -324,12 +327,20 @@ function ExternalButton({
       href={href}
       target="_blank"
       rel={isAffiliate ? "sponsored noopener noreferrer" : "noopener noreferrer"}
-      className="relative block border border-[var(--color-navy)] text-center px-4 py-3 text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
+      className="group relative flex items-center gap-3 border border-[var(--color-navy)] px-4 py-3 text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
     >
-      <span className="font-serif" style={{ fontWeight: 600 }}>
-        {label}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={iconPath}
+        alt={`${label} ロゴ`}
+        className="w-7 h-7 rounded-sm object-contain bg-white border border-[var(--color-line)] shrink-0"
+      />
+      <span className="flex flex-col items-start min-w-0">
+        <span className="font-serif text-sm leading-tight" style={{ fontWeight: 600 }}>
+          {label}
+        </span>
+        <span className="text-[10px] opacity-70 tracking-wider">で探す →</span>
       </span>
-      <span className="ml-2 text-xs opacity-70">で探す →</span>
       {isAffiliate && (
         <span className="absolute top-1 right-2 font-display text-[9px] tracking-wider text-[var(--color-accent)]">
           PR
