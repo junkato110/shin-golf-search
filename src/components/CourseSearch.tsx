@@ -318,7 +318,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
             <Dropdown
               value={municipalityName}
               onChange={setMunicipalityName}
-              placeholder={prefecture ? "市区町村を選択" : "先に都道府県を選択"}
+              placeholder="市町村区を選択"
               disabled={!prefecture}
               options={homeCandidates.map((m) => ({ value: m.name, label: m.name }))}
             />
