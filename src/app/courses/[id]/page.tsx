@@ -138,11 +138,6 @@ export default async function CoursePage({
               <FavoriteButton courseId={course.id} variant="inline" size="md" />
             </div>
           </div>
-          {course.nameKana && (
-            <p className="text-xs text-[var(--color-ink-subtle)] mt-2 tracking-wide">
-              {course.nameKana}
-            </p>
-          )}
           <p className="text-xs sm:text-sm text-[var(--color-ink-muted)] mt-3 sm:mt-4 flex flex-wrap items-center gap-x-3 gap-y-1.5">
             <span>
               {course.address ?? `${course.prefecture}${course.city ?? ""}`}
