@@ -49,10 +49,12 @@ export default function Home() {
             <span className="hidden sm:inline">{" "}</span>
             「新時代のゴルフ場検索サイト」
           </h1>
-          <p className="text-xs sm:text-sm text-white/75 mt-4 leading-relaxed sm:whitespace-nowrap">
+          <p className="text-[11px] sm:text-sm text-white/75 mt-4 leading-relaxed sm:whitespace-nowrap">
             マナーの厳格さ、難易度、フェアウェイの広さ、ご飯の美味しさ etc…
             <br />
-            今までの予約サイトでは絞れなかった「体感スコア」で、あなたの本当に探しているベストコースを探せます
+            今までの予約サイトでは絞れなかった「体感スコア」で、
+            <br className="sm:hidden" />
+            あなたの本当に探しているベストコースを探せます！
           </p>
         </div>
       </section>
