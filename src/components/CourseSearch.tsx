@@ -281,10 +281,13 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
   }
 
   function reset() {
+    setPrefecture("");
+    setMunicipalityName("");
     setTravelMax(null);
     setDifficulty(0);
     setMannerLevel(null);
     setFeatureKeys(new Set());
+    setSortKey("home");
   }
 
   return (
@@ -296,6 +299,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
               基本検索条件
             </h2>
             <button
+              type="button"
               onClick={reset}
               className="text-[11px] text-[var(--color-ink-subtle)] hover:text-[var(--color-navy)] underline-offset-2 hover:underline tracking-wide"
             >
