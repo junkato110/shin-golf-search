@@ -296,8 +296,8 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
             </button>
           </div>
 
-        <fieldset className="mb-6 pb-6 border-b border-[var(--color-line)]">
-          <legend className={FIELD_LABEL_CLASS}>自宅エリア</legend>
+        <div className="mb-6 pb-6 border-b border-[var(--color-line)]">
+          <h3 className={FIELD_LABEL_CLASS}>自宅エリア</h3>
           <div className="space-y-2">
             <Dropdown
               value={prefecture}
@@ -322,7 +322,7 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
               {home.prefecture}{home.name} を起点に距離計算
             </p>
           )}
-        </fieldset>
+        </div>
 
         <fieldset className="mb-6">
           <legend className={FIELD_LABEL_CLASS}>
