@@ -22,9 +22,6 @@ export default function Home() {
             </span>
           </Link>
           <nav className="hidden sm:flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)]">
-            <a href="#search" className="hover:text-[var(--color-navy)]">
-              検索
-            </a>
             <HeaderFavoritesLink />
           </nav>
         </div>
