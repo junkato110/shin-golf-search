@@ -38,6 +38,16 @@ type ScoreFilter = {
   minScore: number;
 };
 
+// カード表示用の体感スコア軸 (6軸を 3列×2行 で表示)
+const CARD_SCORE_AXES: Array<{ key: keyof CourseScores; label: string }> = [
+  { key: "difficulty", label: "難易度" },
+  { key: "mannerStrictness", label: "マナー" },
+  { key: "fairwayWidth", label: "フェアウェイ" },
+  { key: "mealQuality", label: "ご飯" },
+  { key: "practiceRange", label: "練習場" },
+  { key: "scenicView", label: "絶景度" },
+];
+
 const FEATURE_FILTERS: ScoreFilter[] = [
   { key: "fairwayWidth", label: "フェアウェイが広い", minScore: 2 },
   { key: "flatness", label: "アップダウンが激しくない", minScore: 1 },
@@ -449,6 +459,38 @@ function CourseCard({
               </div>
             ))}
           </dl>
+        )}
+
+        {/* 体感スコア (6軸を 3列×2行 で表示・コンパクトな5段バー) */}
+        {course.scores && (
+          <div className="mt-4 pt-4 border-t border-[var(--color-line)] grid grid-cols-3 gap-x-3 gap-y-3">
+            {CARD_SCORE_AXES.map((axis) => {
+              const value = course.scores?.[axis.key];
+              if (value == null) return null;
+              const filled = value * 2 + 1;
+              const isMax = value === 2;
+              const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
+              return (
+                <div key={axis.key}>
+                  <p className="text-[10px] text-[var(--color-ink-muted)] mb-1 tracking-wide">
+                    {axis.label}
+                  </p>
+                  <div className="flex gap-0.5">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <span
+                        key={i}
+                        className="h-1.5 flex-1 rounded-sm"
+                        style={{
+                          backgroundColor:
+                            i < filled ? fillColor : "rgba(1, 50, 32, 0.1)",
+                        }}
+                      />
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         )}
 
         {/* 特徴タグ (最大4個) */}
