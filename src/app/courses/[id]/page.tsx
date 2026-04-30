@@ -302,7 +302,7 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
         {axis.label}
       </p>
       <div className="flex items-center gap-2.5">
-        <span className="text-[10px] text-[var(--color-ink-subtle)] w-24 text-right shrink-0 tracking-wide leading-tight">
+        <span className="text-[10px] text-[var(--color-ink-subtle)] w-24 text-center shrink-0 tracking-wide leading-tight">
           {renderAxisLabel(axis.low)}
         </span>
         <div className="flex gap-1 flex-1 min-w-0">
@@ -317,7 +317,7 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
           ))}
         </div>
         <span
-          className={`text-[10px] w-24 shrink-0 tracking-wide leading-tight ${
+          className={`text-[10px] w-24 text-center shrink-0 tracking-wide leading-tight ${
             isMax
               ? "text-[var(--color-accent)] font-semibold"
               : "text-[var(--color-ink-subtle)]"
