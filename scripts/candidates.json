@@ -1,6 +1,6 @@
 {
   "note": "OSM (leisure=golf_course) + Wikipedia カテゴリ から取得したゴルフ場候補。デイリーパイプラインの seed として使用。",
-  "generatedAt": "2026-04-30T08:38:05.714Z",
+  "generatedAt": "2026-04-30T09:22:22.622177+00:00",
   "totalByPrefecture": {
     "東京都": 42,
     "神奈川県": 72,
@@ -50,7 +50,7 @@
         "osm",
         "wikipedia"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 112
     },
     {
@@ -62,8 +62,9 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
-      "travelMinutesFromTokyo": 142
+      "status": "error",
+      "travelMinutesFromTokyo": 142,
+      "errorReason": "Not a golf course or location mismatch"
     },
     {
       "prefecture": "茨城県",
@@ -86,7 +87,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 109
     },
     {
@@ -98,7 +99,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 49
     },
     {
@@ -123,7 +124,7 @@
         "osm",
         "wikipedia"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 71
     },
     {
@@ -135,7 +136,7 @@
       "sources": [
         "wikipedia"
       ],
-      "status": "pending"
+      "status": "added"
     },
     {
       "prefecture": "茨城県",
@@ -146,8 +147,9 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
-      "travelMinutesFromTokyo": 122
+      "status": "error",
+      "travelMinutesFromTokyo": 122,
+      "errorReason": "Not a golf course or location mismatch"
     },
     {
       "prefecture": "茨城県",
@@ -183,7 +185,7 @@
         "osm",
         "wikipedia"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 169
     },
     {
@@ -195,8 +197,9 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
-      "travelMinutesFromTokyo": 114
+      "status": "error",
+      "travelMinutesFromTokyo": 114,
+      "errorReason": "Not a golf course or location mismatch"
     },
     {
       "prefecture": "茨城県",
@@ -207,8 +210,9 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
-      "travelMinutesFromTokyo": 53
+      "status": "error",
+      "travelMinutesFromTokyo": 53,
+      "errorReason": "Not a golf course or location mismatch"
     },
     {
       "prefecture": "茨城県",
@@ -219,7 +223,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 160
     },
     {
@@ -231,8 +235,9 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
-      "travelMinutesFromTokyo": 68
+      "status": "error",
+      "travelMinutesFromTokyo": 68,
+      "errorReason": "Not a golf course or location mismatch"
     },
     {
       "prefecture": "茨城県",
@@ -268,8 +273,9 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
-      "travelMinutesFromTokyo": 76
+      "status": "error",
+      "travelMinutesFromTokyo": 76,
+      "errorReason": "Not a golf course or location mismatch"
     },
     {
       "prefecture": "茨城県",
@@ -8383,8 +8389,9 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
-      "travelMinutesFromTokyo": 114
+      "status": "error",
+      "travelMinutesFromTokyo": 114,
+      "errorReason": "Not a golf course or location mismatch"
     },
     {
       "prefecture": "栃木県",

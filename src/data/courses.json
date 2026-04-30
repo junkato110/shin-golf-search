@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T09:14:03.656Z",
+  "updatedAt": "2026-04-30T09:23:06.001Z",
   "courses": [
     {
       "id": "course_001",
@@ -59,6 +59,790 @@
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80122/"
       ],
       "updatedAt": "2026-04-30T09:11:54.579803Z"
+    },
+    {
+      "name": "ゴルフ5カントリー サニーフィールド",
+      "nameKana": "ごるふふぁいぶかんとりー さにーふぃーるど",
+      "prefecture": "茨城県",
+      "city": "常陸大宮市",
+      "address": "〒319-2102 茨城県常陸大宮市深泥560",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7118,
+      "openedYear": 1994,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 2,
+        "fairwayWidth": 2,
+        "flatness": 2,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 2,
+        "onsen": 1,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "高速IC近",
+        "練習場充実",
+        "チャンピオンコース"
+      ],
+      "hasBath": false,
+      "cartFairwayIn": true,
+      "caddyType": "選択",
+      "dressCode": "普段着OK",
+      "throughPlay": false,
+      "sources": [
+        "https://www.alpen-group.net/sunnyfield/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80052/",
+        "https://reserve.golfdigest.co.jp/golf-course/312104/"
+      ],
+      "id": "course_002",
+      "lat": null,
+      "lng": null,
+      "imageUrl": "/images/course_002.jpg",
+      "customImagePrompt": "Professional golf course landscape showing ゴルフ5カントリー サニーフィールド, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_002_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 0,
+      "updatedAt": "2026-04-30T09:22:22.612028+00:00"
+    },
+    {
+      "name": "PGM石岡ゴルフクラブ",
+      "nameKana": "ぴーじーえむいしおかごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "小美玉市",
+      "address": "〒319-0102 茨城県小美玉市世楽1050-1",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7071,
+      "openedYear": 1994,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 2,
+        "fairwayWidth": 2,
+        "flatness": 2,
+        "mealQuality": 2,
+        "mannerStrictness": 2,
+        "practiceRange": 2,
+        "onsen": 1,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "帝王ニクラウス設計",
+        "トーナメント開催",
+        "名門コース"
+      ],
+      "hasBath": false,
+      "cartFairwayIn": true,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://www.pacificgolf.co.jp/ishioka/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80007/",
+        "https://reserve.golfdigest.co.jp/golf-course/310209/"
+      ],
+      "id": "course_003",
+      "lat": 36.2093863,
+      "lng": 140.3693162,
+      "imageUrl": "/images/course_003.jpg",
+      "customImagePrompt": "Professional golf course landscape showing PGM石岡ゴルフクラブ, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_003_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 112,
+      "updatedAt": "2026-04-30T09:22:22.612086+00:00"
+    },
+    {
+      "name": "ひたちの圀の健楽園",
+      "nameKana": "ひたちのくにのけんらくえん",
+      "prefecture": "茨城県",
+      "city": "常陸大宮市",
+      "address": "〒319-3122 茨城県常陸大宮市小瀬沢814",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6732,
+      "openedYear": 1975,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 1,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "自然活用コース",
+        "複合施設",
+        "宿泊可能"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "普段着OK",
+      "throughPlay": false,
+      "sources": [
+        "https://kenrakuen.com/",
+        "https://reserve.golfdigest.co.jp/golf-course/310106/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80002/"
+      ],
+      "id": "course_004",
+      "lat": null,
+      "lng": null,
+      "imageUrl": "/images/course_004.jpg",
+      "customImagePrompt": "Professional golf course landscape showing ひたちの圀の健楽園, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_004_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 0,
+      "updatedAt": "2026-04-30T09:22:22.612113+00:00"
+    },
+    {
+      "name": "アジア下館カントリー倶楽部",
+      "nameKana": "あじあしもだてかんとりーくらぶ",
+      "prefecture": "茨城県",
+      "city": "桜川市",
+      "address": "〒309-1226 茨城県桜川市上野原225-4",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6934,
+      "openedYear": 1965,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "林間コース",
+        "自然地形活用",
+        "歴史あるコース"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "必須",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://asia-shimodate.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80003/",
+        "https://reserve.golfdigest.co.jp/golf-course/310102/"
+      ],
+      "id": "course_005",
+      "lat": 36.3435451,
+      "lng": 140.0589414,
+      "imageUrl": "/images/course_005.jpg",
+      "customImagePrompt": "Professional golf course landscape showing アジア下館カントリー倶楽部, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_005_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 109,
+      "updatedAt": "2026-04-30T09:22:22.612119+00:00"
+    },
+    {
+      "name": "アジア取手カントリー倶楽部",
+      "nameKana": "あじあとりでかんとりーくらぶ",
+      "prefecture": "茨城県",
+      "city": "取手市",
+      "address": "〒302-0012 茨城県取手市稲1340",
+      "holeCount": 27,
+      "par": 108,
+      "totalYardage": 9458,
+      "openedYear": 1964,
+      "courseLayout": "河川敷",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 2,
+        "flatness": 2,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "河川敷コース",
+        "27ホール",
+        "クラブバス運行"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": true,
+      "caddyType": "選択",
+      "dressCode": "普段着OK",
+      "throughPlay": false,
+      "sources": [
+        "https://www.asia-toride.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80004",
+        "https://book.alba.co.jp/080004"
+      ],
+      "id": "course_006",
+      "lat": 35.9087899,
+      "lng": 140.0303353,
+      "imageUrl": "/images/course_006.jpg",
+      "customImagePrompt": "Professional golf course landscape showing アジア取手カントリー倶楽部, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_006_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 49,
+      "updatedAt": "2026-04-30T09:22:22.612123+00:00"
+    },
+    {
+      "name": "アスレチックガーデンゴルフ倶楽部",
+      "nameKana": "あすれちっくがーでんごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "稲敷市",
+      "address": "〒300-0404 茨城県稲敷市東大沼402",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6902,
+      "openedYear": 1995,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 2,
+        "fairwayWidth": 1,
+        "flatness": 2,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "バンカー多数",
+        "戦略的コース",
+        "難易度高"
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "普段着OK",
+      "throughPlay": false,
+      "sources": [
+        "https://www.athletic-golf.co.jp/",
+        "https://reserve.golfdigest.co.jp/golf-course/311109/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80032/"
+      ],
+      "id": "course_007",
+      "lat": null,
+      "lng": null,
+      "imageUrl": "/images/course_007.jpg",
+      "customImagePrompt": "Professional golf course landscape showing アスレチックガーデンゴルフ倶楽部, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_007_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 0,
+      "updatedAt": "2026-04-30T09:22:22.612126+00:00"
+    },
+    {
+      "name": "イーグルポイントゴルフクラブ",
+      "nameKana": "いーぐるぽいんとごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "稲敷郡阿見町",
+      "address": "〒300-0401 茨城県稲敷郡阿見町福田1668-5",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7292,
+      "openedYear": 1999,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 2,
+        "fairwayWidth": 2,
+        "flatness": 2,
+        "mealQuality": 2,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "高速IC近",
+        "高速グリーン",
+        "チャンピオンコース"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://www.eaglepoint.co.jp/",
+        "https://reserve.golfdigest.co.jp/golf-course/310211/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80098/"
+      ],
+      "id": "course_008",
+      "lat": 35.9794355,
+      "lng": 140.1951588,
+      "imageUrl": "/images/course_008.jpg",
+      "customImagePrompt": "Professional golf course landscape showing イーグルポイントゴルフクラブ, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_008_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 71,
+      "updatedAt": "2026-04-30T09:22:22.612141+00:00"
+    },
+    {
+      "name": "オールドオーチャード ゴルフクラブ",
+      "nameKana": "おーるどおーちゃーど ごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "東茨城郡茨城町",
+      "address": "〒311-3134 茨城県東茨城郡茨城町鳥羽田686-3",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7114,
+      "openedYear": 1975,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 2,
+        "fairwayWidth": 2,
+        "flatness": 1,
+        "mealQuality": 2,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 2,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "丘陵コース",
+        "GPSナビ搭載",
+        "VIPルーム完備"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "必須",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://www.oogc.co.jp/",
+        "https://www.pacificgolf.co.jp/oldorchard/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80021/"
+      ],
+      "id": "course_009",
+      "lat": null,
+      "lng": null,
+      "imageUrl": "/images/course_009.jpg",
+      "customImagePrompt": "Professional golf course landscape showing オールドオーチャード ゴルフクラブ, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_009_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 0,
+      "updatedAt": "2026-04-30T09:22:22.612146+00:00"
+    },
+    {
+      "name": "かすみがうらゴルフクラブ",
+      "nameKana": "かすみがうらごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "かすみがうら市",
+      "address": "〒300-0202 茨城県かすみがうら市田伏5136",
+      "holeCount": 27,
+      "par": 108,
+      "totalYardage": 9540,
+      "openedYear": 1988,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 2,
+        "flatness": 2,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "霞ヶ浦湖畔",
+        "27ホール",
+        "水辺のコース"
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "普段着OK",
+      "throughPlay": false,
+      "sources": [
+        "https://reserve.accordiagolf.com/golfCourse/ibaraki/kasumigaura/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80027/",
+        "https://reserve.golfdigest.co.jp/golf-course/311303/"
+      ],
+      "id": "course_010",
+      "lat": null,
+      "lng": null,
+      "imageUrl": "/images/course_010.jpg",
+      "customImagePrompt": "Professional golf course landscape showing かすみがうらゴルフクラブ, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_010_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 0,
+      "updatedAt": "2026-04-30T09:22:22.612150+00:00"
+    },
+    {
+      "name": "ひたち大宮ゴルフクラブ",
+      "nameKana": "ひたちおおみやごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "常陸大宮市",
+      "address": "〒319-3521 茨城県常陸大宮市国長2408-1",
+      "holeCount": 27,
+      "par": 108,
+      "totalYardage": 10591,
+      "openedYear": 1975,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 2,
+        "flatness": 1,
+        "mealQuality": 2,
+        "mannerStrictness": 1,
+        "practiceRange": 2,
+        "onsen": 1,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "27ホール",
+        "ロッジ併設",
+        "自然に囲まれた"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "普段着OK",
+      "throughPlay": false,
+      "sources": [
+        "https://kabayagc.com/",
+        "https://reserve.golfdigest.co.jp/golf-course/312205/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80034/"
+      ],
+      "id": "course_011",
+      "lat": null,
+      "lng": null,
+      "imageUrl": "/images/course_011.jpg",
+      "customImagePrompt": "Professional golf course landscape showing ひたち大宮ゴルフクラブ, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_011_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 0,
+      "updatedAt": "2026-04-30T09:22:22.612154+00:00"
+    },
+    {
+      "name": "グランドスラムカントリークラブ",
+      "nameKana": "ぐらんどすらむかんとりーくらぶ",
+      "prefecture": "茨城県",
+      "city": "常陸太田市",
+      "address": "〒313-0106 茨城県常陸太田市田渡町823-11",
+      "holeCount": 27,
+      "par": 108,
+      "totalYardage": 10309,
+      "openedYear": 1985,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 2,
+        "fairwayWidth": 2,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 1,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "27ホール",
+        "3コース構成",
+        "大規模クラブハウス"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "必須",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://www.pacificgolf.co.jp/grandslam/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80041/",
+        "https://reserve.golfdigest.co.jp/golf-course/311301/"
+      ],
+      "id": "course_012",
+      "lat": 36.5596813,
+      "lng": 140.5532899,
+      "imageUrl": "/images/course_012.jpg",
+      "customImagePrompt": "Professional golf course landscape showing グランドスラムカントリークラブ, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_012_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 169,
+      "updatedAt": "2026-04-30T09:22:22.612157+00:00"
+    },
+    {
+      "name": "ゴルフ倶楽部セブンレイクス",
+      "nameKana": "ごるふくらぶせぶんれいくす",
+      "prefecture": "茨城県",
+      "city": "常陸大宮市",
+      "address": "〒319-3105 茨城県常陸大宮市北塩子533",
+      "holeCount": 27,
+      "par": 108,
+      "totalYardage": 9735,
+      "openedYear": 1988,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 2,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 1,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 2,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "27ホール",
+        "天然温泉",
+        "景観雄大"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://sevenlakes.jp/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80044",
+        "https://reserve.golfdigest.co.jp/golf-course/311501/"
+      ],
+      "id": "course_013",
+      "lat": 36.594906,
+      "lng": 140.3437444,
+      "imageUrl": "/images/course_013.jpg",
+      "customImagePrompt": "Professional golf course landscape showing ゴルフ倶楽部セブンレイクス, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_013_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 160,
+      "updatedAt": "2026-04-30T09:22:22.612180+00:00"
+    },
+    {
+      "name": "ザ・ゴルフクラブ竜ヶ崎",
+      "nameKana": "ざ・ごるふくらぶりゅうがさき",
+      "prefecture": "茨城県",
+      "city": "龍ケ崎市",
+      "address": "〒301-0857 茨城県龍ケ崎市泉町原口1592-77",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6679,
+      "openedYear": 1990,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 2,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 2,
+        "practiceRange": 1,
+        "onsen": 1,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 0,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "チャンピオンコース",
+        "戦略的レイアウト",
+        "ドレスコード厳格"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "必須",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://www.pacificgolf.co.jp/ryugasaki/",
+        "https://reserve.golfdigest.co.jp/golf-course/312106/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80049/"
+      ],
+      "id": "course_014",
+      "lat": null,
+      "lng": null,
+      "imageUrl": "/images/course_014.jpg",
+      "customImagePrompt": "Professional golf course landscape showing ザ・ゴルフクラブ竜ヶ崎, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_014_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 0,
+      "updatedAt": "2026-04-30T09:22:22.612205+00:00"
+    },
+    {
+      "name": "ザ・ロイヤル ゴルフクラブ",
+      "nameKana": "ざ・ろいやる ごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "鉾田市",
+      "address": "〒311-2117 茨城県鉾田市大蔵200",
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 8143,
+      "openedYear": 2016,
+      "courseLayout": "河川敷",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 2,
+        "flatness": 2,
+        "mealQuality": 2,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 1,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "リゾート施設併設",
+        "温泉完備",
+        "ファクトリーパーク内"
+      ],
+      "hasBath": true,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "普段着OK",
+      "throughPlay": false,
+      "sources": [
+        "https://the-royal-golf-club.com/",
+        "https://reserve.golfdigest.co.jp/golf-course/312105/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80054/"
+      ],
+      "id": "course_015",
+      "lat": null,
+      "lng": null,
+      "imageUrl": "/images/course_015.jpg",
+      "customImagePrompt": "Professional golf course landscape showing ザ・ロイヤル ゴルフクラブ, scenic fairway, championship quality course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_015_clubhouse.jpg",
+          "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
+        }
+      ],
+      "travelMinutesFromTokyo": 0,
+      "updatedAt": "2026-04-30T09:22:22.612212+00:00"
     }
   ]
 }
