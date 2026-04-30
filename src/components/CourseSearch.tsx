@@ -59,7 +59,7 @@ const FEATURE_FILTERS: ScoreFilter[] = [
   { key: "flatness", label: "アップダウンが激しくない", minScore: 1 },
   { key: "mealQuality", label: "ご飯にこだわりあり", minScore: 2 },
   { key: "practiceRange", label: "練習場が充実", minScore: 2 },
-  { key: "onsen", label: "お風呂あり", minScore: 1 },
+  { key: "onsen", label: "温泉あり", minScore: 1 },
   { key: "summerCool", label: "夏でも涼しい", minScore: 2 },
   { key: "winterWarm", label: "冬でも温かい", minScore: 2 },
   { key: "windShelter", label: "風の影響を受けにくい", minScore: 2 },
