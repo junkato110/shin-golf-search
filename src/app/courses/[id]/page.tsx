@@ -186,11 +186,8 @@ export default async function CoursePage({
                 className="font-serif text-base text-[var(--color-navy)]"
                 style={{ fontWeight: 700, letterSpacing: "0.08em" }}
               >
-                タグ
+                特徴
               </h2>
-              <span className="font-display text-[10px] text-[var(--color-accent)] uppercase tracking-[0.3em]">
-                Tags
-              </span>
             </div>
             <div className="flex flex-wrap gap-2">
               {course.tags.map((t) => (
