@@ -36,17 +36,25 @@ export function estimateDriveMinutes(
 
 /**
  * 所要時間を 15分単位 (60分以上は 30分単位) で丸めた表示文字列にする。
- * 一桁台のような細かい数値は出さず、目安表示に統一する。
+ * 60分以上は「X時間X分」形式に変換する。
  *
- * 例: 7  → "目安 15分程度"
- *     47 → "目安 45分程度"
- *     65 → "目安 60分程度"
- *     112 → "目安 120分程度"
+ * 例: 7   → "目安 15分程度"
+ *     47  → "目安 45分程度"
+ *     65  → "目安 1時間程度"        (60分=1時間ちょうど)
+ *     85  → "目安 1時間30分程度"
+ *     112 → "目安 2時間程度"        (120分=2時間ちょうど)
+ *     145 → "目安 2時間30分程度"
  */
 export function formatTravelTime(minutes: number): string {
   const bucket =
     minutes < 60
       ? Math.max(15, Math.round(minutes / 15) * 15)
       : Math.round(minutes / 30) * 30;
-  return `目安 ${bucket}分程度`;
+  if (bucket < 60) {
+    return `目安 ${bucket}分程度`;
+  }
+  const hours = Math.floor(bucket / 60);
+  const mins = bucket % 60;
+  const inner = mins === 0 ? `${hours}時間` : `${hours}時間${mins}分`;
+  return `目安 ${inner}程度`;
 }
