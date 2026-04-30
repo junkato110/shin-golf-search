@@ -390,8 +390,11 @@ function renderAxisLabel(text: string) {
 function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
   const v = Math.max(0, Math.min(4, value ?? 0));
   const filled = v + 1; // 1..5
-  const isMax = v === 4;
-  const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
+  // 0-2 (1-3 セグメント): navy / 3 (4 セグメント): gold / 4 (5 セグメント): red
+  const fillColor =
+    v === 4 ? "#d23434" : v === 3 ? "var(--color-accent)" : "var(--color-navy)";
+  const labelColor =
+    v === 4 ? "#d23434" : v === 3 ? "var(--color-accent)" : null;
   return (
     <li className="border-b border-dashed border-[var(--color-line)] pb-3 sm:pb-4">
       <p
@@ -417,10 +420,9 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
         </div>
         <span
           className={`text-[10px] sm:text-[11px] w-16 sm:w-24 text-center shrink-0 tracking-wide leading-tight ${
-            isMax
-              ? "text-[var(--color-accent)] font-semibold"
-              : "text-[var(--color-ink-subtle)]"
+            labelColor ? "font-semibold" : "text-[var(--color-ink-subtle)]"
           }`}
+          style={labelColor ? { color: labelColor } : undefined}
         >
           {renderAxisLabel(axis.high)}
         </span>

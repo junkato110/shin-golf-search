@@ -601,8 +601,13 @@ function CourseCard({
               if (raw == null) return null;
               const value = Math.max(0, Math.min(4, raw));
               const filled = value + 1; // 1..5
-              const isMax = value === 4;
-              const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
+              // 0-2 (1-3 セグメント): navy / 3 (4 セグメント): gold / 4 (5 セグメント): red
+              const fillColor =
+                value === 4
+                  ? "#d23434"
+                  : value === 3
+                  ? "var(--color-accent)"
+                  : "var(--color-navy)";
               // モバイルでは練習場 (idx=4) と絶景度 (idx=5) を非表示
               const hideOnMobile = idx >= 4;
               return (
@@ -628,10 +633,15 @@ function CourseCard({
                     </div>
                     <span
                       className={`text-[9px] shrink-0 w-12 text-center tracking-tight leading-tight ${
-                        isMax
-                          ? "text-[var(--color-accent)] font-semibold"
-                          : "text-[var(--color-ink-subtle)]"
+                        value === 3 || value === 4 ? "font-semibold" : "text-[var(--color-ink-subtle)]"
                       }`}
+                      style={
+                        value === 4
+                          ? { color: "#d23434" }
+                          : value === 3
+                          ? { color: "var(--color-accent)" }
+                          : undefined
+                      }
                     >
                       {axis.high}
                     </span>
