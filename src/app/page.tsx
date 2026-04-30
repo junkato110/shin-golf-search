@@ -50,7 +50,7 @@ export default function Home() {
           <p className="text-sm text-white/75 mt-4 max-w-2xl leading-relaxed">
             マナーの厳格さ、難易度、フェアウェイの広さ、ご飯の美味しさ etc…
             <br />
-            今までの予約サイトでは絞れなかった「体感」で、あなたの本当に探しているベストコースを探せます
+            今までの予約サイトでは絞れなかった「体感スコア」で、あなたの本当に探しているベストコースを探せます
           </p>
         </div>
       </section>
