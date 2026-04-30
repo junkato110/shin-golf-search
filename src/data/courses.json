@@ -1,4 +1,64 @@
 {
-  "updatedAt": "2026-04-30T08:55:00.000Z",
-  "courses": []
+  "updatedAt": "2026-04-30T09:14:03.656Z",
+  "courses": [
+    {
+      "id": "course_001",
+      "name": "31カントリークラブ",
+      "nameKana": "さんいちかんとりーくらぶ",
+      "prefecture": "茨城県",
+      "city": "猿島郡境町",
+      "address": "〒306-0423 茨城県猿島郡境町百戸四丁歩460",
+      "lat": 36.0785462,
+      "lng": 139.8249149,
+      "holeCount": 9,
+      "par": 35,
+      "totalYardage": 3020,
+      "openedYear": 1991,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 0,
+        "fairwayWidth": 1,
+        "flatness": 2,
+        "mealQuality": 1,
+        "mannerStrictness": 0,
+        "practiceRange": 0,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [
+        "9ホール",
+        "フラット",
+        "初心者歓迎",
+        "セルフプレー",
+        "都心1時間圏",
+        "境町"
+      ],
+      "imageUrl": "/images/course_001.jpg",
+      "customImagePrompt": "aerial-style landscape photo of a 9-hole flat parkland golf course in Ibaraki Japan, signature short par-3 hole featuring an island green floating on a tranquil pond surrounded by lush green fairway, distant tree line, mid-morning soft golden light, calm peaceful atmosphere",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_001_clubhouse.jpg",
+          "prompt": "professional landscape photography, modest single-story Japanese rural golf clubhouse with white plaster walls and gable roof, rural Ibaraki countryside setting, neat low hedges along entry path, mid-morning sunlight, casual and welcoming atmosphere"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "セルフのみ",
+      "dressCode": "普段着OK",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 62,
+      "sources": [
+        "https://www.31cc.com/",
+        "https://www.31cc.com/facility/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80122/"
+      ],
+      "updatedAt": "2026-04-30T09:11:54.579803Z"
+    }
+  ]
 }

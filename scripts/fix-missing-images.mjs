@@ -61,37 +61,80 @@ async function downloadImage(prompt, filename, seed, attempt = 1) {
   return false;
 }
 
+/**
+ * imageUrl が指す public/images/ 内のファイルが実在するか判定。
+ * URL が空、もしくはファイルが存在しなければ生成対象とする。
+ */
+function imageFileExists(urlPath) {
+  if (!urlPath) return false;
+  // 例: "/images/course_001.jpg" → public/images/course_001.jpg
+  const rel = urlPath.replace(/^\/+/, "");
+  const abs = join(ROOT, "public", rel);
+  return existsSync(abs) && statSync(abs).size > 5000;
+}
+
 async function main() {
   mkdirSync(IMAGES_DIR, { recursive: true });
 
   const data = JSON.parse(readFileSync(COURSES_PATH, "utf-8"));
-  const missing = data.courses.filter((c) => !c.imageUrl || c.imageUrl === "");
 
-  if (missing.length === 0) {
+  // 不足画像のリスト化 (メイン imageUrl + additionalImages)
+  const tasks = [];
+  for (const course of data.courses) {
+    const expectedMain = course.imageUrl || `/images/${course.id}.jpg`;
+    if (!imageFileExists(expectedMain)) {
+      tasks.push({
+        course,
+        kind: "main",
+        prompt: buildPrompt(course),
+        filename: `${course.id}.jpg`,
+        urlField: "imageUrl",
+      });
+    }
+    const additionals = course.additionalImages ?? [];
+    for (let i = 0; i < additionals.length; i++) {
+      const item = additionals[i];
+      if (!imageFileExists(item.url)) {
+        const filename = item.url
+          ? item.url.replace(/^\/+/, "").replace(/^images\//, "")
+          : `${course.id}_extra_${i}.jpg`;
+        tasks.push({
+          course,
+          kind: "additional",
+          index: i,
+          prompt: `${item.prompt}, ${BASE_STYLE}`,
+          filename,
+        });
+      }
+    }
+  }
+
+  if (tasks.length === 0) {
     console.log("画像なしのコースはありません");
     return;
   }
 
-  console.log(`${missing.length}件の画像なしコースを検出\n`);
+  console.log(`${tasks.length}件の画像生成を実行\n`);
 
-  for (const course of missing) {
-    console.log(`📷 ${course.name}`);
-    const prompt = buildPrompt(course);
-    const filename = `${course.id}.jpg`;
+  let succeeded = 0;
+  for (const t of tasks) {
+    console.log(`📷 ${t.course.name} [${t.kind}${t.kind === "additional" ? `:${t.index}` : ""}] → ${t.filename}`);
     const seed = Math.floor(Math.random() * 9000) + 1000;
-    console.log(`  ダウンロード中 (seed=${seed})...`);
-
-    const ok = await downloadImage(prompt, filename, seed);
+    const ok = await downloadImage(t.prompt, t.filename, seed);
     if (ok) {
-      course.imageUrl = `/images/${filename}`;
+      succeeded++;
+      if (t.kind === "main") {
+        t.course.imageUrl = `/images/${t.filename}`;
+      } else if (t.kind === "additional") {
+        t.course.additionalImages[t.index].url = `/images/${t.filename}`;
+      }
     }
   }
 
   data.updatedAt = new Date().toISOString();
   writeFileSync(COURSES_PATH, JSON.stringify(data, null, 2) + "\n");
 
-  const succeeded = missing.filter((c) => c.imageUrl).length;
-  console.log(`\n${succeeded}/${missing.length}件の画像を生成・JSONを更新しました`);
+  console.log(`\n${succeeded}/${tasks.length}件の画像を生成・JSONを更新しました`);
 }
 
 main();

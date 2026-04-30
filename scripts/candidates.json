@@ -24,8 +24,9 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
-      "travelMinutesFromTokyo": 62
+      "status": "added",
+      "travelMinutesFromTokyo": 62,
+      "courseId": "course_001"
     },
     {
       "prefecture": "茨城県",
