@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T04:35:50.519Z",
+  "updatedAt": "2026-04-30T05:33:22.848Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -52,14 +52,9 @@
       "travelMinutesFromTokyo": 50,
       "additionalImages": [
         {
-          "label": "クラブハウス",
-          "url": "/images/course_demo_001_extra1.jpg",
-          "prompt": "professional landscape photography, traditional Japanese golf clubhouse with wide eaves and dark wood facade, expansive porte-cochere, manicured entrance with low hedges, sunny mid-morning light, large parking with luxury sedans, clear blue sky"
-        },
-        {
-          "label": "東京湾の眺望",
-          "url": "/images/course_demo_001_extra2.jpg",
-          "prompt": "professional landscape photography, distant view of Tokyo Bay and Aqualine bridge silhouette from elevated golf course tee box, hazy ocean horizon, late afternoon golden light, mature pine trees framing the foreground"
+          "label": "クラブハウス外観",
+          "url": "/images/course_demo_001_clubhouse.jpg",
+          "prompt": "professional landscape photography, traditional Japanese golf clubhouse with wide eaves and dark wood facade, expansive porte-cochere entrance, manicured low hedges, mid-morning sunlight, clear blue sky, exterior view from approach driveway"
         }
       ]
     },
@@ -113,14 +108,9 @@
       "travelMinutesFromTokyo": 77,
       "additionalImages": [
         {
-          "label": "クラブハウス",
-          "url": "/images/course_demo_002_extra1.jpg",
-          "prompt": "professional landscape photography, traditional Japanese-style golf clubhouse in suburban Saitama, gabled roof with dark tiles, beige wooden facade, surrounded by cedar and oak forest, warm afternoon light, peaceful atmosphere"
-        },
-        {
-          "label": "温泉浴場",
-          "url": "/images/course_demo_002_extra2.jpg",
-          "prompt": "professional landscape photography, traditional Japanese onsen bath inside a golf clubhouse, large indoor cypress wood tub, steaming clear water, large window overlooking the forest, soft warm light, no people, serene atmosphere"
+          "label": "クラブハウス外観",
+          "url": "/images/course_demo_002_clubhouse.jpg",
+          "prompt": "professional landscape photography, suburban Japanese golf clubhouse exterior in Saitama, gabled roof with dark tiles, beige wooden facade, surrounded by cedar and oak forest, warm afternoon light, peaceful atmosphere"
         }
       ]
     },
@@ -174,14 +164,9 @@
       "travelMinutesFromTokyo": 177,
       "additionalImages": [
         {
-          "label": "クラブハウス",
-          "url": "/images/course_demo_003_extra1.jpg",
-          "prompt": "professional landscape photography, mountain lodge style golf clubhouse in Karuizawa, large stone fireplace, exposed wooden beams, panoramic view of distant Mount Asama through floor-to-ceiling windows, rustic luxury, fresh morning light"
-        },
-        {
-          "label": "白樺と高原",
-          "url": "/images/course_demo_003_extra2.jpg",
-          "prompt": "professional landscape photography, golf cart path winding through tall white birch tree forest in Karuizawa highlands, dappled sunlight, fresh green undergrowth, distant volcanic mountain peak, crisp summer morning air"
+          "label": "クラブハウス外観",
+          "url": "/images/course_demo_003_clubhouse.jpg",
+          "prompt": "professional landscape photography, mountain lodge style golf clubhouse exterior in Karuizawa highland, low-rise wooden building with large stone chimney, distant snow-capped Mount Asama in background, white birch trees flanking the entrance, fresh morning sunlight"
         }
       ]
     },
@@ -235,14 +220,9 @@
       "travelMinutesFromTokyo": 121,
       "additionalImages": [
         {
-          "label": "ホテル併設棟",
-          "url": "/images/course_demo_004_extra1.jpg",
-          "prompt": "professional landscape photography, luxury Japanese golf resort hotel building with view of Mount Fuji, modern architecture with stone and glass, elegant pool deck, manicured gardens, golden hour light, no people"
-        },
-        {
-          "label": "富士山ビューホール",
-          "url": "/images/course_demo_004_extra2.jpg",
-          "prompt": "professional landscape photography, signature long par-5 golf hole sweeping toward iconic Mount Fuji centered on horizon, autumn susuki pampas grass swaying along rough, perfectly conditioned green and bunkers, golden afternoon light"
+          "label": "クラブハウス外観",
+          "url": "/images/course_demo_004_clubhouse.jpg",
+          "prompt": "professional landscape photography, prestigious Japanese golf clubhouse exterior in Gotemba, elegant low-rise building with stone facade and copper accents, neat circular driveway with stone fountain, distant Mount Fuji visible above the rooftop, golden afternoon light"
         }
       ]
     },
@@ -296,14 +276,9 @@
       "travelMinutesFromTokyo": 66,
       "additionalImages": [
         {
-          "label": "クラブハウス",
-          "url": "/images/course_demo_005_extra1.jpg",
-          "prompt": "professional landscape photography, classic Japanese parkland golf clubhouse with white walls and grey tile roof, low-rise single-story building surrounded by mature zelkova trees, wide approach driveway, quiet sunny afternoon"
-        },
-        {
-          "label": "林間フェアウェイ",
-          "url": "/images/course_demo_005_extra2.jpg",
-          "prompt": "professional landscape photography, perfectly flat parkland golf fairway lined by tall mature zelkova and oak trees, dappled tree shadows on the grass, distant green flag visible, calm sunny day in Ibaraki countryside"
+          "label": "クラブハウス外観",
+          "url": "/images/course_demo_005_clubhouse.jpg",
+          "prompt": "professional landscape photography, classic Japanese parkland golf clubhouse exterior with white walls and grey tile roof, low-rise single-story building surrounded by mature zelkova trees, wide approach driveway, quiet sunny afternoon in Ibaraki countryside"
         }
       ]
     }

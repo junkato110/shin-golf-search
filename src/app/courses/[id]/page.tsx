@@ -85,42 +85,39 @@ export default async function CoursePage({
       </header>
 
       {course.imageUrl && (
-        <div className="w-full bg-neutral-100 grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-1 md:aspect-[16/7]">
-          {/* メイン: 名物ホール (imageUrl を流用) */}
-          <div className="md:col-span-2 md:row-span-2 relative overflow-hidden aspect-[16/9] md:aspect-auto">
+        <div className="w-full bg-neutral-100 grid grid-cols-1 md:grid-cols-2 gap-1 md:aspect-[16/6]">
+          {/* メイン: 名物ホール */}
+          <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={course.imageUrl}
               alt={`${course.name} 名物ホール`}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-            <span className="absolute bottom-3 left-4 text-[10px] tracking-[0.3em] uppercase text-white/80 font-display">
-              Signature
+            <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
+            <span className="absolute bottom-3 left-4 text-[11px] tracking-[0.2em] text-white font-medium">
+              名物ホール
             </span>
           </div>
-          {/* サブ画像 (上下2枚) */}
-          {course.additionalImages?.slice(0, 2).map((img, i) => (
-            <div
-              key={i}
-              className="relative overflow-hidden aspect-[16/9] md:aspect-auto"
-            >
-              {img.url ? (
+          {/* サブ: クラブハウス外観 (1枚) */}
+          {course.additionalImages?.[0] && (
+            <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto">
+              {course.additionalImages[0].url ? (
                 /* eslint-disable-next-line @next/next/no-img-element */
                 <img
-                  src={img.url}
-                  alt={`${course.name} ${img.label}`}
+                  src={course.additionalImages[0].url}
+                  alt={`${course.name} ${course.additionalImages[0].label}`}
                   className="w-full h-full object-cover"
                 />
               ) : (
                 <div className="w-full h-full bg-neutral-200" />
               )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-              <span className="absolute bottom-2 left-3 text-[10px] tracking-wider text-white/90 font-medium">
-                {img.label}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
+              <span className="absolute bottom-3 left-4 text-[11px] tracking-[0.2em] text-white font-medium">
+                {course.additionalImages[0].label}
               </span>
             </div>
-          ))}
+          )}
         </div>
       )}
 
