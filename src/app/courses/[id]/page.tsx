@@ -149,18 +149,22 @@ export default async function CoursePage({
               )}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-xs text-[var(--color-navy)] border border-[var(--color-line-strong)] px-2.5 py-1 hover:bg-[var(--color-navy)] hover:text-white transition-colors tracking-wide"
+              className="inline-flex items-center gap-1.5 text-xs text-[var(--color-navy)] border border-[var(--color-line-strong)] px-2.5 py-1 hover:bg-[var(--color-navy)] hover:text-white transition-colors tracking-wide"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-3.5 h-3.5"
+                className="w-4 h-4 shrink-0"
                 aria-hidden
               >
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                {/* Google Maps 風の赤ピン (色はホバーに依らず固定) */}
+                <path
+                  fill="#EA4335"
+                  d="M12 2C7.58 2 4 5.58 4 10c0 5.5 8 12 8 12s8-6.5 8-12c0-4.42-3.58-8-8-8z"
+                />
+                <circle fill="#FFFFFF" cx="12" cy="10" r="2.5" />
               </svg>
-              Google マップで開く
+              Google Maps
             </a>
           </p>
         </div>
