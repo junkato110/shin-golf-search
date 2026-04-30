@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T03:59:54.526Z",
+  "updatedAt": "2026-04-30T04:00:49.360Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -24,7 +24,8 @@
         "summerCool": 0,
         "windShelter": 0,
         "scenicView": 1,
-        "winterWarm": 1
+        "winterWarm": 1,
+        "womenFriendly": 1
       },
       "tags": [
         "本格派",
@@ -61,7 +62,8 @@
         "summerCool": 0,
         "windShelter": 1,
         "scenicView": 0,
-        "winterWarm": 0
+        "winterWarm": 0,
+        "womenFriendly": 1
       },
       "tags": [
         "温泉あり",
@@ -97,7 +99,8 @@
         "summerCool": 2,
         "windShelter": 1,
         "scenicView": 2,
-        "winterWarm": 0
+        "winterWarm": 0,
+        "womenFriendly": 2
       },
       "tags": [
         "高原リゾート",
@@ -134,7 +137,8 @@
         "summerCool": 2,
         "windShelter": 0,
         "scenicView": 2,
-        "winterWarm": 0
+        "winterWarm": 0,
+        "womenFriendly": 2
       },
       "tags": [
         "接待向き",
@@ -172,7 +176,8 @@
         "windShelter": 1,
         "seniorFriendly": 2,
         "scenicView": 0,
-        "winterWarm": 1
+        "winterWarm": 1,
+        "womenFriendly": 1
       },
       "tags": [
         "フラット",
