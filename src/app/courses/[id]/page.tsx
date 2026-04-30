@@ -23,20 +23,29 @@ export async function generateMetadata({
   };
 }
 
-const SCORE_AXES: { key: keyof CourseScores; label: string; highIs: string }[] = [
-  { key: "difficulty", label: "難易度", highIs: "本格派" },
-  { key: "fairwayWidth", label: "フェアウェイ", highIs: "広い" },
-  { key: "flatness", label: "フラット度", highIs: "フラット" },
-  { key: "mealQuality", label: "メシ", highIs: "こだわり◎" },
-  { key: "mannerStrictness", label: "マナー", highIs: "厳しい" },
-  { key: "practiceRange", label: "練習場", highIs: "充実" },
-  { key: "onsen", label: "温泉", highIs: "あり" },
-  { key: "summerCool", label: "夏涼しい", highIs: "◎" },
-  { key: "winterWarm", label: "冬温かい", highIs: "◎" },
-  { key: "windShelter", label: "風影響少ない", highIs: "◎" },
-  { key: "scenicView", label: "絶景", highIs: "あり" },
-  { key: "womenFriendly", label: "女性に優しい", highIs: "◎" },
-  { key: "seniorFriendly", label: "シニアに優しい", highIs: "◎" },
+type ScoreAxisDef = {
+  key: keyof CourseScores;
+  label: string;
+  /** バー左端の補足ラベル (低スコア側) */
+  low: string;
+  /** バー右端の補足ラベル (高スコア側) */
+  high: string;
+};
+
+const SCORE_AXES: ScoreAxisDef[] = [
+  { key: "difficulty", label: "難易度", low: "易しい", high: "本格派" },
+  { key: "fairwayWidth", label: "フェアウェイ", low: "狭い", high: "広い" },
+  { key: "flatness", label: "フラット度", low: "起伏あり", high: "フラット" },
+  { key: "mealQuality", label: "メシ", low: "並", high: "こだわり" },
+  { key: "mannerStrictness", label: "マナー", low: "緩い", high: "厳しい" },
+  { key: "practiceRange", label: "練習場", low: "簡素", high: "充実" },
+  { key: "onsen", label: "温泉", low: "なし", high: "あり" },
+  { key: "summerCool", label: "夏の涼しさ", low: "暑い", high: "涼しい" },
+  { key: "winterWarm", label: "冬の温かさ", low: "寒い", high: "温かい" },
+  { key: "windShelter", label: "風の影響", low: "風強い", high: "影響少" },
+  { key: "scenicView", label: "絶景度", low: "並", high: "絶景" },
+  { key: "womenFriendly", label: "女性向け", low: "並", high: "充実" },
+  { key: "seniorFriendly", label: "シニア向け", low: "並", high: "歩きやすい" },
 ];
 
 export default async function CoursePage({
@@ -148,31 +157,11 @@ export default async function CoursePage({
                 Vibe
               </span>
             </div>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-5">
               {SCORE_AXES.map((axis) => {
                 const value = course.scores?.[axis.key];
                 if (value == null) return null;
-                return (
-                  <li
-                    key={axis.key}
-                    className="flex items-center justify-between border-b border-dashed border-[var(--color-line)] pb-2"
-                  >
-                    <span className="text-sm text-[var(--color-ink-muted)]">
-                      {axis.label}
-                    </span>
-                    <span className="flex items-center gap-2">
-                      <span className="font-mono text-sm text-[var(--color-navy)]">
-                        {"●".repeat(value)}
-                        {"○".repeat(2 - value)}
-                      </span>
-                      {value === 2 && (
-                        <span className="text-[var(--color-accent)] text-xs font-semibold">
-                          {axis.highIs}
-                        </span>
-                      )}
-                    </span>
-                  </li>
-                );
+                return <ScoreRow key={axis.key} axis={axis} value={value} />;
               })}
             </ul>
           </section>
@@ -275,6 +264,52 @@ export default async function CoursePage({
         </div>
       </footer>
     </div>
+  );
+}
+
+/**
+ * 体感スコアの1行 (5段階バー + 両端ラベル)
+ *
+ * 内部スコアは 0/1/2 の3段階だが、視認性を上げるため5セグメントにマップ:
+ *   value=0 → 1セグメント点灯 (低)
+ *   value=1 → 3セグメント点灯 (中)
+ *   value=2 → 5セグメント点灯 (高、ゴールド色で強調)
+ */
+function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
+  const filled = value * 2 + 1; // 1, 3, or 5
+  const isMax = value === 2;
+  const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
+  return (
+    <li className="border-b border-dashed border-[var(--color-line)] pb-3">
+      <p className="text-xs text-[var(--color-ink-muted)] mb-2 tracking-wide font-medium">
+        {axis.label}
+      </p>
+      <div className="flex items-center gap-2.5">
+        <span className="text-[10px] text-[var(--color-ink-subtle)] w-14 text-right shrink-0 tracking-wide">
+          {axis.low}
+        </span>
+        <div className="flex gap-1 flex-1 min-w-0">
+          {Array.from({ length: 5 }).map((_, i) => (
+            <span
+              key={i}
+              className="h-2 flex-1 rounded-sm"
+              style={{
+                backgroundColor: i < filled ? fillColor : "rgba(1, 50, 32, 0.12)",
+              }}
+            />
+          ))}
+        </div>
+        <span
+          className={`text-[10px] w-14 shrink-0 tracking-wide ${
+            isMax
+              ? "text-[var(--color-accent)] font-semibold"
+              : "text-[var(--color-ink-subtle)]"
+          }`}
+        >
+          {axis.high}
+        </span>
+      </div>
+    </li>
   );
 }
 
