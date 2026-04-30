@@ -111,10 +111,31 @@ export default async function CoursePage({
               {course.nameKana}
             </p>
           )}
-          <p className="text-sm text-[var(--color-ink-muted)] mt-4">
-            {course.prefecture}
-            {course.city ? ` · ${course.city}` : ""}
-            {course.address ? ` · ${course.address}` : ""}
+          <p className="text-sm text-[var(--color-ink-muted)] mt-4 flex flex-wrap items-center gap-x-3 gap-y-1.5">
+            <span>
+              {course.address ?? `${course.prefecture}${course.city ?? ""}`}
+            </span>
+            {(course.address || (course.lat != null && course.lng != null)) && (
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                  course.address ?? `${course.lat},${course.lng}`
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-xs text-[var(--color-navy)] border border-[var(--color-line-strong)] px-2.5 py-1 hover:bg-[var(--color-navy)] hover:text-white transition-colors tracking-wide"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-3.5 h-3.5"
+                  aria-hidden
+                >
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                </svg>
+                Google マップで開く
+              </a>
+            )}
           </p>
         </div>
 
@@ -230,16 +251,6 @@ export default async function CoursePage({
                 className="text-[var(--color-navy)] hover:text-[var(--color-accent)] underline"
               >
                 公式サイト →
-              </a>
-            )}
-            {course.lat != null && course.lng != null && (
-              <a
-                href={`https://www.google.com/maps?q=${course.lat},${course.lng}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[var(--color-navy)] hover:text-[var(--color-accent)] underline"
-              >
-                Google マップ →
               </a>
             )}
           </div>

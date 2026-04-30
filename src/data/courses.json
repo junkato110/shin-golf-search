@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T04:00:49.360Z",
+  "updatedAt": "2026-04-30T04:02:53.849Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -38,7 +38,8 @@
         "仮データ"
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
-      "hasBath": true
+      "hasBath": true,
+      "address": "千葉県袖ケ浦市林1166"
     },
     {
       "id": "course_demo_002",
@@ -75,7 +76,8 @@
         "仮データ"
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
-      "hasBath": true
+      "hasBath": true,
+      "address": "埼玉県比企郡鳩山町大字泉井1995"
     },
     {
       "id": "course_demo_003",
@@ -113,7 +115,8 @@
         "仮データ"
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
-      "hasBath": true
+      "hasBath": true,
+      "address": "長野県北佐久郡軽井沢町長倉"
     },
     {
       "id": "course_demo_004",
@@ -151,7 +154,8 @@
         "仮データ"
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
-      "hasBath": true
+      "hasBath": true,
+      "address": "静岡県御殿場市中畑2335"
     },
     {
       "id": "course_demo_005",
@@ -190,7 +194,8 @@
         "仮データ"
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
-      "hasBath": true
+      "hasBath": true,
+      "address": "茨城県牛久市奥原町1551-13"
     }
   ]
 }
