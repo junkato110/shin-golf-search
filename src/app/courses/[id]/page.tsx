@@ -85,9 +85,9 @@ export default async function CoursePage({
       </header>
 
       {course.imageUrl && (
-        <div className="w-full bg-neutral-100 grid grid-cols-1 md:grid-cols-2 gap-1 md:aspect-[16/2.5]">
+        <div className="w-full bg-neutral-100 grid grid-cols-1 md:grid-cols-2 gap-1 md:h-[220px] lg:h-[260px]">
           {/* メイン: 名物ホール */}
-          <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto">
+          <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto md:h-full">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={course.imageUrl}
@@ -101,7 +101,7 @@ export default async function CoursePage({
           </div>
           {/* サブ: クラブハウス外観 (1枚) */}
           {course.additionalImages?.[0] && (
-            <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto">
+            <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto md:h-full">
               {course.additionalImages[0].url ? (
                 /* eslint-disable-next-line @next/next/no-img-element */
                 <img
