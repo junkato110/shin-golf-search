@@ -125,8 +125,8 @@ function Dropdown({
             const active = o.value === value;
             return (
               <li key={o.value}>
-                <button
-                  type="button"
+                <a
+                  href="#"
                   onClick={(e) => {
                     e.preventDefault();
                     e.stopPropagation();
@@ -134,14 +134,14 @@ function Dropdown({
                     if (detailsRef.current) detailsRef.current.open = false;
                   }}
                   className={
-                    "w-full text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] " +
+                    "block w-full cursor-pointer text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] no-underline " +
                     (active
                       ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
                       : "text-[var(--color-ink)]")
                   }
                 >
                   {o.label}
-                </button>
+                </a>
               </li>
             );
           })
