@@ -234,7 +234,7 @@ export default async function CoursePage({
               </h2>
             </div>
             <div className="flex flex-wrap gap-2">
-              {course.tags.map((t) => (
+              {course.tags.slice(0, 6).map((t) => (
                 <span
                   key={t}
                   className="px-3.5 py-1.5 border border-[var(--color-navy)]/30 bg-white text-[var(--color-navy)] text-sm tracking-wide"

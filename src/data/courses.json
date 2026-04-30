@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T04:13:01.014Z",
+  "updatedAt": "2026-04-30T04:18:46.024Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -29,9 +29,12 @@
         "seniorFriendly": 1
       },
       "tags": [
-        "本格派",
+        "本格チャンピオンコース",
         "アクアライン直結",
-        "練習場充実"
+        "東京湾眺望",
+        "7,000ヤード超",
+        "練習場充実",
+        "キャディ必須"
       ],
       "imageUrl": "/images/course_demo_001.jpg",
       "customImagePrompt": "aerial-style landscape photo of a championship golf course near Tokyo Bay in Chiba, signature long par-5 hole with wide sweeping fairway curving toward an elevated green guarded by bunkers, mature pine trees lining the perimeter, faint distant silhouette of Aqualine bridge across the bay on the horizon, fresh manicured fairway with morning dew, soft warm dawn light",
@@ -75,8 +78,12 @@
         "seniorFriendly": 2
       },
       "tags": [
+        "都心から1時間",
         "温泉あり",
-        "都心近郊"
+        "スルー対応",
+        "カート乗入可",
+        "シニアフレンドリー",
+        "リーズナブル"
       ],
       "imageUrl": "/images/course_demo_002.jpg",
       "customImagePrompt": "landscape photo of a gently rolling hilly golf course in suburban Saitama, fairway descending into a small valley with a creek crossing, surrounding mixed forest of cedar and oak, traditional Japanese-style clubhouse and an outdoor onsen bath visible in the distance, warm late afternoon golden light, intimate quiet atmosphere",
@@ -121,8 +128,11 @@
       },
       "tags": [
         "高原リゾート",
-        "夏涼しい",
-        "27H以上"
+        "夏でも涼しい",
+        "浅間山眺望",
+        "72ホール構成",
+        "白樺林",
+        "宿泊滞在型"
       ],
       "imageUrl": "/images/course_demo_003.jpg",
       "customImagePrompt": "wide landscape photo of a highland golf resort in Karuizawa Nagano at the foot of Mount Asama, expansive emerald fairway framed by tall white birch trees, distant snow-capped volcanic mountain backdrop under a clear blue sky, alpine flowers along the rough, crisp cool morning air with gentle mist rising, refreshing summer-resort atmosphere",
@@ -166,9 +176,12 @@
         "seniorFriendly": 1
       },
       "tags": [
-        "接待向き",
         "富士山眺望",
-        "本格派"
+        "接待向き",
+        "トーナメント開催",
+        "名門コース",
+        "ホテル併設",
+        "ジャケット推奨"
       ],
       "imageUrl": "/images/course_demo_004.jpg",
       "customImagePrompt": "cinematic landscape photo of a prestigious championship golf course in Gotemba Shizuoka, undulating manicured fairway sweeping toward an iconic majestic Mount Fuji towering in the background, autumn susuki pampas grass swaying along the rough, perfectly conditioned greens, golden late-afternoon light catching the grass blades, formal yet breathtaking atmosphere",
@@ -212,9 +225,12 @@
         "womenFriendly": 1
       },
       "tags": [
-        "フラット",
-        "シニア向き",
-        "歩きやすい"
+        "完全フラット",
+        "歩きでもOK",
+        "カート乗入可",
+        "シニアフレンドリー",
+        "林間コース",
+        "スルー対応"
       ],
       "imageUrl": "/images/course_demo_005.jpg",
       "customImagePrompt": "landscape photo of a classic flat parkland golf course in Ibaraki on the Kanto plain, perfectly horizontal fairway stretching toward a small green guarded by two shallow bunkers, wide open sky with scattered cumulus clouds, mature zelkova trees lining the boundary, easy walking terrain, peaceful retiree-friendly atmosphere",
