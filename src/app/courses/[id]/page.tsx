@@ -142,18 +142,19 @@ export default async function CoursePage({
 
         {/* 基本情報 */}
         <section className="mb-10">
-          <div className="flex items-baseline gap-3 mb-5">
-            <h2
-              className="font-serif text-base text-[var(--color-navy)]"
-              style={{ fontWeight: 700, letterSpacing: "0.08em" }}
-            >
-              基本情報
-            </h2>
-            <span className="font-display text-[10px] text-[var(--color-accent)] uppercase tracking-[0.3em]">
-              Overview
-            </span>
-          </div>
-          <dl className="grid grid-cols-2 sm:grid-cols-4 gap-y-5 gap-x-6">
+          <div className="bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-6 sm:p-8">
+            <div className="flex items-baseline gap-3 mb-6 pb-4 border-b border-[var(--color-line)]">
+              <h2
+                className="font-serif text-lg text-[var(--color-navy)]"
+                style={{ fontWeight: 700, letterSpacing: "0.08em" }}
+              >
+                基本情報
+              </h2>
+              <span className="font-display text-[11px] text-[var(--color-accent)] uppercase tracking-[0.3em]">
+                Overview
+              </span>
+            </div>
+            <dl className="grid grid-cols-2 sm:grid-cols-4 gap-y-6 gap-x-6">
             <Stat label="距離" value={course.totalYardage ? `${course.totalYardage} yd` : "—"} />
             <Stat
               label="東京駅から車で"
@@ -191,29 +192,32 @@ export default async function CoursePage({
               <Stat label="設計" value={course.designer} className="col-span-2" />
             )}
           </dl>
+          </div>
         </section>
 
         {/* 体感スコア */}
         {course.scores && (
           <section className="mb-10">
-            <div className="flex items-baseline gap-3 mb-5">
-              <h2
-                className="font-serif text-base text-[var(--color-navy)]"
-                style={{ fontWeight: 700, letterSpacing: "0.08em" }}
-              >
-                体感スコア
-              </h2>
-              <span className="font-display text-[10px] text-[var(--color-accent)] uppercase tracking-[0.3em]">
-                Vibe
-              </span>
+            <div className="bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-6 sm:p-8">
+              <div className="flex items-baseline gap-3 mb-6 pb-4 border-b border-[var(--color-line)]">
+                <h2
+                  className="font-serif text-lg text-[var(--color-navy)]"
+                  style={{ fontWeight: 700, letterSpacing: "0.08em" }}
+                >
+                  体感スコア
+                </h2>
+                <span className="font-display text-[11px] text-[var(--color-accent)] uppercase tracking-[0.3em]">
+                  Vibe
+                </span>
+              </div>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6">
+                {SCORE_AXES.map((axis) => {
+                  const value = course.scores?.[axis.key];
+                  if (value == null) return null;
+                  return <ScoreRow key={axis.key} axis={axis} value={value} />;
+                })}
+              </ul>
             </div>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-5">
-              {SCORE_AXES.map((axis) => {
-                const value = course.scores?.[axis.key];
-                if (value == null) return null;
-                return <ScoreRow key={axis.key} axis={axis} value={value} />;
-              })}
-            </ul>
           </section>
         )}
 
@@ -337,27 +341,30 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
   const isMax = value === 2;
   const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
   return (
-    <li className="border-b border-dashed border-[var(--color-line)] pb-3">
-      <p className="text-xs text-[var(--color-ink-muted)] mb-2 tracking-wide font-medium">
+    <li className="border-b border-dashed border-[var(--color-line)] pb-4">
+      <p
+        className="text-sm text-[var(--color-navy)] mb-2.5 tracking-wide"
+        style={{ fontWeight: 700 }}
+      >
         {axis.label}
       </p>
-      <div className="flex items-center gap-2.5">
-        <span className="text-[10px] text-[var(--color-ink-subtle)] w-24 text-center shrink-0 tracking-wide leading-tight">
+      <div className="flex items-center gap-3">
+        <span className="text-[11px] text-[var(--color-ink-subtle)] w-24 text-center shrink-0 tracking-wide leading-tight">
           {renderAxisLabel(axis.low)}
         </span>
         <div className="flex gap-1 flex-1 min-w-0">
           {Array.from({ length: 5 }).map((_, i) => (
             <span
               key={i}
-              className="h-2 flex-1 rounded-sm"
+              className="h-3 flex-1 rounded-sm"
               style={{
-                backgroundColor: i < filled ? fillColor : "rgba(1, 50, 32, 0.12)",
+                backgroundColor: i < filled ? fillColor : "rgba(1, 50, 32, 0.1)",
               }}
             />
           ))}
         </div>
         <span
-          className={`text-[10px] w-24 text-center shrink-0 tracking-wide leading-tight ${
+          className={`text-[11px] w-24 text-center shrink-0 tracking-wide leading-tight ${
             isMax
               ? "text-[var(--color-accent)] font-semibold"
               : "text-[var(--color-ink-subtle)]"
@@ -381,12 +388,12 @@ function Stat({
 }) {
   return (
     <div className={className}>
-      <dt className="font-display text-[10px] text-[var(--color-accent)] tracking-[0.3em] uppercase mb-1">
+      <dt className="text-[11px] text-[var(--color-ink-muted)] tracking-wider mb-1.5 font-medium">
         {label}
       </dt>
       <dd
-        className="font-serif text-lg text-[var(--color-navy)]"
-        style={{ fontWeight: 600 }}
+        className="font-serif text-xl text-[var(--color-navy)] leading-tight"
+        style={{ fontWeight: 700, letterSpacing: "0.02em" }}
       >
         {value}
       </dd>
