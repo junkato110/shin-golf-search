@@ -21,10 +21,41 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+const SITE_NAME = "シン・ゴルフサーチ";
+const SITE_TITLE = `${SITE_NAME} — 都心から3時間以内特化のゴルフ場検索`;
+const SITE_DESCRIPTION =
+  "都心から3時間以内特化。マナー・難易度・フェアウェイの広さ・ご飯の美味しさなど、今までの予約サイトでは絞れなかった「体感スコア」で本当に探しているベストコースを探せる新時代のゴルフ場検索サイト。";
+
 export const metadata: Metadata = {
-  title: "シン・ゴルフサーチ — 都心から3時間以内特化のゴルフ場検索",
-  description:
-    "都心から3時間以内特化。「かゆいところに手が届く」新時代のゴルフ場検索サイト。",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    locale: "ja_JP",
+    url: SITE_URL,
+    images: [
+      {
+        url: "/images/hero-bg.jpg",
+        width: 1200,
+        height: 630,
+        alt: SITE_NAME,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: ["/images/hero-bg.jpg"],
+  },
 };
 
 export default function RootLayout({

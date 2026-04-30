@@ -22,9 +22,31 @@ export async function generateMetadata({
   const { id } = await params;
   const c = getCourseById(id);
   if (!c) return { title: "コースが見つかりません" };
+  const title = `${c.name} — シン・ゴルフサーチ`;
+  const description = `${c.prefecture}${c.city ?? ""} のゴルフ場「${c.name}」の基本情報・体感スコア・予約導線。`;
+  const ogImage = c.imageUrl ?? "/images/hero-bg.jpg";
   return {
-    title: `${c.name} — シン・ゴルフサーチ`,
-    description: `${c.prefecture}${c.city ?? ""} のゴルフ場「${c.name}」の基本情報。`,
+    title,
+    description,
+    openGraph: {
+      type: "article",
+      title: c.name,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: c.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.name,
+      description,
+      images: [ogImage],
+    },
   };
 }
 
