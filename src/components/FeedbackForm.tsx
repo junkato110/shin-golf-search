@@ -36,8 +36,10 @@ export default function FeedbackForm() {
             Feedback
           </span>
         </div>
-        <p className="text-sm text-white/75 leading-relaxed mb-8">
-          「シン・ゴルフサーチ」は皆さまのご意見を元に鋭意改善していきます！
+        <p className="text-xs sm:text-sm text-white/75 leading-relaxed mb-8">
+          「シン・ゴルフサーチ」は皆さまのご意見を元に
+          <br className="sm:hidden" />
+          鋭意改善していきます！
           <br />
           「もっとこんな機能が欲しい！」の声を投稿お願いします！
         </p>
