@@ -47,7 +47,7 @@ export default function Home() {
             <span className="text-[var(--color-accent)]">&ldquo;かゆいところに手が届く&rdquo;</span>{" "}
             「新時代のゴルフ場検索サイト」
           </h1>
-          <p className="text-sm text-white/75 mt-4 max-w-2xl leading-relaxed">
+          <p className="text-sm text-white/75 mt-4 leading-relaxed whitespace-nowrap overflow-x-auto">
             マナーの厳格さ、難易度、フェアウェイの広さ、ご飯の美味しさ etc…
             <br />
             今までの予約サイトでは絞れなかった「体感スコア」で、あなたの本当に探しているベストコースを探せます
