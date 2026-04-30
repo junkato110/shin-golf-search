@@ -438,7 +438,9 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
             </h2>
           </div>
           <p className="text-[11px] text-[var(--color-ink-subtle)] mb-4 leading-relaxed">
-            「かゆいところに手が届く」体感軸でさらに絞り込み
+            「かゆいところに手が届く」
+            <br />
+            体感スコア条件でさらに絞り込み
           </p>
           <fieldset>
             <div className="space-y-2">
