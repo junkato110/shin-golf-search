@@ -81,6 +81,8 @@ async function downloadImage(prompt, filename, seed, attempt = 1) {
     console.error(`  失敗 (試行${attempt}): ${(e.message || "").slice(0, 80)}`);
   }
   if (attempt < MAX_ATTEMPTS) {
+    // 失敗時は少し待ってからリトライ (rate limit リカバリ)
+    await new Promise((r) => setTimeout(r, 5000));
     console.log(`  リトライ中 (${attempt + 1}/${MAX_ATTEMPTS})...`);
     return downloadImage(prompt, filename, seed + 1, attempt + 1);
   }
@@ -142,9 +144,16 @@ async function main() {
 
   console.log(`${tasks.length}件の画像生成を実行\n`);
 
+  // Pollinations は IP あたり同時 1 リクエストの制限がある。
+  // 連続実行で次のリクエストが弾かれるため、各実行後に 5秒間の待機を入れる。
+  const RATE_LIMIT_DELAY_MS = 5000;
+
   let succeeded = 0;
-  for (const t of tasks) {
-    console.log(`📷 ${t.course.name} [${t.kind}${t.kind === "additional" ? `:${t.index}` : ""}] → ${t.filename}`);
+  for (let idx = 0; idx < tasks.length; idx++) {
+    const t = tasks[idx];
+    console.log(
+      `[${idx + 1}/${tasks.length}] 📷 ${t.course.name} [${t.kind}${t.kind === "additional" ? `:${t.index}` : ""}] → ${t.filename}`
+    );
     const seed = Math.floor(Math.random() * 9000) + 1000;
     const ok = await downloadImage(t.prompt, t.filename, seed);
     if (ok) {
@@ -154,6 +163,10 @@ async function main() {
       } else if (t.kind === "additional") {
         t.course.additionalImages[t.index].url = `/images/${t.filename}`;
       }
+    }
+    // 次のリクエスト前に少し待つ (Pollinations の IP レートリミット回避)
+    if (idx < tasks.length - 1) {
+      await new Promise((r) => setTimeout(r, RATE_LIMIT_DELAY_MS));
     }
   }
 

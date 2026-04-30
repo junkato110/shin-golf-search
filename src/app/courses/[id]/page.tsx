@@ -215,9 +215,11 @@ export default async function CoursePage({
               value={
                 !course.hasBath
                   ? "なし"
-                  : (course.scores?.onsen ?? 0) >= 1
+                  : (course.scores?.onsen ?? 0) >= 3
                   ? "温泉あり"
-                  : "大浴場あり"
+                  : (course.scores?.onsen ?? 0) >= 1
+                  ? "大浴場あり"
+                  : "なし"
               }
             />
             <Stat label="キャディ" value={course.caddyType ?? "—"} />
@@ -378,14 +380,17 @@ function renderAxisLabel(text: string) {
 /**
  * 体感スコアの1行 (5段階バー + 両端ラベル)
  *
- * 内部スコアは 0/1/2 の3段階だが、視認性を上げるため5セグメントにマップ:
- *   value=0 → 1セグメント点灯 (低)
- *   value=1 → 3セグメント点灯 (中)
- *   value=2 → 5セグメント点灯 (高、ゴールド色で強調)
+ * スコアは 0-4 の5段階。各整数値が 1-5 セグメントに対応する。
+ *   value=0 → 1セグメント点灯 (最低)
+ *   value=1 → 2セグメント点灯
+ *   value=2 → 3セグメント点灯 (中央)
+ *   value=3 → 4セグメント点灯
+ *   value=4 → 5セグメント点灯 (最高、ゴールド色で強調)
  */
 function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
-  const filled = value * 2 + 1; // 1, 3, or 5
-  const isMax = value === 2;
+  const v = Math.max(0, Math.min(4, value ?? 0));
+  const filled = v + 1; // 1..5
+  const isMax = v === 4;
   const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
   return (
     <li className="border-b border-dashed border-[var(--color-line)] pb-3 sm:pb-4">

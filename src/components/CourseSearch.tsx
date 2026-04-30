@@ -54,18 +54,20 @@ const CARD_SCORE_AXES: Array<{
   { key: "scenicView", label: "絶景度", low: "並", high: "絶景あり" },
 ];
 
+// scores は 0-4 の5段階。「該当する」フィルタは「3 以上」を基準。
+// onsen のみ「1 以上 (大浴場以上)」とし、温泉のみに絞らない
 const FEATURE_FILTERS: ScoreFilter[] = [
-  { key: "fairwayWidth", label: "フェアウェイが広い", minScore: 2 },
-  { key: "flatness", label: "アップダウンが激しくない", minScore: 1 },
-  { key: "mealQuality", label: "ご飯にこだわりあり", minScore: 2 },
-  { key: "practiceRange", label: "練習場が充実", minScore: 2 },
-  { key: "onsen", label: "温泉あり", minScore: 1 },
-  { key: "summerCool", label: "夏でも涼しい", minScore: 2 },
-  { key: "winterWarm", label: "冬でも温かい", minScore: 2 },
-  { key: "windShelter", label: "風の影響を受けにくい", minScore: 2 },
-  { key: "scenicView", label: "絶景コースあり", minScore: 2 },
-  { key: "womenFriendly", label: "女性に優しい", minScore: 2 },
-  { key: "seniorFriendly", label: "シニアに優しい", minScore: 2 },
+  { key: "fairwayWidth", label: "フェアウェイが広い", minScore: 3 },
+  { key: "flatness", label: "アップダウンが激しくない", minScore: 3 },
+  { key: "mealQuality", label: "ご飯にこだわりあり", minScore: 3 },
+  { key: "practiceRange", label: "練習場が充実", minScore: 3 },
+  { key: "onsen", label: "お風呂・温泉あり", minScore: 1 },
+  { key: "summerCool", label: "夏でも涼しい", minScore: 3 },
+  { key: "winterWarm", label: "冬でも温かい", minScore: 3 },
+  { key: "windShelter", label: "風の影響を受けにくい", minScore: 3 },
+  { key: "scenicView", label: "絶景コースあり", minScore: 3 },
+  { key: "womenFriendly", label: "女性に優しい", minScore: 3 },
+  { key: "seniorFriendly", label: "シニアに優しい", minScore: 3 },
 ];
 
 const ALL_MUNICIPALITIES = (municipalitiesData as MunicipalitiesData)
@@ -222,14 +224,18 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         if (c.travelMinutesFromHome > travelMax) return false;
       }
       if (difficulty > 0) {
-        const d = c.scores?.difficulty ?? 0;
-        // 1=易しい (d<=0), 2=普通以上 (d>=1), 3=本格派 (d>=2)
-        if (difficulty === 1 && d > 0) return false;
-        if (difficulty === 2 && d < 1) return false;
-        if (difficulty === 3 && d < 2) return false;
+        const d = c.scores?.difficulty ?? 2;
+        // 0-4 の5段階で: 1=易しい (d<=1), 2=普通以上 (d>=2), 3=難しい (d>=3)
+        if (difficulty === 1 && d > 1) return false;
+        if (difficulty === 2 && d < 2) return false;
+        if (difficulty === 3 && d < 3) return false;
       }
       if (mannerLevel !== null) {
-        if (c.scores?.mannerStrictness !== mannerLevel) return false;
+        // 0-4 の5段階。マナー条件は ±1 範囲で許容 (UI は緩い/普通/厳しいの3択)
+        const m = c.scores?.mannerStrictness ?? 2;
+        if (mannerLevel === 0 && m > 1) return false; // 緩い (m<=1)
+        if (mannerLevel === 1 && (m < 2 || m > 2)) return false; // 普通 (m===2)
+        if (mannerLevel === 2 && m < 3) return false; // 厳しい (m>=3)
       }
       for (const key of featureKeys) {
         const ff = FEATURE_FILTERS.find((f) => f.key === key);
@@ -591,10 +597,11 @@ function CourseCard({
         {course.scores && (
           <div className="mt-4 pt-4 border-t border-[var(--color-line)] grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
             {CARD_SCORE_AXES.map((axis, idx) => {
-              const value = course.scores?.[axis.key];
-              if (value == null) return null;
-              const filled = value * 2 + 1;
-              const isMax = value === 2;
+              const raw = course.scores?.[axis.key];
+              if (raw == null) return null;
+              const value = Math.max(0, Math.min(4, raw));
+              const filled = value + 1; // 1..5
+              const isMax = value === 4;
               const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
               // モバイルでは練習場 (idx=4) と絶景度 (idx=5) を非表示
               const hideOnMobile = idx >= 4;

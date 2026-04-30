@@ -35,6 +35,27 @@ for (const c of data.courses ?? []) {
   if (onsen >= 1 && c.hasBath === false) {
     errors.push(`${ctx}: onsen=${onsen} なのに hasBath=false (整合性ルール違反)`);
   }
+  // スコア値の範囲チェック (0-4)
+  for (const k of [
+    "difficulty",
+    "fairwayWidth",
+    "flatness",
+    "mealQuality",
+    "mannerStrictness",
+    "practiceRange",
+    "onsen",
+    "summerCool",
+    "winterWarm",
+    "windShelter",
+    "scenicView",
+    "womenFriendly",
+    "seniorFriendly",
+  ]) {
+    const v = c.scores?.[k];
+    if (v != null && (typeof v !== "number" || v < 0 || v > 4 || !Number.isInteger(v))) {
+      errors.push(`${ctx}: scores.${k} は 0-4 の整数でなければならない (現在: ${v})`);
+    }
+  }
   for (const k of [
     "name",
     "prefecture",
