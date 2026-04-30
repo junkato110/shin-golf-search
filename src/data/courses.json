@@ -91,7 +91,7 @@
         "練習場充実",
         "チャンピオンコース"
       ],
-      "hasBath": false,
+      "hasBath": true,
       "cartFairwayIn": true,
       "caddyType": "選択",
       "dressCode": "普段着OK",
@@ -102,8 +102,8 @@
         "https://reserve.golfdigest.co.jp/golf-course/312104/"
       ],
       "id": "course_002",
-      "lat": null,
-      "lng": null,
+      "lat": 36.5849,
+      "lng": 140.3619,
       "imageUrl": "/images/course_002.jpg",
       "customImagePrompt": "Professional golf course landscape showing ゴルフ5カントリー サニーフィールド, scenic fairway, championship quality course",
       "additionalImages": [
@@ -113,7 +113,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 0,
+      "travelMinutesFromTokyo": 159,
       "updatedAt": "2026-04-30T09:22:22.612028+00:00"
     },
     {
@@ -147,7 +147,7 @@
         "トーナメント開催",
         "名門コース"
       ],
-      "hasBath": false,
+      "hasBath": true,
       "cartFairwayIn": true,
       "caddyType": "選択",
       "dressCode": "襟付き必須",
@@ -214,8 +214,8 @@
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80002/"
       ],
       "id": "course_004",
-      "lat": null,
-      "lng": null,
+      "lat": 36.5849,
+      "lng": 140.3619,
       "imageUrl": "/images/course_004.jpg",
       "customImagePrompt": "Professional golf course landscape showing ひたちの圀の健楽園, scenic fairway, championship quality course",
       "additionalImages": [
@@ -225,7 +225,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 0,
+      "travelMinutesFromTokyo": 159,
       "updatedAt": "2026-04-30T09:22:22.612113+00:00"
     },
     {
@@ -382,8 +382,8 @@
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80032/"
       ],
       "id": "course_007",
-      "lat": null,
-      "lng": null,
+      "lat": 35.9401,
+      "lng": 140.3668,
       "imageUrl": "/images/course_007.jpg",
       "customImagePrompt": "Professional golf course landscape showing アスレチックガーデンゴルフ倶楽部, scenic fairway, championship quality course",
       "additionalImages": [
@@ -393,7 +393,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 0,
+      "travelMinutesFromTokyo": 86,
       "updatedAt": "2026-04-30T09:22:22.612126+00:00"
     },
     {
@@ -494,8 +494,8 @@
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80021/"
       ],
       "id": "course_009",
-      "lat": null,
-      "lng": null,
+      "lat": 36.2537363,
+      "lng": 140.4304686,
       "imageUrl": "/images/course_009.jpg",
       "customImagePrompt": "Professional golf course landscape showing オールドオーチャード ゴルフクラブ, scenic fairway, championship quality course",
       "additionalImages": [
@@ -505,7 +505,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 0,
+      "travelMinutesFromTokyo": 122,
       "updatedAt": "2026-04-30T09:22:22.612146+00:00"
     },
     {
@@ -550,8 +550,8 @@
         "https://reserve.golfdigest.co.jp/golf-course/311303/"
       ],
       "id": "course_010",
-      "lat": null,
-      "lng": null,
+      "lat": 36.1282,
+      "lng": 140.2733,
       "imageUrl": "/images/course_010.jpg",
       "customImagePrompt": "Professional golf course landscape showing かすみがうらゴルフクラブ, scenic fairway, championship quality course",
       "additionalImages": [
@@ -561,7 +561,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 0,
+      "travelMinutesFromTokyo": 94,
       "updatedAt": "2026-04-30T09:22:22.612150+00:00"
     },
     {
@@ -606,8 +606,8 @@
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80034/"
       ],
       "id": "course_011",
-      "lat": null,
-      "lng": null,
+      "lat": 36.5849,
+      "lng": 140.3619,
       "imageUrl": "/images/course_011.jpg",
       "customImagePrompt": "Professional golf course landscape showing ひたち大宮ゴルフクラブ, scenic fairway, championship quality course",
       "additionalImages": [
@@ -617,7 +617,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 0,
+      "travelMinutesFromTokyo": 159,
       "updatedAt": "2026-04-30T09:22:22.612154+00:00"
     },
     {
@@ -774,8 +774,8 @@
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80049/"
       ],
       "id": "course_014",
-      "lat": null,
-      "lng": null,
+      "lat": 35.9534183,
+      "lng": 140.2042892,
       "imageUrl": "/images/course_014.jpg",
       "customImagePrompt": "Professional golf course landscape showing ザ・ゴルフクラブ竜ヶ崎, scenic fairway, championship quality course",
       "additionalImages": [
@@ -785,7 +785,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 0,
+      "travelMinutesFromTokyo": 70,
       "updatedAt": "2026-04-30T09:22:22.612205+00:00"
     },
     {
@@ -830,8 +830,8 @@
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80054/"
       ],
       "id": "course_015",
-      "lat": null,
-      "lng": null,
+      "lat": 36.0950824,
+      "lng": 140.577727,
       "imageUrl": "/images/course_015.jpg",
       "customImagePrompt": "Professional golf course landscape showing ザ・ロイヤル ゴルフクラブ, scenic fairway, championship quality course",
       "additionalImages": [
@@ -841,7 +841,7 @@
           "prompt": "Japanese golf club house exterior, well-maintained grounds, professional entrance"
         }
       ],
-      "travelMinutesFromTokyo": 0,
+      "travelMinutesFromTokyo": 121,
       "updatedAt": "2026-04-30T09:22:22.612212+00:00"
     }
   ]

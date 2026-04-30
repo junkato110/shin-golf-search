@@ -38,8 +38,8 @@ courses.json に既に同名のコースがあればスキップ (status を "ad
   "prefecture": "千葉県",
   "city": "袖ケ浦市",                    // 住所から抽出
   "address": "〒XXX-XXXX 千葉県XXX",     // 公式サイトから
-  "lat": 35.4156,                       // 候補の lat
-  "lng": 139.9889,                      // 候補の lng
+  "lat": 35.4156,                       // 【必須】候補の lat をそのまま継承。null になってはいけない
+  "lng": 139.9889,                      // 【必須】候補の lng をそのまま継承。null になってはいけない
   "holeCount": 18,                      // 公式サイト
   "par": 72,                            // 公式サイト
   "totalYardage": 7080,                 // 公式サイト
@@ -70,12 +70,12 @@ courses.json に既に同名のコースがあればスキップ (status を "ad
       "prompt": "..."                    // 英語でクラブハウスの描写
     }
   ],
-  "hasBath": true,
+  "hasBath": true,                       // 【ルール】scores.onsen >= 1 なら必ず true。0 のときは公式サイト記述に従う
   "cartFairwayIn": false,
   "caddyType": "必須",                   // "必須"|"選択"|"セルフのみ"
   "dressCode": "襟付き必須",              // "普段着OK"|"襟付き必須"|"ジャケット推奨"
   "throughPlay": false,
-  "travelMinutesFromTokyo": 50,          // 候補の値を使う
+  "travelMinutesFromTokyo": 50,          // 【必須】候補の値を使う。候補にない場合は haversine 計算で導出 (下記式参照)
   "sources": ["https://...", "..."],     // 調査に使った URL
   "updatedAt": "2026-04-30T..."          // ISO 8601, UTC
 }
@@ -99,19 +99,57 @@ courses.json に既に同名のコースがあればスキップ (status を "ad
 
 #### customImagePrompt の書き方
 
-英語で写実的なゴルフ場画像生成プロンプト。例:
+英語で写実的なゴルフ場画像生成プロンプト。
+
+**【厳守ルール】**
+- **最低 200文字 (英語) 以上**。短い汎用文 (例: "scenic fairway, championship quality course") は **絶対 NG**
+- 必ず **そのコース固有の名物ホール / シグネチャ景観 を 1つ特定して描写**:
+  公式サイトや楽天GORA・GDO のコース紹介を読み、特徴的なホール (例: 池越えの par-3、急峻な打ち下ろし par-4 等) を1つ選ぶ
+- 含めるべき要素: ホールタイプ (par-N) + 地形 (打ち下ろし/打ち上げ/フラット) + 障害物 (池/バンカー/谷) + 周辺植生 (松林/雑木林/竹林) + 遠景 (山名・湖名・橋名など) + ライティング (morning dew / golden hour / soft mist 等)
+- **テキスト・人物・看板は含めない** (BASE_STYLE が後ろに付くので不要)
+
+良い例 (約 350 文字):
 
 ```
-aerial-style landscape photo of a championship golf course in Chiba, signature long par-5 hole with wide sweeping fairway curving toward an elevated green guarded by bunkers, mature pine trees lining the perimeter, faint distant silhouette of Aqualine bridge across the bay on the horizon, fresh manicured fairway with morning dew, soft warm dawn light
+aerial-style landscape photo of a championship golf course in Chiba, signature long par-5 18th hole with wide sweeping fairway curving leftward toward an elevated green guarded by deep cross bunkers and a small pond on the right approach, mature Japanese black pine trees lining both sides of the fairway, faint distant silhouette of the Tokyo Bay Aqualine bridge across the water on the horizon, freshly manicured striped fairway glistening with morning dew, soft warm dawn light casting long shadows from the trees, calm clear blue sky
 ```
 
-要点:
-- そのコースの**名物ホール**または特徴的な景観を1つ描写
-- フォトリアルなディテール (バンカー配置・木の種類・遠景など)
-- ライティング (morning dew / golden hour / soft mist など)
-- **テキストや人物・看板は含めない** (BASE_STYLE が後ろに付くので不要)
+悪い例 (汎用すぎ・即修正):
+- "Professional golf course landscape, scenic fairway, championship quality course"
+- "Beautiful Japanese golf course in Ibaraki"
 
-クラブハウスの prompt も同様に。
+クラブハウスの prompt も同様に **最低 150文字、コース固有の建築様式 (RC造/木造/和風数寄屋風 等) や立地 (高台/林の中/開けた前庭) を含める**。
+
+### 座標 (lat/lng) と 距離 (travelMinutesFromTokyo)
+
+**座標の優先順位** (この順で採用、見つかったら以降スキップ):
+
+1. **候補 (candidates.json) の lat/lng** をそのまま使う ← 第一候補
+2. 候補に座標がない or 候補が見つからない場合:
+   - **`src/data/municipalities.json` から `(prefecture, city)` で引いて市区町村重心を使う** ← 第二候補
+   - city は住所から抽出 (例: 「茨城県稲敷市東大沼402」→ city="稲敷市")
+3. それでもダメなら status="error", errorReason="座標が取得できない" でスキップ
+
+**距離計算 (travelMinutesFromTokyo)**:
+
+```
+東京駅: lat=35.6812, lng=139.7671
+haversine 距離 (km) → ×1.4 (道路係数) → ÷60 (km/h) → ×60 (分) → 整数丸め
+```
+
+`node -e` で haversine を計算する例:
+```bash
+node -e "
+const R=6371,toRad=d=>d*Math.PI/180;
+const a={lat:35.6812,lng:139.7671},b={lat:LAT,lng:LNG};
+const dlat=toRad(b.lat-a.lat),dlng=toRad(b.lng-a.lng);
+const h=Math.sin(dlat/2)**2+Math.cos(toRad(a.lat))*Math.cos(toRad(b.lat))*Math.sin(dlng/2)**2;
+const km=2*R*Math.asin(Math.sqrt(h));
+console.log(Math.round(km*1.4/60*60));
+"
+```
+
+**travelMinutesFromTokyo が 0 はあり得ない**。0 になるのは座標 null の証拠。座標を必ず設定すること。
 
 ### 4. courses.json への追加
 
@@ -137,7 +175,15 @@ node scripts/fix-missing-images.mjs
 これで `imageUrl` 空欄のコースに画像が生成される。
 2-3分程度かかる。失敗したコースは `imageUrl` が空のまま残るが、それは許容 (次回の routine で再試行)。
 
-### 7. lint・ビルド確認
+### 7. 検証
+
+```bash
+node scripts/validate-courses.mjs
+```
+
+検証エラーが出たら修正してから次へ進む。座標 null・travelMinutes=0・hasBath/onsen 不整合・customImagePrompt が短い等は **このステップで確実に検出される**。
+
+### 8. lint
 
 ```bash
 npm run lint
@@ -145,7 +191,7 @@ npm run lint
 
 エラーが出たら修正してから次へ。
 
-### 8. commit & push
+### 9. commit & push
 
 ```bash
 git add -A
