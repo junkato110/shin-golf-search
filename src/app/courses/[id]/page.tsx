@@ -85,7 +85,7 @@ export default async function CoursePage({
       </header>
 
       {course.imageUrl && (
-        <div className="w-full bg-neutral-100 grid grid-cols-1 md:grid-cols-2 gap-1 md:aspect-[16/5]">
+        <div className="w-full bg-neutral-100 grid grid-cols-1 md:grid-cols-2 gap-1 md:aspect-[16/4]">
           {/* メイン: 名物ホール */}
           <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto">
             {/* eslint-disable-next-line @next/next/no-img-element */}
