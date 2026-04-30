@@ -154,9 +154,7 @@ export default async function CoursePage({
             </span>
           </div>
           <dl className="grid grid-cols-2 sm:grid-cols-4 gap-y-5 gap-x-6">
-            <Stat label="ホール数" value={course.holeCount ? `${course.holeCount}H` : "—"} />
             <Stat label="距離" value={course.totalYardage ? `${course.totalYardage} yd` : "—"} />
-            <Stat label="par" value={course.par ? String(course.par) : "—"} />
             <Stat
               label="都心アクセス"
               value={
