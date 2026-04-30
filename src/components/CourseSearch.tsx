@@ -386,17 +386,19 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
 
       <section>
         <div className="flex items-end justify-between mb-6 pb-3 border-b border-[var(--color-line)] gap-4">
-          <div className="flex items-baseline gap-3">
-            <p className="font-display text-3xl text-[var(--color-navy)]" style={{ fontWeight: 200 }}>
-              {String(sorted.length).padStart(2, "0")}
-            </p>
-            <p className="text-xs text-[var(--color-ink-muted)] tracking-wider">
-              <span className="font-display text-[var(--color-accent)] uppercase mr-2">
-                Results
-              </span>
-              全 {courses.length} コース
-            </p>
-          </div>
+          <p className="text-sm text-[var(--color-navy)]" style={{ fontWeight: 600 }}>
+            検索結果
+            <span
+              className="font-display text-2xl mx-2 align-baseline text-[var(--color-navy)]"
+              style={{ fontWeight: 500 }}
+            >
+              {sorted.length}
+            </span>
+            件
+            <span className="text-xs text-[var(--color-ink-muted)] ml-2 font-normal">
+              （全 {courses.length} 件）
+            </span>
+          </p>
           <div className="flex items-center gap-2 text-xs">
             <label htmlFor="sort-key" className="text-[var(--color-ink-muted)] tracking-wide">
               並び順
