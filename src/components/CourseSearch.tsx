@@ -394,13 +394,23 @@ function CourseCard({
   course: CourseWithTravel;
   hasHome: boolean;
 }) {
+  // 詳細ページの基本情報と整合する最小スペック
+  const specs: Array<{ label: string; value: string }> = [];
+  if (hasHome && course.travelMinutesFromHome != null) {
+    specs.push({ label: "自宅から", value: formatTravelTime(course.travelMinutesFromHome).replace("目安 ", "") });
+  } else if (course.travelMinutesFromTokyo != null) {
+    specs.push({ label: "東京駅から車で", value: formatTravelTime(course.travelMinutesFromTokyo).replace("目安 ", "") });
+  }
+  if (course.courseLayout) specs.push({ label: "コース形態", value: course.courseLayout });
+  if (course.totalYardage) specs.push({ label: "距離", value: `${course.totalYardage} yd` });
+
   return (
     <Link
       href={`/courses/${course.id}`}
       className="block bg-white border border-[var(--color-line)] overflow-hidden hover:shadow-md hover:border-[var(--color-line-strong)] transition-all"
     >
       {course.imageUrl && (
-        <div className="aspect-[16/7] bg-neutral-100 overflow-hidden border-b border-[var(--color-line)]">
+        <div className="aspect-[16/5] bg-neutral-100 overflow-hidden border-b border-[var(--color-line)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={course.imageUrl}
@@ -411,76 +421,51 @@ function CourseCard({
         </div>
       )}
       <div className="p-5 sm:p-6">
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <h3 className="font-serif text-lg text-[var(--color-navy)] leading-snug" style={{ fontWeight: 500, letterSpacing: "0.04em" }}>
-              {course.name}
-            </h3>
-            <p className="text-xs text-[var(--color-ink-muted)] mt-2 tracking-wide">
-              <span>
-                {course.prefecture}
-                {course.city ? ` · ${course.city}` : ""}
-              </span>
-              {hasHome && course.travelMinutesFromHome != null && (
-                <span className="ml-2 text-[var(--color-accent)]">
-                  · 自宅から {formatTravelTime(course.travelMinutesFromHome)}
-                </span>
-              )}
-            </p>
-          </div>
-          <div className="text-right text-[10px] text-[var(--color-ink-subtle)] shrink-0 tracking-wider uppercase">
-            {course.holeCount && <div>{course.holeCount}H</div>}
-            {course.totalYardage && <div>{course.totalYardage}yd</div>}
-            {course.par && <div>par {course.par}</div>}
-          </div>
-        </div>
+        <h3
+          className="font-serif text-lg text-[var(--color-navy)] leading-snug"
+          style={{ fontWeight: 600, letterSpacing: "0.04em" }}
+        >
+          {course.name}
+        </h3>
+        <p className="text-xs text-[var(--color-ink-muted)] mt-2 tracking-wide">
+          {course.prefecture}
+          {course.city ? ` · ${course.city}` : ""}
+        </p>
 
+        {/* 主要スペック (詳細ページと整合) */}
+        {specs.length > 0 && (
+          <dl className="mt-4 grid grid-cols-3 gap-x-3 gap-y-1 pt-4 border-t border-[var(--color-line)]">
+            {specs.map((s) => (
+              <div key={s.label}>
+                <dt className="text-[10px] text-[var(--color-ink-subtle)] tracking-wide mb-0.5">
+                  {s.label}
+                </dt>
+                <dd
+                  className="font-serif text-sm text-[var(--color-navy)]"
+                  style={{ fontWeight: 600 }}
+                >
+                  {s.value}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        )}
+
+        {/* 特徴タグ (最大4個) */}
         {course.tags && course.tags.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mt-4">
-            {course.tags.map((t) => (
+            {course.tags.slice(0, 4).map((t) => (
               <span
                 key={t}
-                className="px-2.5 py-0.5 border border-[var(--color-line-strong)] bg-[var(--color-bg)] text-[var(--color-ink-muted)] text-[11px] tracking-wider"
+                className="px-2.5 py-0.5 border border-[var(--color-navy)]/25 bg-white text-[var(--color-navy)] text-[11px] tracking-wider"
+                style={{ fontWeight: 500 }}
               >
                 {t}
               </span>
             ))}
           </div>
         )}
-
-        {course.scores && (
-          <div className="mt-4 pt-4 border-t border-[var(--color-line)] grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-1.5 text-xs text-[var(--color-ink-muted)]">
-            <ScoreLine label="難易度" value={course.scores.difficulty} />
-            <ScoreLine label="フェアウェイ" value={course.scores.fairwayWidth} highIs="広い" />
-            <ScoreLine label="フラット度" value={course.scores.flatness} highIs="フラット" />
-            <ScoreLine label="メシ" value={course.scores.mealQuality} highIs="◎" />
-            <ScoreLine label="マナー" value={course.scores.mannerStrictness} highIs="厳" />
-            <ScoreLine label="練習場" value={course.scores.practiceRange} highIs="◎" />
-          </div>
-        )}
       </div>
     </Link>
-  );
-}
-
-function ScoreLine({
-  label,
-  value,
-  highIs,
-}: {
-  label: string;
-  value?: number;
-  highIs?: string;
-}) {
-  if (value == null) return null;
-  const dots = "●".repeat(value) + "○".repeat(2 - value);
-  return (
-    <span className="flex items-center gap-1.5">
-      <span className="text-[var(--color-ink-subtle)]">{label}</span>
-      <span className="font-mono text-[var(--color-navy)] text-[10px]">{dots}</span>
-      {highIs && value === 2 && (
-        <span className="text-[var(--color-accent)] font-medium ml-0.5">{highIs}</span>
-      )}
-    </span>
   );
 }
