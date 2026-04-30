@@ -43,7 +43,7 @@ const SCORE_AXES: ScoreAxisDef[] = [
   { key: "winterWarm", label: "冬の温かさ", low: "寒い", high: "温かい" },
   { key: "windShelter", label: "風の影響", low: "風強い", high: "影響少" },
   { key: "scenicView", label: "絶景度", low: "並", high: "絶景コースあり" },
-  { key: "womenFriendly", label: "女性向け", low: "並", high: "充実" },
+  { key: "womenFriendly", label: "女性向け", low: "並", high: "こだわりあり" },
   { key: "seniorFriendly", label: "シニア向け", low: "並", high: "歩きやすい" },
 ];
 
