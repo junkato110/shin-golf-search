@@ -436,16 +436,18 @@ function CourseCard({
         </div>
       )}
       <div className="p-5 sm:p-6">
-        <h3
-          className="font-serif text-lg text-[var(--color-navy)] leading-snug"
-          style={{ fontWeight: 600, letterSpacing: "0.04em" }}
-        >
-          {course.name}
-        </h3>
-        <p className="text-xs text-[var(--color-ink-muted)] mt-2 tracking-wide">
-          {course.prefecture}
-          {course.city ? ` · ${course.city}` : ""}
-        </p>
+        <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <h3
+            className="font-serif text-lg text-[var(--color-navy)] leading-snug"
+            style={{ fontWeight: 600, letterSpacing: "0.04em" }}
+          >
+            {course.name}
+          </h3>
+          <p className="text-xs text-[var(--color-ink-muted)] tracking-wide">
+            {course.prefecture}
+            {course.city ? ` · ${course.city}` : ""}
+          </p>
+        </div>
 
         {/* 主要スペック (詳細ページと整合) */}
         {specs.length > 0 && (
