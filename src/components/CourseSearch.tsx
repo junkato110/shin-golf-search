@@ -38,14 +38,19 @@ type ScoreFilter = {
   minScore: number;
 };
 
-// カード表示用の体感スコア軸 (6軸を 3列×2行 で表示)
-const CARD_SCORE_AXES: Array<{ key: keyof CourseScores; label: string }> = [
-  { key: "difficulty", label: "難易度" },
-  { key: "mannerStrictness", label: "マナー" },
-  { key: "fairwayWidth", label: "フェアウェイ" },
-  { key: "mealQuality", label: "ご飯" },
-  { key: "practiceRange", label: "練習場" },
-  { key: "scenicView", label: "絶景度" },
+// カード表示用の体感スコア軸 (6軸を 2列×3行 で表示・両端ラベル付き)
+const CARD_SCORE_AXES: Array<{
+  key: keyof CourseScores;
+  label: string;
+  low: string;
+  high: string;
+}> = [
+  { key: "difficulty", label: "難易度", low: "易しい", high: "難しい" },
+  { key: "fairwayWidth", label: "フェアウェイ", low: "狭い", high: "広い" },
+  { key: "mannerStrictness", label: "マナー", low: "緩い", high: "厳しい" },
+  { key: "mealQuality", label: "ご飯", low: "並", high: "こだわり" },
+  { key: "practiceRange", label: "練習場", low: "簡素", high: "充実" },
+  { key: "scenicView", label: "絶景度", low: "並", high: "絶景あり" },
 ];
 
 const FEATURE_FILTERS: ScoreFilter[] = [
@@ -461,9 +466,9 @@ function CourseCard({
           </dl>
         )}
 
-        {/* 体感スコア (6軸を 3列×2行 で表示・コンパクトな5段バー) */}
+        {/* 体感スコア (6軸を 2列×3行 で表示・両端ラベル付き) */}
         {course.scores && (
-          <div className="mt-4 pt-4 border-t border-[var(--color-line)] grid grid-cols-3 gap-x-3 gap-y-3">
+          <div className="mt-4 pt-4 border-t border-[var(--color-line)] grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
             {CARD_SCORE_AXES.map((axis) => {
               const value = course.scores?.[axis.key];
               if (value == null) return null;
@@ -472,20 +477,34 @@ function CourseCard({
               const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
               return (
                 <div key={axis.key}>
-                  <p className="text-[10px] text-[var(--color-ink-muted)] mb-1 tracking-wide">
+                  <p className="text-[10px] text-[var(--color-ink-muted)] mb-1 tracking-wide font-medium">
                     {axis.label}
                   </p>
-                  <div className="flex gap-0.5">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <span
-                        key={i}
-                        className="h-1.5 flex-1 rounded-sm"
-                        style={{
-                          backgroundColor:
-                            i < filled ? fillColor : "rgba(1, 50, 32, 0.1)",
-                        }}
-                      />
-                    ))}
+                  <div className="flex items-center gap-2">
+                    <span className="text-[9px] text-[var(--color-ink-subtle)] shrink-0 w-12 text-center tracking-tight leading-tight">
+                      {axis.low}
+                    </span>
+                    <div className="flex gap-0.5 flex-1 min-w-0">
+                      {Array.from({ length: 5 }).map((_, i) => (
+                        <span
+                          key={i}
+                          className="h-1 flex-1 rounded-sm"
+                          style={{
+                            backgroundColor:
+                              i < filled ? fillColor : "rgba(1, 50, 32, 0.1)",
+                          }}
+                        />
+                      ))}
+                    </div>
+                    <span
+                      className={`text-[9px] shrink-0 w-12 text-center tracking-tight leading-tight ${
+                        isMax
+                          ? "text-[var(--color-accent)] font-semibold"
+                          : "text-[var(--color-ink-subtle)]"
+                      }`}
+                    >
+                      {axis.high}
+                    </span>
                   </div>
                 </div>
               );
