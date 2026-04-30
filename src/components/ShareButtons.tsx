@@ -84,7 +84,7 @@ function ShareLink({
       style={{ fontWeight: 500 }}
     >
       {icon}
-      <span className="hidden sm:inline">{label}</span>
+      <span>{label}</span>
     </a>
   );
 }
