@@ -46,15 +46,15 @@ export default function ShareButtons({ courseName }: Props) {
           シェア
         </h2>
       </div>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-1.5 sm:gap-2">
         <button
           type="button"
           onClick={copyLink}
-          className="inline-flex items-center gap-1.5 px-3 py-2 border border-[var(--color-navy)] text-xs sm:text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
+          className="inline-flex items-center gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 border border-[var(--color-navy)] text-[11px] sm:text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors whitespace-nowrap"
           style={{ fontWeight: 500 }}
         >
           <IconLink />
-          {copied ? "コピーしました" : "リンクをコピー"}
+          {copied ? "コピーしました" : "URLコピー"}
         </button>
 
         <ShareLink href={xHref} label="X" icon={<IconX />} />
@@ -79,11 +79,12 @@ function ShareLink({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-1.5 px-3 py-2 border border-[var(--color-navy)] text-xs sm:text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
+      aria-label={label}
+      className="inline-flex items-center gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 border border-[var(--color-navy)] text-[11px] sm:text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors whitespace-nowrap"
       style={{ fontWeight: 500 }}
     >
       {icon}
-      {label}
+      <span className="hidden sm:inline">{label}</span>
     </a>
   );
 }
