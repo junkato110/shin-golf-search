@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T10:16:56.536Z",
+  "updatedAt": "2026-04-30T10:38:03.187124Z",
   "courses": [
     {
       "id": "course_001",
@@ -18,24 +18,24 @@
       "scores": {
         "difficulty": 1,
         "fairwayWidth": 2,
-        "flatness": 3,
-        "mealQuality": 2,
+        "flatness": 4,
+        "mealQuality": 3,
         "mannerStrictness": 1,
-        "practiceRange": 1,
+        "practiceRange": 0,
         "onsen": 0,
         "summerCool": 2,
         "winterWarm": 2,
-        "windShelter": 2,
+        "windShelter": 3,
         "scenicView": 2,
         "womenFriendly": 2,
         "seniorFriendly": 3
       },
       "tags": [
         "9ホール",
-        "フラット",
+        "完全フラット",
+        "池絡み6番アイランドG",
         "都心1時間圏",
-        "池絡み6番7番",
-        "初心者歓迎",
+        "練習場なし",
         "セルフプレー"
       ],
       "imageUrl": "/images/course_001.jpg",
@@ -56,9 +56,14 @@
       "sources": [
         "https://www.31cc.com/",
         "https://www.31cc.com/facility/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80122/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80122/",
+        "https://reserve.golfdigest.co.jp/golf-course/detail/312108",
+        "https://golf-jalan.net/gc00504/",
+        "https://golf-jalan.net/gc00504/review/",
+        "http://shotnavi.jp/gcguide/gcinfo_74.htm",
+        "https://www.golfdigest-minna.jp/_ct/16956761"
       ],
-      "updatedAt": "2026-04-30T09:11:54.579803Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "ゴルフ5カントリー サニーフィールド",
@@ -72,14 +77,14 @@
       "openedYear": 1994,
       "courseLayout": "丘陵",
       "scores": {
-        "difficulty": 3,
+        "difficulty": 4,
         "fairwayWidth": 3,
         "flatness": 3,
         "mealQuality": 3,
         "mannerStrictness": 2,
-        "practiceRange": 3,
+        "practiceRange": 4,
         "onsen": 2,
-        "summerCool": 2,
+        "summerCool": 3,
         "winterWarm": 1,
         "windShelter": 2,
         "scenicView": 2,
@@ -88,11 +93,11 @@
       },
       "tags": [
         "ニクラウス設計",
-        "7,000Y超",
-        "アメリカンスタイル",
-        "戦略的バンカー",
+        "7,118Y",
+        "57グラスバンカー71サンドB",
+        "高速グリーン10ft",
         "練習場充実",
-        "パウダールーム"
+        "GORA AWARD2023"
       ],
       "hasBath": true,
       "cartFairwayIn": true,
@@ -102,7 +107,12 @@
       "sources": [
         "https://www.alpen-group.net/sunnyfield/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80052/",
-        "https://reserve.golfdigest.co.jp/golf-course/312104/"
+        "https://reserve.golfdigest.co.jp/golf-course/312104/",
+        "https://golf-jalan.net/gc00431/review/",
+        "https://reserve.golfdigest.co.jp/comment/312104",
+        "https://alpen-group.net/sunnyfield/course/",
+        "https://www.alpen-group.net/sunnyfield/facilities/",
+        "https://www.divingstyle.net/rakuten_golf.php?golf=80052"
       ],
       "id": "course_002",
       "lat": 36.5623373,
@@ -117,7 +127,7 @@
         }
       ],
       "travelMinutesFromTokyo": 154,
-      "updatedAt": "2026-04-30T09:22:22.612028+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "PGM石岡ゴルフクラブ",
@@ -136,22 +146,22 @@
         "flatness": 3,
         "mealQuality": 3,
         "mannerStrictness": 3,
-        "practiceRange": 3,
+        "practiceRange": 4,
         "onsen": 2,
         "summerCool": 2,
         "winterWarm": 1,
         "windShelter": 2,
         "scenicView": 3,
-        "womenFriendly": 2,
-        "seniorFriendly": 2
+        "womenFriendly": 3,
+        "seniorFriendly": 3
       },
       "tags": [
-        "ニクラウス設計",
-        "7,000Y超",
+        "ニクラウス10年設計",
+        "コースレート73.4",
         "男子ツアー開催",
-        "戦略的",
-        "高速IC近",
-        "GRAND PGM"
+        "GRAND PGM",
+        "5ティー対応",
+        "戦略的バンカー"
       ],
       "hasBath": true,
       "cartFairwayIn": true,
@@ -161,7 +171,12 @@
       "sources": [
         "https://www.pacificgolf.co.jp/ishioka/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80007/",
-        "https://reserve.golfdigest.co.jp/golf-course/310209/"
+        "https://reserve.golfdigest.co.jp/golf-course/310209/",
+        "https://book.alba.co.jp/080008/comment",
+        "https://golf-jalan.net/gc00424/",
+        "http://shotnavi.jp/gcguide/gcinfo_160.htm",
+        "https://athlete.golf-l.jp/golf_course/178",
+        "https://www.golfdoyukai.co.jp/search/kanto/ibaraki/pgmishioka-gc"
       ],
       "id": "course_003",
       "lat": 36.2095572,
@@ -176,7 +191,7 @@
         }
       ],
       "travelMinutesFromTokyo": 112,
-      "updatedAt": "2026-04-30T09:22:22.612086+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "ひたちの圀の健楽園",
@@ -193,10 +208,10 @@
         "difficulty": 1,
         "fairwayWidth": 2,
         "flatness": 2,
-        "mealQuality": 2,
+        "mealQuality": 1,
         "mannerStrictness": 1,
         "practiceRange": 2,
-        "onsen": 3,
+        "onsen": 4,
         "summerCool": 2,
         "winterWarm": 1,
         "windShelter": 3,
@@ -206,10 +221,10 @@
       },
       "tags": [
         "9ホール",
-        "アザレア温泉",
+        "ブラックシリカ温泉",
         "宿泊可能",
         "アプローチ練習場",
-        "谷越え13番",
+        "コスパ重視",
         "複合スポーツ施設"
       ],
       "hasBath": true,
@@ -220,7 +235,12 @@
       "sources": [
         "https://kenrakuen.com/",
         "https://reserve.golfdigest.co.jp/golf-course/310106/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80002/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80002/",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80002",
+        "https://book.alba.co.jp/080002",
+        "http://shotnavi.jp/gcguide/gcinfo_77.htm",
+        "https://www.sun-eco.net/leisure_01.html",
+        "https://book.alba.co.jp/080002/access"
       ],
       "id": "course_004",
       "lat": 36.5993191,
@@ -235,7 +255,7 @@
         }
       ],
       "travelMinutesFromTokyo": 158,
-      "updatedAt": "2026-04-30T09:22:22.612113+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "アジア下館カントリー倶楽部",
@@ -264,12 +284,12 @@
         "seniorFriendly": 2
       },
       "tags": [
-        "林間",
-        "池絡みホール多数",
-        "ロングドライブ向き",
+        "浅見緑蔵設計",
+        "1965年開場歴史",
+        "林間セパレート",
         "庭園風呂",
-        "歴史あるコース",
-        "200Y練習場"
+        "セルフプレー",
+        "評価3.5"
       ],
       "hasBath": true,
       "cartFairwayIn": false,
@@ -279,7 +299,12 @@
       "sources": [
         "https://asia-shimodate.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80003/",
-        "https://reserve.golfdigest.co.jp/golf-course/310102/"
+        "https://reserve.golfdigest.co.jp/golf-course/310102/",
+        "https://www.homemate-golf.com/golf-course/dtl/00000000000000091458/",
+        "http://shotnavi.jp/gcguide/gcinfo_78.htm",
+        "https://book.alba.co.jp/080003/comment",
+        "https://www.tripadvisor.jp/Attraction_Review-g1021231-d7370440-Reviews-Asia_Shimodate_Country_Club-Sakuragawa_Ibaraki_Prefecture_Kanto.html",
+        "https://golf-jalan.net/gc00443/"
       ],
       "id": "course_005",
       "lat": 36.3437024,
@@ -294,7 +319,7 @@
         }
       ],
       "travelMinutesFromTokyo": 109,
-      "updatedAt": "2026-04-30T09:22:22.612119+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "アジア取手カントリー倶楽部",
@@ -323,12 +348,12 @@
         "seniorFriendly": 3
       },
       "tags": [
-        "河川敷",
-        "27ホール",
-        "セグウェイ日本一",
+        "河川敷27H",
         "完全フラット",
-        "バイキング食",
-        "都心1時間圏"
+        "セグウェイ100台日本一",
+        "都心50分",
+        "1964年開場",
+        "バイキング食"
       ],
       "hasBath": true,
       "cartFairwayIn": true,
@@ -338,7 +363,12 @@
       "sources": [
         "https://www.asia-toride.com/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80004",
-        "https://book.alba.co.jp/080004"
+        "https://book.alba.co.jp/080004",
+        "https://www.homemate-golf.com/golf-course/dtl/00000000000000091459/kuchikomilist/",
+        "https://reserve.golfdigest.co.jp/golf-course/310103/comment/",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80004/",
+        "https://4travel.jp/dm_shisetsu/11299602",
+        "https://juchi.jp/info/staff_blogs/679"
       ],
       "id": "course_006",
       "lat": 35.9087856,
@@ -353,7 +383,7 @@
         }
       ],
       "travelMinutesFromTokyo": 49,
-      "updatedAt": "2026-04-30T09:22:22.612123+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "アスレチックガーデンゴルフ倶楽部",
@@ -383,11 +413,11 @@
       },
       "tags": [
         "小林光昭設計",
-        "池8ヵ所",
-        "バンカー100個",
-        "庭園風林間",
+        "池8 バンカー103",
         "ゴルフ博物館",
-        "圏央道5分"
+        "庭園風林間",
+        "圏央道5分",
+        "ALBA4.0"
       ],
       "hasBath": false,
       "cartFairwayIn": false,
@@ -397,7 +427,12 @@
       "sources": [
         "https://www.athletic-golf.co.jp/",
         "https://reserve.golfdigest.co.jp/golf-course/311109/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80032/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80032/",
+        "https://reserve.golfdigest.co.jp/golf-course/311109/comment/",
+        "https://book.alba.co.jp/080005",
+        "https://www.meijigolf.co.jp/search/detail.php?gccode=547",
+        "http://shotnavi.jp/gcguide/gcinfo_192.htm",
+        "https://www.plus-web.co.jp/guide/bbs/?a=5727"
       ],
       "id": "course_007",
       "lat": 35.939134,
@@ -412,7 +447,7 @@
         }
       ],
       "travelMinutesFromTokyo": 84,
-      "updatedAt": "2026-04-30T09:22:22.612126+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "イーグルポイントゴルフクラブ",
@@ -431,22 +466,22 @@
         "flatness": 3,
         "mealQuality": 4,
         "mannerStrictness": 3,
-        "practiceRange": 2,
+        "practiceRange": 3,
         "onsen": 2,
         "summerCool": 2,
-        "winterWarm": 1,
+        "winterWarm": 2,
         "windShelter": 3,
         "scenicView": 2,
         "womenFriendly": 3,
         "seniorFriendly": 2
       },
       "tags": [
-        "7,200Y超",
-        "12フィート高速グリーン",
-        "新名門",
+        "7,292Y超ロング",
+        "12ft高速グリーン通年",
+        "和洋中3シェフ",
         "ワインセラー",
-        "高級志向",
-        "和洋中シェフ"
+        "高級ホテル風",
+        "新名門"
       ],
       "hasBath": true,
       "cartFairwayIn": false,
@@ -456,7 +491,12 @@
       "sources": [
         "https://www.eaglepoint.co.jp/",
         "https://reserve.golfdigest.co.jp/golf-course/310211/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80098/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80098/",
+        "https://book.alba.co.jp/080013",
+        "http://shotnavi.jp/gcguide/gcinfo_2296.htm",
+        "https://golf-jalan.net/gc00481/",
+        "https://www.jalan.net/kankou/spt_08443ca3442001641/",
+        "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96"
       ],
       "id": "course_008",
       "lat": 35.9793142,
@@ -471,7 +511,7 @@
         }
       ],
       "travelMinutesFromTokyo": 71,
-      "updatedAt": "2026-04-30T09:22:22.612141+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "オールドオーチャード ゴルフクラブ",
@@ -487,25 +527,25 @@
       "scores": {
         "difficulty": 3,
         "fairwayWidth": 2,
-        "flatness": 2,
+        "flatness": 1,
         "mealQuality": 3,
-        "mannerStrictness": 2,
+        "mannerStrictness": 3,
         "practiceRange": 3,
         "onsen": 2,
         "summerCool": 2,
         "winterWarm": 1,
         "windShelter": 3,
         "scenicView": 3,
-        "womenFriendly": 2,
+        "womenFriendly": 3,
         "seniorFriendly": 2
       },
       "tags": [
         "ジム・ファジオ設計",
-        "戦略的",
-        "GPSナビ",
-        "VIPルーム",
-        "ドライビングレンジ",
-        "丘陵"
+        "総合評価4.5",
+        "高速G傾斜大",
+        "円球クラブハウス",
+        "池8クリーク",
+        "VIPルーム"
       ],
       "hasBath": true,
       "cartFairwayIn": false,
@@ -515,7 +555,12 @@
       "sources": [
         "https://www.oogc.co.jp/",
         "https://www.pacificgolf.co.jp/oldorchard/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80021/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80021/",
+        "https://book.alba.co.jp/080025",
+        "https://golf-jalan.net/gc00423/review/",
+        "https://reserve.golfdigest.co.jp/comment/310503",
+        "https://www.divingstyle.net/rakuten_golf.php?golf=80021",
+        "https://booking.pacificgolf.co.jp/guide/172.html"
       ],
       "id": "course_009",
       "lat": 36.2537605,
@@ -530,7 +575,7 @@
         }
       ],
       "travelMinutesFromTokyo": 122,
-      "updatedAt": "2026-04-30T09:22:22.612146+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "かすみがうらゴルフクラブ",
@@ -561,8 +606,8 @@
       "tags": [
         "27ホール",
         "霞ヶ浦湖畔",
-        "フラット林間",
-        "ナビ付自動運転カート",
+        "リモコン自動運転カート",
+        "池11",
         "ビギナー歓迎",
         "アコーディア"
       ],
@@ -574,7 +619,12 @@
       "sources": [
         "https://reserve.accordiagolf.com/golfCourse/ibaraki/kasumigaura/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80027/",
-        "https://reserve.golfdigest.co.jp/golf-course/311303/"
+        "https://reserve.golfdigest.co.jp/golf-course/311303/",
+        "https://www.golf-net.co.jp/search/detail/official/i6206kasumigaura/review.html",
+        "https://www.plus-web.co.jp/guide/?a=5721",
+        "https://www.golf-net.co.jp/selection/kasumigaura/",
+        "https://reserve.accordiagolf.com/golfCourse/ibaraki/kasumigaura/detail",
+        "https://golf-jalan.net/gc00490/info/"
       ],
       "id": "course_010",
       "lat": 36.1282,
@@ -589,7 +639,7 @@
         }
       ],
       "travelMinutesFromTokyo": 94,
-      "updatedAt": "2026-04-30T09:22:22.612150+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "ひたち大宮ゴルフクラブ",
@@ -606,7 +656,7 @@
         "difficulty": 2,
         "fairwayWidth": 3,
         "flatness": 2,
-        "mealQuality": 2,
+        "mealQuality": 3,
         "mannerStrictness": 1,
         "practiceRange": 2,
         "onsen": 2,
@@ -618,12 +668,12 @@
         "seniorFriendly": 3
       },
       "tags": [
-        "27ホール",
+        "155万平米27H",
         "和泉一介設計",
-        "大浴場サウナ",
-        "宿泊施設併設",
-        "全車GPSナビ",
-        "丘陵"
+        "ロッジ13室併設",
+        "GORA AWARD2024",
+        "桜梅楓3コース",
+        "癒しコース"
       ],
       "hasBath": true,
       "cartFairwayIn": false,
@@ -633,7 +683,12 @@
       "sources": [
         "https://kabayagc.com/",
         "https://reserve.golfdigest.co.jp/golf-course/312205/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80034/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80034/",
+        "https://golf-jalan.net/gc00455/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/course_info/disp/c_id/80034",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80034/",
+        "https://book.alba.co.jp/080038",
+        "https://www.choigol.com/course/detail/basis/32"
       ],
       "id": "course_011",
       "lat": 36.5734832,
@@ -648,7 +703,7 @@
         }
       ],
       "travelMinutesFromTokyo": 155,
-      "updatedAt": "2026-04-30T09:22:22.612154+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "グランドスラムカントリークラブ",
@@ -664,8 +719,8 @@
       "scores": {
         "difficulty": 3,
         "fairwayWidth": 3,
-        "flatness": 3,
-        "mealQuality": 2,
+        "flatness": 1,
+        "mealQuality": 3,
         "mannerStrictness": 2,
         "practiceRange": 2,
         "onsen": 2,
@@ -674,14 +729,14 @@
         "windShelter": 3,
         "scenicView": 2,
         "womenFriendly": 2,
-        "seniorFriendly": 3
+        "seniorFriendly": 2
       },
       "tags": [
+        "杉本英世設計",
         "27ホール",
-        "コースレート72超",
-        "丘陵林間",
-        "GPS+リーダーズボード",
-        "冬温暖",
+        "アップダウンあり",
+        "池越えショート多数",
+        "バンカーメンテ秀逸",
         "PGM"
       ],
       "hasBath": true,
@@ -692,7 +747,12 @@
       "sources": [
         "https://www.pacificgolf.co.jp/grandslam/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80041/",
-        "https://reserve.golfdigest.co.jp/golf-course/311301/"
+        "https://reserve.golfdigest.co.jp/golf-course/311301/",
+        "https://golf-jalan.net/gc00395",
+        "https://booking.pacificgolf.co.jp/guide/40.html",
+        "https://www.homemate-golf.com/golf-course/dtl/00000000000000091619/kuchikomilist/",
+        "https://golf-medley.com/golf_courses/253",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80041/"
       ],
       "id": "course_012",
       "lat": 36.559767,
@@ -707,7 +767,7 @@
         }
       ],
       "travelMinutesFromTokyo": 169,
-      "updatedAt": "2026-04-30T09:22:22.612157+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "ゴルフ倶楽部セブンレイクス",
@@ -727,7 +787,7 @@
         "mealQuality": 3,
         "mannerStrictness": 2,
         "practiceRange": 2,
-        "onsen": 3,
+        "onsen": 4,
         "summerCool": 2,
         "winterWarm": 1,
         "windShelter": 2,
@@ -736,12 +796,12 @@
         "seniorFriendly": 2
       },
       "tags": [
-        "27ホール",
-        "リンクス風",
-        "自家噴出温泉",
-        "名物ロッキー5番",
-        "アンジュレーション",
-        "GPSナビ"
+        "加藤俊輔設計",
+        "自家噴出温泉サウナ",
+        "ロッキー5番岩石群",
+        "27H 3コース",
+        "高速G",
+        "リンクス融合"
       ],
       "hasBath": true,
       "cartFairwayIn": false,
@@ -751,7 +811,12 @@
       "sources": [
         "https://sevenlakes.jp/",
         "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80044",
-        "https://reserve.golfdigest.co.jp/golf-course/311501/"
+        "https://reserve.golfdigest.co.jp/golf-course/311501/",
+        "https://golf-jalan.net/gc00449/",
+        "https://reserve.golfdigest.co.jp/golf-course/detail/311501",
+        "http://shotnavi.jp/gcguide/gcinfo_87.htm",
+        "https://golf-medley.com/golf_courses/294",
+        "https://golf-jalan.net/gc00449/review/"
       ],
       "id": "course_013",
       "lat": 36.5949113,
@@ -766,7 +831,7 @@
         }
       ],
       "travelMinutesFromTokyo": 160,
-      "updatedAt": "2026-04-30T09:22:22.612180+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "ザ・ゴルフクラブ竜ヶ崎",
@@ -798,9 +863,9 @@
         "加藤俊輔設計",
         "GRAND PGM",
         "大理石クラブハウス",
-        "22万坪",
-        "戦略的",
-        "接待向き"
+        "法人接待向き",
+        "メンバー750名",
+        "戦略的"
       ],
       "hasBath": true,
       "cartFairwayIn": false,
@@ -810,7 +875,12 @@
       "sources": [
         "https://www.pacificgolf.co.jp/ryugasaki/",
         "https://reserve.golfdigest.co.jp/golf-course/312106/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80049/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80049/",
+        "https://www.meijigolf.co.jp/search/detail.php?gccode=572",
+        "https://www.golfdoyukai.co.jp/search/kanto/ibaraki/the-gc-ryugasaki",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80049/",
+        "https://golf.amiyazaki.com/Ibaragi/80049.html",
+        "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96%E7%AB%9C%E3%82%B1%E5%B4%8E"
       ],
       "id": "course_014",
       "lat": 35.9533316,
@@ -825,7 +895,7 @@
         }
       ],
       "travelMinutesFromTokyo": 69,
-      "updatedAt": "2026-04-30T09:22:22.612205+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "name": "ザ・ロイヤル ゴルフクラブ",
@@ -841,24 +911,24 @@
       "scores": {
         "difficulty": 4,
         "fairwayWidth": 3,
-        "flatness": 3,
+        "flatness": 4,
         "mealQuality": 3,
         "mannerStrictness": 2,
-        "practiceRange": 3,
+        "practiceRange": 4,
         "onsen": 2,
         "summerCool": 2,
         "winterWarm": 2,
         "windShelter": 1,
         "scenicView": 3,
-        "womenFriendly": 2,
+        "womenFriendly": 3,
         "seniorFriendly": 2
       },
       "tags": [
         "国内最長8,143Y",
-        "ヤシの木",
-        "南国ムード",
-        "ネプチューン7番670Y",
-        "ステイタス感",
+        "高低差2m完全フラット",
+        "鈴木規夫監修",
+        "350Y練習場トラックマン",
+        "7番670Yロング",
         "リゾート"
       ],
       "hasBath": true,
@@ -869,7 +939,12 @@
       "sources": [
         "https://the-royal-golf-club.com/",
         "https://reserve.golfdigest.co.jp/golf-course/312105/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80054/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80054/",
+        "https://reserve.golfdigest.co.jp/golf-course/312105/comment/",
+        "https://ameblo.jp/bestgear0072/entry-12248406337.html",
+        "http://shotnavi.jp/gcguide/gcinfo_91.htm",
+        "https://reserve.golfdigest.co.jp/comment/312105",
+        "https://book.alba.co.jp/080057/comment"
       ],
       "id": "course_015",
       "lat": 36.0951189,
@@ -884,7 +959,7 @@
         }
       ],
       "travelMinutesFromTokyo": 121,
-      "updatedAt": "2026-04-30T09:22:22.612212+00:00"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_016",
@@ -901,14 +976,14 @@
       "openedYear": 1984,
       "courseLayout": "丘陵",
       "scores": {
-        "difficulty": 3,
+        "difficulty": 4,
         "fairwayWidth": 3,
         "flatness": 3,
         "mealQuality": 3,
         "mannerStrictness": 2,
-        "practiceRange": 3,
+        "practiceRange": 4,
         "onsen": 2,
-        "summerCool": 2,
+        "summerCool": 3,
         "winterWarm": 1,
         "windShelter": 2,
         "scenicView": 2,
@@ -917,11 +992,11 @@
       },
       "tags": [
         "ニクラウス設計",
-        "7,000Y超",
-        "アメリカンスタイル",
-        "戦略的バンカー",
+        "7,118Y",
+        "57グラスバンカー71サンドB",
+        "高速グリーン10ft",
         "練習場充実",
-        "パウダールーム"
+        "GORA AWARD2023"
       ],
       "imageUrl": "/images/course_016.jpg",
       "customImagePrompt": "aerial-style championship golf course landscape in Ibaraki, Jack Nicklaus-designed 18-hole course with manicured fairways and strategic water hazards, professional-grade layout with Japanese black pine trees lining fairways, crisp morning light casting long shadows, lush green grass, distant Hitachi landscape, calm atmosphere of excellence",
@@ -940,9 +1015,16 @@
       "travelMinutesFromTokyo": 154,
       "sources": [
         "https://www.alpen-group.net/sunnyfield/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80052/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80052/",
+        "https://golf-jalan.net/gc00431/review/",
+        "https://reserve.golfdigest.co.jp/comment/312104",
+        "https://reserve.golfdigest.co.jp/golf-course/312104/",
+        "https://alpen-group.net/sunnyfield/course/",
+        "https://www.alpen-group.net/sunnyfield/facilities/",
+        "https://www.divingstyle.net/rakuten_golf.php?golf=80052",
+        "https://golf-medley.com/golf_courses/279"
       ],
-      "updatedAt": "2026-04-30T09:37:59.194Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_017",
@@ -962,10 +1044,10 @@
         "difficulty": 1,
         "fairwayWidth": 2,
         "flatness": 2,
-        "mealQuality": 2,
+        "mealQuality": 1,
         "mannerStrictness": 1,
         "practiceRange": 2,
-        "onsen": 3,
+        "onsen": 4,
         "summerCool": 2,
         "winterWarm": 1,
         "windShelter": 3,
@@ -974,12 +1056,12 @@
         "seniorFriendly": 3
       },
       "tags": [
-        "アザレア温泉",
+        "9ホール",
+        "ブラックシリカ温泉",
         "宿泊可能",
         "アプローチ練習場",
-        "ワン・ナイン",
-        "複合施設",
-        "丘陵"
+        "コスパ重視",
+        "複合施設"
       ],
       "imageUrl": "/images/course_017.jpg",
       "customImagePrompt": "scenic 9-hole golf course nestled in rolling hills of Ibaraki with natural landscape, par-35 course surrounded by vibrant green fairways and mature forest, peaceful forest interior setting with dappled sunlight filtering through tree canopy, tranquil pond reflecting sky, refreshing natural setting with stone markers on fairways",
@@ -998,9 +1080,14 @@
       "travelMinutesFromTokyo": 158,
       "sources": [
         "https://kenrakuen.com/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80002/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80002/",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80002",
+        "https://book.alba.co.jp/080002",
+        "http://shotnavi.jp/gcguide/gcinfo_77.htm",
+        "https://reserve.golfdigest.co.jp/golf-course/310106/",
+        "https://www.sun-eco.net/leisure_01.html"
       ],
-      "updatedAt": "2026-04-30T09:37:59.194Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_018",
@@ -1033,11 +1120,11 @@
       },
       "tags": [
         "小林光昭設計",
-        "池8ヵ所",
-        "バンカー100個",
-        "庭園風林間",
+        "池8 バンカー103",
         "ゴルフ博物館",
-        "圏央道5分"
+        "庭園風林間",
+        "圏央道5分",
+        "1990年開場"
       ],
       "imageUrl": "/images/course_018.jpg",
       "customImagePrompt": "professional 18-hole championship golf course landscape, strategic layout with 8 ponds and 103 bunkers, flat terrain with mature pine and oak trees creating natural separation between holes, manicured bent grass fairways with pristine sand bunkers, morning mist hovering over ponds, peaceful forested setting in rural Ibaraki",
@@ -1056,9 +1143,16 @@
       "travelMinutesFromTokyo": 84,
       "sources": [
         "https://www.athletic-golf.co.jp/",
-        "http://shotnavi.jp/gcguide/gcinfo_192.htm"
+        "http://shotnavi.jp/gcguide/gcinfo_192.htm",
+        "https://reserve.golfdigest.co.jp/golf-course/311109/comment/",
+        "https://book.alba.co.jp/080005",
+        "https://www.meijigolf.co.jp/search/detail.php?gccode=547",
+        "https://reserve.golfdigest.co.jp/golf-course/311109/",
+        "https://www.plus-web.co.jp/guide/bbs/?a=5727",
+        "https://golf-medley.com/golf_courses/339",
+        "https://www.kga.gr.jp/club/club_detail.php?club_id=8030"
       ],
-      "updatedAt": "2026-04-30T09:37:59.194Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_019",
@@ -1086,7 +1180,7 @@
         "winterWarm": 2,
         "windShelter": 3,
         "scenicView": 2,
-        "womenFriendly": 2,
+        "womenFriendly": 3,
         "seniorFriendly": 3
       },
       "tags": [
@@ -1094,8 +1188,8 @@
         "霞ヶ浦湖畔",
         "フラット林間",
         "池13個",
-        "ビギナー歓迎",
-        "ワンドリンクサービス"
+        "総合評価4.3",
+        "戦略的"
       ],
       "imageUrl": "/images/course_019.jpg",
       "customImagePrompt": "scenic 18-hole forest golf course on plateau overlooking Lake Kasumigaura, modern clubhouse with open architecture, manicured fairways bordered by mature broadleaf trees and pines, flat terrain with strategic water features, distant lake views beyond tree line, professional landscape photography style",
@@ -1114,9 +1208,14 @@
       "travelMinutesFromTokyo": 98,
       "sources": [
         "https://reserve.accordiagolf.com/golfCourse/ibaraki/kasumigaura/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80027/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80027/",
+        "http://japan-golf.info/ibaraki/kasumigaura-ogm/kasumigaura-ogm.html",
+        "https://www.jalan.net/kankou/spt_08461ca3440056856/kuchikomi/",
+        "https://www.homemate-golf.com/driving-range/dtl/10000000000000032216/",
+        "https://reserve.golfdigest.co.jp/golf-course/311303/",
+        "https://www.teeoff.jp/golf_course/466"
       ],
-      "updatedAt": "2026-04-30T09:37:59.194Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_020",
@@ -1136,7 +1235,7 @@
         "difficulty": 2,
         "fairwayWidth": 3,
         "flatness": 2,
-        "mealQuality": 2,
+        "mealQuality": 3,
         "mannerStrictness": 1,
         "practiceRange": 2,
         "onsen": 2,
@@ -1148,12 +1247,12 @@
         "seniorFriendly": 3
       },
       "tags": [
-        "27ホール",
+        "155万平米27H",
         "和泉一介設計",
-        "大浴場サウナ",
-        "宿泊施設併設",
-        "全車GPSナビ",
-        "丘陵"
+        "ロッジ13室併設",
+        "GORA AWARD2024",
+        "桜梅楓3コース",
+        "宿泊可"
       ],
       "imageUrl": "/images/course_020.jpg",
       "customImagePrompt": "expansive 27-hole golf resort nestled in foothills below Mt. Gozen-yama, natural landscape with river setting and abundant forest, three separate courses (sakura, ume, kaede) with varying elevation changes, water features and stone bridges, traditional Japanese garden elements integrated with course design, mountain backdrop, resort atmosphere",
@@ -1172,9 +1271,16 @@
       "travelMinutesFromTokyo": 155,
       "sources": [
         "https://kabayagc.com/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80034/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80034/",
+        "https://golf-jalan.net/gc00455/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/course_info/disp/c_id/80034",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80034/",
+        "https://book.alba.co.jp/080038",
+        "https://www.choigol.com/course/detail/basis/32",
+        "https://reserve.golfdigest.co.jp/golf-course/312205/",
+        "https://golf-jalan.net/gc00455/review/"
       ],
-      "updatedAt": "2026-04-30T09:37:59.194Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_021",
@@ -1209,9 +1315,9 @@
         "加藤俊輔設計",
         "GRAND PGM",
         "大理石クラブハウス",
-        "22万坪",
-        "戦略的",
-        "接待向き"
+        "法人接待向き",
+        "メンバー750名",
+        "戦略的"
       ],
       "imageUrl": "/images/course_021.jpg",
       "customImagePrompt": "championship-style 18-hole forest golf course on spacious grounds designed by renowned architect, mature deciduous and coniferous trees creating natural fairway separation, championship-length holes exceeding 600 yards, strategic bunker placement, serene forest setting with professional maintenance, calm atmosphere for serious golfers",
@@ -1230,9 +1336,16 @@
       "travelMinutesFromTokyo": 69,
       "sources": [
         "https://www.pacificgolf.co.jp/ryugasaki/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80049/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80049/",
+        "https://www.meijigolf.co.jp/search/detail.php?gccode=572",
+        "https://www.golfdoyukai.co.jp/search/kanto/ibaraki/the-gc-ryugasaki",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80049/",
+        "https://golf.amiyazaki.com/Ibaragi/80049.html",
+        "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96%E7%AB%9C%E3%82%B1%E5%B4%8E",
+        "https://reserve.golfdigest.co.jp/golf-course/312106/",
+        "https://www.1net.co.jp/area_1/pref_7/course_7203/"
       ],
-      "updatedAt": "2026-04-30T09:37:59.194Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_022",
@@ -1251,24 +1364,24 @@
       "scores": {
         "difficulty": 4,
         "fairwayWidth": 3,
-        "flatness": 3,
+        "flatness": 4,
         "mealQuality": 3,
         "mannerStrictness": 2,
-        "practiceRange": 3,
+        "practiceRange": 4,
         "onsen": 2,
         "summerCool": 2,
         "winterWarm": 2,
         "windShelter": 1,
         "scenicView": 3,
-        "womenFriendly": 2,
+        "womenFriendly": 3,
         "seniorFriendly": 2
       },
       "tags": [
         "国内最長8,143Y",
-        "ヤシの木",
-        "南国ムード",
-        "ネプチューン7番670Y",
-        "ステイタス感",
+        "高低差2m完全フラット",
+        "鈴木規夫監修",
+        "350Y練習場トラックマン",
+        "7番670Yロング",
         "リゾート"
       ],
       "imageUrl": "/images/course_022.jpg",
@@ -1288,9 +1401,16 @@
       "travelMinutesFromTokyo": 121,
       "sources": [
         "https://the-royal-golf-club.com/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80054/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80054/",
+        "https://reserve.golfdigest.co.jp/golf-course/312105/comment/",
+        "https://ameblo.jp/bestgear0072/entry-12248406337.html",
+        "http://shotnavi.jp/gcguide/gcinfo_91.htm",
+        "https://reserve.golfdigest.co.jp/comment/312105",
+        "https://book.alba.co.jp/080057/comment",
+        "https://reserve.golfdigest.co.jp/golf-course/312105/",
+        "https://www.facebook.com/theroyalgolfclub.japan/"
       ],
-      "updatedAt": "2026-04-30T09:37:59.194Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_023",
@@ -1307,7 +1427,7 @@
       "openedYear": 2000,
       "courseLayout": "丘陵",
       "scores": {
-        "difficulty": 3,
+        "difficulty": 4,
         "fairwayWidth": 3,
         "flatness": 3,
         "mealQuality": 3,
@@ -1322,12 +1442,12 @@
         "seniorFriendly": 2
       },
       "tags": [
-        "7,000Y超",
-        "霞ヶ浦北浦展望",
-        "フラット丘陵",
-        "練習場充実",
+        "コースレート73.5茨城3位",
         "東京建物リゾート",
-        "タブレットナビ"
+        "首都圏70分",
+        "80Y練習場",
+        "タブレットナビ2024",
+        "戦略的アンジュレーション"
       ],
       "imageUrl": "/images/course_023.jpg",
       "customImagePrompt": "elegant 18-hole golf course surrounded by Lakes Kasumigaura and Kitaura, flat terrain landscape photography, water features integrated throughout design, separated fairways with mature trees, modern clubhouse architecture, peaceful lakeside setting with calm water reflections, professional-grade course management, serene natural environment",
@@ -1346,9 +1466,14 @@
       "travelMinutesFromTokyo": 108,
       "sources": [
         "http://tatemono-golf.sakura.ne.jp/jgk.tatemono-golf.com/cms/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80056/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80056/",
+        "https://goodgolf.co.jp/20240624gachinko/",
+        "https://golf-jalan.net/gc00472/",
+        "https://www.divingstyle.net/rakuten_golf.php?golf=80056",
+        "https://reserve.golfdigest.co.jp/golf-course/312401/",
+        "https://www.aoyama-gs.co.jp/guide/?lst=108155"
       ],
-      "updatedAt": "2026-04-30T09:37:59.194Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_024",
@@ -1367,7 +1492,7 @@
       "scores": {
         "difficulty": 4,
         "fairwayWidth": 3,
-        "flatness": 2,
+        "flatness": 1,
         "mealQuality": 3,
         "mannerStrictness": 4,
         "practiceRange": 2,
@@ -1380,11 +1505,11 @@
         "seniorFriendly": 2
       },
       "tags": [
-        "井上誠一設計",
-        "村野藤吾クラブハウス",
+        "井上誠一最後の設計",
         "33万坪",
+        "村野藤吾クラブハウス",
+        "茨城最高評価",
         "高速グリーン",
-        "戦略的",
         "名門"
       ],
       "imageUrl": "/images/course_024.jpg",
@@ -1403,9 +1528,14 @@
       "throughPlay": false,
       "sources": [
         "https://www.starts-golf.jp/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80023/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80023/",
+        "https://www.starts-golf.jp/introduction/index.html",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80023/",
+        "https://reserve.golfdigest.co.jp/golf-course/311101/comment/",
+        "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%84%E7%AC%A0%E9%96%93%E3%82%B4%E3%83%AB%E3%83%95%E5%80%B6%E6%A5%BD%E9%83%A8",
+        "https://www.starts.co.jp/column/article75/"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z",
+      "updatedAt": "2026-04-30T10:38:03.187124Z",
       "travelMinutesFromTokyo": 123
     },
     {
@@ -1429,7 +1559,7 @@
         "mealQuality": 3,
         "mannerStrictness": 2,
         "practiceRange": 2,
-        "onsen": 3,
+        "onsen": 4,
         "summerCool": 2,
         "winterWarm": 1,
         "windShelter": 3,
@@ -1439,11 +1569,11 @@
       },
       "tags": [
         "中部銀次郎設計",
-        "松ケ沢天然温泉",
-        "宿泊リゾート",
-        "ゴルフヴィラ",
-        "本格派",
-        "GDO宿泊1位"
+        "松ケ沢源泉かけ流し",
+        "ヴィラ宿泊リゾート",
+        "GDO宿泊1位2019",
+        "1200m地下温泉",
+        "正統派"
       ],
       "imageUrl": "/images/course_025.jpg",
       "customImagePrompt": "scenic resort golf course designed by Shinjiro Nakamura with natural terrain using seven strategic ponds, bent grass greens on spacious fairways with gentle undulation, mature forest backdrop and mountain views, hot spring resort setting with luxury clubhouse, tranquil morning atmosphere with golf course integrated into nature",
@@ -1462,9 +1592,14 @@
       "travelMinutesFromTokyo": 164,
       "sources": [
         "https://www.resol-golf.jp/en/kuji/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80040/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80040/",
+        "https://golf-jalan.net/gc00456/",
+        "https://golf-jalan.net/gc00456/review/",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80040/",
+        "https://www.resolstay.jp/details/kuji/",
+        "http://www.resol.jp/special/20250430_001/index.html"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_026",
@@ -1497,11 +1632,11 @@
       },
       "tags": [
         "PGM",
-        "林間",
-        "池10個",
+        "林間池10個",
+        "ショートホール池絡み",
         "GPSナビ",
         "戦略的",
-        "6,873Y"
+        "美しい管理"
       ],
       "imageUrl": "/images/course_026.jpg",
       "customImagePrompt": "beautiful forest golf course on flat terrain with ten strategic ponds, mature trees creating natural fairway separation, scenic water features integrated throughout design, professional-grade bent grass fairways and greens, peaceful wooded setting in countryside, championship-quality course with excellent drainage",
@@ -1520,9 +1655,14 @@
       "travelMinutesFromTokyo": 112,
       "sources": [
         "https://www.pacificgolf.co.jp/sfields/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80068/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80068/",
+        "https://reserve.golfdigest.co.jp/golf-course/312302/comment/",
+        "https://golf-jalan.net/gc00501/review/",
+        "https://www.homemate-golf.com/golf-course/dtl/00000000000000091763/kuchikomilist/",
+        "https://golf-honne.jp/facilities/gm-golf-course-291",
+        "http://japan-golf.info/ibaraki/spring-fields/spring-fields.html"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_027",
@@ -1556,10 +1696,10 @@
       "tags": [
         "ミュアヘッド設計",
         "GRAND PGM",
-        "7,056Y",
-        "スペインモチーフ",
-        "池絡み多数",
-        "チャンピオンコース"
+        "スペインテーマ18H",
+        "7,056Yチャンピオン",
+        "ペナルティゾーン多数",
+        "豪華施設"
       ],
       "imageUrl": "/images/course_027.jpg",
       "customImagePrompt": "championship Desmond Muirhead-designed course inspired by Spain theme, 18 holes each with Spanish names and character (hole 1 Flamenco, hole 3 Guitarra, hole 14 Gazpacho island green), mature tree-lined fairways, strategic water hazards, undulating greens with Spanish architectural elements, elegant and unique course experience",
@@ -1578,9 +1718,14 @@
       "travelMinutesFromTokyo": 100,
       "sources": [
         "https://www.pacificgolf.co.jp/segovia/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80070/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80070/",
+        "https://golf-medley.com/articles/golfcourse-review043",
+        "https://golf-jalan.net/gc00496/review/",
+        "https://www.meijigolf.co.jp/search/detail.php?gccode=590",
+        "https://www.golflab.tokyo/course/segovia-2/",
+        "https://www.divingstyle.net/rakuten_golf.php?golf=80070&sort=evaluation"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_028",
@@ -1609,14 +1754,14 @@
         "windShelter": 3,
         "scenicView": 3,
         "womenFriendly": 2,
-        "seniorFriendly": 2
+        "seniorFriendly": 1
       },
       "tags": [
         "セベ・バレステロス設計",
         "霞ヶ浦湖畔",
+        "OUT全9H池絡み",
+        "関東屈指の難",
         "松林セパレート",
-        "英国風",
-        "ベントワン",
         "テクニカル"
       ],
       "imageUrl": "/images/course_028.jpg",
@@ -1636,9 +1781,14 @@
       "travelMinutesFromTokyo": 91,
       "sources": [
         "https://www.jgmgroup.co.jp/seve/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80071/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80071/",
+        "https://www.meijigolf.co.jp/community/playreport/report01.html",
+        "https://golfbook.co.jp/summary/678",
+        "http://shotnavi.jp/gcguide/gcinfo_99.htm",
+        "https://oncole.jp/course/detail.php?id=20",
+        "https://blog.grandproject.co.jp/?p=215"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_029",
@@ -1655,7 +1805,7 @@
       "openedYear": 1997,
       "courseLayout": "丘陵",
       "scores": {
-        "difficulty": 3,
+        "difficulty": 2,
         "fairwayWidth": 2,
         "flatness": 2,
         "mealQuality": 2,
@@ -1665,17 +1815,17 @@
         "summerCool": 2,
         "winterWarm": 2,
         "windShelter": 3,
-        "scenicView": 2,
-        "womenFriendly": 2,
-        "seniorFriendly": 2
+        "scenicView": 3,
+        "womenFriendly": 3,
+        "seniorFriendly": 3
       },
       "tags": [
         "トム・ワトソン設計",
-        "アイランドグリーン16番",
-        "自然林丘陵",
-        "戦略的",
+        "16-18番ウォーターハザード",
+        "5,637Y短め",
+        "リゾート風英国",
         "アコーディア",
-        "ウォーターハザード"
+        "アイランドG"
       ],
       "imageUrl": "/images/course_029.jpg",
       "customImagePrompt": "Tom Watson-designed hillside course on natural forested terrain, mature deciduous and coniferous trees lining strategic fairways, multiple tee options for varied difficulty, natural hazards integrated into design, peaceful forest setting overlooking flatland, championship-quality conditions, scenic Japanese countryside landscape",
@@ -1694,9 +1844,14 @@
       "travelMinutesFromTokyo": 111,
       "sources": [
         "https://reserve.accordiagolf.com/golfCourse/ibaraki/central_new/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80120/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80120/",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80120/",
+        "https://golf-jalan.net/gc00471/review/",
+        "https://gridge.info/article/course/detail.php?id=5448",
+        "http://shotnavi.jp/gcguide/gcinfo_2315.htm",
+        "https://www.100yardage.com/golfcourse-index/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E3%82%B4%E3%83%AB%E3%83%95%E5%A0%B4%E4%B8%80%E8%A6%A7/%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96new%E3%82%B3%E3%83%BC%E3%82%B9-%E5%8F%A3%E3%82%B3%E3%83%9F%E4%BA%88%E7%B4%84/"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_030",
@@ -1713,9 +1868,9 @@
       "openedYear": 1974,
       "courseLayout": "丘陵",
       "scores": {
-        "difficulty": 2,
+        "difficulty": 3,
         "fairwayWidth": 3,
-        "flatness": 2,
+        "flatness": 1,
         "mealQuality": 2,
         "mannerStrictness": 2,
         "practiceRange": 2,
@@ -1725,14 +1880,14 @@
         "windShelter": 3,
         "scenicView": 2,
         "womenFriendly": 2,
-        "seniorFriendly": 3
+        "seniorFriendly": 2
       },
       "tags": [
-        "西野譲介設計",
-        "松白樺林間",
+        "西野譲介設計1974",
+        "松白樺36H",
         "霞ヶ浦湖畔",
-        "歴史あるコース",
-        "戦略的西コース",
+        "打ち上げセカンド多数",
+        "詰め込み混雑あり",
         "アコーディア"
       ],
       "imageUrl": "/images/course_030.jpg",
@@ -1751,9 +1906,14 @@
       "throughPlay": false,
       "sources": [
         "https://reserve.accordiagolf.com/golfCourse/ibaraki/central/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80073/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80073/",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80073/",
+        "https://reserve.golfdigest.co.jp/golf-course/312402/comment/",
+        "https://reserve.accordiagolf.com/golfCourse/ibaraki/central/voice",
+        "https://reserve.golfdigest.co.jp/golf-course/312402/",
+        "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z",
+      "updatedAt": "2026-04-30T10:38:03.187124Z",
       "travelMinutesFromTokyo": 108
     },
     {
@@ -1773,7 +1933,7 @@
       "scores": {
         "difficulty": 2,
         "fairwayWidth": 2,
-        "flatness": 3,
+        "flatness": 4,
         "mealQuality": 2,
         "mannerStrictness": 2,
         "practiceRange": 3,
@@ -1786,12 +1946,12 @@
         "seniorFriendly": 3
       },
       "tags": [
-        "高低差7m",
+        "1日50組限定ゆったり",
         "ベント2グリーン",
+        "高低差10m完全フラット",
         "5人乗りカート",
         "練習場3種",
-        "1日50組限定",
-        "林間"
+        "1975年開場"
       ],
       "imageUrl": "/images/course_031.jpg",
       "customImagePrompt": "established 18-hole forest course with 35+ years of history, flat forest terrain with mature tree separation, beautiful natural aesthetic, practicing bunkers and water features, four-season beauty with seasonal foliage, peaceful woodland setting, stable professional-quality course conditions",
@@ -1810,9 +1970,16 @@
       "travelMinutesFromTokyo": 113,
       "sources": [
         "http://www.daiyagreen.com/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80075/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80075/",
+        "https://golf-medley.com/golf_courses/269",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80075/",
+        "https://golf-jalan.net/gc00466/",
+        "https://book.alba.co.jp/080085",
+        "https://golf-jalan.net/gc00466/review/",
+        "http://shotnavi.jp/gcguide/gcinfo_103.htm",
+        "https://www.divingstyle.net/rakuten_golf.php?area=8&golf=80075&ranking=4&sort=costperformance"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_032",
@@ -1839,17 +2006,17 @@
         "summerCool": 2,
         "winterWarm": 2,
         "windShelter": 2,
-        "scenicView": 2,
+        "scenicView": 3,
         "womenFriendly": 2,
         "seniorFriendly": 3
       },
       "tags": [
-        "ショートコース",
-        "リシャフト工房",
         "210Y打ちっ放し",
-        "リンクス風",
+        "1球3.2円",
+        "9Hショート パー27",
         "名物6番バンカーティー",
-        "初心者向き"
+        "筑波山眺望",
+        "回り放題3000円"
       ],
       "imageUrl": "/images/course_032.jpg",
       "customImagePrompt": "innovative short 9-hole links-style course at foot of Mt. Tsukuba, practice facility with short-course design, bunkers and water features throughout, minimal elevation change, modern maintenance standards, scenic Mt. Tsukuba backdrop, recreational golf setting suitable for all skill levels",
@@ -1868,9 +2035,14 @@
       "travelMinutesFromTokyo": 85,
       "sources": [
         "https://www.tsukuba-golfgarden.com/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520266/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520266/",
+        "https://www.golflab.jp/driving-range-ibataki/tsukuba/tsukuba-golf-garden/",
+        "https://www.homemate-golf.com/driving-range/dtl/10000000000000032189/",
+        "https://golf-medley.com/practice_facilities/836",
+        "https://golfdigest-play.jp/course/17274650",
+        "https://www.golflab.jp/driving-range-ibataki/tsukuba/"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_033",
@@ -1887,10 +2059,10 @@
       "openedYear": 1974,
       "courseLayout": "丘陵",
       "scores": {
-        "difficulty": 3,
+        "difficulty": 2,
         "fairwayWidth": 2,
-        "flatness": 2,
-        "mealQuality": 2,
+        "flatness": 3,
+        "mealQuality": 3,
         "mannerStrictness": 2,
         "practiceRange": 2,
         "onsen": 2,
@@ -1898,16 +2070,16 @@
         "winterWarm": 1,
         "windShelter": 3,
         "scenicView": 4,
-        "womenFriendly": 2,
+        "womenFriendly": 3,
         "seniorFriendly": 3
       },
       "tags": [
         "福井八十八設計",
-        "筑波山麓",
-        "富士山ビュー",
+        "富士山アルプス眺望",
+        "湧き水北条米",
         "名物14番マムシ谷",
-        "湧き水",
-        "丘陵"
+        "シニア女性歓迎",
+        "1974年開場"
       ],
       "imageUrl": "/images/course_033.jpg",
       "customImagePrompt": "scenic 18-hole championship course on south slope of Mt. Tsukuba designed by master Hachihachi Fukui, distant views of Mt. Fuji and Japanese Alps from elevated position, moderate elevation change suitable for all golfers, water features integrated, natural forest backdrop, excellent spring-water facilities on course",
@@ -1926,9 +2098,14 @@
       "travelMinutesFromTokyo": 93,
       "sources": [
         "https://www.tukubane.com/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80085/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80085/",
+        "https://golf-jalan.net/gc00412/",
+        "https://golf-jalan.net/gc00412/review/",
+        "http://shotnavi.jp/gcguide/gcinfo_104.htm",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/80085/",
+        "https://www.kga.gr.jp/club/club_detail.php?club_id=8068"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_034",
@@ -1960,10 +2137,10 @@
         "seniorFriendly": 3
       },
       "tags": [
-        "ショートコース",
-        "パー27",
-        "ドライバー可",
+        "8HP27ショート",
+        "ドライバー可3H",
         "練習場併設",
+        "回り放題3500円",
         "セルフ手引きカート",
         "初心者向き"
       ],
@@ -1984,9 +2161,14 @@
       "travelMinutesFromTokyo": 88,
       "sources": [
         "https://www.tsukuba-chikusei.com/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520354/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520354/",
+        "https://booking.gora.golf.rakuten.co.jp/voice/detail/c_id/520354/",
+        "https://lala-tamago.com/shortcourse-ibaraki/",
+        "https://golfdigest-play.jp/course/17229857",
+        "https://www.divingstyle.net/rakuten_golf.php?golf=520354",
+        "https://golf-medley.com/golf_courses/340"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     },
     {
       "id": "course_035",
@@ -2018,12 +2200,12 @@
         "seniorFriendly": 3
       },
       "tags": [
-        "ショートコース",
-        "佐藤毅設計",
+        "9HP27ショート",
         "9番浮島グリーン",
         "TPCソーグラス風",
-        "ベントグリーン",
-        "鹿嶋"
+        "佐藤毅(ピートダイ研修)",
+        "ベントG900平米",
+        "鹿嶋海近"
       ],
       "imageUrl": "/images/course_035.jpg",
       "customImagePrompt": "charming 9-hole short course with PGA-style island green signature hole surrounded by pond, Pete Dye-inspired course architecture with varied hole designs, grass-teeing environment suitable for all levels, professional course conditioning, natural beauty integrated with strategic design elements",
@@ -2042,9 +2224,14 @@
       "travelMinutesFromTokyo": 120,
       "sources": [
         "http://tatemono-golf.sakura.ne.jp/jgk.tatemono-golf.com/cms/",
-        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520319/"
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520319/",
+        "https://www.golfdigest-minna.jp/_ct/16955584",
+        "https://ameblo.jp/akkungolf/entry-12251513019.html",
+        "https://www.shikizakura.com/visit-trilake-gc/",
+        "https://golf-magic.com/article/5737",
+        "https://kashima-ibaraki.mypl.net/shop/T20830267672/"
       ],
-      "updatedAt": "2026-04-30T09:37:59.195Z"
+      "updatedAt": "2026-04-30T10:38:03.187124Z"
     }
   ]
 }
