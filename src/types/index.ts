@@ -46,6 +46,8 @@ export type Course = {
   imageUrl?: string;
   /** 画像生成用の英語プロンプト (Pollinations.ai 用、コース特性反映) */
   customImagePrompt?: string;
+  /** お風呂 (一般浴・温泉問わず) があるか */
+  hasBath?: boolean;
   /** データソース (国土数値情報 / OSM / Wikipedia / 公式サイト 等) */
   sources?: string[];
   /** 最後にデータ更新した日時 */

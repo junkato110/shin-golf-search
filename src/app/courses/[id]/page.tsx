@@ -39,7 +39,6 @@ const SCORE_AXES: ScoreAxisDef[] = [
   { key: "mealQuality", label: "ご飯", low: "並", high: "こだわりあり" },
   { key: "mannerStrictness", label: "マナー", low: "緩い (初心者歓迎)", high: "厳しい (名門寄り)" },
   { key: "practiceRange", label: "練習場", low: "簡素", high: "充実" },
-  { key: "onsen", label: "温泉", low: "なし", high: "あり" },
   { key: "summerCool", label: "夏の涼しさ", low: "暑い", high: "涼しい" },
   { key: "winterWarm", label: "冬の温かさ", low: "寒い", high: "温かい" },
   { key: "windShelter", label: "風の影響", low: "風強い", high: "影響少" },
@@ -137,6 +136,7 @@ export default async function CoursePage({
             <Stat label="距離" value={course.totalYardage ? `${course.totalYardage} yd` : "—"} />
             <Stat label="par" value={course.par ? String(course.par) : "—"} />
             <Stat label="開業" value={course.openedYear ? `${course.openedYear}年` : "—"} />
+            <Stat label="お風呂" value={course.hasBath ? "あり" : "なし"} />
             {course.designer && (
               <Stat label="設計" value={course.designer} className="col-span-2" />
             )}

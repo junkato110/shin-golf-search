@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T13:35:55.187Z",
+  "updatedAt": "2026-04-30T03:59:54.526Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -36,7 +36,8 @@
       "sources": [
         "仮データ"
       ],
-      "updatedAt": "2026-04-29T06:00:00.000Z"
+      "updatedAt": "2026-04-29T06:00:00.000Z",
+      "hasBath": true
     },
     {
       "id": "course_demo_002",
@@ -71,7 +72,8 @@
       "sources": [
         "仮データ"
       ],
-      "updatedAt": "2026-04-29T06:00:00.000Z"
+      "updatedAt": "2026-04-29T06:00:00.000Z",
+      "hasBath": true
     },
     {
       "id": "course_demo_003",
@@ -107,7 +109,8 @@
       "sources": [
         "仮データ"
       ],
-      "updatedAt": "2026-04-29T06:00:00.000Z"
+      "updatedAt": "2026-04-29T06:00:00.000Z",
+      "hasBath": true
     },
     {
       "id": "course_demo_004",
@@ -143,7 +146,8 @@
       "sources": [
         "仮データ"
       ],
-      "updatedAt": "2026-04-29T06:00:00.000Z"
+      "updatedAt": "2026-04-29T06:00:00.000Z",
+      "hasBath": true
     },
     {
       "id": "course_demo_005",
@@ -180,7 +184,8 @@
       "sources": [
         "仮データ"
       ],
-      "updatedAt": "2026-04-29T06:00:00.000Z"
+      "updatedAt": "2026-04-29T06:00:00.000Z",
+      "hasBath": true
     }
   ]
 }
