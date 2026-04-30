@@ -8,7 +8,7 @@
  *   node scripts/fix-missing-images.mjs
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync, statSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, statSync, unlinkSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { execSync } from "child_process";
@@ -33,21 +33,47 @@ function buildPrompt(course) {
   return `Japanese golf course in ${course.prefecture}, fairway and green visible, ${tagText}, ${BASE_STYLE}`;
 }
 
+/**
+ * 画像生成 URL を構築。
+ *
+ * 環境変数 IMAGE_API_BASE が設定されていれば Vercel proxy 経由 (cloud routine 用)。
+ * 未設定ならローカル (Pollinations 直接)。
+ */
+function buildImageUrl(prompt, seed) {
+  const proxyBase = process.env.IMAGE_API_BASE;
+  if (proxyBase) {
+    return `${proxyBase}?prompt=${encodeURIComponent(prompt)}&seed=${seed}&w=1280&h=720`;
+  }
+  return `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?seed=${seed}&width=1280&height=720&nologo=true`;
+}
+
 async function downloadImage(prompt, filename, seed, attempt = 1) {
   const MAX_ATTEMPTS = 3;
-  const url =
-    `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}` +
-    `?seed=${seed}&width=1280&height=720&nologo=true`;
+  const url = buildImageUrl(prompt, seed);
   const outPath = join(IMAGES_DIR, filename);
   try {
     execSync(`curl -sL --max-time 240 -o "${outPath}" "${url}"`, { stdio: "pipe" });
     if (existsSync(outPath)) {
       const size = statSync(outPath).size;
-      if (size > 5000) {
+      // JPEG / PNG のマジックバイトを検査 (テキストエラー応答を除外)
+      const head = readFileSync(outPath, { encoding: null }).slice(0, 4);
+      const isJpeg = head[0] === 0xff && head[1] === 0xd8;
+      const isPng =
+        head[0] === 0x89 && head[1] === 0x50 && head[2] === 0x4e && head[3] === 0x47;
+      if (size > 5000 && (isJpeg || isPng)) {
         console.log(`  成功: ${(size / 1024).toFixed(0)}KB`);
         return true;
       }
-      console.error(`  失敗 (試行${attempt}): ファイルサイズ異常 (${size}B)`);
+      // 不正レスポンスは即削除して残骸を残さない
+      try {
+        unlinkSync(outPath);
+      } catch {
+        /* ignore */
+      }
+      const reason = !(isJpeg || isPng)
+        ? `画像形式でない (先頭: ${head.toString("hex")})`
+        : `ファイルサイズ異常 (${size}B)`;
+      console.error(`  失敗 (試行${attempt}): ${reason}`);
     } else {
       console.error(`  失敗 (試行${attempt}): ファイルなし`);
     }
