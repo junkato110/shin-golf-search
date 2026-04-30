@@ -142,27 +142,26 @@ export default async function CoursePage({
             <span>
               {course.address ?? `${course.prefecture}${course.city ?? ""}`}
             </span>
-            {course.address && (
-              <a
-                href={`https://www.google.com/maps?q=${encodeURIComponent(
-                  course.address
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-xs text-[var(--color-navy)] border border-[var(--color-line-strong)] px-2.5 py-1 hover:bg-[var(--color-navy)] hover:text-white transition-colors tracking-wide"
+            <a
+              href={`https://www.google.com/maps?q=${encodeURIComponent(
+                // コース名 + 住所 (郵便番号は除去) で確実に対象施設に辿り着けるようにする
+                `${course.name} ${(course.address ?? "").replace(/〒\d{3}-\d{4}\s*/, "")}`.trim()
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-xs text-[var(--color-navy)] border border-[var(--color-line-strong)] px-2.5 py-1 hover:bg-[var(--color-navy)] hover:text-white transition-colors tracking-wide"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-3.5 h-3.5"
+                aria-hidden
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="w-3.5 h-3.5"
-                  aria-hidden
-                >
-                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" />
-                </svg>
-                Google マップで開く
-              </a>
-            )}
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" />
+              </svg>
+              Google マップで開く
+            </a>
           </p>
         </div>
 
