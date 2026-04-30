@@ -478,7 +478,7 @@ function CourseCard({
           >
             {course.name}
           </h3>
-          <p className="text-[11px] sm:text-xs text-[var(--color-ink-muted)] tracking-wide">
+          <p className="hidden sm:inline text-[11px] sm:text-xs text-[var(--color-ink-muted)] tracking-wide">
             {course.prefecture}
             {course.city ? ` · ${course.city}` : ""}
           </p>
