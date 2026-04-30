@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useId, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type {
   Course,
@@ -96,6 +96,7 @@ function Dropdown({
   disabled?: boolean;
 }) {
   const detailsRef = useRef<HTMLDetailsElement>(null);
+  const groupId = useId();
   const selected = options.find((o) => o.value === value);
 
   return (
@@ -115,38 +116,44 @@ function Dropdown({
           </span>
         </div>
       </summary>
-      <ul className="mt-1 max-h-60 overflow-y-auto bg-white border border-[var(--color-line-strong)] rounded-md">
+      <div className="mt-1 max-h-60 overflow-y-auto bg-white border border-[var(--color-line-strong)] rounded-md">
         {options.length === 0 ? (
-          <li className="px-3 py-2 text-xs text-[var(--color-ink-subtle)]">
+          <p className="px-3 py-2 text-xs text-[var(--color-ink-subtle)]">
             候補がありません
-          </li>
+          </p>
         ) : (
           options.map((o) => {
             const active = o.value === value;
+            const inputId = `${groupId}-${o.value}`;
             return (
-              <li key={o.value}>
-                <a
-                  href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
+              <label
+                key={o.value}
+                htmlFor={inputId}
+                className={
+                  "block w-full cursor-pointer text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] " +
+                  (active
+                    ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
+                    : "text-[var(--color-ink)]")
+                }
+              >
+                <input
+                  id={inputId}
+                  type="radio"
+                  name={groupId}
+                  value={o.value}
+                  checked={active}
+                  onChange={() => {
                     onChange(o.value);
                     if (detailsRef.current) detailsRef.current.open = false;
                   }}
-                  className={
-                    "block w-full cursor-pointer text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] no-underline " +
-                    (active
-                      ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
-                      : "text-[var(--color-ink)]")
-                  }
-                >
-                  {o.label}
-                </a>
-              </li>
+                  className="sr-only"
+                />
+                {o.label}
+              </label>
             );
           })
         )}
-      </ul>
+      </div>
     </details>
   );
 }
