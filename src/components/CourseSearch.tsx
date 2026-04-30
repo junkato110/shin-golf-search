@@ -29,7 +29,7 @@ const MANNER_OPTIONS = [
 const DIFFICULTY_OPTIONS = [
   { label: "易しい", value: 1 },
   { label: "普通以上", value: 2 },
-  { label: "本格派", value: 3 },
+  { label: "難しい", value: 3 },
 ];
 
 type ScoreFilter = {
