@@ -37,7 +37,7 @@ const SCORE_AXES: ScoreAxisDef[] = [
   { key: "fairwayWidth", label: "フェアウェイ", low: "狭い", high: "広い" },
   { key: "flatness", label: "フラット度", low: "起伏あり", high: "フラット" },
   { key: "mealQuality", label: "メシ", low: "並", high: "こだわり" },
-  { key: "mannerStrictness", label: "マナー", low: "緩い", high: "厳しい" },
+  { key: "mannerStrictness", label: "マナー", low: "緩い (初心者歓迎)", high: "厳しい (名門寄り)" },
   { key: "practiceRange", label: "練習場", low: "簡素", high: "充実" },
   { key: "onsen", label: "温泉", low: "なし", high: "あり" },
   { key: "summerCool", label: "夏の涼しさ", low: "暑い", high: "涼しい" },
@@ -285,7 +285,7 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
         {axis.label}
       </p>
       <div className="flex items-center gap-2.5">
-        <span className="text-[10px] text-[var(--color-ink-subtle)] w-16 text-right shrink-0 tracking-wide whitespace-nowrap">
+        <span className="text-[10px] text-[var(--color-ink-subtle)] w-24 text-right shrink-0 tracking-wide whitespace-nowrap">
           {axis.low}
         </span>
         <div className="flex gap-1 flex-1 min-w-0">
