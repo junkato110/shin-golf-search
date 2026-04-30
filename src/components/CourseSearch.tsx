@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type {
   Course,
@@ -74,11 +74,96 @@ const PREFECTURES = Array.from(
   new Set(ALL_MUNICIPALITIES.map((m) => m.prefecture))
 );
 
-const SELECT_CLASS =
-  "w-full rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2 text-sm outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)] disabled:opacity-40";
+const DROPDOWN_BTN_CLASS =
+  "w-full flex items-center justify-between rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2 text-sm text-left text-[var(--color-ink)] outline-none focus-visible:border-[var(--color-navy)] focus-visible:ring-1 focus-visible:ring-[var(--color-navy)] disabled:opacity-40 disabled:cursor-not-allowed";
 
 const FIELD_LABEL_CLASS =
   "block text-xs sm:text-sm font-bold tracking-wider text-[var(--color-navy)] mb-2 sm:mb-3";
+
+type DropdownOption = { value: string; label: string };
+
+function Dropdown({
+  value,
+  onChange,
+  options,
+  placeholder,
+  disabled,
+}: {
+  value: string;
+  onChange: (v: string) => void;
+  options: DropdownOption[];
+  placeholder: string;
+  disabled?: boolean;
+}) {
+  const [open, setOpen] = useState(false);
+  const wrapRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const handler = (e: PointerEvent) => {
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("pointerdown", handler);
+    return () => document.removeEventListener("pointerdown", handler);
+  }, [open]);
+
+  const selected = options.find((o) => o.value === value);
+
+  return (
+    <div ref={wrapRef} className="relative">
+      <button
+        type="button"
+        disabled={disabled}
+        onClick={() => setOpen((o) => !o)}
+        className={DROPDOWN_BTN_CLASS}
+      >
+        <span className={selected ? "" : "text-[var(--color-ink-subtle)]"}>
+          {selected?.label ?? placeholder}
+        </span>
+        <span className="text-[var(--color-ink-subtle)] text-xs ml-2 shrink-0">▾</span>
+      </button>
+      {open && !disabled && (
+        <ul
+          role="listbox"
+          className="absolute top-full left-0 right-0 mt-1 max-h-60 overflow-y-auto bg-white border border-[var(--color-line-strong)] rounded-md shadow-lg z-50"
+        >
+          {options.length === 0 ? (
+            <li className="px-3 py-2 text-xs text-[var(--color-ink-subtle)]">
+              候補がありません
+            </li>
+          ) : (
+            options.map((o) => {
+              const active = o.value === value;
+              return (
+                <li key={o.value}>
+                  <button
+                    type="button"
+                    role="option"
+                    aria-selected={active}
+                    onClick={() => {
+                      onChange(o.value);
+                      setOpen(false);
+                    }}
+                    className={
+                      "w-full text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] " +
+                      (active
+                        ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
+                        : "text-[var(--color-ink)]")
+                    }
+                  >
+                    {o.label}
+                  </button>
+                </li>
+              );
+            })
+          )}
+        </ul>
+      )}
+    </div>
+  );
+}
 
 export default function CourseSearch({ courses }: { courses: Course[] }) {
   // 自宅選択
@@ -214,39 +299,22 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
         <fieldset className="mb-6 pb-6 border-b border-[var(--color-line)]">
           <legend className={FIELD_LABEL_CLASS}>自宅エリア</legend>
           <div className="space-y-2">
-            <select
+            <Dropdown
               value={prefecture}
-              onChange={(e) => {
-                setPrefecture(e.target.value);
+              onChange={(v) => {
+                setPrefecture(v);
                 setMunicipalityName("");
               }}
-              className={SELECT_CLASS}
-            >
-              <option value="">都道府県を選択</option>
-              {PREFECTURES.map((p) => (
-                <option key={p} value={p}>
-                  {p}
-                </option>
-              ))}
-            </select>
-            <select
+              placeholder="都道府県を選択"
+              options={PREFECTURES.map((p) => ({ value: p, label: p }))}
+            />
+            <Dropdown
               value={municipalityName}
-              onChange={(e) => setMunicipalityName(e.target.value)}
-              className={SELECT_CLASS}
-            >
-              {!prefecture ? (
-                <option value="">先に都道府県を選択</option>
-              ) : (
-                <>
-                  <option value="">市区町村を選択</option>
-                  {homeCandidates.map((m) => (
-                    <option key={m.name} value={m.name}>
-                      {m.name}
-                    </option>
-                  ))}
-                </>
-              )}
-            </select>
+              onChange={setMunicipalityName}
+              placeholder={prefecture ? "市区町村を選択" : "先に都道府県を選択"}
+              disabled={!prefecture}
+              options={homeCandidates.map((m) => ({ value: m.name, label: m.name }))}
+            />
           </div>
           {home && (
             <p className="text-xs text-[var(--color-navy)] mt-3 flex items-center gap-1.5">
