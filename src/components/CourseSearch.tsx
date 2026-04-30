@@ -95,73 +95,75 @@ function Dropdown({
   placeholder: string;
   disabled?: boolean;
 }) {
-  const [open, setOpen] = useState(false);
-  const wrapRef = useRef<HTMLDivElement>(null);
+  const detailsRef = useRef<HTMLDetailsElement>(null);
 
+  // 外側タップで閉じる (details の native open 状態を制御)
   useEffect(() => {
-    if (!open) return;
     const handler = (e: PointerEvent) => {
-      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) {
-        setOpen(false);
+      const el = detailsRef.current;
+      if (el && el.open && !el.contains(e.target as Node)) {
+        el.open = false;
       }
     };
     document.addEventListener("pointerdown", handler);
     return () => document.removeEventListener("pointerdown", handler);
-  }, [open]);
+  }, []);
 
   const selected = options.find((o) => o.value === value);
 
   return (
-    <div ref={wrapRef} className="relative">
-      <button
-        type="button"
-        disabled={disabled}
-        onClick={() => setOpen((o) => !o)}
-        className={DROPDOWN_BTN_CLASS}
+    <details
+      ref={detailsRef}
+      className={
+        "relative group" + (disabled ? " pointer-events-none opacity-40" : "")
+      }
+    >
+      <summary className="list-none cursor-pointer select-none [&::-webkit-details-marker]:hidden">
+        <div className={DROPDOWN_BTN_CLASS}>
+          <span className={selected ? "" : "text-[var(--color-ink-subtle)]"}>
+            {selected?.label ?? placeholder}
+          </span>
+          <span className="text-[var(--color-ink-subtle)] text-xs ml-2 shrink-0 group-open:rotate-180 transition-transform">
+            ▾
+          </span>
+        </div>
+      </summary>
+      <ul
+        role="listbox"
+        className="absolute top-full left-0 right-0 mt-1 max-h-60 overflow-y-auto bg-white border border-[var(--color-line-strong)] rounded-md shadow-lg z-50"
       >
-        <span className={selected ? "" : "text-[var(--color-ink-subtle)]"}>
-          {selected?.label ?? placeholder}
-        </span>
-        <span className="text-[var(--color-ink-subtle)] text-xs ml-2 shrink-0">▾</span>
-      </button>
-      {open && !disabled && (
-        <ul
-          role="listbox"
-          className="absolute top-full left-0 right-0 mt-1 max-h-60 overflow-y-auto bg-white border border-[var(--color-line-strong)] rounded-md shadow-lg z-50"
-        >
-          {options.length === 0 ? (
-            <li className="px-3 py-2 text-xs text-[var(--color-ink-subtle)]">
-              候補がありません
-            </li>
-          ) : (
-            options.map((o) => {
-              const active = o.value === value;
-              return (
-                <li key={o.value}>
-                  <button
-                    type="button"
-                    role="option"
-                    aria-selected={active}
-                    onClick={() => {
-                      onChange(o.value);
-                      setOpen(false);
-                    }}
-                    className={
-                      "w-full text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] " +
-                      (active
-                        ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
-                        : "text-[var(--color-ink)]")
-                    }
-                  >
-                    {o.label}
-                  </button>
-                </li>
-              );
-            })
-          )}
-        </ul>
-      )}
-    </div>
+        {options.length === 0 ? (
+          <li className="px-3 py-2 text-xs text-[var(--color-ink-subtle)]">
+            候補がありません
+          </li>
+        ) : (
+          options.map((o) => {
+            const active = o.value === value;
+            return (
+              <li key={o.value}>
+                <button
+                  type="button"
+                  role="option"
+                  aria-selected={active}
+                  onClick={() => {
+                    onChange(o.value);
+                    if (detailsRef.current) detailsRef.current.open = false;
+                  }}
+                  className={
+                    "w-full text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] " +
+                    (active
+                      ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
+                      : "text-[var(--color-ink)]")
+                  }
+                >
+                  {o.label}
+                </button>
+              </li>
+            );
+          })
+        )}
+      </ul>
+    </details>
   );
 }
 
