@@ -10,37 +10,39 @@ type Props = {
 export default function ShareButtons({ courseName }: Props) {
   const [url, setUrl] = useState("");
   const [copied, setCopied] = useState(false);
-  const [hasNativeShare, setHasNativeShare] = useState(false);
 
   useEffect(() => {
-    // クライアントマウント時のみ取得 (SSR では window が無い)
+    // クライアントマウント時にのみ取得 (SSR では window が無い)
     /* eslint-disable react-hooks/set-state-in-effect */
     setUrl(window.location.href);
-    setHasNativeShare(
-      typeof navigator !== "undefined" && typeof navigator.share === "function"
-    );
     /* eslint-enable react-hooks/set-state-in-effect */
   }, []);
 
   const text = `${courseName} | シン・ゴルフサーチ`;
 
-  async function handleCopy() {
+  async function copyLink() {
+    const target = url || (typeof window !== "undefined" ? window.location.href : "");
     try {
-      await navigator.clipboard.writeText(url);
+      await navigator.clipboard.writeText(target);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // クリップボード API が使えない環境向けフォールバック
-      prompt("リンクをコピーしてください", url);
+      prompt("リンクをコピーしてください", target);
     }
   }
 
   async function handleNativeShare() {
-    try {
-      await navigator.share({ title: text, url });
-    } catch {
-      /* ユーザーがキャンセルした場合などは無視 */
+    const target = url || window.location.href;
+    if (typeof navigator !== "undefined" && typeof navigator.share === "function") {
+      try {
+        await navigator.share({ title: text, url: target });
+        return;
+      } catch {
+        /* キャンセルや失敗 → フォールバック */
+      }
     }
+    // Web Share 非対応時はクリップボードコピーに退避
+    copyLink();
   }
 
   const xHref = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`;
@@ -61,7 +63,7 @@ export default function ShareButtons({ courseName }: Props) {
       <div className="flex flex-wrap gap-2">
         <button
           type="button"
-          onClick={handleCopy}
+          onClick={copyLink}
           className="inline-flex items-center gap-1.5 px-3 py-2 border border-[var(--color-navy)] text-xs sm:text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
           style={{ fontWeight: 500 }}
         >
@@ -73,17 +75,16 @@ export default function ShareButtons({ courseName }: Props) {
         <ShareLink href={lineHref} label="LINE" icon={<IconLine />} />
         <ShareLink href={fbHref} label="Facebook" icon={<IconFacebook />} />
 
-        {hasNativeShare && (
-          <button
-            type="button"
-            onClick={handleNativeShare}
-            className="inline-flex items-center gap-1.5 px-3 py-2 border border-[var(--color-navy)] text-xs sm:text-sm text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
-            style={{ fontWeight: 500 }}
-          >
-            <IconShare />
-            その他のアプリ
-          </button>
-        )}
+        {/* その他のアプリ: モバイルでのみ表示 (Web Share API はモバイル中心) */}
+        <button
+          type="button"
+          onClick={handleNativeShare}
+          className="sm:hidden inline-flex items-center gap-1.5 px-3 py-2 border border-[var(--color-navy)] text-xs text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
+          style={{ fontWeight: 500 }}
+        >
+          <IconShare />
+          その他のアプリ
+        </button>
       </div>
     </section>
   );
