@@ -176,7 +176,9 @@ export default async function CoursePage({
               }
             />
             <Stat label="お風呂" value={course.hasBath ? "あり" : "なし"} />
-            <Stat label="開業" value={course.openedYear ? `${course.openedYear}年` : "—"} />
+            <Stat label="キャディ" value={course.caddyType ?? "—"} />
+            <Stat label="コース形態" value={course.courseLayout ?? "—"} />
+            <Stat label="ドレスコード" value={course.dressCode ?? "—"} />
             {course.designer && (
               <Stat label="設計" value={course.designer} className="col-span-2" />
             )}

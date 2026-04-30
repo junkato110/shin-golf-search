@@ -50,6 +50,12 @@ export type Course = {
   hasBath?: boolean;
   /** フェアウェイへのカート乗り入れが可能か (true=可、false=カート道のみ) */
   cartFairwayIn?: boolean;
+  /** キャディの形態 */
+  caddyType?: "必須" | "選択" | "セルフのみ";
+  /** コース形態 */
+  courseLayout?: "林間" | "高原" | "河川敷" | "海浜" | "丘陵";
+  /** ドレスコード */
+  dressCode?: "普段着OK" | "襟付き必須" | "ジャケット推奨";
   /** データソース (国土数値情報 / OSM / Wikipedia / 公式サイト 等) */
   sources?: string[];
   /** 最後にデータ更新した日時 */
