@@ -31,20 +31,6 @@ export default function ShareButtons({ courseName }: Props) {
     }
   }
 
-  async function handleNativeShare() {
-    const target = url || window.location.href;
-    if (typeof navigator !== "undefined" && typeof navigator.share === "function") {
-      try {
-        await navigator.share({ title: text, url: target });
-        return;
-      } catch {
-        /* キャンセルや失敗 → フォールバック */
-      }
-    }
-    // Web Share 非対応時はクリップボードコピーに退避
-    copyLink();
-  }
-
   const xHref = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`;
   const lineHref = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(url)}`;
   const fbHref = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
@@ -74,17 +60,6 @@ export default function ShareButtons({ courseName }: Props) {
         <ShareLink href={xHref} label="X" icon={<IconX />} />
         <ShareLink href={lineHref} label="LINE" icon={<IconLine />} />
         <ShareLink href={fbHref} label="Facebook" icon={<IconFacebook />} />
-
-        {/* その他のアプリ: モバイルでのみ表示 (Web Share API はモバイル中心) */}
-        <button
-          type="button"
-          onClick={handleNativeShare}
-          className="sm:hidden inline-flex items-center gap-1.5 px-3 py-2 border border-[var(--color-navy)] text-xs text-[var(--color-navy)] hover:bg-[var(--color-navy)] hover:text-white transition-colors"
-          style={{ fontWeight: 500 }}
-        >
-          <IconShare />
-          その他のアプリ
-        </button>
       </div>
     </section>
   );
@@ -120,16 +95,6 @@ function IconLink() {
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={ICON_CLASS} aria-hidden>
       <path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5" />
       <path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5" />
-    </svg>
-  );
-}
-
-function IconShare() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={ICON_CLASS} aria-hidden>
-      <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
-      <polyline points="16 6 12 2 8 6" />
-      <line x1="12" y1="2" x2="12" y2="15" />
     </svg>
   );
 }
