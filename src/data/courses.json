@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T04:02:53.849Z",
+  "updatedAt": "2026-04-30T04:06:19.295Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -39,7 +39,8 @@
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
       "hasBath": true,
-      "address": "千葉県袖ケ浦市林1166"
+      "address": "千葉県袖ケ浦市林1166",
+      "cartFairwayIn": false
     },
     {
       "id": "course_demo_002",
@@ -77,7 +78,8 @@
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
       "hasBath": true,
-      "address": "埼玉県比企郡鳩山町大字泉井1995"
+      "address": "埼玉県比企郡鳩山町大字泉井1995",
+      "cartFairwayIn": true
     },
     {
       "id": "course_demo_003",
@@ -116,7 +118,8 @@
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
       "hasBath": true,
-      "address": "長野県北佐久郡軽井沢町長倉"
+      "address": "長野県北佐久郡軽井沢町長倉",
+      "cartFairwayIn": false
     },
     {
       "id": "course_demo_004",
@@ -155,7 +158,8 @@
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
       "hasBath": true,
-      "address": "静岡県御殿場市中畑2335"
+      "address": "静岡県御殿場市中畑2335",
+      "cartFairwayIn": false
     },
     {
       "id": "course_demo_005",
@@ -195,7 +199,8 @@
       ],
       "updatedAt": "2026-04-29T06:00:00.000Z",
       "hasBath": true,
-      "address": "茨城県牛久市奥原町1551-13"
+      "address": "茨城県牛久市奥原町1551-13",
+      "cartFairwayIn": true
     }
   ]
 }

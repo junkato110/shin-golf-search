@@ -48,6 +48,8 @@ export type Course = {
   customImagePrompt?: string;
   /** お風呂 (一般浴・温泉問わず) があるか */
   hasBath?: boolean;
+  /** フェアウェイへのカート乗り入れが可能か (true=可、false=カート道のみ) */
+  cartFairwayIn?: boolean;
   /** データソース (国土数値情報 / OSM / Wikipedia / 公式サイト 等) */
   sources?: string[];
   /** 最後にデータ更新した日時 */

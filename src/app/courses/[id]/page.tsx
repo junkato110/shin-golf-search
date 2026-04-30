@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getCourseById, getAllCourses } from "@/lib/getCourses";
 import { getReservationLinks } from "@/lib/reservationLinks";
+import { formatTravelTime } from "@/lib/distance";
 import type { CourseScores } from "@/types";
 
 export async function generateStaticParams() {
@@ -156,8 +157,26 @@ export default async function CoursePage({
             <Stat label="ホール数" value={course.holeCount ? `${course.holeCount}H` : "—"} />
             <Stat label="距離" value={course.totalYardage ? `${course.totalYardage} yd` : "—"} />
             <Stat label="par" value={course.par ? String(course.par) : "—"} />
-            <Stat label="開業" value={course.openedYear ? `${course.openedYear}年` : "—"} />
+            <Stat
+              label="都心アクセス"
+              value={
+                course.travelMinutesFromTokyo != null
+                  ? formatTravelTime(course.travelMinutesFromTokyo).replace("目安 ", "")
+                  : "—"
+              }
+            />
+            <Stat
+              label="カート乗入"
+              value={
+                course.cartFairwayIn == null
+                  ? "—"
+                  : course.cartFairwayIn
+                  ? "フェアウェイ可"
+                  : "カート道のみ"
+              }
+            />
             <Stat label="お風呂" value={course.hasBath ? "あり" : "なし"} />
+            <Stat label="開業" value={course.openedYear ? `${course.openedYear}年` : "—"} />
             {course.designer && (
               <Stat label="設計" value={course.designer} className="col-span-2" />
             )}
