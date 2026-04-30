@@ -268,6 +268,23 @@ export default async function CoursePage({
 }
 
 /**
+ * 「緩い (初心者歓迎)」のような括弧付きラベルを、括弧の手前で改行して2行にする。
+ */
+function renderAxisLabel(text: string) {
+  const idx = text.search(/[(（]/);
+  if (idx > 0) {
+    return (
+      <>
+        {text.slice(0, idx).trim()}
+        <br />
+        {text.slice(idx).trim()}
+      </>
+    );
+  }
+  return text;
+}
+
+/**
  * 体感スコアの1行 (5段階バー + 両端ラベル)
  *
  * 内部スコアは 0/1/2 の3段階だが、視認性を上げるため5セグメントにマップ:
@@ -285,8 +302,8 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
         {axis.label}
       </p>
       <div className="flex items-center gap-2.5">
-        <span className="text-[10px] text-[var(--color-ink-subtle)] w-24 text-right shrink-0 tracking-wide whitespace-nowrap">
-          {axis.low}
+        <span className="text-[10px] text-[var(--color-ink-subtle)] w-24 text-right shrink-0 tracking-wide leading-tight">
+          {renderAxisLabel(axis.low)}
         </span>
         <div className="flex gap-1 flex-1 min-w-0">
           {Array.from({ length: 5 }).map((_, i) => (
@@ -300,13 +317,13 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
           ))}
         </div>
         <span
-          className={`text-[10px] w-24 shrink-0 tracking-wide whitespace-nowrap ${
+          className={`text-[10px] w-24 shrink-0 tracking-wide leading-tight ${
             isMax
               ? "text-[var(--color-accent)] font-semibold"
               : "text-[var(--color-ink-subtle)]"
           }`}
         >
-          {axis.high}
+          {renderAxisLabel(axis.high)}
         </span>
       </div>
     </li>
