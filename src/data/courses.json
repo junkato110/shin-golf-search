@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T04:08:54.771Z",
+  "updatedAt": "2026-04-30T04:10:21.204Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -44,7 +44,8 @@
       "caddyType": "必須",
       "courseLayout": "丘陵",
       "dressCode": "襟付き必須",
-      "throughPlay": false
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 50
     },
     {
       "id": "course_demo_002",
@@ -87,7 +88,8 @@
       "caddyType": "選択",
       "courseLayout": "丘陵",
       "dressCode": "襟付き必須",
-      "throughPlay": true
+      "throughPlay": true,
+      "travelMinutesFromTokyo": 77
     },
     {
       "id": "course_demo_003",
@@ -131,7 +133,8 @@
       "caddyType": "選択",
       "courseLayout": "高原",
       "dressCode": "襟付き必須",
-      "throughPlay": false
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 177
     },
     {
       "id": "course_demo_004",
@@ -175,7 +178,8 @@
       "caddyType": "必須",
       "courseLayout": "丘陵",
       "dressCode": "ジャケット推奨",
-      "throughPlay": false
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 121
     },
     {
       "id": "course_demo_005",
@@ -220,7 +224,8 @@
       "caddyType": "選択",
       "courseLayout": "林間",
       "dressCode": "襟付き必須",
-      "throughPlay": true
+      "throughPlay": true,
+      "travelMinutesFromTokyo": 66
     }
   ]
 }
