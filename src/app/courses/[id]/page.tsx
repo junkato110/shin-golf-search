@@ -64,7 +64,7 @@ export default async function CoursePage({
     <div className="min-h-screen flex flex-col">
       <header className="border-b border-[var(--color-line)] bg-white sticky top-0 z-30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
-          <Link href="/" className="flex items-baseline gap-3 min-w-0">
+          <Link href="/" className="flex items-baseline gap-1.5 sm:gap-3 min-w-0">
             <span
               className="font-serif text-xl sm:text-2xl md:text-3xl text-[var(--color-navy)] whitespace-nowrap"
               style={{ fontWeight: 700, letterSpacing: "0.06em" }}
@@ -72,7 +72,7 @@ export default async function CoursePage({
               シン・ゴルフサーチ
             </span>
             <span
-              className="hidden md:inline font-display text-lg md:text-xl text-[var(--color-navy)] uppercase tracking-[0.2em] whitespace-nowrap"
+              className="font-display text-[8px] sm:text-base md:text-xl text-[var(--color-navy)] uppercase tracking-[0.05em] sm:tracking-[0.2em] whitespace-nowrap"
               style={{ fontWeight: 500 }}
             >
               ーSHIN・GOLF SEARCHー
