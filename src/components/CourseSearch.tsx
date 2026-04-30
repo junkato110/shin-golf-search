@@ -116,7 +116,7 @@ function Dropdown({
           </span>
         </div>
       </summary>
-      <div className="mt-1 max-h-60 overflow-y-auto bg-white border border-[var(--color-line-strong)] rounded-md">
+      <div className="mt-1 bg-white border border-[var(--color-line-strong)] rounded-md">
         {options.length === 0 ? (
           <p className="px-3 py-2 text-xs text-[var(--color-ink-subtle)]">
             候補がありません
@@ -130,7 +130,7 @@ function Dropdown({
                 key={o.value}
                 htmlFor={inputId}
                 className={
-                  "block w-full cursor-pointer text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] " +
+                  "block w-full cursor-pointer touch-manipulation text-left px-3 py-2 text-sm hover:bg-[var(--color-bg-soft)] " +
                   (active
                     ? "bg-[var(--color-bg-soft)] text-[var(--color-navy)] font-medium"
                     : "text-[var(--color-ink)]")
