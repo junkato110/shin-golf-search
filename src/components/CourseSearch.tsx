@@ -198,12 +198,16 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
   }, [prefecture, municipalityName]);
 
   // 各コースに自宅からの所要時間を付与
+  const matrix = (travelMatrixData?.matrix ?? {}) as Record<
+    string,
+    Record<string, number | null>
+  >;
   const coursesWithTravel = useMemo(() => {
     return courses.map((c) => {
       if (!home) return { ...c, travelMinutesFromHome: undefined };
       // 1. travel-matrix.json (OSRM 実ルート) を優先
       const key = `${home.prefecture}|${home.name}`;
-      const matrixMinutes = travelMatrixData?.matrix?.[key]?.[c.id];
+      const matrixMinutes = matrix[key]?.[c.id];
       if (typeof matrixMinutes === "number") {
         return { ...c, travelMinutesFromHome: matrixMinutes };
       }
@@ -214,6 +218,8 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
       }
       return { ...c, travelMinutesFromHome: undefined };
     });
+    // matrix is stable across renders since it's deserialized JSON, safe to skip in deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [courses, home]);
 
   // フィルタ条件
