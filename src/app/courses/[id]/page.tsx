@@ -179,6 +179,16 @@ export default async function CoursePage({
             <Stat label="キャディ" value={course.caddyType ?? "—"} />
             <Stat label="コース形態" value={course.courseLayout ?? "—"} />
             <Stat label="ドレスコード" value={course.dressCode ?? "—"} />
+            <Stat
+              label="スループレー"
+              value={
+                course.throughPlay == null
+                  ? "—"
+                  : course.throughPlay
+                  ? "対応"
+                  : "非対応"
+              }
+            />
             {course.designer && (
               <Stat label="設計" value={course.designer} className="col-span-2" />
             )}

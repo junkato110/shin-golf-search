@@ -56,6 +56,8 @@ export type Course = {
   courseLayout?: "林間" | "高原" | "河川敷" | "海浜" | "丘陵";
   /** ドレスコード */
   dressCode?: "普段着OK" | "襟付き必須" | "ジャケット推奨";
+  /** スループレー対応 (昼食を挟まずに18Hを通しでプレー可能か) */
+  throughPlay?: boolean;
   /** データソース (国土数値情報 / OSM / Wikipedia / 公式サイト 等) */
   sources?: string[];
   /** 最後にデータ更新した日時 */

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T04:08:01.080Z",
+  "updatedAt": "2026-04-30T04:08:54.771Z",
   "courses": [
     {
       "id": "course_demo_001",
@@ -43,7 +43,8 @@
       "cartFairwayIn": false,
       "caddyType": "必須",
       "courseLayout": "丘陵",
-      "dressCode": "襟付き必須"
+      "dressCode": "襟付き必須",
+      "throughPlay": false
     },
     {
       "id": "course_demo_002",
@@ -85,7 +86,8 @@
       "cartFairwayIn": true,
       "caddyType": "選択",
       "courseLayout": "丘陵",
-      "dressCode": "襟付き必須"
+      "dressCode": "襟付き必須",
+      "throughPlay": true
     },
     {
       "id": "course_demo_003",
@@ -128,7 +130,8 @@
       "cartFairwayIn": false,
       "caddyType": "選択",
       "courseLayout": "高原",
-      "dressCode": "襟付き必須"
+      "dressCode": "襟付き必須",
+      "throughPlay": false
     },
     {
       "id": "course_demo_004",
@@ -171,7 +174,8 @@
       "cartFairwayIn": false,
       "caddyType": "必須",
       "courseLayout": "丘陵",
-      "dressCode": "ジャケット推奨"
+      "dressCode": "ジャケット推奨",
+      "throughPlay": false
     },
     {
       "id": "course_demo_005",
@@ -215,7 +219,8 @@
       "cartFairwayIn": true,
       "caddyType": "選択",
       "courseLayout": "林間",
-      "dressCode": "襟付き必須"
+      "dressCode": "襟付き必須",
+      "throughPlay": true
     }
   ]
 }
