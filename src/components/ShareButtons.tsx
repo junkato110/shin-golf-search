@@ -14,7 +14,6 @@ export default function ShareButtons({ courseName }: Props) {
 
   useEffect(() => {
     // クライアントマウント時のみ取得 (SSR では window が無い)
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setUrl(window.location.href);
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setHasNativeShare(
