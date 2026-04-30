@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type {
   Course,
@@ -96,26 +96,13 @@ function Dropdown({
   disabled?: boolean;
 }) {
   const detailsRef = useRef<HTMLDetailsElement>(null);
-
-  // 外側タップで閉じる (details の native open 状態を制御)
-  useEffect(() => {
-    const handler = (e: PointerEvent) => {
-      const el = detailsRef.current;
-      if (el && el.open && !el.contains(e.target as Node)) {
-        el.open = false;
-      }
-    };
-    document.addEventListener("pointerdown", handler);
-    return () => document.removeEventListener("pointerdown", handler);
-  }, []);
-
   const selected = options.find((o) => o.value === value);
 
   return (
     <details
       ref={detailsRef}
       className={
-        "relative group" + (disabled ? " pointer-events-none opacity-40" : "")
+        "group" + (disabled ? " pointer-events-none opacity-40" : "")
       }
     >
       <summary className="list-none cursor-pointer select-none [&::-webkit-details-marker]:hidden">
@@ -128,10 +115,7 @@ function Dropdown({
           </span>
         </div>
       </summary>
-      <ul
-        role="listbox"
-        className="absolute top-full left-0 right-0 mt-1 max-h-60 overflow-y-auto bg-white border border-[var(--color-line-strong)] rounded-md shadow-lg z-50"
-      >
+      <ul className="mt-1 max-h-60 overflow-y-auto bg-white border border-[var(--color-line-strong)] rounded-md">
         {options.length === 0 ? (
           <li className="px-3 py-2 text-xs text-[var(--color-ink-subtle)]">
             候補がありません
@@ -143,9 +127,9 @@ function Dropdown({
               <li key={o.value}>
                 <button
                   type="button"
-                  role="option"
-                  aria-selected={active}
-                  onClick={() => {
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
                     onChange(o.value);
                     if (detailsRef.current) detailsRef.current.open = false;
                   }}
