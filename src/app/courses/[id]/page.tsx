@@ -89,8 +89,8 @@ export default async function CoursePage({
 
       {course.imageUrl && (
         <div className="w-full bg-neutral-100 grid grid-cols-1 md:grid-cols-2 gap-1 md:h-[220px] lg:h-[260px]">
-          {/* メイン: 名物ホール */}
-          <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto md:h-full">
+          {/* メイン: 名物ホール (モバイルではこの1枚のみ表示) */}
+          <div className="relative overflow-hidden aspect-[16/6] sm:aspect-[16/7] md:aspect-auto md:h-full">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={course.imageUrl}
@@ -98,13 +98,13 @@ export default async function CoursePage({
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
-            <span className="absolute bottom-3 left-4 text-[11px] tracking-[0.2em] text-white font-medium">
+            <span className="absolute bottom-2 left-3 sm:bottom-3 sm:left-4 text-[10px] sm:text-[11px] tracking-[0.2em] text-white font-medium">
               名物ホール
             </span>
           </div>
-          {/* サブ: クラブハウス外観 (1枚) */}
+          {/* サブ: クラブハウス外観 (md 以上で表示) */}
           {course.additionalImages?.[0] && (
-            <div className="relative overflow-hidden aspect-[16/9] md:aspect-auto md:h-full">
+            <div className="hidden md:block relative overflow-hidden md:h-full">
               {course.additionalImages[0].url ? (
                 /* eslint-disable-next-line @next/next/no-img-element */
                 <img
@@ -131,7 +131,7 @@ export default async function CoursePage({
           </p>
           <div className="flex items-start justify-between gap-3 sm:gap-4">
             <h1
-              className="font-serif text-xl sm:text-2xl md:text-3xl text-[var(--color-navy)] leading-snug"
+              className="font-serif text-lg sm:text-2xl md:text-3xl text-[var(--color-navy)] leading-snug"
               style={{ fontWeight: 700, letterSpacing: "0.04em" }}
             >
               {course.name}
@@ -145,7 +145,7 @@ export default async function CoursePage({
               {course.nameKana}
             </p>
           )}
-          <p className="text-sm text-[var(--color-ink-muted)] mt-4 flex flex-wrap items-center gap-x-3 gap-y-1.5">
+          <p className="text-xs sm:text-sm text-[var(--color-ink-muted)] mt-3 sm:mt-4 flex flex-wrap items-center gap-x-3 gap-y-1.5">
             <span>
               {course.address ?? `${course.prefecture}${course.city ?? ""}`}
             </span>
@@ -178,7 +178,7 @@ export default async function CoursePage({
           <div className="bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-4 sm:p-8">
             <div className="flex items-baseline gap-3 mb-6 pb-4 border-b border-[var(--color-line)]">
               <h2
-                className="font-serif text-base sm:text-lg text-[var(--color-navy)]"
+                className="font-serif text-sm sm:text-lg text-[var(--color-navy)]"
                 style={{ fontWeight: 700, letterSpacing: "0.08em" }}
               >
                 基本情報
@@ -270,7 +270,7 @@ export default async function CoursePage({
               {course.tags.slice(0, 6).map((t) => (
                 <span
                   key={t}
-                  className="px-3.5 py-1.5 border border-[var(--color-navy)]/30 bg-white text-[var(--color-navy)] text-sm tracking-wide"
+                  className="px-2.5 py-1 sm:px-3.5 sm:py-1.5 border border-[var(--color-navy)]/30 bg-white text-[var(--color-navy)] text-xs sm:text-sm tracking-wide"
                   style={{ fontWeight: 600 }}
                 >
                   {t}
@@ -284,7 +284,7 @@ export default async function CoursePage({
         <section className="mb-10">
           <div className="flex items-baseline gap-3 mb-4">
             <h2
-              className="font-serif text-base sm:text-lg text-[var(--color-navy)] flex items-center gap-3"
+              className="font-serif text-sm sm:text-lg text-[var(--color-navy)] flex items-center gap-3"
               style={{ fontWeight: 700, letterSpacing: "0.08em" }}
             >
               <span className="inline-block w-1 h-5 bg-[var(--color-accent)]" />
@@ -424,11 +424,11 @@ function Stat({
 }) {
   return (
     <div className={className}>
-      <dt className="text-[10px] sm:text-[11px] text-[var(--color-ink-muted)] tracking-wider mb-1 sm:mb-1.5 font-medium">
+      <dt className="text-[10px] text-[var(--color-ink-muted)] tracking-wider mb-1 sm:mb-1.5 font-medium">
         {label}
       </dt>
       <dd
-        className="font-serif text-base sm:text-xl text-[var(--color-navy)] leading-tight"
+        className="font-serif text-sm sm:text-xl text-[var(--color-navy)] leading-tight"
         style={{ fontWeight: 700, letterSpacing: "0.02em" }}
       >
         {value}
