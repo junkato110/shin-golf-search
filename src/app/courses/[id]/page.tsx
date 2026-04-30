@@ -142,10 +142,10 @@ export default async function CoursePage({
             <span>
               {course.address ?? `${course.prefecture}${course.city ?? ""}`}
             </span>
-            {(course.address || (course.lat != null && course.lng != null)) && (
+            {course.address && (
               <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                  course.address ?? `${course.lat},${course.lng}`
+                href={`https://www.google.com/maps?q=${encodeURIComponent(
+                  course.address
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
