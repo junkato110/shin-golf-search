@@ -37,7 +37,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 154
     },
     {
@@ -75,7 +75,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 158
     },
     {
@@ -111,7 +111,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 84
     },
     {
@@ -160,7 +160,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 98
     },
     {
@@ -172,7 +172,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 155
     },
     {
@@ -249,7 +249,7 @@
         "osm",
         "wikipedia"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 70
     },
     {
@@ -261,7 +261,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 121
     },
     {
@@ -286,7 +286,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 108
     },
     {
@@ -298,7 +298,7 @@
       "sources": [
         "wikipedia"
       ],
-      "status": "pending"
+      "status": "added"
     },
     {
       "prefecture": "茨城県",
@@ -309,7 +309,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 164
     },
     {
@@ -321,7 +321,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 112
     },
     {
@@ -333,7 +333,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 100
     },
     {
@@ -345,7 +345,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 91
     },
     {
@@ -357,7 +357,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 111
     },
     {
@@ -369,7 +369,7 @@
       "sources": [
         "wikipedia"
       ],
-      "status": "pending"
+      "status": "added"
     },
     {
       "prefecture": "茨城県",
@@ -380,7 +380,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 113
     },
     {
@@ -392,7 +392,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 85
     },
     {
@@ -404,7 +404,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 93
     },
     {
@@ -416,7 +416,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 88
     },
     {
@@ -428,7 +428,7 @@
       "sources": [
         "osm"
       ],
-      "status": "pending",
+      "status": "added",
       "travelMinutesFromTokyo": 120
     },
     {

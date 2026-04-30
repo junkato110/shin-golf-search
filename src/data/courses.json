@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T09:23:06.001Z",
+  "updatedAt": "2026-04-30T09:38:02.919Z",
   "courses": [
     {
       "id": "course_001",
@@ -843,6 +843,1026 @@
       ],
       "travelMinutesFromTokyo": 121,
       "updatedAt": "2026-04-30T09:22:22.612212+00:00"
+    },
+    {
+      "id": "course_016",
+      "name": "ＧＯＬＦ５カントリー サニーフィールド",
+      "nameKana": "ごるふふぁいぶかんとりーさにーふぃーるど",
+      "prefecture": "茨城県",
+      "city": "常陸大宮市",
+      "address": "〒311-4503 茨城県常陸大宮市野口1743-14",
+      "lat": 36.5623293,
+      "lng": 140.3284601,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7100,
+      "openedYear": 1984,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_016.jpg",
+      "customImagePrompt": "aerial-style championship golf course landscape in Ibaraki, Jack Nicklaus-designed 18-hole course with manicured fairways and strategic water hazards, professional-grade layout with Japanese black pine trees lining fairways, crisp morning light casting long shadows, lush green grass, distant Hitachi landscape, calm atmosphere of excellence",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_016_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 154,
+      "sources": [
+        "https://www.alpen-group.net/sunnyfield/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80052/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.194Z"
+    },
+    {
+      "id": "course_017",
+      "name": "アザレア健楽園",
+      "nameKana": "あざればけんらくえん",
+      "prefecture": "茨城県",
+      "city": "常陸大宮市",
+      "address": "〒311-4701 茨城県常陸大宮市小場1007",
+      "lat": 36.5993153,
+      "lng": 140.3014895,
+      "holeCount": 9,
+      "par": 35,
+      "totalYardage": 2800,
+      "openedYear": 1985,
+      "courseLayout": "丘陸",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_017.jpg",
+      "customImagePrompt": "scenic 9-hole golf course nestled in rolling hills of Ibaraki with natural landscape, par-35 course surrounded by vibrant green fairways and mature forest, peaceful forest interior setting with dappled sunlight filtering through tree canopy, tranquil pond reflecting sky, refreshing natural setting with stone markers on fairways",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_017_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 158,
+      "sources": [
+        "https://kenrakuen.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80002/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.194Z"
+    },
+    {
+      "id": "course_018",
+      "name": "アスレチックゴルフ倶楽部",
+      "nameKana": "あすれちっくがーでんごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "稲敷市",
+      "address": "〒300-0606 茨城県稲敷市東大沼402",
+      "lat": 35.9391419,
+      "lng": 140.3527419,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6902,
+      "openedYear": 1990,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_018.jpg",
+      "customImagePrompt": "professional 18-hole championship golf course landscape, strategic layout with 8 ponds and 103 bunkers, flat terrain with mature pine and oak trees creating natural separation between holes, manicured bent grass fairways with pristine sand bunkers, morning mist hovering over ponds, peaceful forested setting in rural Ibaraki",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_018_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 84,
+      "sources": [
+        "https://www.athletic-golf.co.jp/",
+        "http://shotnavi.jp/gcguide/gcinfo_192.htm"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.194Z"
+    },
+    {
+      "id": "course_019",
+      "name": "かすみがうらOGMゴルフクラブ",
+      "nameKana": "かすみがうらおーじーえむごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "かすみがうら市",
+      "address": "〒300-0131 茨城県かすみがうら市田伏361",
+      "lat": 36.0892683,
+      "lng": 140.3623185,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6800,
+      "openedYear": 1981,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_019.jpg",
+      "customImagePrompt": "scenic 18-hole forest golf course on plateau overlooking Lake Kasumigaura, modern clubhouse with open architecture, manicured fairways bordered by mature broadleaf trees and pines, flat terrain with strategic water features, distant lake views beyond tree line, professional landscape photography style",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_019_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 98,
+      "sources": [
+        "https://reserve.accordiagolf.com/golfCourse/ibaraki/kasumigaura/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80027/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.194Z"
+    },
+    {
+      "id": "course_020",
+      "name": "カバヤゴルフクラブ",
+      "nameKana": "ひたちおおみやごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "常陸大宮市",
+      "address": "〒311-4631 茨城県常陸大宮市国長2408-1",
+      "lat": 36.5734178,
+      "lng": 140.3107569,
+      "holeCount": 27,
+      "par": 105,
+      "totalYardage": 10200,
+      "openedYear": 1976,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_020.jpg",
+      "customImagePrompt": "expansive 27-hole golf resort nestled in foothills below Mt. Gozen-yama, natural landscape with river setting and abundant forest, three separate courses (sakura, ume, kaede) with varying elevation changes, water features and stone bridges, traditional Japanese garden elements integrated with course design, mountain backdrop, resort atmosphere",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_020_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 155,
+      "sources": [
+        "https://kabayagc.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80034/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.194Z"
+    },
+    {
+      "id": "course_021",
+      "name": "ザ・ゴルフクラブ竜ケ崎",
+      "nameKana": "ざごるふくらぶりゅうがさき",
+      "prefecture": "茨城県",
+      "city": "龍ケ崎市",
+      "address": "〒301-0857 茨城県龍ケ崎市泉町字原口1592-77",
+      "lat": 35.9534183,
+      "lng": 140.2042892,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7000,
+      "openedYear": 1978,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_021.jpg",
+      "customImagePrompt": "championship-style 18-hole forest golf course on spacious grounds designed by renowned architect, mature deciduous and coniferous trees creating natural fairway separation, championship-length holes exceeding 600 yards, strategic bunker placement, serene forest setting with professional maintenance, calm atmosphere for serious golfers",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_021_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 70,
+      "sources": [
+        "https://www.pacificgolf.co.jp/ryugasaki/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80049/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.194Z"
+    },
+    {
+      "id": "course_022",
+      "name": "ザ・ロイヤルゴルフクラブ",
+      "nameKana": "ざろいやるごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "鉾田市",
+      "address": "〒311-1513 茨城県鉾田市大蔵200",
+      "lat": 36.0950824,
+      "lng": 140.577727,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7100,
+      "openedYear": 2008,
+      "courseLayout": "河川敷",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_022.jpg",
+      "customImagePrompt": "modern luxury golf course with expansive flat fairways and beautiful water features throughout, 18 holes with strategic pond placement creating visual and tactical challenges, pristine manicured bent grass greens, tree-lined fairways for separation, upscale clubhouse reflecting in water features, tranquil championship course in countryside setting with distant hills",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_022_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 121,
+      "sources": [
+        "https://the-royal-golf-club.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80054/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.194Z"
+    },
+    {
+      "id": "course_023",
+      "name": "ジェイゴルフ霞ケ浦",
+      "nameKana": "じぇいごるふかすみがうら",
+      "prefecture": "茨城県",
+      "city": "潮来市",
+      "address": "〒311-2436 茨城県潮来市茂木279-1",
+      "lat": 35.9891531,
+      "lng": 140.5378094,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6900,
+      "openedYear": 2000,
+      "courseLayout": "河川敷",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_023.jpg",
+      "customImagePrompt": "elegant 18-hole golf course surrounded by Lakes Kasumigaura and Kitaura, flat terrain landscape photography, water features integrated throughout design, separated fairways with mature trees, modern clubhouse architecture, peaceful lakeside setting with calm water reflections, professional-grade course management, serene natural environment",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_023_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 108,
+      "sources": [
+        "http://tatemono-golf.sakura.ne.jp/jgk.tatemono-golf.com/cms/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80056/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.194Z"
+    },
+    {
+      "id": "course_024",
+      "name": "スターツ笠間ゴルフ倶楽部",
+      "nameKana": "すたーつかさまごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "笠間市",
+      "address": "〒309-1737 茨城県笠間市池野辺2340-1",
+      "lat": 36.3509,
+      "lng": 140.2863,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6800,
+      "openedYear": 1985,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_024.jpg",
+      "customImagePrompt": "historic championship 18-hole course in rolling hills, last design by master architect Seiichi Inoue, 33-hectare grounds with natural terrain, beautiful clubhouse architecture by Fumio Maki, manicured fairways with mature pine forest lining holes, strategic bunkering and water features, peaceful countryside golf experience",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_024_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://www.starts-golf.jp/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80023/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z",
+      "travelMinutesFromTokyo": 123
+    },
+    {
+      "id": "course_025",
+      "name": "スパ&ゴルフリゾート久慈",
+      "nameKana": "すぱあんどごるふりぞーときゅうじ",
+      "prefecture": "茨城県",
+      "city": "常陸太田市",
+      "address": "〒313-0261 茨城県常陸太田市岩手町1398",
+      "lat": 36.5694608,
+      "lng": 140.4694815,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6800,
+      "openedYear": 1995,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_025.jpg",
+      "customImagePrompt": "scenic resort golf course designed by Shinjiro Nakamura with natural terrain using seven strategic ponds, bent grass greens on spacious fairways with gentle undulation, mature forest backdrop and mountain views, hot spring resort setting with luxury clubhouse, tranquil morning atmosphere with golf course integrated into nature",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_025_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 164,
+      "sources": [
+        "https://www.resol-golf.jp/en/kuji/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80040/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_026",
+      "name": "スプリングフィルズゴルフクラブ【PGM】",
+      "nameKana": "すぷりんぐふぃーるずごるふくらぶぴーじーえむ",
+      "prefecture": "茨城県",
+      "city": "筑西市",
+      "address": "〒309-1101 茨城県筑西市小栗6588",
+      "lat": 36.3707203,
+      "lng": 140.0295469,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7012,
+      "openedYear": 1990,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_026.jpg",
+      "customImagePrompt": "beautiful forest golf course on flat terrain with ten strategic ponds, mature trees creating natural fairway separation, scenic water features integrated throughout design, professional-grade bent grass fairways and greens, peaceful wooded setting in countryside, championship-quality course with excellent drainage",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_026_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 112,
+      "sources": [
+        "https://www.pacificgolf.co.jp/sfields/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80068/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_027",
+      "name": "セゴビアゴルフクラブ イン チヨダ【PGM】",
+      "nameKana": "せごびあごるふくらぶいんちよだぴーじーえむ",
+      "prefecture": "茨城県",
+      "city": "かすみがうら市",
+      "address": "〒300-0462 茨城県かすみがうら市高倉1384",
+      "lat": 36.204407,
+      "lng": 140.2234489,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 7000,
+      "openedYear": 1995,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_027.jpg",
+      "customImagePrompt": "championship Desmond Muirhead-designed course inspired by Spain theme, 18 holes each with Spanish names and character (hole 1 Flamenco, hole 3 Guitarra, hole 14 Gazpacho island green), mature tree-lined fairways, strategic water hazards, undulating greens with Spanish architectural elements, elegant and unique course experience",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_027_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 100,
+      "sources": [
+        "https://www.pacificgolf.co.jp/segovia/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80070/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_028",
+      "name": "セベバレステロスカントリークラブ",
+      "nameKana": "せべばれすてろすかんとりーくらぶ",
+      "prefecture": "茨城県",
+      "city": "稲敷市",
+      "address": "〒300-0607 茨城県稲敷市四箇3043",
+      "lat": 35.9737127,
+      "lng": 140.3904418,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6900,
+      "openedYear": 1988,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_028.jpg",
+      "customImagePrompt": "prestigious championship course co-designed by David Thomas and Seve Ballesteros, lakeside hillside setting, natural pine forest creating complete fairway separation, bent grass greens with subtle undulation, strategic ponds at key holes, elegant English-style atmosphere, championship-caliber conditioning, hosted PGA tournaments 1988-1995",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_028_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 91,
+      "sources": [
+        "https://www.jgmgroup.co.jp/seve/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80071/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_029",
+      "name": "セントラルGC NEWコース",
+      "nameKana": "せんとらるじーしーにゅーこーす",
+      "prefecture": "茨城県",
+      "city": "行方市",
+      "address": "〒311-3833 茨城県行方市小牧1006-9",
+      "lat": 36.0477313,
+      "lng": 140.5214641,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6900,
+      "openedYear": 1997,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_029.jpg",
+      "customImagePrompt": "Tom Watson-designed hillside course on natural forested terrain, mature deciduous and coniferous trees lining strategic fairways, multiple tee options for varied difficulty, natural hazards integrated into design, peaceful forest setting overlooking flatland, championship-quality conditions, scenic Japanese countryside landscape",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_029_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 111,
+      "sources": [
+        "https://reserve.accordiagolf.com/golfCourse/ibaraki/central_new/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80120/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_030",
+      "name": "セントラルゴルフクラブ",
+      "nameKana": "せんとらるごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "行方市",
+      "address": "〒311-3833 茨城県行方市麻生2196",
+      "lat": 36.0656,
+      "lng": 140.4813,
+      "holeCount": 36,
+      "par": 144,
+      "totalYardage": 13200,
+      "openedYear": 1974,
+      "courseLayout": "河川敷",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_030.jpg",
+      "customImagePrompt": "legendary championship 36-hole course east and west on flat terrain near Lake Kasumigaura, professional-tournament venue hosting Japan Open and PGA events, pristine bent grass fairways and greens, spacious course design with strategic water hazards, peaceful lakeside setting, exemplary course management and maintenance standards",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_030_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "sources": [
+        "https://reserve.accordiagolf.com/golfCourse/ibaraki/central/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80073/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z",
+      "travelMinutesFromTokyo": 108
+    },
+    {
+      "id": "course_031",
+      "name": "ダイヤグリーン倶楽部",
+      "nameKana": "だいやぐりーんくらぶ",
+      "prefecture": "茨城県",
+      "city": "鉾田市",
+      "address": "〒311-1523 茨城県鉾田市借宿2222",
+      "lat": 36.1507979,
+      "lng": 140.4544665,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6800,
+      "openedYear": 1975,
+      "courseLayout": "林間",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_031.jpg",
+      "customImagePrompt": "established 18-hole forest course with 35+ years of history, flat forest terrain with mature tree separation, beautiful natural aesthetic, practicing bunkers and water features, four-season beauty with seasonal foliage, peaceful woodland setting, stable professional-quality course conditions",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_031_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 113,
+      "sources": [
+        "http://www.daiyagreen.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80075/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_032",
+      "name": "つくばゴルフガーデン",
+      "nameKana": "つくばごるふがーでん",
+      "prefecture": "茨城県",
+      "city": "つくば市",
+      "address": "〒300-4201 茨城県つくば市寺具1330-1",
+      "lat": 36.1861453,
+      "lng": 140.0263588,
+      "holeCount": 9,
+      "par": 27,
+      "totalYardage": 1410,
+      "openedYear": 2010,
+      "courseLayout": "ショートコース",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_032.jpg",
+      "customImagePrompt": "innovative short 9-hole links-style course at foot of Mt. Tsukuba, practice facility with short-course design, bunkers and water features throughout, minimal elevation change, modern maintenance standards, scenic Mt. Tsukuba backdrop, recreational golf setting suitable for all skill levels",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_032_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 85,
+      "sources": [
+        "https://www.tsukuba-golfgarden.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520266/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_033",
+      "name": "つくばねカントリークラブ",
+      "nameKana": "つくばねかんとりーくらぶ",
+      "prefecture": "茨城県",
+      "city": "つくば市",
+      "address": "〒300-4212 茨城県つくば市神郡2726",
+      "lat": 36.2031872,
+      "lng": 140.1187994,
+      "holeCount": 18,
+      "par": 72,
+      "totalYardage": 6800,
+      "openedYear": 1974,
+      "courseLayout": "丘陵",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_033.jpg",
+      "customImagePrompt": "scenic 18-hole championship course on south slope of Mt. Tsukuba designed by master Hachihachi Fukui, distant views of Mt. Fuji and Japanese Alps from elevated position, moderate elevation change suitable for all golfers, water features integrated, natural forest backdrop, excellent spring-water facilities on course",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_033_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 93,
+      "sources": [
+        "https://www.tukubane.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80085/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_034",
+      "name": "つくば筑西ゴルフセンター ＆ゴルフクラブ",
+      "nameKana": "つくばちくせいごるふせんたーあんどごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "筑西市",
+      "address": "〒308-0112 茨城県筑西市向上野1758",
+      "lat": 36.2010912,
+      "lng": 140.0382391,
+      "holeCount": 8,
+      "par": 27,
+      "totalYardage": 1410,
+      "openedYear": 2005,
+      "courseLayout": "ショートコース",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_034.jpg",
+      "customImagePrompt": "modern short 8-hole par-27 course with practice facility design, grass bunkers and water hazards throughout, open-style range atmosphere allowing drivers to be used, Mt. Tsukuba foothills setting, well-manicured course conditions, recreational golf experience for practice and casual play",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_034_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 88,
+      "sources": [
+        "https://www.tsukuba-chikusei.com/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520354/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
+    },
+    {
+      "id": "course_035",
+      "name": "トライレイクゴルフクラブ",
+      "nameKana": "とらいれいくごるふくらぶ",
+      "prefecture": "茨城県",
+      "city": "鹿嶋市",
+      "address": "〒314-0133 茨城県鹿嶋市粟生1910-4",
+      "lat": 35.9524056,
+      "lng": 140.6583329,
+      "holeCount": 9,
+      "par": 27,
+      "totalYardage": 1200,
+      "openedYear": 2000,
+      "courseLayout": "ショートコース",
+      "scores": {
+        "difficulty": 1,
+        "fairwayWidth": 1,
+        "flatness": 1,
+        "mealQuality": 1,
+        "mannerStrictness": 1,
+        "practiceRange": 1,
+        "onsen": 0,
+        "summerCool": 1,
+        "winterWarm": 1,
+        "windShelter": 1,
+        "scenicView": 1,
+        "womenFriendly": 1,
+        "seniorFriendly": 1
+      },
+      "tags": [],
+      "imageUrl": "/images/course_035.jpg",
+      "customImagePrompt": "charming 9-hole short course with PGA-style island green signature hole surrounded by pond, Pete Dye-inspired course architecture with varied hole designs, grass-teeing environment suitable for all levels, professional course conditioning, natural beauty integrated with strategic design elements",
+      "additionalImages": [
+        {
+          "label": "クラブハウス外観",
+          "url": "/images/course_035_clubhouse.jpg",
+          "prompt": "professional exterior photography, Japanese golf clubhouse architecture, traditional or modern design, surrounded by manicured grounds, welcoming entrance, clear daytime lighting, architectural detail and character"
+        }
+      ],
+      "hasBath": false,
+      "cartFairwayIn": false,
+      "caddyType": "選択",
+      "dressCode": "襟付き必須",
+      "throughPlay": false,
+      "travelMinutesFromTokyo": 120,
+      "sources": [
+        "http://tatemono-golf.sakura.ne.jp/jgk.tatemono-golf.com/cms/",
+        "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520319/"
+      ],
+      "updatedAt": "2026-04-30T09:37:59.195Z"
     }
   ]
 }
