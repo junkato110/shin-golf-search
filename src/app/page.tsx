@@ -1,7 +1,7 @@
-import Link from "next/link";
 import CourseSearch from "@/components/CourseSearch";
 import FeedbackForm from "@/components/FeedbackForm";
 import HeaderFavoritesLink from "@/components/HeaderFavoritesLink";
+import HeaderLogo from "@/components/HeaderLogo";
 import { getAllCourses } from "@/lib/getCourses";
 
 export default function Home() {
@@ -13,14 +13,7 @@ export default function Home() {
       {/* 上部ヘッダー (固定/白基調) */}
       <header className="border-b border-[var(--color-line)] bg-white sticky top-0 z-30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
-          <Link href="/" className="flex items-baseline gap-1.5 sm:gap-3 min-w-0">
-            <span className="font-serif text-lg sm:text-2xl md:text-3xl text-[var(--color-navy)] whitespace-nowrap" style={{ fontWeight: 700, letterSpacing: "0.04em" }}>
-              シン・ゴルフサーチ
-            </span>
-            <span className="font-display text-[8px] sm:text-base md:text-xl text-[var(--color-navy)] uppercase tracking-[0.05em] sm:tracking-[0.2em] whitespace-nowrap" style={{ fontWeight: 500 }}>
-              ーSHIN・GOLF SEARCHー
-            </span>
-          </Link>
+          <HeaderLogo variant="home" />
           <nav className="flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)] shrink-0">
             <HeaderFavoritesLink />
           </nav>

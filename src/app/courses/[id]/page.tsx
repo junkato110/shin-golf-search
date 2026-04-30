@@ -6,6 +6,7 @@ import { getReservationLinks } from "@/lib/reservationLinks";
 import { formatTravelTime } from "@/lib/distance";
 import FavoriteButton from "@/components/FavoriteButton";
 import HeaderFavoritesLink from "@/components/HeaderFavoritesLink";
+import HeaderLogo from "@/components/HeaderLogo";
 import ShareButtons from "@/components/ShareButtons";
 import type { CourseScores } from "@/types";
 
@@ -64,20 +65,7 @@ export default async function CoursePage({
     <div className="min-h-screen flex flex-col">
       <header className="border-b border-[var(--color-line)] bg-white sticky top-0 z-30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
-          <Link href="/" className="flex items-baseline gap-1.5 sm:gap-3 min-w-0">
-            <span
-              className="font-serif text-base sm:text-2xl md:text-3xl text-[var(--color-navy)] whitespace-nowrap"
-              style={{ fontWeight: 700, letterSpacing: "0.04em" }}
-            >
-              シン・ゴルフサーチ
-            </span>
-            <span
-              className="font-display text-[7px] sm:text-base md:text-xl text-[var(--color-navy)] uppercase tracking-[0.05em] sm:tracking-[0.2em] whitespace-nowrap"
-              style={{ fontWeight: 500 }}
-            >
-              ーSHIN・GOLF SEARCHー
-            </span>
-          </Link>
+          <HeaderLogo variant="compact" />
           <nav className="flex items-center gap-4 sm:gap-6 text-xs tracking-wider text-[var(--color-ink-muted)] shrink-0">
             <Link href="/" className="hover:text-[var(--color-navy)] whitespace-nowrap">
               <span className="hidden sm:inline">← 検索に戻る</span>
