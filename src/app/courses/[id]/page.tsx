@@ -156,7 +156,7 @@ export default async function CoursePage({
           <dl className="grid grid-cols-2 sm:grid-cols-4 gap-y-5 gap-x-6">
             <Stat label="距離" value={course.totalYardage ? `${course.totalYardage} yd` : "—"} />
             <Stat
-              label="都心アクセス"
+              label="東京駅から車で"
               value={
                 course.travelMinutesFromTokyo != null
                   ? formatTravelTime(course.travelMinutesFromTokyo).replace("目安 ", "")
