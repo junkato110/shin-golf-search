@@ -78,7 +78,7 @@ const SELECT_CLASS =
   "w-full rounded-md border border-[var(--color-line-strong)] bg-white px-3 py-2 text-sm outline-none focus:border-[var(--color-navy)] focus:ring-1 focus:ring-[var(--color-navy)] disabled:opacity-40";
 
 const FIELD_LABEL_CLASS =
-  "block text-sm font-bold tracking-wider text-[var(--color-navy)] mb-3";
+  "block text-xs sm:text-sm font-bold tracking-wider text-[var(--color-navy)] mb-2 sm:mb-3";
 
 export default function CourseSearch({ courses }: { courses: Course[] }) {
   // 自宅選択
@@ -198,9 +198,9 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6">
       <aside className="space-y-4 h-fit lg:sticky lg:top-24 lg:max-h-[calc(100vh-6.5rem)] lg:overflow-y-auto lg:pr-2 lg:pb-4 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-[var(--color-line-strong)] [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-transparent">
-        <div className="bg-white border border-[var(--color-line)] p-6">
-          <div className="flex items-baseline justify-between mb-6 pb-4 border-b border-[var(--color-line)]">
-            <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
+        <div className="bg-white border border-[var(--color-line)] p-4 sm:p-6">
+          <div className="flex items-baseline justify-between mb-4 sm:mb-6 pb-3 sm:pb-4 border-b border-[var(--color-line)]">
+            <h2 className="font-serif text-sm sm:text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
               基本検索条件
             </h2>
             <button
@@ -347,9 +347,9 @@ export default function CourseSearch({ courses }: { courses: Course[] }) {
 
         </div>
 
-        <div className="bg-white border border-[var(--color-line)] p-6">
-          <div className="mb-5 pb-4 border-b border-[var(--color-line)]">
-            <h2 className="font-serif text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
+        <div className="bg-white border border-[var(--color-line)] p-4 sm:p-6">
+          <div className="mb-4 sm:mb-5 pb-3 sm:pb-4 border-b border-[var(--color-line)]">
+            <h2 className="font-serif text-sm sm:text-base text-[var(--color-navy)]" style={{ fontWeight: 400, letterSpacing: "0.12em" }}>
               こだわり条件
             </h2>
           </div>
@@ -470,15 +470,15 @@ function CourseCard({
           />
         </div>
       )}
-      <div className="p-5 sm:p-6">
+      <div className="p-4 sm:p-6">
         <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
           <h3
-            className="font-serif text-lg text-[var(--color-navy)] leading-snug"
+            className="font-serif text-base sm:text-lg text-[var(--color-navy)] leading-snug"
             style={{ fontWeight: 600, letterSpacing: "0.04em" }}
           >
             {course.name}
           </h3>
-          <p className="text-xs text-[var(--color-ink-muted)] tracking-wide">
+          <p className="text-[11px] sm:text-xs text-[var(--color-ink-muted)] tracking-wide">
             {course.prefecture}
             {course.city ? ` · ${course.city}` : ""}
           </p>

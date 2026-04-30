@@ -124,20 +124,20 @@ export default async function CoursePage({
         </div>
       )}
 
-      <main className="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 py-10 sm:py-12">
-        <div className="mb-8 pb-6 border-b border-[var(--color-line)]">
-          <p className="font-display text-xs text-[var(--color-accent)] tracking-[0.3em] uppercase mb-2">
+      <main className="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 py-8 sm:py-12">
+        <div className="mb-6 sm:mb-8 pb-5 sm:pb-6 border-b border-[var(--color-line)]">
+          <p className="font-display text-[11px] sm:text-xs text-[var(--color-accent)] tracking-[0.3em] uppercase mb-2">
             Course Detail
           </p>
-          <div className="flex items-start justify-between gap-4">
+          <div className="flex items-start justify-between gap-3 sm:gap-4">
             <h1
-              className="font-serif text-2xl sm:text-3xl text-[var(--color-navy)] leading-snug"
+              className="font-serif text-xl sm:text-2xl md:text-3xl text-[var(--color-navy)] leading-snug"
               style={{ fontWeight: 700, letterSpacing: "0.04em" }}
             >
               {course.name}
             </h1>
             <div className="shrink-0">
-              <FavoriteButton courseId={course.id} variant="inline" size="lg" />
+              <FavoriteButton courseId={course.id} variant="inline" size="md" />
             </div>
           </div>
           {course.nameKana && (
@@ -175,10 +175,10 @@ export default async function CoursePage({
 
         {/* 基本情報 */}
         <section className="mb-10">
-          <div className="bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-6 sm:p-8">
+          <div className="bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-4 sm:p-8">
             <div className="flex items-baseline gap-3 mb-6 pb-4 border-b border-[var(--color-line)]">
               <h2
-                className="font-serif text-lg text-[var(--color-navy)]"
+                className="font-serif text-base sm:text-lg text-[var(--color-navy)]"
                 style={{ fontWeight: 700, letterSpacing: "0.08em" }}
               >
                 基本情報
@@ -231,7 +231,7 @@ export default async function CoursePage({
         {/* 体感スコア */}
         {course.scores && (
           <section className="mb-10">
-            <div className="bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-6 sm:p-8">
+            <div className="bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-4 sm:p-8">
               <div className="flex items-baseline gap-3 mb-6 pb-4 border-b border-[var(--color-line)]">
                 <h2
                   className="font-serif text-lg text-[var(--color-navy)]"
@@ -284,7 +284,7 @@ export default async function CoursePage({
         <section className="mb-10">
           <div className="flex items-baseline gap-3 mb-4">
             <h2
-              className="font-serif text-lg text-[var(--color-navy)] flex items-center gap-3"
+              className="font-serif text-base sm:text-lg text-[var(--color-navy)] flex items-center gap-3"
               style={{ fontWeight: 700, letterSpacing: "0.08em" }}
             >
               <span className="inline-block w-1 h-5 bg-[var(--color-accent)]" />
@@ -377,22 +377,22 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
   const isMax = value === 2;
   const fillColor = isMax ? "var(--color-accent)" : "var(--color-navy)";
   return (
-    <li className="border-b border-dashed border-[var(--color-line)] pb-4">
+    <li className="border-b border-dashed border-[var(--color-line)] pb-3 sm:pb-4">
       <p
-        className="text-sm text-[var(--color-navy)] mb-2.5 tracking-wide"
+        className="text-xs sm:text-sm text-[var(--color-navy)] mb-2 sm:mb-2.5 tracking-wide"
         style={{ fontWeight: 700 }}
       >
         {axis.label}
       </p>
-      <div className="flex items-center gap-3">
-        <span className="text-[11px] text-[var(--color-ink-subtle)] w-24 text-center shrink-0 tracking-wide leading-tight">
+      <div className="flex items-center gap-2 sm:gap-3">
+        <span className="text-[10px] sm:text-[11px] text-[var(--color-ink-subtle)] w-16 sm:w-24 text-center shrink-0 tracking-wide leading-tight">
           {renderAxisLabel(axis.low)}
         </span>
         <div className="flex gap-1 flex-1 min-w-0">
           {Array.from({ length: 5 }).map((_, i) => (
             <span
               key={i}
-              className="h-3 flex-1 rounded-sm"
+              className="h-2 sm:h-3 flex-1 rounded-sm"
               style={{
                 backgroundColor: i < filled ? fillColor : "rgba(1, 50, 32, 0.1)",
               }}
@@ -400,7 +400,7 @@ function ScoreRow({ axis, value }: { axis: ScoreAxisDef; value: number }) {
           ))}
         </div>
         <span
-          className={`text-[11px] w-24 text-center shrink-0 tracking-wide leading-tight ${
+          className={`text-[10px] sm:text-[11px] w-16 sm:w-24 text-center shrink-0 tracking-wide leading-tight ${
             isMax
               ? "text-[var(--color-accent)] font-semibold"
               : "text-[var(--color-ink-subtle)]"
@@ -424,11 +424,11 @@ function Stat({
 }) {
   return (
     <div className={className}>
-      <dt className="text-[11px] text-[var(--color-ink-muted)] tracking-wider mb-1.5 font-medium">
+      <dt className="text-[10px] sm:text-[11px] text-[var(--color-ink-muted)] tracking-wider mb-1 sm:mb-1.5 font-medium">
         {label}
       </dt>
       <dd
-        className="font-serif text-xl text-[var(--color-navy)] leading-tight"
+        className="font-serif text-base sm:text-xl text-[var(--color-navy)] leading-tight"
         style={{ fontWeight: 700, letterSpacing: "0.02em" }}
       >
         {value}

@@ -98,3 +98,14 @@ input[type="range"] {
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
+
+/* スマホ (sm 未満) は全体的にサイズダウンして圧迫感を抑える */
+@media (max-width: 639px) {
+  .section-title {
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .section-title .ja {
+    font-size: 1.0625rem; /* 17px (≒ text-[17px]) */
+  }
+}
