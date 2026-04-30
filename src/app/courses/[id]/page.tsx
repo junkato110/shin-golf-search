@@ -33,7 +33,7 @@ type ScoreAxisDef = {
 };
 
 const SCORE_AXES: ScoreAxisDef[] = [
-  { key: "difficulty", label: "難易度", low: "易しい", high: "本格派" },
+  { key: "difficulty", label: "難易度", low: "易しい", high: "難しい" },
   { key: "fairwayWidth", label: "フェアウェイ", low: "狭い", high: "広い" },
   { key: "flatness", label: "フラット度", low: "起伏あり", high: "フラット" },
   { key: "mealQuality", label: "ご飯", low: "並", high: "こだわりあり" },
