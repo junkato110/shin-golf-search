@@ -18,7 +18,7 @@ export default function Home() {
               シン・ゴルフサーチ
             </span>
             <span className="font-display text-lg sm:text-xl text-[var(--color-navy)] uppercase tracking-[0.2em]" style={{ fontWeight: 500 }}>
-              Shin Golf Search
+              ーSHIN・GOLF SEARCHー
             </span>
           </Link>
           <nav className="hidden sm:flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)]">
@@ -70,7 +70,7 @@ export default function Home() {
             <p className="font-serif text-base text-[var(--color-navy)] mb-2" style={{ fontWeight: 400 }}>
               シン・ゴルフサーチ
               <span className="font-display text-xs text-[var(--color-accent)] ml-2">
-                Shin Golf Search
+                ーSHIN・GOLF SEARCHー
               </span>
             </p>
             <p>都心から3時間以内特化。「かゆいところに手が届く」新時代のゴルフ場検索サイト。</p>

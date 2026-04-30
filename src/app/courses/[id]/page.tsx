@@ -74,7 +74,7 @@ export default async function CoursePage({
               className="font-display text-lg sm:text-xl text-[var(--color-navy)] uppercase tracking-[0.2em]"
               style={{ fontWeight: 500 }}
             >
-              Shin Golf Search
+              ーSHIN・GOLF SEARCHー
             </span>
           </Link>
           <nav className="hidden sm:flex items-center gap-6 text-xs tracking-wider text-[var(--color-ink-muted)]">
