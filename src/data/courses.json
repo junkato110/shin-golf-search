@@ -64,8 +64,8 @@
         "https://www.golfdigest-minna.jp/_ct/16956761"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.31cc.com/wp-content/uploads/mv10.jpg",
-      "imageSourcePage": "https://www.31cc.com/"
+      "imageSourceUrl": "https://www.31cc.com/wp-content/uploads/No6.jpg",
+      "imageSourcePage": "https://www.31cc.com/course-guide/"
     },
     {
       "name": "ゴルフ5カントリー サニーフィールド",
@@ -130,8 +130,8 @@
       ],
       "travelMinutesFromTokyo": 123,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.alpen-group.net/sunnyfield/ogp.jpg",
-      "imageSourcePage": "https://www.alpen-group.net/sunnyfield/"
+      "imageSourceUrl": "https://www.alpen-group.net/sunnyfield/course/images/img_fv-pc.jpg",
+      "imageSourcePage": "https://www.alpen-group.net/sunnyfield/course/"
     },
     {
       "name": "PGM石岡ゴルフクラブ",
@@ -251,7 +251,7 @@
       "id": "course_004",
       "lat": 36.5993191,
       "lng": 140.3014123,
-      "imageUrl": "/images/course_004.jpg",
+      "imageUrl": "/images/course_004.webp",
       "customImagePrompt": "Professional golf course landscape showing ひたちの圀の健楽園, scenic fairway, championship quality course",
       "additionalImages": [
         {
@@ -262,8 +262,8 @@
       ],
       "travelMinutesFromTokyo": 132,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://book.alba.co.jp/image/club/080002/640x480/fix/0_0010_1.jpg",
-      "imageSourcePage": "https://book.alba.co.jp/080002"
+      "imageSourceUrl": "https://kenrakuen.com/wp-content/uploads/2023/08/kenrakuen_topf01.webp",
+      "imageSourcePage": "https://kenrakuen.com/"
     },
     {
       "name": "アジア下館カントリー倶楽部",
@@ -328,8 +328,8 @@
       ],
       "travelMinutesFromTokyo": 96,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.homemate-research.com/search/image/dtl/photo_image/b58.jpg",
-      "imageSourcePage": "https://www.homemate-golf.com/golf-course/dtl/00000000000000091458/"
+      "imageSourceUrl": "https://asia-shimodate.com/images/asia-shimodate-top.jpg",
+      "imageSourcePage": "https://asia-shimodate.com/"
     },
     {
       "name": "アジア取手カントリー倶楽部",
@@ -383,7 +383,7 @@
       "id": "course_006",
       "lat": 35.9087856,
       "lng": 140.0314883,
-      "imageUrl": "/images/course_006.jpg",
+      "imageUrl": "/images/course_006.png",
       "customImagePrompt": "Professional golf course landscape showing アジア取手カントリー倶楽部, scenic fairway, championship quality course",
       "additionalImages": [
         {
@@ -394,8 +394,8 @@
       ],
       "travelMinutesFromTokyo": 60,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://book.alba.co.jp/image/club/080004/640x480/fix/0_0115_0.jpg",
-      "imageSourcePage": "https://book.alba.co.jp/080004"
+      "imageSourceUrl": "https://www.asia-toride.com/images/asia-toride-top.png",
+      "imageSourcePage": "https://www.asia-toride.com/"
     },
     {
       "name": "アスレチックガーデンゴルフ倶楽部",
@@ -460,8 +460,8 @@
       ],
       "travelMinutesFromTokyo": 84,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://book.alba.co.jp/image/club/080005/640x480/fix/0_0011_1.jpg",
-      "imageSourcePage": "https://book.alba.co.jp/080005"
+      "imageSourceUrl": "https://www.athletic-golf.co.jp/img/course/img-3-smp.jpg",
+      "imageSourcePage": "https://www.athletic-golf.co.jp/course/out.html"
     },
     {
       "name": "イーグルポイントゴルフクラブ",
@@ -592,8 +592,8 @@
       ],
       "travelMinutesFromTokyo": 98,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://book.alba.co.jp/image/club/080025/640x480/fix/2021100116074568561.jpg",
-      "imageSourcePage": "https://book.alba.co.jp/080025"
+      "imageSourceUrl": "https://pgm-images.s3-ap-northeast-1.amazonaws.com/img/main_visual/172/r651a1354.jpg",
+      "imageSourcePage": "https://booking.pacificgolf.co.jp/guide/172.html"
     },
     {
       "name": "かすみがうらゴルフクラブ",
@@ -658,8 +658,8 @@
       ],
       "travelMinutesFromTokyo": 78,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://image.gora.golf.rakuten.co.jp/img/golf/80027/photo1.jpg",
-      "imageSourcePage": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80027/"
+      "imageSourceUrl": "https://reserve.accordiagolf.com/images/golfs/319/%E3%83%AA%E3%82%B5%E3%82%A4%E3%82%BA_0000s_0000_kasumigaura_higashi2_29.jpg",
+      "imageSourcePage": "https://reserve.accordiagolf.com/golfCourse/ibaraki/kasumigaura/detail"
     },
     {
       "name": "ひたち大宮ゴルフクラブ",
@@ -724,7 +724,7 @@
       ],
       "travelMinutesFromTokyo": 128,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://kabayagc.com/img/common/ogp.jpg",
+      "imageSourceUrl": "https://kabayagc.com/img/home/img_slide01.jpg",
       "imageSourcePage": "https://kabayagc.com/"
     },
     {
@@ -779,7 +779,7 @@
       "id": "course_012",
       "lat": 36.559767,
       "lng": 140.5551604,
-      "imageUrl": "/images/course_012.png",
+      "imageUrl": "/images/course_012.jpg",
       "customImagePrompt": "Professional golf course landscape showing グランドスラムカントリークラブ, scenic fairway, championship quality course",
       "additionalImages": [
         {
@@ -790,7 +790,7 @@
       ],
       "travelMinutesFromTokyo": 121,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://booking.pacificgolf.co.jp/images/guide/sp_main_visual/40.png",
+      "imageSourceUrl": "https://pgm-images.s3-ap-northeast-1.amazonaws.com/img/main_visual/40/r64e5ccd3.jpg",
       "imageSourcePage": "https://booking.pacificgolf.co.jp/guide/40.html"
     },
     {
@@ -858,8 +858,8 @@
       ],
       "travelMinutesFromTokyo": 128,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://book.alba.co.jp/image/club/080040/640x480/fix/0_0006_0.jpg",
-      "imageSourcePage": "https://book.alba.co.jp/080040"
+      "imageSourceUrl": "https://sevenlakes.jp/images/top/photo01.jpg",
+      "imageSourcePage": "https://sevenlakes.jp/"
     },
     {
       "name": "ザ・ゴルフクラブ竜ヶ崎",
@@ -924,8 +924,8 @@
       ],
       "travelMinutesFromTokyo": 75,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.pacificgolf.co.jp/ryugasaki/assets/img/og-image.jpg",
-      "imageSourcePage": "https://www.pacificgolf.co.jp/ryugasaki/"
+      "imageSourceUrl": "https://pgm-images.s3-ap-northeast-1.amazonaws.com/img/main_visual/53/r65cae49f.jpg",
+      "imageSourcePage": "https://booking.pacificgolf.co.jp/?p=guide.index&cc_id=53"
     },
     {
       "name": "ザ・ロイヤル ゴルフクラブ",
@@ -990,7 +990,7 @@
       ],
       "travelMinutesFromTokyo": 104,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://the-royal-golf-club.com/img/common/ogp.jpg",
+      "imageSourceUrl": "https://the-royal-golf-club.com/img/home/slider/slide_hole17.jpg",
       "imageSourcePage": "https://the-royal-golf-club.com/"
     },
     {
@@ -1030,7 +1030,7 @@
         "総合評価4.3",
         "戦略的"
       ],
-      "imageUrl": "/images/course_019.png",
+      "imageUrl": "/images/course_019.jpg",
       "customImagePrompt": "scenic 18-hole forest golf course on plateau overlooking Lake Kasumigaura, modern clubhouse with open architecture, manicured fairways bordered by mature broadleaf trees and pines, flat terrain with strategic water features, distant lake views beyond tree line, professional landscape photography style",
       "additionalImages": [
         {
@@ -1055,8 +1055,8 @@
         "https://www.teeoff.jp/golf_course/466"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.teeoff.jp/ogpImg/common_ogp02.png",
-      "imageSourcePage": "https://www.teeoff.jp/golf_course/466"
+      "imageSourceUrl": "https://book.alba.co.jp/image/club/080032/640x480/fix/2013061215463513735.jpg",
+      "imageSourcePage": "https://book.alba.co.jp/080032/photo/"
     },
     {
       "id": "course_023",
@@ -1120,8 +1120,8 @@
         "https://www.aoyama-gs.co.jp/guide/?lst=108155"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://jgk.tatemono-golf.com/cms/wp-content/uploads/2022/09/ae46b1f460ee46f789c27b264a6cb421.jpg",
-      "imageSourcePage": "http://tatemono-golf.sakura.ne.jp/jgk.tatemono-golf.com/cms/"
+      "imageSourceUrl": "https://jgk.tatemono-golf.com/cms/wp-content/themes/jgk-golf/images/top/courseguide.jpg",
+      "imageSourcePage": "https://jgk.tatemono-golf.com/"
     },
     {
       "id": "course_024",
@@ -1185,8 +1185,8 @@
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "travelMinutesFromTokyo": 93,
-      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Starts_Kasama_Golf_Club%2C_Kasama_Ibaraki_Aerial_photograph.2019.jpg/1280px-Starts_Kasama_Golf_Club%2C_Kasama_Ibaraki_Aerial_photograph.2019.jpg",
-      "imageSourcePage": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%84%E7%AC%A0%E9%96%93%E3%82%B4%E3%83%AB%E3%83%95%E5%80%B6%E6%A5%BD%E9%83%A8"
+      "imageSourceUrl": "https://www.starts-golf.jp/assets/images/top/img_gallery_n1.jpg",
+      "imageSourcePage": "https://www.starts-golf.jp/"
     },
     {
       "id": "course_025",
@@ -1225,7 +1225,7 @@
         "1200m地下温泉",
         "正統派"
       ],
-      "imageUrl": "/images/course_025.png",
+      "imageUrl": "/images/course_025.jpg",
       "customImagePrompt": "scenic resort golf course designed by Shinjiro Nakamura with natural terrain using seven strategic ponds, bent grass greens on spacious fairways with gentle undulation, mature forest backdrop and mountain views, hot spring resort setting with luxury clubhouse, tranquil morning atmosphere with golf course integrated into nature",
       "additionalImages": [
         {
@@ -1250,8 +1250,8 @@
         "http://www.resol.jp/special/20250430_001/index.html"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.resol-golf.jp/assets/local/ogp_kuji_en.png",
-      "imageSourcePage": "https://www.resol-golf.jp/en/kuji/"
+      "imageSourceUrl": "https://www.resol-golf.jp/assets/local/images/kuji/top/mainvisual_pht_01_pc.jpg",
+      "imageSourcePage": "https://www.resol-golf.jp/kuji/"
     },
     {
       "id": "course_026",
@@ -1290,7 +1290,7 @@
         "戦略的",
         "美しい管理"
       ],
-      "imageUrl": "/images/course_026.png",
+      "imageUrl": "/images/course_026.jpg",
       "customImagePrompt": "beautiful forest golf course on flat terrain with ten strategic ponds, mature trees creating natural fairway separation, scenic water features integrated throughout design, professional-grade bent grass fairways and greens, peaceful wooded setting in countryside, championship-quality course with excellent drainage",
       "additionalImages": [
         {
@@ -1317,7 +1317,7 @@
         "http://japan-golf.info/ibaraki/spring-fields/spring-fields.html"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://booking.pacificgolf.co.jp/images/guide/sp_main_visual/46.png",
+      "imageSourceUrl": "https://pgm-images.s3-ap-northeast-1.amazonaws.com/img/main_visual/46/r64e6a3ed.jpg",
       "imageSourcePage": "https://booking.pacificgolf.co.jp/guide/46.html"
     },
     {
@@ -1382,8 +1382,8 @@
         "https://www.divingstyle.net/rakuten_golf.php?golf=80070&sort=evaluation"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.pacificgolf.co.jp/segovia/assets/img/og-image.jpg",
-      "imageSourcePage": "https://www.pacificgolf.co.jp/segovia/"
+      "imageSourceUrl": "https://pgm-images.s3-ap-northeast-1.amazonaws.com/img/main_visual/49/r65cae4fe.jpg",
+      "imageSourcePage": "https://booking.pacificgolf.co.jp/guide/49.html"
     },
     {
       "id": "course_028",
@@ -1447,7 +1447,7 @@
         "https://blog.grandproject.co.jp/?p=215"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.jgmgroup.co.jp/seve/wp-content/themes/jgm/assets/images/common/ogp.png",
+      "imageSourceUrl": "https://www.jgmgroup.co.jp/seve/wp-content/themes/jgm/assets/images/top/feature02.png",
       "imageSourcePage": "https://www.jgmgroup.co.jp/seve/"
     },
     {
@@ -1512,8 +1512,8 @@
         "https://www.100yardage.com/golfcourse-index/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E3%82%B4%E3%83%AB%E3%83%95%E5%A0%B4%E4%B8%80%E8%A6%A7/%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96new%E3%82%B3%E3%83%BC%E3%82%B9-%E5%8F%A3%E3%82%B3%E3%83%9F%E4%BA%88%E7%B4%84/"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://image.gora.golf.rakuten.co.jp/img/golf/80120/photo1.jpg",
-      "imageSourcePage": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80120/"
+      "imageSourceUrl": "https://reserve.accordiagolf.com/images/golfs/080/%E3%83%AA%E3%82%B5%E3%82%A4%E3%82%BA_0000s_0001_central.new_no16_49_1.jpg",
+      "imageSourcePage": "https://reserve.accordiagolf.com/golfCourse/ibaraki/central_new/detail"
     },
     {
       "id": "course_030",
@@ -1577,8 +1577,8 @@
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "travelMinutesFromTokyo": 103,
-      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Central_Golf_Club%2C_Namegata_Ibaraki_Aerial_photograph.2010.jpg/1280px-Central_Golf_Club%2C_Namegata_Ibaraki_Aerial_photograph.2010.jpg",
-      "imageSourcePage": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96"
+      "imageSourceUrl": "https://reserve.accordiagolf.com/images/golfs/081/E-07.jpg",
+      "imageSourcePage": "https://reserve.accordiagolf.com/golfCourse/ibaraki/central/detail"
     },
     {
       "id": "course_031",
@@ -1644,8 +1644,8 @@
         "https://www.divingstyle.net/rakuten_golf.php?area=8&golf=80075&ranking=4&sort=costperformance"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://book.alba.co.jp/image/club/080085/640x480/fix/0_0001_1.jpg",
-      "imageSourcePage": "https://book.alba.co.jp/080085"
+      "imageSourceUrl": "http://www.daiyagreen.com/imgs/img_top.jpg",
+      "imageSourcePage": "http://www.daiyagreen.com/"
     },
     {
       "id": "course_032",
@@ -1709,8 +1709,8 @@
         "https://www.golflab.jp/driving-range-ibataki/tsukuba/"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.golflab.jp/wp-content/uploads/2020/05/%E3%81%A4%E3%81%8F%E3%81%B0%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B312.jpg",
-      "imageSourcePage": "https://www.golflab.jp/driving-range-ibataki/tsukuba/tsukuba-golf-garden/"
+      "imageSourceUrl": "https://www.tsukuba-golfgarden.com/wp-content/uploads/2015/07/header1.jpg",
+      "imageSourcePage": "https://www.tsukuba-golfgarden.com/"
     },
     {
       "id": "course_033",
@@ -1774,8 +1774,8 @@
         "https://www.kga.gr.jp/club/club_detail.php?club_id=8068"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://image.gora.golf.rakuten.co.jp/img/golf/80085/photo1.jpg",
-      "imageSourcePage": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80085/"
+      "imageSourceUrl": "https://www.tukubane.com/system/golf_links/hole5_photo01s/000/000/175/d1e6eff7f7a3a4bf401afd2f555b31431357d237/large.jpg",
+      "imageSourcePage": "https://www.tukubane.com/courses"
     },
     {
       "id": "course_034",
@@ -1839,8 +1839,8 @@
         "https://golf-medley.com/golf_courses/340"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://lala-tamago.com/wp-content/uploads/2025/05/shortibarakieye.jpg",
-      "imageSourcePage": "https://lala-tamago.com/shortcourse-ibaraki/"
+      "imageSourceUrl": "https://www.tsukuba-chikusei.com/images/top/opening.jpg",
+      "imageSourcePage": "https://www.tsukuba-chikusei.com/"
     },
     {
       "id": "course_035",
@@ -1904,8 +1904,8 @@
         "https://kashima-ibaraki.mypl.net/shop/T20830267672/"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://jgk.tatemono-golf.com/cms/wp-content/uploads/2022/09/ae46b1f460ee46f789c27b264a6cb421.jpg",
-      "imageSourcePage": "http://tatemono-golf.sakura.ne.jp/jgk.tatemono-golf.com/cms/"
+      "imageSourceUrl": "https://d1uzk9o9cg136f.cloudfront.net/f/16782728/rc/2016/04/21/b68ce586cf890949263da8290a6cac55e77c9862.jpg",
+      "imageSourcePage": "https://www.golfdigest-minna.jp/_ct/16955584"
     }
   ]
 }
