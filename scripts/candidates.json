@@ -37,8 +37,9 @@
       "sources": [
         "osm"
       ],
-      "status": "added",
-      "travelMinutesFromTokyo": 88
+      "status": "duplicate",
+      "travelMinutesFromTokyo": 88,
+      "mergedInto": "see name variant"
     },
     {
       "prefecture": "茨城県",
@@ -75,8 +76,9 @@
       "sources": [
         "osm"
       ],
-      "status": "added",
-      "travelMinutesFromTokyo": 90
+      "status": "duplicate",
+      "travelMinutesFromTokyo": 90,
+      "mergedInto": "see name variant"
     },
     {
       "prefecture": "茨城県",
@@ -111,8 +113,9 @@
       "sources": [
         "osm"
       ],
-      "status": "added",
-      "travelMinutesFromTokyo": 48
+      "status": "duplicate",
+      "travelMinutesFromTokyo": 48,
+      "mergedInto": "see name variant"
     },
     {
       "prefecture": "茨城県",
@@ -172,8 +175,9 @@
       "sources": [
         "osm"
       ],
-      "status": "added",
-      "travelMinutesFromTokyo": 88
+      "status": "duplicate",
+      "travelMinutesFromTokyo": 88,
+      "mergedInto": "see name variant"
     },
     {
       "prefecture": "茨城県",
@@ -249,8 +253,9 @@
         "osm",
         "wikipedia"
       ],
-      "status": "added",
-      "travelMinutesFromTokyo": 40
+      "status": "duplicate",
+      "travelMinutesFromTokyo": 40,
+      "mergedInto": "see name variant"
     },
     {
       "prefecture": "茨城県",
@@ -261,8 +266,9 @@
       "sources": [
         "osm"
       ],
-      "status": "added",
-      "travelMinutesFromTokyo": 69
+      "status": "duplicate",
+      "travelMinutesFromTokyo": 69,
+      "mergedInto": "see name variant"
     },
     {
       "prefecture": "茨城県",
