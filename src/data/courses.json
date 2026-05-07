@@ -196,8 +196,8 @@
       ],
       "travelMinutesFromTokyo": 86,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.pacificgolf.co.jp/ishioka/assets/img/og-image.jpg",
-      "imageSourcePage": "https://www.pacificgolf.co.jp/ishioka/"
+      "imageSourceUrl": "https://book.alba.co.jp/image/club/080008/640x480/flexible/0_0008_1.jpg",
+      "imageSourcePage": "https://book.alba.co.jp/080008/photo/"
     },
     {
       "name": "ひたちの圀の健楽園",
@@ -251,7 +251,7 @@
       "id": "course_004",
       "lat": 36.5993191,
       "lng": 140.3014123,
-      "imageUrl": "/images/course_004.webp",
+      "imageUrl": "/images/course_004.jpg",
       "customImagePrompt": "Professional golf course landscape showing ひたちの圀の健楽園, scenic fairway, championship quality course",
       "additionalImages": [
         {
@@ -262,8 +262,8 @@
       ],
       "travelMinutesFromTokyo": 132,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://kenrakuen.com/wp-content/uploads/2023/08/kenrakuen_topf01.webp",
-      "imageSourcePage": "https://kenrakuen.com/"
+      "imageSourceUrl": "https://book.alba.co.jp/image/club/080002/640x480/flexible/0_0004_0.jpg",
+      "imageSourcePage": "https://book.alba.co.jp/080002/photo/"
     },
     {
       "name": "アジア下館カントリー倶楽部",
@@ -526,8 +526,8 @@
       ],
       "travelMinutesFromTokyo": 68,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Eagle_Point_Golf_Club%2C_Ami_Ibaraki_Aerial_photograph.2013.jpg/1280px-Eagle_Point_Golf_Club%2C_Ami_Ibaraki_Aerial_photograph.2013.jpg",
-      "imageSourcePage": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B4%E3%83%AB%E3%83%95%E3%82%AF%E3%83%A9%E3%83%96"
+      "imageSourceUrl": "http://japan-golf.info/ibaraki/eagle-point/eagle-point-2009-047.jpg",
+      "imageSourcePage": "http://japan-golf.info/ibaraki/eagle-point/eagle-point.html"
     },
     {
       "name": "オールドオーチャード ゴルフクラブ",
@@ -858,8 +858,8 @@
       ],
       "travelMinutesFromTokyo": 128,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://sevenlakes.jp/images/top/photo01.jpg",
-      "imageSourcePage": "https://sevenlakes.jp/"
+      "imageSourceUrl": "https://sevenlakes.jp/images/course/01.jpg",
+      "imageSourcePage": "https://sevenlakes.jp/course.html"
     },
     {
       "name": "ザ・ゴルフクラブ竜ヶ崎",
@@ -924,8 +924,8 @@
       ],
       "travelMinutesFromTokyo": 75,
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://pgm-images.s3-ap-northeast-1.amazonaws.com/img/main_visual/53/r65cae49f.jpg",
-      "imageSourcePage": "https://booking.pacificgolf.co.jp/?p=guide.index&cc_id=53"
+      "imageSourceUrl": "https://book.alba.co.jp/image/club/080003/640x480/flexible/0_0011_0.jpg",
+      "imageSourcePage": "https://book.alba.co.jp/080003/photo/"
     },
     {
       "name": "ザ・ロイヤル ゴルフクラブ",
@@ -1185,7 +1185,7 @@
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
       "travelMinutesFromTokyo": 93,
-      "imageSourceUrl": "https://www.starts-golf.jp/assets/images/top/img_gallery_n1.jpg",
+      "imageSourceUrl": "https://www.starts-golf.jp/assets/images/top/img_gallery_n3.jpg",
       "imageSourcePage": "https://www.starts-golf.jp/"
     },
     {
@@ -1250,8 +1250,8 @@
         "http://www.resol.jp/special/20250430_001/index.html"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.resol-golf.jp/assets/local/images/kuji/top/mainvisual_pht_01_pc.jpg",
-      "imageSourcePage": "https://www.resol-golf.jp/kuji/"
+      "imageSourceUrl": "https://book.alba.co.jp/image/club/080042/640x480/fix/2020092317260897759.jpg",
+      "imageSourcePage": "https://book.alba.co.jp/080042/photo"
     },
     {
       "id": "course_026",
@@ -1422,7 +1422,7 @@
         "松林セパレート",
         "テクニカル"
       ],
-      "imageUrl": "/images/course_028.png",
+      "imageUrl": "/images/course_028.jpg",
       "customImagePrompt": "prestigious championship course co-designed by David Thomas and Seve Ballesteros, lakeside hillside setting, natural pine forest creating complete fairway separation, bent grass greens with subtle undulation, strategic ponds at key holes, elegant English-style atmosphere, championship-caliber conditioning, hosted PGA tournaments 1988-1995",
       "additionalImages": [
         {
@@ -1447,8 +1447,8 @@
         "https://blog.grandproject.co.jp/?p=215"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.jgmgroup.co.jp/seve/wp-content/themes/jgm/assets/images/top/feature02.png",
-      "imageSourcePage": "https://www.jgmgroup.co.jp/seve/"
+      "imageSourceUrl": "https://book.alba.co.jp/image/club/080078/640x480/flexible/2025020711184116971.jpg",
+      "imageSourcePage": "https://book.alba.co.jp/080078/photo"
     },
     {
       "id": "course_029",
@@ -1644,8 +1644,8 @@
         "https://www.divingstyle.net/rakuten_golf.php?area=8&golf=80075&ranking=4&sort=costperformance"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "http://www.daiyagreen.com/imgs/img_top.jpg",
-      "imageSourcePage": "http://www.daiyagreen.com/"
+      "imageSourceUrl": "http://www.daiyagreen.com/guide/imgs/01/img_01.jpg",
+      "imageSourcePage": "http://www.daiyagreen.com/guide/index.html"
     },
     {
       "id": "course_032",
@@ -1709,8 +1709,8 @@
         "https://www.golflab.jp/driving-range-ibataki/tsukuba/"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.tsukuba-golfgarden.com/wp-content/uploads/2015/07/header1.jpg",
-      "imageSourcePage": "https://www.tsukuba-golfgarden.com/"
+      "imageSourceUrl": "https://www.tsukuba-golfgarden.com/wp-content/uploads/2015/07/course001.jpg",
+      "imageSourcePage": "https://www.tsukuba-golfgarden.com/category/course"
     },
     {
       "id": "course_033",
@@ -1839,8 +1839,8 @@
         "https://golf-medley.com/golf_courses/340"
       ],
       "updatedAt": "2026-04-30T10:38:03.187124Z",
-      "imageSourceUrl": "https://www.tsukuba-chikusei.com/images/top/opening.jpg",
-      "imageSourcePage": "https://www.tsukuba-chikusei.com/"
+      "imageSourceUrl": "https://www.tsukuba-chikusei.com/images/layout/pic_9h_1.jpg",
+      "imageSourcePage": "https://www.tsukuba-chikusei.com/layout.html"
     },
     {
       "id": "course_035",
